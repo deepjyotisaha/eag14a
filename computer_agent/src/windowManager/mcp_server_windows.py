@@ -115,7 +115,8 @@ class MCPServer:
                 'screen': {'description': 'Move to screen position', 'params': {'window_id': 'string', 'screen': 'number', 'x': 'number', 'y': 'number'}},
                 'monitor': {'description': 'Move to monitor', 'params': {'window_id': 'string', 'monitor': 'number'}},
                 'introspect': {'description': 'Deep window introspection', 'params': {'window_id': 'string'}},
-                'tree': {'description': 'Show UI hierarchy tree', 'params': {'window_id': 'string'}}
+                'tree': {'description': 'Show UI hierarchy tree', 'params': {'window_id': 'string'}},
+                'get_windows': {'description': 'Get all windows', 'params': {'show_minimized': 'boolean'}}
             },
             'mouse_commands': {
                 'click': {'description': 'Mouse click', 'params': {'button': 'string', 'x': 'number', 'y': 'number'}},
@@ -156,32 +157,38 @@ class MCPServer:
 
     async def _execute_window_command(self, command: str, params: Dict) -> Dict:
         """Execute window-related command"""
-        window_id = params.get('window_id')
-        if not window_id:
-            return {'error': 'Window ID required'}
+        try:
+            if command == 'get_windows':
+                success, message = self.wm.get_windows(params.get('show_minimized', False))
+            else:
+                window_id = params.get('window_id')
+                if not window_id:
+                    return {'error': 'Window ID required'}
 
-        if command == 'maximize':
-            success, message = self.wm.maximize_window(window_id)
-        elif command == 'minimize':
-            success, message = self.wm.minimize_window(window_id)
-        elif command == 'close':
-            success, message = self.wm.close_window(window_id)
-        elif command == 'resize':
-            success, message = self.wm.resize_window(window_id, params['width'], params['height'])
-        elif command == 'move':
-            success, message = self.wm.move_window(window_id, params['x'], params['y'])
-        elif command == 'screen':
-            success, message = self.wm.move_window_to_screen_position(window_id, params['screen'], params['x'], params['y'])
-        elif command == 'monitor':
-            success, message = self.wm.move_window_to_monitor(window_id, params['monitor'])
-        elif command == 'introspect':
-            success, message = self.wm.introspect_window(window_id)
-        elif command == 'tree':
-            success, message = self.wm.get_window_hierarchy_tree(window_id)
-        else:
-            return {'error': f'Unknown window command: {command}'}
+                if command == 'maximize':
+                    success, message = self.wm.maximize_window(window_id)
+                elif command == 'minimize':
+                    success, message = self.wm.minimize_window(window_id)
+                elif command == 'close':
+                    success, message = self.wm.close_window(window_id)
+                elif command == 'resize':
+                    success, message = self.wm.resize_window(window_id, params['width'], params['height'])
+                elif command == 'move':
+                    success, message = self.wm.move_window(window_id, params['x'], params['y'])
+                elif command == 'screen':
+                    success, message = self.wm.move_window_to_screen_position(window_id, params['screen'], params['x'], params['y'])
+                elif command == 'monitor':
+                    success, message = self.wm.move_window_to_monitor(window_id, params['monitor'])
+                elif command == 'introspect':
+                    success, message = self.wm.introspect_window(window_id)
+                elif command == 'tree':
+                    success, message = self.wm.get_window_hierarchy_tree(window_id)
+                else:
+                    return {'error': f'Unknown window command: {command}'}
 
-        return {'success': success, 'message': message}
+            return {'success': success, 'message': message}
+        except Exception as e:
+            return {'error': str(e)}
 
     async def _execute_mouse_command(self, command: str, params: Dict) -> Dict:
         """Execute mouse-related command"""
@@ -213,20 +220,26 @@ class MCPServer:
 
     async def _execute_system_command(self, command: str, params: Dict) -> Dict:
         """Execute system-related command"""
-        if command == 'launch':
-            success, message = self.wm.launch_application(params['app_name'], params['screen_id'], params.get('fullscreen', True))
-        elif command == 'msgbox':
-            success, message = self.wm.show_message_box(params['title'], params['message'], params.get('x'), params.get('y'))
-        elif command == 'computer':
-            success, message = self.wm.get_computer_name()
-        elif command == 'user':
-            success, message = self.wm.get_user_name()
-        elif command == 'keys':
-            success, message = self.wm.get_virtual_key_codes()
-        else:
-            return {'error': f'Unknown system command: {command}'}
+        try:
+            if command == 'launch':
+                # Use the correct path for Paint and default to screen 1
+                app_path = "C:\\Windows\\System32\\mspaint.exe"
+                screen_id = params.get('screen_id', 1)  # Default to screen 1
+                success, message = self.wm.launch_application(app_path, screen_id, params.get('fullscreen', False))
+            elif command == 'msgbox':
+                success, message = self.wm.show_message_box(params['title'], params['message'], params.get('x'), params.get('y'))
+            elif command == 'computer':
+                success, message = self.wm.get_computer_name()
+            elif command == 'user':
+                success, message = self.wm.get_user_name()
+            elif command == 'keys':
+                success, message = self.wm.get_virtual_key_codes()
+            else:
+                return {'error': f'Unknown system command: {command}'}
 
-        return {'success': success, 'message': message}
+            return {'success': success, 'message': message}
+        except Exception as e:
+            return {'error': str(e)}
 
     async def _send_event(self, response: web.StreamResponse, event_type: str, data: Dict):
         """Send SSE event to a client"""
