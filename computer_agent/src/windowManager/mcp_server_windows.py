@@ -2,13 +2,48 @@
 import asyncio
 import json
 import time
+import logging
+import sys
+from pathlib import Path
+import json
+from datetime import datetime
 from typing import Dict, List, Optional, Set
 from aiohttp import web
 from windowManager.window_manager import WindowManager
 from windowManager.window_functions import WindowController
 
+def setup_logging(module_name: str):
+    """
+    Simple logging setup with both file and console output
+    Args:
+        module_name: Name of the module for log messages
+    """
+    # Create logs directory if it doesn't exist
+    log_dir = Path(__file__).parent.parent / 'logs'
+    log_dir.mkdir(exist_ok=True)
+    
+    # Common log file path
+    log_file = log_dir / 'mcp_server_windows.log'
+
+    # Format to include timestamp, level, module name, function name, line number
+    log_format = '%(asctime)s - %(levelname)s - %(module)s:%(funcName)s:%(lineno)d - %(message)s'
+    
+    logging.basicConfig(
+        level=logging.INFO,
+        format=log_format,
+        handlers=[
+            logging.FileHandler(log_file, mode='w', encoding='utf-8'),
+            #logging.StreamHandler(sys.stdout)
+        ]
+    )
+
+    return logging.getLogger(module_name)
+
+logger = setup_logging("MCPServer")
+
 class MCPServer:
     def __init__(self):
+        logger.info("Initializing MCPServer")
         self.wm = WindowManager()
         self.wc = WindowController()
         self.clients: Set[web.StreamResponse] = set()
@@ -29,7 +64,7 @@ class MCPServer:
         self.window_short_id_lookup = lookup
 
     async def handle_sse(self, request):
-        """Handle SSE connection"""
+        logger.info("SSE client connected")
         response = web.StreamResponse(
             status=200,
             reason='OK',
@@ -76,17 +111,20 @@ class MCPServer:
             return response
 
     async def handle_command(self, request):
-        """Handle command execution"""
+        logger.debug("Received command request")
         try:
             data = await request.json()
             command = data.get('command')
             params = data.get('params', {})
-            
+            logger.info(f"Executing command: {command} with params: {params}")
+
             if not command:
+                logger.warning("No command provided in request")
                 return web.json_response({'error': 'No command provided'}, status=400)
             
             # Execute command
             result = await self._execute_command(command, params)
+            logger.info(f"Command result: {result}")
             
             # Add to history
             self.command_history.append({
@@ -106,6 +144,7 @@ class MCPServer:
             
             return web.json_response(result)
         except Exception as e:
+            logger.exception("Exception in handle_command")
             return web.json_response({'error': str(e)}, status=500)
 
     async def handle_tools(self, request):
@@ -154,7 +193,7 @@ class MCPServer:
         }
 
     async def _execute_command(self, command: str, params: Dict) -> Dict:
-        """Execute a command with parameters"""
+        logger.info(f"Executing _execute_command: {command} {params}")
         try:
             # Parse command and parameters
             if command in self._get_available_tools()['window_commands']:
@@ -172,6 +211,7 @@ class MCPServer:
 
     async def _execute_window_command(self, command: str, params: Dict) -> Dict:
         """Execute window-related command, supporting short window IDs."""
+        logger.info(f"Executing _execute_window_command: {command} {params}")
         try:
             self.refresh_window_short_id_lookup()  # Always refresh before command
 
@@ -233,24 +273,29 @@ class MCPServer:
                     else:
                         return {'error': f"Window ID '{window_id}' not found (full or short ID)"}
 
+                # Extract HWND from composite window_id
+                hwnd = int(window_id.split('_')[0])
+
+                logger.info(f"Executing _execute_window_command: {command} {params} {window_id}")
                 if command == 'maximize':
-                    success, message = self.wm.maximize_window(window_id)
+                    success, message = self.wm.maximize_window(hwnd)
+                    logger.info(f"Executing _execute_window_command: {command} {params} {window_id} {success} {message}")
                 elif command == 'minimize':
-                    success, message = self.wm.minimize_window(window_id)
+                    success, message = self.wm.minimize_window(hwnd)
                 elif command == 'close':
-                    success, message = self.wm.close_window(window_id)
+                    success, message = self.wm.close_window(hwnd)
                 elif command == 'resize':
-                    success, message = self.wm.resize_window(window_id, params['width'], params['height'])
+                    success, message = self.wm.resize_window(hwnd, params['width'], params['height'])
                 elif command == 'move':
-                    success, message = self.wm.move_window(window_id, params['x'], params['y'])
+                    success, message = self.wm.move_window(hwnd, params['x'], params['y'])
                 elif command == 'screen':
-                    success, message = self.wm.move_window_to_screen_position(window_id, params['screen'], params['x'], params['y'])
+                    success, message = self.wm.move_window_to_screen_position(hwnd, params['screen'], params['x'], params['y'])
                 elif command == 'monitor':
-                    success, message = self.wm.move_window_to_monitor(window_id, params['monitor'])
+                    success, message = self.wm.move_window_to_monitor(hwnd, params['monitor'])
                 elif command == 'introspect':
-                    success, message = self.wm.introspect_window(window_id)
+                    success, message = self.wm.introspect_window(hwnd)
                 elif command == 'tree':
-                    success, message = self.wm.get_window_hierarchy_tree(window_id)
+                    success, message = self.wm.get_window_hierarchy_tree(hwnd)
                 else:
                     return {'error': f'Unknown window command: {command}'}
 
@@ -260,14 +305,22 @@ class MCPServer:
 
     async def _execute_mouse_command(self, command: str, params: Dict) -> Dict:
         """Execute mouse-related command"""
+        logger.info(f"Executing _execute_mouse_command: {command} {params}")
         if command == 'click':
-            success, message = self.wm.send_mouse_click(params.get('button', 'left'), params.get('x'), params.get('y'))
+            button = params.get('button', 'left')
+            x = int(params.get('x')) if params.get('x') is not None else None
+            y = int(params.get('y')) if params.get('y') is not None else None
+            success, message = self.wm.send_mouse_click(button, x, y)
         elif command == 'doubleclick':
             success, message = self.wm.send_mouse_double_click(params.get('button', 'left'), params.get('x'), params.get('y'))
         elif command == 'longclick':
             success, message = self.wm.send_mouse_long_click(params.get('button', 'left'), params.get('duration', 1.0), params.get('x'), params.get('y'))
         elif command == 'scroll':
-            success, message = self.wm.send_mouse_scroll(params['direction'], params.get('amount', 3), params.get('x'), params.get('y'))
+            direction = params.get('direction', 'up')
+            amount = int(params.get('amount', 3))
+            x = int(params.get('x')) if params.get('x') is not None else None
+            y = int(params.get('y')) if params.get('y') is not None else None
+            success, message = self.wm.send_mouse_scroll(direction, amount, x, y)
         elif command == 'drag':
             success, message = self.wm.send_mouse_drag(params['start_x'], params['start_y'], params['end_x'], params['end_y'], params.get('button', 'left'), params.get('duration', 0.5))
         else:
@@ -277,6 +330,7 @@ class MCPServer:
 
     async def _execute_keyboard_command(self, command: str, params: Dict) -> Dict:
         """Execute keyboard-related command"""
+        logger.info(f"Executing _execute_keyboard_command: {command} {params}")
         if command == 'send':
             success, message = self.wm.send_key_combination(params['keys'])
         elif command == 'type':
@@ -288,14 +342,24 @@ class MCPServer:
 
     async def _execute_system_command(self, command: str, params: Dict) -> Dict:
         """Execute system-related command"""
+        logger.info(f"Executing _execute_system_command: {command} {params}")
         try:
             if command == 'launch':
-                # Use the correct path for Paint and default to screen 1
-                app_path = "C:\\Windows\\System32\\mspaint.exe"
-                screen_id = params.get('screen_id', 1)  # Default to screen 1
-                success, message = self.wm.launch_application(app_path, screen_id, params.get('fullscreen', False))
+                # Convert types robustly
+                app_name = params.get('app_name')
+                screen_id = int(params.get('screen_id', 1))
+                fullscreen = params.get('fullscreen', False)
+                if isinstance(fullscreen, str):
+                    fullscreen = fullscreen.lower() in ('true', '1', 'yes')
+                success, message = self.wm.launch_application(app_name, screen_id, fullscreen)
             elif command == 'msgbox':
-                success, message = self.wm.show_message_box(params['title'], params['message'], params.get('x'), params.get('y'))
+                title = params.get('title', '')
+                message_ = params.get('message', '')
+                x = params.get('x')
+                y = params.get('y')
+                x = int(x) if x is not None else None
+                y = int(y) if y is not None else None
+                success, message = self.wm.show_message_box(title, message_, x, y)
             elif command == 'computer':
                 success, message = self.wm.get_computer_name()
             elif command == 'user':

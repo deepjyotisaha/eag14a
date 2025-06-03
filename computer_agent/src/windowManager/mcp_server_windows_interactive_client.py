@@ -19,11 +19,10 @@ class MCPInteractiveClient:
 
     async def start(self):
         self.session = aiohttp.ClientSession()
-        # Start SSE listener
-        self.sse_task = asyncio.create_task(self.listen_sse())
-        # Print initial summary and legend
+        # Print available tools by fetching from the server
+        # Print the window summary ONCE at startup
         await self.print_windows_summary()
-        self.print_legend()
+        await self.print_server_commands()
         await self.interactive_loop()
 
     async def close(self):
@@ -34,7 +33,7 @@ class MCPInteractiveClient:
             await self.session.close()
 
     async def listen_sse(self):
-        """Listen for SSE events from the server"""
+        """Listen for SSE events from the server (prints only server commands and errors)"""
         try:
             async with self.session.get(f"{self.base_url}/sse") as resp:
                 async for line in resp.content:
@@ -45,71 +44,38 @@ class MCPInteractiveClient:
                             decoded = line.decode().strip()
                             if decoded.startswith("data: "):
                                 data = json.loads(decoded[6:])
-                                
-                                # Handle initial connection message
+                                # Print server commands ONCE on connection
                                 if data.get('status') == 'connected':
-                                    # Store tools first
                                     tools = data.get('tools', {})
-                                    self.available_tools = tools
-                                    
-                                    # Then format and print the output
                                     print("\n=== MCP Server Connected ===")
                                     print("Available Commands:")
-                                    
-                                    # Window Commands
-                                    if 'window_commands' in tools:
-                                        print("\n📋 Window Commands:")
-                                        window_cmds = list(tools['window_commands'].items())
-                                        for cmd, info in window_cmds:
-                                            params = ', '.join(f"{k}: {v}" for k, v in info['params'].items())
+                                    for section, commands in tools.items():
+                                        if not commands:
+                                            continue
+                                        section_title = {
+                                            "window_commands": "📋 Window Commands",
+                                            "mouse_commands": "🖱️  Mouse Commands",
+                                            "keyboard_commands": "⌨️  Keyboard Commands",
+                                            "system_commands": "💻 System Commands"
+                                        }.get(section, section)
+                                        print(f"\n{section_title}:")
+                                        for cmd, info in commands.items():
+                                            params = ', '.join(f"{k}: {v}" for k, v in info.get('params', {}).items())
                                             print(f"  • {cmd}: {info['description']}")
                                             if params:
                                                 print(f"    Parameters: {params}")
-                                    
-                                    # Mouse Commands
-                                    if 'mouse_commands' in tools:
-                                        print("\n🖱️  Mouse Commands:")
-                                        mouse_cmds = list(tools['mouse_commands'].items())
-                                        for cmd, info in mouse_cmds:
-                                            params = ', '.join(f"{k}: {v}" for k, v in info['params'].items())
-                                            print(f"  • {cmd}: {info['description']}")
-                                            if params:
-                                                print(f"    Parameters: {params}")
-                                    
-                                    # Keyboard Commands
-                                    if 'keyboard_commands' in tools:
-                                        print("\n⌨️  Keyboard Commands:")
-                                        keyboard_cmds = list(tools['keyboard_commands'].items())
-                                        for cmd, info in keyboard_cmds:
-                                            params = ', '.join(f"{k}: {v}" for k, v in info['params'].items())
-                                            print(f"  • {cmd}: {info['description']}")
-                                            if params:
-                                                print(f"    Parameters: {params}")
-                                    
-                                    # System Commands
-                                    if 'system_commands' in tools:
-                                        print("\n💻 System Commands:")
-                                        system_cmds = list(tools['system_commands'].items())
-                                        for cmd, info in system_cmds:
-                                            params = ', '.join(f"{k}: {v}" for k, v in info['params'].items())
-                                            print(f"  • {cmd}: {info['description']}")
-                                            if params:
-                                                print(f"    Parameters: {params}")
-                                    
-                                    print("\n✅ Ready to accept commands!")
+                                    print("\n✅ Ready to accept commands!\n")
                                     continue
-                                
-                                # Handle other SSE messages
-                                if 'command' in data:
-                                    print(f"\n[Command] {data['command']}: {data.get('result', {}).get('message', '')}")
-                        except json.JSONDecodeError:
+                                # Only print errors or important server events, not [Command] get_windows
+                                if 'command' in data and data['command'] != 'get_windows':
+                                    result = data.get('result', {})
+                                    status = "✅" if result.get('success', False) else "❌"
+                                    message = result.get('message', result.get('error', ''))
+                                    print(f"[Command] {data['command']}: {status} {message}")
+                        except Exception:
                             continue
-                        except Exception as e:
-                            if self._running:
-                                print(f"[SSE] Error processing message: {e}")
-        except Exception as e:
-            if self._running:
-                print(f"[SSE] Connection error: {e}")
+        except Exception:
+            pass
 
     async def get_available_tools(self) -> Dict:
         try:
@@ -146,47 +112,112 @@ class MCPInteractiveClient:
             print("No windows found")
             return
 
-        # Group windows by monitor
+        # Group windows by monitor and application
         monitors = {}
         for window in windows:
             monitor_id = window.get('screen', 0)
+            proc = window.get('proc', 'Unknown')
+            
             if monitor_id not in monitors:
-                monitors[monitor_id] = []
-            monitors[monitor_id].append(window)
+                monitors[monitor_id] = {
+                    'windows': [],
+                    'apps': {}
+                }
+            
+            if proc not in monitors[monitor_id]['apps']:
+                monitors[monitor_id]['apps'][proc] = {
+                    'windows': [],
+                    'count': 0,
+                    'minimized': 0,
+                    'visible': 0
+                }
+            
+            app_data = monitors[monitor_id]['apps'][proc]
+            app_data['windows'].append(window)
+            app_data['count'] += 1
+            if window.get('minimized', False):
+                app_data['minimized'] += 1
+            else:
+                app_data['visible'] += 1
+            
+            monitors[monitor_id]['windows'].append(window)
 
         # Print summary
-        print("\n=== Window Summary ===")
-        print(f"Total Windows: {len(windows)}")
-        print(f"Total Monitors: {len(monitors)}")
+        print("=" * 80)
+        print(f"WINDOW MANAGER - {len(windows)} windows across {len(monitors)} monitors")
+        print("=" * 80)
         
         # Print each monitor's windows
-        for monitor_id, monitor_windows in sorted(monitors.items()):
-            print(f"\nMonitor {monitor_id}:")
-            for window in monitor_windows:
-                title = window.get('title', 'Unknown')
-                proc = window.get('proc', 'Unknown')
-                state = "MINIMIZED" if window.get('minimized', False) else "VISIBLE"
-                print(f"  • {title} ({proc}) - {state}")
+        for monitor_id, monitor_data in sorted(monitors.items()):
+            print(f"\n📺 MONITOR {monitor_id}")
+            print(f"   Windows: {len(monitor_data['windows'])}")
+            print("-" * 60)
+            
+            if not monitor_data['apps']:
+                print("   No applications on this monitor")
+                continue
+            
+            for app_name, app_data in monitor_data['apps'].items():
+                print(f"\n   🖥️  {app_name}")
+                print(f"      Total: {app_data['count']} | Visible: {app_data['visible']} | Minimized: {app_data['minimized']}")
+                
+                # Show visible windows
+                visible_windows = [w for w in app_data['windows'] if not w.get('minimized', False)]
+                for window in visible_windows:
+                    title = window.get('title', 'Unknown')
+                    title = title[:50] + "..." if len(title) > 50 else title
+                    hwnd = window.get('hwnd', 'Unknown')
+                    full_id = window.get('window_id', hwnd)
+                    print(f"      ├─ 👁️  {title}")
+                    print(f"      │   HWND: {hwnd}")
+                    print(f"      │   Full ID: {full_id}")
+                    print(f"      │   Position: ({window['rect'][0]}, {window['rect'][1]})")
+                    print(f"      │   Size: {window['rect'][2]-window['rect'][0]}x{window['rect'][3]-window['rect'][1]}")
+                
+                # Show minimized windows
+                minimized_windows = [w for w in app_data['windows'] if w.get('minimized', False)]
+                if minimized_windows:
+                    print(f"      │")
+                    for window in minimized_windows:
+                        title = window.get('title', 'Unknown')
+                        title = title[:50] + "..." if len(title) > 50 else title
+                        hwnd = window.get('hwnd', 'Unknown')
+                        full_id = window.get('window_id', hwnd)
+                        print(f"      ├─ 📦 {title} (minimized)")
+                        print(f"      │   HWND: {hwnd}")
+                        print(f"      │   Full ID: {full_id}")
 
-        # Add the window ID legend
-        print("\n💡 TIP: Use the last 8 characters of any Window ID for commands")
-        print("   Example: If ID is 'window_12345678_abcdefgh', use 'abcdefgh' for commands")
+        print("\n" + "=" * 80)
+        print("\n💡 TIP: Use the full window ID for commands")
+        print("   Example: maximize <full_id>, minimize <full_id>, close <full_id>")
 
-    def print_legend(self):
-        print("\n=== Command Legend ===")
-        try:
-            with open(LEGEND_PATH, 'r', encoding='utf-8') as f:
-                print(f.read())
-        except Exception:
-            print("Legend file not found.")
+    async def print_server_commands(self):
+        """Fetch and print the available commands from the server."""
+        tools = await self.get_available_tools()  # This fetches from /tools endpoint
+        print("\n=== MCP Server Commands ===")
+        for section, commands in tools.items():
+            if not commands:
+                continue
+            section_title = {
+                "window_commands": "📋 Window Commands",
+                "mouse_commands": "🖱️  Mouse Commands",
+                "keyboard_commands": "⌨️  Keyboard Commands",
+                "system_commands": "💻 System Commands"
+            }.get(section, section)
+            print(f"\n{section_title}:")
+            for cmd, info in commands.items():
+                params = ', '.join(f"{k}: {v}" for k, v in info.get('params', {}).items())
+                print(f"  • {cmd}: {info['description']}")
+                if params:
+                    print(f"    Parameters: {params}")
+        print("\n✅ Ready to accept commands!\n")
 
     async def interactive_loop(self):
         """Run the interactive window controller"""
         print("🚀 Starting Interactive Window Manager...")
         
         # Initial display
-        await self.print_windows_summary()
-        self.print_legend()
+        #await self.print_windows_summary()
         
         while self._running:
             try:
@@ -215,50 +246,38 @@ class MCPInteractiveClient:
             return
         
         if user_input.lower() in ['legend', 'help']:
-            self.print_legend()
+            await self.print_server_commands()
             return
         
-        # Check if this is a command chain
+        # Command chaining
         if ' : ' in user_input:
             commands = [cmd.strip() for cmd in user_input.split(' : ')]
-            print(f"🔗 Executing command chain ({len(commands)} steps)...")
-            
-            overall_success = True
-            
             for i, cmd in enumerate(commands):
                 if not cmd:
                     continue
-                
-                print(f"   Step {i+1}: {cmd}")
                 result = await self._execute_single_command(cmd)
-                
-                if result.get('success', False):
-                    print(f"   ✅ {result.get('message', 'Success')}")
-                else:
-                    print(f"   ❌ {result.get('error', 'Unknown error')}")
-                    overall_success = False
-                    print(f"   ⚠️  Chain stopped at step {i+1}")
+                status = "✅" if result.get('success', False) else "❌"
+                message = result.get('message', result.get('error', 'Unknown error'))
+                print(f"{status} {message}")
+                if not result.get('success', False):
+                    print(f"⚠️  Chain stopped at step {i+1}")
                     break
-                
-                # Adaptive delay based on command type
-                if 'click' in cmd.lower() or 'focus' in cmd.lower() or cmd.lower().endswith('f'):
-                    await asyncio.sleep(0.3)  # Longer delay after focus/click operations
-                elif 'send' in cmd.lower() or 'type' in cmd.lower():
-                    await asyncio.sleep(0.2)  # Medium delay for keyboard operations
-                else:
-                    await asyncio.sleep(0.1)  # Short delay for other operations
-            
-            if overall_success:
-                print(f"✅ Command chain completed successfully ({len(commands)} steps)")
-            else:
-                print(f"⚠️  Command chain stopped at step {i+1}")
+                await asyncio.sleep(0.1)
             return
         
         # Single command execution
         result = await self._execute_single_command(user_input)
         status = "✅" if result.get('success', False) else "❌"
         message = result.get('message', result.get('error', 'Unknown result'))
-        print(f"{status} {message}")
+
+        # Special handling for get_windows
+        if user_input.strip().startswith("get_windows") and result.get('success', False):
+            windows = result.get('result', {}).get('windows', [])
+            print(f"{status} Found {len(windows)} windows")
+            for w in windows:
+                print(f"  - Title: {w.get('title', 'Unknown')}, HWND: {w.get('hwnd', 'Unknown')}, Full ID: {w.get('window_id', w.get('hwnd', 'Unknown'))}, App: {w.get('proc', 'Unknown')}, Minimized: {w.get('minimized', False)}, Screen: {w.get('screen', 'Unknown')}")
+        else:
+            print(f"{status} {message}")
 
     async def _execute_single_command(self, command_str: str) -> Dict:
         """Execute a single command - internal method for chaining"""
@@ -266,7 +285,6 @@ class MCPInteractiveClient:
         if not parts:
             return {"error": "Empty command"}
         
-        # Get available tools
         tools = await self.get_available_tools()
         
         # Handle window commands with short ID
@@ -294,6 +312,24 @@ class MCPInteractiveClient:
         # Handle other commands
         cmd = parts[0]
         params = {}
+        
+        # NEW: If this is a window command and the second argument is present, treat it as window_id
+        if cmd in tools.get('window_commands', {}) and len(parts) >= 2:
+            params['window_id'] = parts[1]
+            # Add extra params for resize/move/screen/monitor if needed
+            if cmd == 'resize' and len(parts) == 4:
+                params["width"] = int(parts[2])
+                params["height"] = int(parts[3])
+            elif cmd == 'move' and len(parts) == 4:
+                params["x"] = int(parts[2])
+                params["y"] = int(parts[3])
+            elif cmd == 'screen' and len(parts) == 5:
+                params["screen"] = int(parts[2])
+                params["x"] = int(parts[3])
+                params["y"] = int(parts[4])
+            elif cmd == 'monitor' and len(parts) == 3:
+                params["monitor"] = int(parts[2])
+            return await self.execute_command(cmd, params)
         
         # Parse parameters based on command type
         if cmd in tools.get('mouse_commands', {}):

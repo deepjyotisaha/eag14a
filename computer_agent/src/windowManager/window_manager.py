@@ -2475,6 +2475,7 @@ class WindowManager:
                     # Convert to the expected format
                     window_dict = {
                         "hwnd": window_data['hwnd'],
+                        "window_id": window_data['window_id'],  # <-- ADD THIS LINE
                         "title": window_data['title'],
                         "pid": window_data['pid'],
                         "proc": app_data['process_name'],
