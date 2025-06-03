@@ -6,7 +6,106 @@ The MCP SSE Server provides a RESTful and real-time (SSE) API for controlling wi
 
 - **API Protocol:** HTTP (JSON)
 - **Real-time Updates:** Server-Sent Events (SSE)
-- **Short Window ID Support:** Use either the full window ID or the last 8 characters for window commands.
+- **Short Window ID Support:** Use either the full window ID (format: `HWND_PID_HASH`) or the last 8 characters for window commands.
+
+---
+
+## Usage
+
+### 1. Start the MCP SSE Server
+
+If you use [uv](https://github.com/astral-sh/uv) for dependency management:
+
+```bash
+uv venv  # Create a virtual environment (if not already)
+uv pip install -r ../../../../requirements.txt  # Install dependencies (adjust path as needed)
+uv pip install aiohttp psutil pywin32  # (if not in requirements.txt)
+uv pip install -e .  # (if you have a setup.py/pyproject.toml)
+```
+
+Then start the server:
+
+```bash
+uv pip run python mcp_server_windows.py
+# or, if uv pip run is not available:
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+python mcp_server_windows.py
+```
+
+The server will start and listen on `http://localhost:8080`.
+
+---
+
+### 2. Use the Interactive Test Client
+
+The interactive client lets you connect to the server, see available commands, and issue commands interactively.
+
+```bash
+uv pip run python mcp_server_windows_interactive_client.py
+# or, if uv pip run is not available:
+python mcp_server_windows_interactive_client.py
+```
+
+**Features:**
+- Shows available server commands and parameters on connect.
+- Prints a summary of all windows (with full and short IDs) at startup.
+- Lets you enter commands like:
+  ```
+  maximize <window_id>
+  minimize <window_id>
+  close <window_id>
+  move <window_id> 100 100
+  click left 200 300
+  send ctrl+c
+  launch notepad.exe 1 false
+  ```
+- Supports command chaining with `:` (e.g., `minimize <id>:maximize <id>`).
+- Prints results and errors in a user-friendly way.
+
+---
+
+### 3. Example Interactive Session
+
+```
+$ python mcp_server_windows_interactive_client.py
+
+=== MCP Server Connected ===
+Available Commands:
+...
+
+================================================================================
+WINDOW MANAGER - 24 windows across 1 monitors
+================================================================================
+
+📺 MONITOR 1
+   Windows: 24
+------------------------------------------------------------
+
+   🖥️  explorer.exe
+      Total: 6 | Visible: 6 | Minimized: 0
+      ├─ 👁️  windowManager - File Explorer
+      │   HWND: 1117512
+      │   Full ID: 1117512_12345_abcd1234
+      │   Position: (100, 100)
+      │   Size: 800x600
+
+💻 Enter command (or 'q' to quit): maximize 1117512_12345_abcd1234
+[Result] ✅ Window maximized
+
+💻 Enter command (or 'q' to quit): send ctrl+s
+[Result] ✅ Sent key combination
+
+💻 Enter command (or 'q' to quit): q
+Goodbye!
+```
+
+---
+
+### 4. Tips
+
+- Use the full window ID or the last 8 characters (short ID) for window commands.
+- Use `refresh_windows` or `get_windows` to update the window list if you get "Window is no longer valid".
+- All commands and parameters are shown at startup and can be listed again by typing `help` or `legend` (if implemented).
 
 ---
 
