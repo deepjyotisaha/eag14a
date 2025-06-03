@@ -193,7 +193,7 @@ class MCPInteractiveClient:
 
     async def print_server_commands(self):
         """Fetch and print the available commands from the server."""
-        tools = await self.get_available_tools()  # This fetches from /tools endpoint
+        tools = await self.get_available_tools()
         print("\n=== MCP Server Commands ===")
         for section, commands in tools.items():
             if not commands:
@@ -210,6 +210,17 @@ class MCPInteractiveClient:
                 print(f"  • {cmd}: {info['description']}")
                 if params:
                     print(f"    Parameters: {params}")
+        
+        # Add command chaining examples
+        print("\n🔗 Command Chaining:")
+        print("  Chain multiple commands using ' : ' (space-colon-space)")
+        print("\n  Examples:")
+        print("  • maximize 12345678 : move 12345678 100 100 : resize 12345678 800 600")
+        print("  • cursor 200 200 : click : send ctrl+c : cursor 300 300 : click : send ctrl+v")
+        print("  • launch notepad.exe 1 false : cursor 100 100 : click : type Hello World : send ctrl+s")
+        print("\n  Note: Commands execute in sequence with small delays between them.")
+        print("        If any command fails, the chain stops at that point.")
+        
         print("\n✅ Ready to accept commands!\n")
 
     async def interactive_loop(self):

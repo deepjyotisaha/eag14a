@@ -11,6 +11,7 @@ from typing import Dict, List, Optional, Set
 from aiohttp import web
 from windowManager.window_manager import WindowManager
 from windowManager.window_functions import WindowController
+from windowManager.window_screengrab import take_screenshot
 
 def setup_logging(module_name: str):
     """
@@ -188,7 +189,12 @@ class MCPServer:
                 'msgbox': {'description': 'Show message box', 'params': {'title': 'string', 'message': 'string', 'x': 'number', 'y': 'number'}},
                 'computer': {'description': 'Get computer name', 'params': {}},
                 'user': {'description': 'Get user name', 'params': {}},
-                'keys': {'description': 'Show virtual key codes', 'params': {}}
+                'keys': {'description': 'Show virtual key codes', 'params': {}},
+                'screenshot': {'description': 'Take a screenshot', 'params': {}},
+                'hover': {'description': 'Analyze element under mouse cursor', 'params': {}},
+                'inspect': {'description': 'Full window analysis (same as i)', 'params': {}},
+                'detect': {'description': 'Real-time cursor element detection', 'params': {}},
+                'cursor': {'description': 'Get or set cursor position', 'params': {'x': 'number (optional)', 'y': 'number (optional)'}},
             }
         }
 
@@ -366,6 +372,44 @@ class MCPServer:
                 success, message = self.wm.get_user_name()
             elif command == 'keys':
                 success, message = self.wm.get_virtual_key_codes()
+            elif command == 'screenshot':
+                try:
+                    path = take_screenshot()
+                    return {'success': True, 'message': f"Screenshot saved: {path}", 'filepath': path}
+                except Exception as e:
+                    return {'success': False, 'message': str(e)}
+            elif command == 'hover' or command == 'detect':
+                try:
+                    result = self.wm.get_element_under_cursor()
+                    return {'success': True, 'message': f"Element under cursor: {result}", 'result': result}
+                except Exception as e:
+                    return {'success': False, 'message': str(e)}
+            elif command == 'inspect':
+                try:
+                    result = self.wm.get_element_under_cursor()
+                    return {'success': True, 'message': f"Full window analysis: {result}", 'result': result}
+                except Exception as e:
+                    return {'success': False, 'message': str(e)}
+            elif command == 'cursor':
+                x = params.get('x')
+                y = params.get('y')
+                if x is not None and y is not None:
+                    try:
+                        x = int(x)
+                        y = int(y)
+                        success, message = self.wm.set_cursor_position(x, y)
+                        return {'success': success, 'message': message}
+                    except Exception as e:
+                        return {'success': False, 'message': str(e)}
+                else:
+                    try:
+                        success, message, pos = self.wm.get_cursor_position()
+                        if success:
+                            return {'success': True, 'message': f"Cursor position: {pos}", 'position': pos}
+                        else:
+                            return {'success': False, 'message': message}
+                    except Exception as e:
+                        return {'success': False, 'message': str(e)}
             else:
                 return {'error': f'Unknown system command: {command}'}
 
@@ -415,6 +459,27 @@ class MCPServer:
                 print(f"Error closing client connection: {e}")
         
         self.clients.clear()
+
+    async def print_server_commands(self):
+        """Fetch and print the available commands from the server."""
+        tools = await self.handle_tools(None)
+        print("\n=== MCP Server Commands ===")
+        for section, commands in tools.json():
+            if not commands:
+                continue
+            section_title = {
+                "window_commands": "📋 Window Commands",
+                "mouse_commands": "🖱️  Mouse Commands",
+                "keyboard_commands": "⌨️  Keyboard Commands",
+                "system_commands": "💻 System Commands"
+            }.get(section, section)
+            print(f"\n{section_title}:")
+            for cmd, info in commands.items():
+                params = ', '.join(f"{k}: {v}" for k, v in info.get('params', {}).items())
+                print(f"  • {cmd}: {info['description']}")
+                if params:
+                    print(f"    Parameters: {params}")
+        
 
 async def main():
     server = MCPServer()
