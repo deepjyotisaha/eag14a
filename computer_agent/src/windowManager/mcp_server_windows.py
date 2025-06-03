@@ -1,6 +1,7 @@
 # mcp_server.py
 import asyncio
 import json
+import time
 from typing import Dict, List, Optional, Set
 from aiohttp import web
 from windowManager.window_manager import WindowManager
@@ -14,6 +15,18 @@ class MCPServer:
         self.command_history = []
         self.max_history = 100
         self._running = True
+        self.window_short_id_lookup = {}  # NEW: short_id -> full_id
+
+    def refresh_window_short_id_lookup(self):
+        """Refresh the short ID lookup table from current windows."""
+        data = self.wm.get_structured_windows()
+        lookup = {}
+        for monitor_data in data["monitors"].values():
+            for app_data in monitor_data["applications"].values():
+                for window_id, window_data in app_data["windows"].items():
+                    last_8 = window_id[-8:]
+                    lookup[last_8] = window_id
+        self.window_short_id_lookup = lookup
 
     async def handle_sse(self, request):
         """Handle SSE connection"""
@@ -116,7 +129,9 @@ class MCPServer:
                 'monitor': {'description': 'Move to monitor', 'params': {'window_id': 'string', 'monitor': 'number'}},
                 'introspect': {'description': 'Deep window introspection', 'params': {'window_id': 'string'}},
                 'tree': {'description': 'Show UI hierarchy tree', 'params': {'window_id': 'string'}},
-                'get_windows': {'description': 'Get all windows', 'params': {'show_minimized': 'boolean'}}
+                'get_windows': {'description': 'Get all windows', 'params': {'show_minimized': 'boolean'}},
+                'print_windows_summary': {'description': 'Print summary of all windows', 'params': {}},
+                'refresh_windows': {'description': 'Refresh window list', 'params': {}}
             },
             'mouse_commands': {
                 'click': {'description': 'Mouse click', 'params': {'button': 'string', 'x': 'number', 'y': 'number'}},
@@ -156,14 +171,67 @@ class MCPServer:
             return {'error': str(e)}
 
     async def _execute_window_command(self, command: str, params: Dict) -> Dict:
-        """Execute window-related command"""
+        """Execute window-related command, supporting short window IDs."""
         try:
+            self.refresh_window_short_id_lookup()  # Always refresh before command
+
             if command == 'get_windows':
-                success, message = self.wm.get_windows(params.get('show_minimized', False))
+                # Use get_all_windows instead of get_windows
+                windows = self.wm.get_all_windows()
+                return {
+                    'success': True,
+                    'result': {  # Changed to match expected format
+                        'windows': windows
+                    },
+                    'message': f'Found {len(windows)} windows'
+                }
+            elif command == 'print_windows_summary':
+                data = self.wm.get_structured_windows()
+                summary = []
+                
+                # Add timestamp
+                summary.append(f"Window Summary at {time.strftime('%Y-%m-%d %H:%M:%S')}")
+                summary.append(f"Total Monitors: {data['summary']['total_monitors']}")
+                summary.append(f"Total Windows: {data['summary']['total_windows']}")
+                summary.append(f"Total Applications: {data['summary']['total_apps']}")
+                summary.append("")
+                
+                # Add monitor details
+                for monitor_id, monitor_data in data["monitors"].items():
+                    summary.append(f"=== {monitor_id.upper()} ===")
+                    summary.append(f"Device: {monitor_data['device']}")
+                    summary.append(f"Resolution: {monitor_data['width']}x{monitor_data['height']}")
+                    summary.append(f"Primary: {'Yes' if monitor_data['primary'] else 'No'}")
+                    summary.append(f"Windows: {monitor_data['window_count']}")
+                    summary.append("")
+                    
+                    # Add application details
+                    for app_name, app_data in monitor_data["applications"].items():
+                        summary.append(f"  {app_name} ({app_data['window_count']} windows)")
+                        for window_id, window in app_data["windows"].items():
+                            state = "MINIMIZED" if window["minimized"] else "VISIBLE"
+                            summary.append(f"    - {window['title']} ({state})")
+                        summary.append("")
+                
+                return {'success': True, 'message': '\n'.join(summary)}
+            elif command == 'refresh_windows':
+                # Refresh the window list
+                data = self.wm.get_structured_windows()
+                # Update short ID lookup
+                self.refresh_window_short_id_lookup()
+                return {'success': True, 'message': f"Refreshed {data['summary']['total_windows']} windows"}
             else:
                 window_id = params.get('window_id')
                 if not window_id:
                     return {'error': 'Window ID required'}
+
+                # NEW: Support short window ID
+                if window_id not in self.window_short_id_lookup.values():
+                    # If not a full ID, try to resolve as short ID
+                    if window_id in self.window_short_id_lookup:
+                        window_id = self.window_short_id_lookup[window_id]
+                    else:
+                        return {'error': f"Window ID '{window_id}' not found (full or short ID)"}
 
                 if command == 'maximize':
                     success, message = self.wm.maximize_window(window_id)
@@ -252,9 +320,11 @@ class MCPServer:
 
     async def _broadcast_event(self, event_type: str, data: Dict):
         """Broadcast SSE event to all clients"""
+        # Create a copy of the clients set to avoid modification during iteration
+        clients_to_process = self.clients.copy()
         disconnected_clients = set()
         
-        for client in self.clients:
+        for client in clients_to_process:
             try:
                 await self._send_event(client, event_type, data)
             except Exception as e:
