@@ -6,6 +6,7 @@ from datetime import datetime
 import json
 from pathlib import Path
 from config.log_config import setup_logging, logger_json_block, logger_prompt
+from agent.utils.json_parser import parse_llm_json
 
 logger = setup_logging(__name__)
 
@@ -46,9 +47,22 @@ class Perception:
             
             # Get LLM response
             response = await self.model.generate_text(prompt=full_prompt)
+
+            logger_json_block(logger, "Perception Response", response)
             
-            # Parse response
-            perception = json.loads(response)
+            # Parse response using robust parser
+            perception = parse_llm_json(response, required_keys=[
+                'entities',
+                'result_requirement',
+                'original_goal_achieved',
+                'reasoning',
+                'local_goal_achieved',
+                'local_reasoning',
+                'last_tooluse_summary',
+                'solution_summary',
+                'confidence',
+                'route'
+            ])
             
             # Log perception results
             logger_json_block(logger, "Perception Results", perception)

@@ -73,10 +73,15 @@ class ComputerAgentLoop:
                     from_step="ROOT" if step_count == 0 else f"TOOL_{step_count}"
                 )
                 
+                if step_count == 0:
+                    snapshot_type = "user_query"
+                else:
+                    snapshot_type = "step_result"
+
                 perception = await self.perception.analyze(
                     ctx, 
                     pipeline_result,
-                    snapshot_type="user_query" if step_count == 0 else "step_result"
+                    snapshot_type=snapshot_type
                 )
                 ctx.mark_step_completed(perception_step.id, perception)
                 
