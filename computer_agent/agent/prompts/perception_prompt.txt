@@ -44,7 +44,10 @@ You **control the loop** by issuing structured, routable status reports.
   "local_reasoning": "...",
   "last_tooluse_summary": "...",
   "solution_summary": "...",
-  "route": "summarize" | "decision"
+  "route": "summarize" | "decision",
+  "open_windows": "Notepad (Minimized), Explorer (Maximized)",
+  "computer_state": "..."
+
 }
 ```
 ---

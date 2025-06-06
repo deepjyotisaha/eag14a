@@ -88,10 +88,13 @@ class ComputerAgentLoop:
                 # Check if we should exit
                 if perception.get("route") == "summarize":
                     logger.info("Perception suggests summarization - task complete")
+                    # Save session summary before returning
+                    summary_path = ctx.save_summary()
                     return {
                         "status": "success",
                         "session_id": session_id,
                         "summary": perception.get("solution_summary", "Task completed"),
+                        "summary_path": summary_path,
                         "steps": [step.to_dict() for step in ctx.steps.values()]
                     }
                 

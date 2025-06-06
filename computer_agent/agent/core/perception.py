@@ -35,7 +35,9 @@ class Perception:
                 "raw_input": ctx.query if snapshot_type == "user_query" else str(pipeline_result),
                 "pipeline_output": pipeline_result,
                 "completed_steps": [step.to_dict() for step in ctx.steps.values() if step.status == "completed"],
-                "failed_steps": [step.to_dict() for step in ctx.steps.values() if step.status == "failed"]
+                "failed_steps": [step.to_dict() for step in ctx.steps.values() if step.status == "failed"],
+                "open_windows": ctx.open_windows,
+                "computer_state": ctx.computer_state
             }
             
             # Get prompt template
@@ -61,7 +63,9 @@ class Perception:
                 'last_tooluse_summary',
                 'solution_summary',
                 'confidence',
-                'route'
+                'route',
+                'open_windows',
+                'computer_state'
             ])
             
             # Log perception results

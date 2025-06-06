@@ -27,7 +27,10 @@ async def main():
     print(f"Status: {result['status']}")
     if result['status'] == 'success':
         print(f"Session ID: {result['session_id']}")
-        print(f"Summary saved to: {result['summary_path']}")
+        if 'summary_path' in result:
+            print(f"Summary saved to: {result['summary_path']}")
+        if 'summary' in result:
+            print(f"Summary: {result['summary']}")
     else:
         print(f"Error: {result.get('error', 'Unknown error')}")
 

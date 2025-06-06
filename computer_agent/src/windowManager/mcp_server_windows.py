@@ -190,7 +190,6 @@ class MCPServer:
                 'computer': {'description': 'Get computer name', 'params': {}},
                 'user': {'description': 'Get user name', 'params': {}},
                 'keys': {'description': 'Show virtual key codes', 'params': {}},
-                'screenshot': {'description': 'Take a screenshot', 'params': {}},
                 'hover': {'description': 'Analyze element under mouse cursor', 'params': {}},
                 'inspect': {'description': 'Full window analysis (same as i)', 'params': {}},
                 'detect': {'description': 'Real-time cursor element detection', 'params': {}},

@@ -6,6 +6,7 @@ from datetime import datetime
 import json
 from pathlib import Path
 from config.log_config import setup_logging, logger_json_block, logger_prompt
+from agent.utils.json_parser import parse_llm_json
 
 logger = setup_logging(__name__)
 
@@ -59,8 +60,13 @@ class Decision:
             # Get LLM response
             response = await self.model.generate_text(prompt=full_prompt)
             
-            # Parse response
-            decision = json.loads(response)
+            # Parse response using robust parser
+            decision = parse_llm_json(response, required_keys=[
+                "selected_tool",
+                "tool_parameters",
+                "reasoning",
+                "confidence"
+            ])
             
             # Log decision results
             logger_json_block(logger, "Decision Results", decision)

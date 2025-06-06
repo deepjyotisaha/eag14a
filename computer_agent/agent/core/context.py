@@ -44,6 +44,10 @@ class ComputerAgentContext:
         self.screenshot_path = None
         self.start_time = datetime.now()
         
+        # Add new fields as strings
+        self.open_windows = ""  # Will store JSON string of open windows
+        self.computer_state = ""  # Will store JSON string of computer state
+        
         # Create output directory for this session
         self.output_dir = Path(f"outputs/{datetime.now().strftime('%Y/%m/%d')}/{session_id}")
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -74,6 +78,14 @@ class ComputerAgentContext:
         """Get a step by ID"""
         return self.steps.get(step_id)
 
+    def update_open_windows(self, windows_json: str) -> None:
+        """Update the open windows information as a JSON string"""
+        self.open_windows = windows_json
+
+    def update_computer_state(self, state_json: str) -> None:
+        """Update the computer state information as a JSON string"""
+        self.computer_state = state_json
+
     def save_summary(self) -> str:
         """Save the session summary to a JSON file"""
         summary = {
@@ -83,7 +95,9 @@ class ComputerAgentContext:
             "end_time": datetime.now().isoformat(),
             "steps": [step.to_dict() for step in self.steps.values()],
             "pipeline_output": self.pipeline_output,
-            "screenshot_path": str(self.screenshot_path) if self.screenshot_path else None
+            "screenshot_path": str(self.screenshot_path) if self.screenshot_path else None,
+            "open_windows": self.open_windows,  # Already a string
+            "computer_state": self.computer_state  # Already a string
         }
         
         output_file = self.output_dir / "session_summary.json"
