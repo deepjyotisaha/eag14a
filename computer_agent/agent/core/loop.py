@@ -170,6 +170,7 @@ class ComputerAgentLoop:
                             )
                             
                             log_step("🧠 Running perception analysis for error")
+                            logger.info("🧠 Running perception analysis for error")
                             # Pass error message in the context instead of as a parameter
                             ctx.current_error = error_msg
                             error_perception = await self.perception.analyze(
@@ -189,6 +190,7 @@ class ComputerAgentLoop:
                             )
                             
                             log_step("🤔 Making decision after error")
+                            logger.info("🤔 Making decision after error")
                             error_decision = await self.decision.decide(ctx, error_perception)
                             ctx.mark_step_completed(error_decision_step.id, error_decision)
                             log_json_block(f"📌 Error Decision output ({step_count + 1}_{retry_count + 1})", error_decision)

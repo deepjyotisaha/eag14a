@@ -79,12 +79,35 @@ def logger_json_block(logger, message, data, char_limit: int = 500):
         # Create a separator
         separator = "=" * 80
         
-        # Create the formatted JSON string
-        json_str = json.dumps(data, indent=2, sort_keys=False)
+        # First convert to JSON string without indentation to check length
+        raw_json_str = json.dumps(data, sort_keys=False)
         
-        # Truncate if over limit
-        if len(json_str) > char_limit:
-            json_str = json_str[:char_limit] + "...\n[truncated, total length: " + str(len(json_str)) + " chars]"
+        # If raw JSON is too long, truncate the data itself
+        if len(raw_json_str) > char_limit:
+            # Create a truncated version of the data
+            truncated_data = {}
+            current_length = 0
+            for key, value in data.items():
+                # Add 2 for quotes and comma
+                key_length = len(json.dumps(key)) + 2
+                value_length = len(json.dumps(value)) + 2
+                
+                if current_length + key_length + value_length > char_limit:
+                    break
+                    
+                truncated_data[key] = value
+                current_length += key_length + value_length
+            
+            # Add truncation info
+            truncated_data["_truncated"] = True
+            truncated_data["_total_length"] = len(raw_json_str)
+            truncated_data["_truncated_keys"] = list(set(data.keys()) - set(truncated_data.keys()))
+            
+            # Use truncated data
+            data = truncated_data
+        
+        # Now format the (possibly truncated) data with indentation
+        json_str = json.dumps(data, indent=2, sort_keys=False)
         
         # Create the complete message
         complete_message = f"\n{separator}\n📌 {message}\n{separator}\n{json_str}\n{separator}\n"

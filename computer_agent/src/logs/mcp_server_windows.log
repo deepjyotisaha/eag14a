@@ -1,252 +1,54 @@
-2025-06-06 13:01:41,505 - INFO - mcp_server_windows:__init__:47 - Initializing MCPServer
-2025-06-06 13:02:06,275 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 13:03:00,065 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 13:05:01,729 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 13:07:35,685 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 13:08:41,110 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 13:09:30,441 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 13:14:02,217 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 13:15:06,220 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:17:36,126 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:20:48,422 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:26:45,395 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:27:13,777 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:29:29,625 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:31:04,345 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:33:44,579 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:37:47,775 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:39:11,115 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:42:23,965 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:44:37,574 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 14:47:43,939 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 15:33:24,511 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 15:33:53,078 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:33:53 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:42:44,744 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 15:43:14,065 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:43:14 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:47:13,876 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 15:47:40,462 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:47:40 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:47:41,839 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:47:41,839 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:47:41,840 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:47:41,941 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 15:47:41,949 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:47:41 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:48:15,174 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:48:15 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:48:16,477 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-06 15:48:16,478 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-06 15:48:16,478 - INFO - mcp_server_windows:_execute_keyboard_command:339 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-06 15:48:16,479 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-06 15:48:16,480 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:48:16 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:50:48,314 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 15:51:20,232 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:51:20 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:51:21,785 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:51:21,785 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:51:21,785 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:51:21,886 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 15:51:21,887 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:51:21 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:51:57,258 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:51:57 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:51:58,545 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-06 15:51:58,546 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-06 15:51:58,546 - INFO - mcp_server_windows:_execute_keyboard_command:339 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-06 15:51:58,546 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-06 15:51:58,547 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:51:58 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:54:53,161 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 15:55:14,835 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:55:14 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:55:16,141 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:55:16,141 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:55:16,141 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:55:16,241 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 15:55:16,242 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:55:16 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:55:49,487 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:55:49 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:55:50,818 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-06 15:55:50,818 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-06 15:55:50,818 - INFO - mcp_server_windows:_execute_keyboard_command:339 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-06 15:55:50,819 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-06 15:55:50,819 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:55:50 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:58:01,743 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 15:58:30,349 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:58:30 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:58:31,741 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:58:31,741 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:58:31,741 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 15:58:31,842 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 15:58:31,843 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:58:31 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:59:06,092 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:59:06 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 15:59:07,421 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-06 15:59:07,422 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-06 15:59:07,422 - INFO - mcp_server_windows:_execute_keyboard_command:339 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-06 15:59:07,422 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-06 15:59:07,423 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:59:07 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:14:22,683 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:14:51,468 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:14:51 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:14:52,842 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:14:52,842 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:14:52,842 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:14:52,944 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:14:52,944 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:14:52 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:15:18,485 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:15:18 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:15:19,840 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-06 16:15:19,840 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-06 16:15:19,840 - INFO - mcp_server_windows:_execute_keyboard_command:339 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-06 16:15:19,841 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-06 16:15:19,844 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:15:19 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:17:07,621 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:17:35,856 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:17:35 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:17:37,382 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:17:37,383 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:17:37,383 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:17:37,483 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:17:37,483 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:17:37 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:18:43,277 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:18:43 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:18:44,591 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-06 16:18:44,591 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-06 16:18:44,591 - INFO - mcp_server_windows:_execute_keyboard_command:339 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-06 16:18:44,592 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-06 16:18:44,592 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:18:44 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:25:25,973 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:26:08,682 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:26:08 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:26:10,185 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:26:10,185 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:26:10,185 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:26:10,286 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:26:10,287 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:26:10 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:26:48,377 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:26:48 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:26:49,742 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-06 16:26:49,743 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-06 16:26:49,743 - INFO - mcp_server_windows:_execute_keyboard_command:339 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-06 16:26:49,744 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-06 16:26:49,745 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:26:49 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:30:41,582 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:31:11,562 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:31:11 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:31:13,108 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:31:13,108 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:31:13,108 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:31:13,209 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:31:13,210 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:31:13 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:31:52,066 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:32:19,512 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:32:54,490 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:32:54 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:32:56,062 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:32:56,063 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:32:56,063 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:32:56,164 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:32:56,165 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:32:56 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:33:37,191 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:33:37 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:33:38,518 - INFO - mcp_server_windows:handle_command:120 - Executing command: maximize with params: {'window_id': 'Notepad'}
-2025-06-06 16:33:38,518 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: maximize {'window_id': 'Notepad'}
-2025-06-06 16:33:38,518 - INFO - mcp_server_windows:_execute_window_command:220 - Executing _execute_window_command: maximize {'window_id': 'Notepad'}
-2025-06-06 16:33:38,534 - INFO - mcp_server_windows:handle_command:128 - Command result: {'error': "Window ID 'Notepad' not found (full or short ID)"}
-2025-06-06 16:33:38,535 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:33:38 +0530] "POST /command HTTP/1.1" 200 220 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:34:19,388 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:34:19 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:34:20,703 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-06 16:34:20,704 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-06 16:34:20,704 - INFO - mcp_server_windows:_execute_keyboard_command:339 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-06 16:34:20,704 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-06 16:34:20,705 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:34:20 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:35:12,144 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:35:46,433 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:35:46 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:35:48,049 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:35:48,049 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:35:48,049 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:35:48,150 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:35:48,151 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:35:48 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:46:21,795 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:46:50,684 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:46:50 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:46:52,012 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:46:52,012 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:46:52,012 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:46:52,113 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:46:52,114 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:46:52 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:47:23,267 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:47:23 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:47:24,572 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-06 16:47:24,572 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-06 16:47:24,572 - INFO - mcp_server_windows:_execute_keyboard_command:339 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-06 16:47:24,573 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-06 16:47:24,574 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:47:24 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:47:53,813 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:48:21,617 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:48:21 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:48:23,247 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:48:23,247 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:48:23,247 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:48:23,347 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:48:23,347 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:48:23 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:48:55,741 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:48:55 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:48:57,039 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-06 16:48:57,039 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-06 16:48:57,040 - INFO - mcp_server_windows:_execute_keyboard_command:339 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-06 16:48:57,040 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-06 16:48:57,040 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:48:57 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:52:53,389 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:53:16,992 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:53:16 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:53:18,468 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:53:18,468 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:53:18,468 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:53:18,569 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:53:18,570 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:53:18 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:53:19,719 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:53:19,719 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:53:19,719 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:53:19,819 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:53:19,820 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:53:19 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:53:20,975 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:53:20,975 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:53:20,976 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:53:21,076 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:53:21,077 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:53:20 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:53:53,894 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:54:23,816 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:54:23 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:54:25,239 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:54:25,240 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:54:25,240 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:54:25,340 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:54:25,342 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:54:25 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:54:26,509 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:54:26,509 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:54:26,509 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:54:26,610 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:54:26,610 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:54:26 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:54:27,755 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:54:27,755 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:54:27,756 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:54:27,856 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:54:27,856 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:54:27 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:57:47,173 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 16:58:17,960 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:58:17 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:58:19,317 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:58:19,317 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:58:19,318 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:58:19,418 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:58:19,419 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:58:19 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:58:20,439 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:58:20,439 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:58:20,439 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:58:20,539 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:58:20,540 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:58:20 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 16:58:21,552 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:58:21,552 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:58:21,552 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 16:58:21,653 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 16:58:21,654 - INFO - web_log:log:214 - ::1 [06/Jun/2025:16:58:21 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 17:03:35,816 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 17:04:04,289 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:04:04 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 17:04:05,731 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 17:04:05,731 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 17:04:05,731 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 17:04:05,831 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 17:04:05,833 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:04:05 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 17:04:33,795 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:04:33 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 17:06:00,012 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 17:06:30,717 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:06:30 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 17:06:32,058 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 17:06:32,059 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 17:06:32,059 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 17:06:32,160 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 17:06:32,161 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:06:32 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 17:06:45,067 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:06:45 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 17:08:57,508 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-06 17:09:32,712 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:09:32 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 17:09:34,230 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 17:09:34,230 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 17:09:34,230 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-06 17:09:34,331 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-06 17:09:34,332 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:09:34 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 17:09:51,232 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:09:51 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-06 17:11:24,286 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 17:20:29,920 - INFO - mcp_server_windows:__init__:47 - Initializing MCPServer
+2025-06-06 17:20:50,418 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 17:21:26,876 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:21:26 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:21:28,284 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:21:28,284 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:21:28,285 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:21:28,386 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-06 17:21:28,388 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:21:28 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:21:45,533 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:21:45 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:28:06,877 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 17:28:38,650 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:28:38 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:28:39,968 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:28:39,968 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:28:39,968 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:28:40,069 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-06 17:28:40,070 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:28:39 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:28:54,540 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:28:54 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:31:55,851 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 17:32:26,192 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:32:26 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:32:27,634 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:32:27,634 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:32:27,634 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:32:27,735 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-06 17:32:27,737 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:32:27 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:32:38,467 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:32:38 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:32:41,176 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:32:41,176 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:32:41,176 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:32:41,276 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-06 17:32:41,277 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:32:41 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:32:51,818 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:32:51 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:35:14,603 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 17:35:42,398 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:35:42 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:35:44,019 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:35:44,019 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:35:44,020 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:35:44,121 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-06 17:35:44,121 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:35:44 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:35:54,196 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:35:54 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:37:59,828 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 17:38:31,448 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:38:31 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:38:33,238 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:38:33,239 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:38:33,239 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:38:33,340 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-06 17:38:33,341 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:38:33 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:38:43,521 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:38:43 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:39:18,111 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:39:18 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:39:19,671 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:39:19,672 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:39:19,672 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 17:39:19,773 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-06 17:39:19,773 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:39:19 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 17:39:30,830 - INFO - web_log:log:214 - ::1 [06/Jun/2025:17:39:30 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"

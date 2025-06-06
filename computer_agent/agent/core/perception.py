@@ -45,13 +45,13 @@ class Perception:
             full_prompt = f"{prompt_template.strip()}\n\n```json\n{json.dumps(perception_input, indent=2)}\n```"
             
             # Log the prompt
-            logger_prompt(logger, "📝 Perception prompt:", full_prompt)
+            #logger_prompt(logger, "📝 Perception prompt:", full_prompt)
             
             
             # Get LLM response
             response = await self.model.generate_text(prompt=full_prompt)
 
-            logger_json_block(logger, "Perception Response", response)
+            logger_json_block(logger, "Perception Response", response, 3000)
             
             # Parse response using robust parser
             perception = parse_llm_json(response, required_keys=[
@@ -70,7 +70,7 @@ class Perception:
             ])
             
             # Log perception results
-            logger_json_block(logger, "Perception Results", perception)
+            logger_json_block(logger, "Perception Results", perception, 3000)
             
             return perception
             
