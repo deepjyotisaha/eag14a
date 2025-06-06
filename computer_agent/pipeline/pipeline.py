@@ -155,10 +155,14 @@ async def run_pipeline(image_path, mode="debug", output_dir=None):
                 os.makedirs(output_dir, exist_ok=True)
             
             field_name = 'seraphine_gemini_groups' if gemini_results else 'seraphine_groups'
+            
+            # Create a copy of seraphine_analysis without the bbox_processor
+            serializable_analysis = {k: v for k, v in seraphine_analysis.items() if k != 'bbox_processor'}
+            
             return {
                 'total_time': total_time,
                 'total_icons_found': icon_count,
-                field_name: seraphine_analysis.get(field_name, seraphine_analysis.get('analysis', {}))
+                field_name: serializable_analysis.get(field_name, serializable_analysis.get('analysis', {}))
             }
         
         else:  # DEBUG MODE
@@ -171,9 +175,12 @@ async def run_pipeline(image_path, mode="debug", output_dir=None):
             # Summary
             display_enhanced_pipeline_summary(image_path, detection_results, seraphine_analysis, gemini_results, visualization_paths, json_path, config)
             
+            # Create a copy of seraphine_analysis without the bbox_processor
+            serializable_analysis = {k: v for k, v in seraphine_analysis.items() if k != 'bbox_processor'}
+            
             return {
                 'detection_results': detection_results,
-                'seraphine_analysis': seraphine_analysis,
+                'seraphine_analysis': serializable_analysis,  # Use the serializable version
                 'gemini_results': gemini_results,
                 'grouped_image_paths': grouped_image_paths,
                 'visualization_paths': visualization_paths,

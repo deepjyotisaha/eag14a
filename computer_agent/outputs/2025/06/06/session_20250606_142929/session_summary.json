@@ -1,0 +1,30 @@
+{
+  "session_id": "session_20250606_142929",
+  "query": "Open Notepad and type 'Hello World'",
+  "start_time": "2025-06-06T14:29:29.632006",
+  "end_time": "2025-06-06T14:29:50.652357",
+  "steps": [
+    {
+      "id": "ROOT",
+      "description": "Initial query",
+      "type": "ROOT",
+      "from_step": null,
+      "status": "pending",
+      "result": null,
+      "timestamp": "2025-06-06T14:29:29.632006"
+    },
+    {
+      "id": "PERCEPTION_1",
+      "description": "Analyzing current screen state",
+      "type": "PERCEPTION",
+      "from_step": "ROOT",
+      "status": "failed",
+      "result": {
+        "error": "object GenerateContentResponse can't be used in 'await' expression"
+      },
+      "timestamp": "2025-06-06T14:29:48.646186"
+    }
+  ],
+  "pipeline_output": null,
+  "screenshot_path": "outputs\\2025\\06\\06\\session_20250606_142929\\screenshot_20250606_142929.jpg"
+}

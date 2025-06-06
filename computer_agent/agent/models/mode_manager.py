@@ -36,7 +36,7 @@ class ModelManager:
             Generated text
         """
         try:
-            response = await self.model.generate_content(prompt)
+            response = self.model.generate_content(prompt)
             return response.text
         except Exception as e:
             logger.error(f"Failed to generate text: {str(e)}")

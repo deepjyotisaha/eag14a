@@ -42,6 +42,24 @@ class BBox:
     def right_edge_center(self) -> float:
         return (self.y1 + self.y2) / 2
 
+    def to_dict(self):
+        """Convert BBox to a JSON-serializable dictionary"""
+        return {
+            'x1': self.x1,
+            'y1': self.y1,
+            'x2': self.x2,
+            'y2': self.y2,
+            'original_id': self.original_id,
+            'merged_id': self.merged_id,
+            'bbox_type': self.bbox_type,
+            'source': self.source,
+            'confidence': self.confidence,
+            'width': self.width,
+            'height': self.height,
+            'center_x': self.center_x,
+            'center_y': self.center_y
+        }
+
 class BBoxProcessor:
     def __init__(self, enable_logging: bool = True):
         self.enable_logging = enable_logging
@@ -1122,6 +1140,35 @@ class BBoxProcessor:
             image_count += 1
         
         return image_count, generated_images
+
+    def to_dict(self):
+        """Convert BBoxProcessor to a JSON-serializable dictionary"""
+        return {
+            'all_bboxes': [bbox.to_dict() for bbox in self.all_bboxes],
+            'sort_x_list': [bbox.to_dict() for bbox in self.sort_x_list],
+            'sort_y_list': [bbox.to_dict() for bbox in self.sort_y_list],
+            'long_boxes': [(bbox.to_dict(), direction) for bbox, direction in self.long_boxes],
+            'horizontal_groups': {str(k): [bbox.to_dict() for bbox in v] for k, v in self.horizontal_groups.items()},
+            'vertical_groups': {str(k): [bbox.to_dict() for bbox in v] for k, v in self.vertical_groups.items()},
+            'final_groups': {k: [bbox.to_dict() for bbox in v] for k, v in self.final_groups.items()},
+            'bbox_to_group_mapping': self.bbox_to_group_mapping,
+            'group_colors': {k: list(v) for k, v in self.group_colors.items()},
+            'long_box_ids': list(self.long_box_ids),
+            'constants': {
+                'LONG_BOX_THRESHOLD': self.LONG_BOX_THRESHOLD,
+                'LONG_BOX_SCALE_MAX': self.LONG_BOX_SCALE_MAX,
+                'HORIZONTAL_TOLERANCE_PX': self.HORIZONTAL_TOLERANCE_PX,
+                'Y_VARIANCE_TOLERANCE': self.Y_VARIANCE_TOLERANCE,
+                'GROUP_GAP': self.GROUP_GAP,
+                'BBOX_GAP': self.BBOX_GAP,
+                'MIN_DIMENSION': self.MIN_DIMENSION,
+                'MAX_HEIGHT': self.MAX_HEIGHT,
+                'PADDING': self.PADDING,
+                'IMAGE_WIDTH': self.IMAGE_WIDTH,
+                'IMAGE_HEIGHT': self.IMAGE_HEIGHT,
+                'BBOX_BORDER_WIDTH': self.BBOX_BORDER_WIDTH
+            }
+        }
 
 
 # INTEGRATION WRAPPER FUNCTIONS FOR MAIN.PY COMPATIBILITY
