@@ -23,8 +23,8 @@ from concurrent.futures import ThreadPoolExecutor
 from utils.parallel_processor import ParallelProcessor
 from utils.helpers import load_configuration, debug_print
 
-# Import all the helper functions from main.py
-from main import (
+# Import all the helper functions from pipeline_utils.py
+from pipeline_utils import (
     setup_detector_configs,
     load_image_opencv,
     convert_bgr_to_pil_for_ocr,
