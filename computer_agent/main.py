@@ -513,7 +513,7 @@ async def main():
     debug_print("=" * 90)
     
     yolo_config, ocr_config = setup_detector_configs(config)
-    image_path = "images/altair.jpg"
+    image_path = "images/edge_canvas.png"
     img_bgr = load_image_opencv(image_path)
     if img_bgr is None:
         return None
