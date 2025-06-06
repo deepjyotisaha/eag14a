@@ -8,21 +8,21 @@ import asyncio
 # Add parent directory to Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-# Use relative import
-from pipeline import run_pipeline  # Note the dot for relative import
+# Import pipeline and screenshot functionality
+from pipeline import run_pipeline
+from screenshot import take_screenshot
 
 async def test_pipeline():
     """Test the pipeline functionality"""
     print("\n🧪 Starting Pipeline Test")
     print("=" * 50)
     
-    # Test image path
+    # Test 1: With image path
     image_path = "images/edge_canvas.png"
-    
-    print(f"📸 Testing with image: {image_path}")
+    print(f"📸 Testing with image path: {image_path}")
     
     try:
-        # Run pipeline
+        # Run pipeline with image path
         results = await run_pipeline(image_path, mode="debug")
         
         # Basic validation
@@ -47,6 +47,20 @@ async def test_pipeline():
                 print(f"❌ Test Failed: Visualization file not created: {name} at {path}")
                 return False
         
+        # Test 2: With screenshot
+        print("\n📸 Testing with screenshot")
+        screenshot_path = take_screenshot()
+        if screenshot_path is None:
+            print("❌ Test Failed: Could not take screenshot")
+            return False
+            
+        # Run pipeline with screenshot
+        screenshot_results = await run_pipeline(screenshot_path, mode="debug")
+        
+        if screenshot_results is None:
+            print("❌ Test Failed: Pipeline returned None for screenshot")
+            return False
+            
         # Print success summary
         print("\n✅ Test Passed Successfully!")
         print("=" * 50)
