@@ -1,0 +1,1419 @@
+{
+  "filename_base": "screenshot_20250606_155158",
+  "analysis_timestamp": "2025-06-06T15:52:18.461806",
+  "analysis_duration_seconds": 17.277229,
+  "total_images_analyzed": 7,
+  "total_input_images": 7,
+  "analysis_mode": "direct",
+  "successful_analyses": 5,
+  "total_icons_found": 224,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_40_bboxes.png",
+      "image_name": "combined_groups_0_40_bboxes.png",
+      "icons_found": 40,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "Dropdown Arrow",
+          "usage": "Opens a dropdown menu or list",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "X Icon",
+          "usage": "Close or cancel action",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "3D Cube",
+          "usage": "Represents a 3D view or modeling",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_4",
+          "name": "Selection",
+          "usage": "Opens the selection menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_5",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_6",
+          "name": "Go",
+          "usage": "Opens the go menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_7",
+          "name": "Run",
+          "usage": "Opens the run menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_8",
+          "name": "Terminal",
+          "usage": "Opens the terminal menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_9",
+          "name": "Help",
+          "usage": "Opens the help menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "> eag8",
+          "usage": "Represents a branch or folder named 'eag8'",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "> eag10a",
+          "usage": "Represents a branch or folder named 'eag10a'",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "eag14a",
+          "usage": "Represents a branch or folder named 'eag14a'",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Enumerating objects: 121, done.",
+          "usage": "Status message indicating enumeration process is complete",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "Delta compression using up to 22 threads",
+          "usage": "Status message indicating delta compression",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Total 103 (delta 22), reused 0 (delta 0), pack-reused 0 (from 0)",
+          "usage": "Status message showing compression statistics",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "To https://github.com/deepjyotisaha/eag14a.git",
+          "usage": "Git repository URL",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "Writing objects: 100% (103/103), 37.56 MiB",
+          "usage": "1.69 MiB/s, done.\" |  \"Status message indicating writing objects process is complete",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "agent",
+          "usage": "Represents the selected agent or environment",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Problems",
+          "usage": "Opens the problems panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_2",
+          "name": "Output",
+          "usage": "Opens the output panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_3",
+          "name": "Debug Console",
+          "usage": "Opens the debug console panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_4",
+          "name": "Ports",
+          "usage": "Opens the ports panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_5",
+          "name": "Terminal",
+          "usage": "Opens the terminal panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "_pycache_",
+          "usage": "Represents the '__pycache__' directory, likely a temporary directory for Python bytecode",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "> utils",
+          "usage": "Represents a folder named 'utils'",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Python Icon",
+          "usage": "Represents a python file",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_2",
+          "name": "__init__.py",
+          "usage": "Represents an init python file",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "Python Icon",
+          "usage": "Represents a python file",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "Document Icon",
+          "usage": "Represents a Document",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_2",
+          "name": "Magnifying Glass",
+          "usage": "Represents search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_3",
+          "name": "Fork Icon",
+          "usage": "Represents merge or forking action",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_4",
+          "name": "Grid Icon",
+          "usage": "Represents a grid view",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_5",
+          "name": "Dropdown Arrow",
+          "usage": "Opens a dropdown menu or list",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": "Cloud Icon",
+          "usage": "Represents cloud-related action",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_2",
+          "name": "X and Triangle Icon",
+          "usage": "Represents differences or error",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_3",
+          "name": "Braces Icon",
+          "usage": "Represents code or bracket",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_1",
+          "name": "0",
+          "usage": "A numerical value or setting, possibly a zoom level",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_1",
+          "name": "0",
+          "usage": "A numerical value or setting, possibly a zoom level",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H0_1: \"Dropdown Arrow\" | Usage: \"Opens a dropdown menu or list\"\nH1_1: \"X Icon\" | Usage: \"Close or cancel action\"\nH2_1: \"3D Cube\" | Usage: \"Represents a 3D view or modeling\"\nH2_2: \"File\" | Usage: \"Opens the file menu\"\nH2_3: \"Edit\" | Usage: \"Opens the edit menu\"\nH2_4: \"Selection\" | Usage: \"Opens the selection menu\"\nH2_5: \"View\" | Usage: \"Opens the view menu\"\nH2_6: \"Go\" | Usage: \"Opens the go menu\"\nH2_7: \"Run\" | Usage: \"Opens the run menu\"\nH2_8: \"Terminal\" | Usage: \"Opens the terminal menu\"\nH2_9: \"Help\" | Usage: \"Opens the help menu\"\nH3_1: \"> eag8\" | Usage: \"Represents a branch or folder named 'eag8'\"\nH4_1: \"> eag10a\" | Usage: \"Represents a branch or folder named 'eag10a'\"\nH5_1: \"eag14a\" | Usage: \"Represents a branch or folder named 'eag14a'\"\nH6_1: \"Enumerating objects: 121, done.\" | Usage: \"Status message indicating enumeration process is complete\"\nH7_1: \"Delta compression using up to 22 threads\" | Usage: \"Status message indicating delta compression\"\nH8_1: \"Total 103 (delta 22), reused 0 (delta 0), pack-reused 0 (from 0)\" | Usage: \"Status message showing compression statistics\"\nH9_1: \"To https://github.com/deepjyotisaha/eag14a.git\" | Usage: \"Git repository URL\"\nH10_1: \"Writing objects: 100% (103/103), 37.56 MiB | 1.69 MiB/s, done.\" | Usage: \"Status message indicating writing objects process is complete\"\nH11_1: \"agent\" | Usage: \"Represents the selected agent or environment\"\nH12_1: \"Problems\" | Usage: \"Opens the problems panel\"\nH12_2: \"Output\" | Usage: \"Opens the output panel\"\nH12_3: \"Debug Console\" | Usage: \"Opens the debug console panel\"\nH12_4: \"Ports\" | Usage: \"Opens the ports panel\"\nH12_5: \"Terminal\" | Usage: \"Opens the terminal panel\"\nH13_1: \"_pycache_\" | Usage: \"Represents the '__pycache__' directory, likely a temporary directory for Python bytecode\"\nH14_1: \"> utils\" | Usage: \"Represents a folder named 'utils'\"\nH15_1: \"Python Icon\" | Usage: \"Represents a python file\"\nH15_2: \"__init__.py\" | Usage: \"Represents an init python file\"\nH16_1: \"Python Icon\" | Usage: \"Represents a python file\"\nH17_1: \"Document Icon\" | Usage: \"Represents a Document\"\nH17_2: \"Magnifying Glass\" | Usage: \"Represents search function\"\nH17_3: \"Fork Icon\" | Usage: \"Represents merge or forking action\"\nH17_4: \"Grid Icon\" | Usage: \"Represents a grid view\"\nH17_5: \"Dropdown Arrow\" | Usage: \"Opens a dropdown menu or list\"\nH18_1: \"Cloud Icon\" | Usage: \"Represents cloud-related action\"\nH18_2: \"X and Triangle Icon\" | Usage: \"Represents differences or error\"\nH18_3: \"Braces Icon\" | Usage: \"Represents code or bracket\"\nH19_1: \"0\" | Usage: \"A numerical value or setting, possibly a zoom level\"\nH20_1: \"0\" | Usage: \"A numerical value or setting, possibly a zoom level\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_1_53_bboxes.png",
+      "image_name": "combined_groups_1_53_bboxes.png",
+      "icons_found": 36,
+      "icons": [
+        {
+          "id": "H21_1",
+          "name": "Windows Logo",
+          "usage": "Opens the Windows start menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_2",
+          "name": "Q",
+          "usage": "Opens the search bar",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_3",
+          "name": "Folder Icon",
+          "usage": "Opens file explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_4",
+          "name": "Outlook Icon",
+          "usage": "Opens the Outlook email application",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_5",
+          "name": "Microsoft Edge Icon",
+          "usage": "Opens the Microsoft Edge web browser",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_6",
+          "name": "Teams Icon",
+          "usage": "Opens the Microsoft Teams application",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_7",
+          "name": "Teams Icon",
+          "usage": "Opens the Microsoft Teams application",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_8",
+          "name": "M365 Icon",
+          "usage": "Opens Microsoft 365",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_9",
+          "name": "File Icon",
+          "usage": "Opens file or document application",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_10",
+          "name": "99+",
+          "usage": "Opens the notifications panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_11",
+          "name": "Adobe Icon",
+          "usage": "Opens Adobe application",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_12",
+          "name": "W",
+          "usage": "Opens Microsoft Word",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_1",
+          "name": "Document Icon",
+          "usage": "Opens a document",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_1",
+          "name": "Document with Refresh Icon",
+          "usage": "Refreshes the document",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_2",
+          "name": "Document Icon",
+          "usage": "Opens a document",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_1",
+          "name": "M",
+          "usage": "Opens a markup or annotation application",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_1",
+          "name": "Circle with line through it",
+          "usage": "Disables or mutes something",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_1",
+          "name": "Circle Icon",
+          "usage": "Opens settings application",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_2",
+          "name": "PS",
+          "usage": "Opens Adobe Photoshop",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_1",
+          "name": "uv computer_agent",
+          "usage": "Runs uv computer agent program",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_2",
+          "name": "Python Logo",
+          "usage": "Opens Python",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_3",
+          "name": "mcp_server_windows.py",
+          "usage": "Runs mcp_server_windows.py program",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_1",
+          "name": "remote: Resolving deltas: 100% (22/22), completed with 13 local objects.",
+          "usage": "Terminal output showing remote changes",
+          "group_type": "H"
+        },
+        {
+          "id": "H29_1",
+          "name": "ENHANCED PIPELINE V1.2 SUMMARY (with Seraphine and Gemini):",
+          "usage": "Title of a pipeline summary",
+          "group_type": "H"
+        },
+        {
+          "id": "H30_1",
+          "name": "Perfect ID Traceability: Y/O IDs -> M IDs -> Seraphine Groups -> Gemini Analysis",
+          "usage": "Describes the flow of ID traceability process",
+          "group_type": "H"
+        },
+        {
+          "id": "H31_1",
+          "name": "Floppy Disk Icon",
+          "usage": "Saves the current file or document",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_1",
+          "name": "Image: screenshot_20250606_155121.jpg",
+          "usage": "File path for a screenshot image",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_1",
+          "name": "GEMINI analysis:",
+          "usage": "Title for Gemini analysis",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_2",
+          "name": "✓ 7/7 images analyzed",
+          "usage": "Status of image analysis showing completion",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_1",
+          "name": "OCR detections: 234 (0001-0234)",
+          "usage": "Number of OCR detections found",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_1",
+          "name": "Enhanced JSON: screenshot_20250606_155121_enhanced_v1_06-06.json",
+          "usage": "File path for an enhanced JSON file",
+          "group_type": "H"
+        },
+        {
+          "id": "H36_1",
+          "name": "Visualizations: 6 types created",
+          "usage": "Indicates that 6 types of visualizations have been created",
+          "group_type": "H"
+        },
+        {
+          "id": "H37_1",
+          "name": "Output directory: outputs\\2025\\06\\06\\session_20250606_155048/",
+          "usage": "File path to the output directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H38_1",
+          "name": "9eb7833..d878e70 master -> master",
+          "usage": "Git commit hash range indicating a merge",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_1",
+          "name": "OCR: v1_screenshot_20250606_155121_ocr_result_15-51.jpg",
+          "usage": "File path for OCR result image",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_1",
+          "name": "COMPLETE: v1_screenshot_20250606_155121_complete_result_15-51.jpg",
+          "usage": "File path for a complete result image",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H21_1: \"Windows Logo\" | Usage: \"Opens the Windows start menu\"\nH21_2: \"Q\" | Usage: \"Opens the search bar\"\nH21_3: \"Folder Icon\" | Usage: \"Opens file explorer\"\nH21_4: \"Outlook Icon\" | Usage: \"Opens the Outlook email application\"\nH21_5: \"Microsoft Edge Icon\" | Usage: \"Opens the Microsoft Edge web browser\"\nH21_6: \"Teams Icon\" | Usage: \"Opens the Microsoft Teams application\"\nH21_7: \"Teams Icon\" | Usage: \"Opens the Microsoft Teams application\"\nH21_8: \"M365 Icon\" | Usage: \"Opens Microsoft 365\"\nH21_9: \"File Icon\" | Usage: \"Opens file or document application\"\nH21_10: \"99+\" | Usage: \"Opens the notifications panel\"\nH21_11: \"Adobe Icon\" | Usage: \"Opens Adobe application\"\nH21_12: \"W\" | Usage: \"Opens Microsoft Word\"\nH22_1: \"Document Icon\" | Usage: \"Opens a document\"\nH23_1: \"Document with Refresh Icon\" | Usage: \"Refreshes the document\"\nH23_2: \"Document Icon\" | Usage: \"Opens a document\"\nH24_1: \"M\" | Usage: \"Opens a markup or annotation application\"\nH25_1: \"Circle with line through it\" | Usage: \"Disables or mutes something\"\nH26_1: \"Circle Icon\" | Usage: \"Opens settings application\"\nH26_2: \"PS\" | Usage: \"Opens Adobe Photoshop\"\nH27_1: \"uv computer_agent\" | Usage: \"Runs uv computer agent program\"\nH27_2: \"Python Logo\" | Usage: \"Opens Python\"\nH27_3: \"mcp_server_windows.py\" | Usage: \"Runs mcp_server_windows.py program\"\nH28_1: \"remote: Resolving deltas: 100% (22/22), completed with 13 local objects.\" | Usage: \"Terminal output showing remote changes\"\nH29_1: \"ENHANCED PIPELINE V1.2 SUMMARY (with Seraphine and Gemini):\" | Usage: \"Title of a pipeline summary\"\nH30_1: \"Perfect ID Traceability: Y/O IDs -> M IDs -> Seraphine Groups -> Gemini Analysis\" | Usage: \"Describes the flow of ID traceability process\"\nH31_1: \"Floppy Disk Icon\" | Usage: \"Saves the current file or document\"\nH32_1: \"Image: screenshot_20250606_155121.jpg\" | Usage: \"File path for a screenshot image\"\nH33_1: \"GEMINI analysis:\" | Usage: \"Title for Gemini analysis\"\nH33_2: \"✓ 7/7 images analyzed\" | Usage: \"Status of image analysis showing completion\"\nH34_1: \"OCR detections: 234 (0001-0234)\" | Usage: \"Number of OCR detections found\"\nH35_1: \"Enhanced JSON: screenshot_20250606_155121_enhanced_v1_06-06.json\" | Usage: \"File path for an enhanced JSON file\"\nH36_1: \"Visualizations: 6 types created\" | Usage: \"Indicates that 6 types of visualizations have been created\"\nH37_1: \"Output directory: outputs\\2025\\06\\06\\session_20250606_155048/\" | Usage: \"File path to the output directory\"\nH38_1: \"9eb7833..d878e70 master -> master\" | Usage: \"Git commit hash range indicating a merge\"\nH39_1: \"OCR: v1_screenshot_20250606_155121_ocr_result_15-51.jpg\" | Usage: \"File path for OCR result image\"\nH40_1: \"COMPLETE: v1_screenshot_20250606_155121_complete_result_15-51.jpg\" | Usage: \"File path for a complete result image\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_2_55_bboxes.png",
+      "image_name": "combined_groups_2_55_bboxes.png",
+      "icons_found": 54,
+      "icons": [
+        {
+          "id": "H41_1",
+          "name": "SERAPHINE_GROUPS: v1_screenshot_20250606_155121_seraphine_groups_15-51.jpg",
+          "usage": "File path or name for Seraphine groups screenshot",
+          "group_type": "H"
+        },
+        {
+          "id": "H42_1",
+          "name": "GEMINI_ANALYSIS: v1_screenshot_20250606_155121_gemini_analysis_15-51.jpg",
+          "usage": "File path or name for Gemini analysis screenshot",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_1",
+          "name": "Perfect",
+          "usage": "Indicates a perfect match or successful condition",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_2",
+          "name": "ID",
+          "usage": "Label for ID or Identification",
+          "group_type": "H"
+        },
+        {
+          "id": "H44_1",
+          "name": "Eye Icon",
+          "usage": "Toggles visibility of an object or layer",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_1",
+          "name": "Eye Icon",
+          "usage": "Toggles visibility of an object or layer",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_1",
+          "name": "Minus Icon",
+          "usage": "Subtract or remove an element",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_2",
+          "name": "Zero Icon",
+          "usage": "Represents a zero value",
+          "group_type": "H"
+        },
+        {
+          "id": "H47_1",
+          "name": "Slash Icon",
+          "usage": "Represents division or cancellation",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_1",
+          "name": "Vertical: 33",
+          "usage": "Text showing the vertical position or value",
+          "group_type": "H"
+        },
+        {
+          "id": "H49_1",
+          "name": "Perfect m_id -> seraphine_group mapping",
+          "usage": "Text indicating a successful mapping between m_id and seraphine groups",
+          "group_type": "H"
+        },
+        {
+          "id": "H50_1",
+          "name": "Complete pipeline with seraphine group tracking and Gemini analysis",
+          "usage": "Text describing a complete pipeline for tracking and analysis",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_1",
+          "name": "Seraphine: 1 intelligent group images",
+          "usage": "Text indicating that Seraphine has intelligent group images",
+          "group_type": "H"
+        },
+        {
+          "id": "H52_1",
+          "name": "Profile Icon",
+          "usage": "Represents a user profile or account",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_1",
+          "name": "Y/O",
+          "usage": "Potentially an abbreviation or label for Y/O parameters",
+          "group_type": "H"
+        },
+        {
+          "id": "H54_1",
+          "name": "(with",
+          "usage": "Text used to indicate inclusion of the following element",
+          "group_type": "H"
+        },
+        {
+          "id": "H55_1",
+          "name": "M",
+          "usage": "A variable or parameter labeled M",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_1",
+          "name": "tracking",
+          "usage": "Indicates that tracking is enabled or being done",
+          "group_type": "H"
+        },
+        {
+          "id": "H57_1",
+          "name": "Equals signs",
+          "usage": "Divider or visual separation",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_1",
+          "name": "computer_agent.py",
+          "usage": "File name of a computer agent script",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_1",
+          "name": "Equals signs",
+          "usage": "Divider or visual separation",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_1",
+          "name": "Zero with parenthesis",
+          "usage": "Represents zero as an option or value",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_1",
+          "name": "Ctrl+K to generate a command",
+          "usage": "Keyboard shortcut Ctrl+K to generate commands",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_1",
+          "name": "analysis",
+          "usage": "Text indicating an analysis process",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_1",
+          "name": "Ctrl+K to generate a con",
+          "usage": "Keyboard shortcut Ctrl+K to generate a connection",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_1",
+          "name": "loop.py",
+          "usage": "File name of a loop script",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_2",
+          "name": "test_agent.py",
+          "usage": "File name of a test agent script",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_3",
+          "name": "mode_manager.py",
+          "usage": "File name of a mode manager script",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_4",
+          "name": "perception.py",
+          "usage": "File name of a perception script",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_5",
+          "name": "Plus Sign",
+          "usage": "Add or create a new item",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_6",
+          "name": "Square icon",
+          "usage": "Represents a file or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_7",
+          "name": "Ellipsis icon",
+          "usage": "Shows additional options or settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H65_1",
+          "name": "uv - eagv1 - Cursor",
+          "usage": "Label for UV editing tool, Eagv1 workspace and cursor selection",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_1",
+          "name": "jpg",
+          "usage": "File type of JPG image",
+          "group_type": "H"
+        },
+        {
+          "id": "H67_1",
+          "name": "File Icon",
+          "usage": "Generic icon representing a file",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_1",
+          "name": "jpg",
+          "usage": "File type of JPG image",
+          "group_type": "H"
+        },
+        {
+          "id": "H69_1",
+          "name": "Files Icon",
+          "usage": "A collection of files",
+          "group_type": "H"
+        },
+        {
+          "id": "H70_1",
+          "name": "Arrow up and down",
+          "usage": "Expand or collapse an options menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H70_2",
+          "name": "Ellipsis icon",
+          "usage": "Shows additional options or settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H70_3",
+          "name": "Arrow Up",
+          "usage": "Move item up in order",
+          "group_type": "H"
+        },
+        {
+          "id": "H70_4",
+          "name": "Cross Icon",
+          "usage": "Close or delete",
+          "group_type": "H"
+        },
+        {
+          "id": "H71_1",
+          "name": "Window icon",
+          "usage": "Restore a minimized window",
+          "group_type": "H"
+        },
+        {
+          "id": "H72_1",
+          "name": "2. Now, let's create the summary module:",
+          "usage": "Text guiding the user to create a summary module",
+          "group_type": "H"
+        },
+        {
+          "id": "H73_1",
+          "name": "Ask ^",
+          "usage": "Drop down or search bar labeled ask",
+          "group_type": "H"
+        },
+        {
+          "id": "H74_1",
+          "name": "from typing import Dict, Any, Optional",
+          "usage": "Python typing import statement for a dictionary",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_1",
+          "name": "import ModelMan",
+          "usage": "Python import statement for the ModelMan module",
+          "group_type": "H"
+        },
+        {
+          "id": "H76_1",
+          "name": "from config.log_config import setup_logging, lo",
+          "usage": "Python import statement for setup_logging config",
+          "group_type": "H"
+        },
+        {
+          "id": "H77_1",
+          "name": "logger = setup_logging(_name__)",
+          "usage": "Python setting up a logger",
+          "group_type": "H"
+        },
+        {
+          "id": "H78_1",
+          "name": "# agent/core/summo",
+          "usage": "File path comment or directory structure",
+          "group_type": "H"
+        },
+        {
+          "id": "H78_2",
+          "name": "mary.py",
+          "usage": "File name of mary script",
+          "group_type": "H"
+        },
+        {
+          "id": "H79_1",
+          "name": "Plus Icon",
+          "usage": "Add or create a new item",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_1",
+          "name": "from",
+          "usage": "Python from keyword, beginning of an import statement",
+          "group_type": "H"
+        },
+        {
+          "id": "H81_1",
+          "name": "python",
+          "usage": "File type of Python Script",
+          "group_type": "H"
+        },
+        {
+          "id": "H82_1",
+          "name": "Arrow up",
+          "usage": "Move item up in order",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H41_1: \"SERAPHINE_GROUPS: v1_screenshot_20250606_155121_seraphine_groups_15-51.jpg\" | Usage: \"File path or name for Seraphine groups screenshot\"\nH42_1: \"GEMINI_ANALYSIS: v1_screenshot_20250606_155121_gemini_analysis_15-51.jpg\" | Usage: \"File path or name for Gemini analysis screenshot\"\nH43_1: \"Perfect\" | Usage: \"Indicates a perfect match or successful condition\"\nH43_2: \"ID\" | Usage: \"Label for ID or Identification\"\nH44_1: \"Eye Icon\" | Usage: \"Toggles visibility of an object or layer\"\nH45_1: \"Eye Icon\" | Usage: \"Toggles visibility of an object or layer\"\nH46_1: \"Minus Icon\" | Usage: \"Subtract or remove an element\"\nH46_2: \"Zero Icon\" | Usage: \"Represents a zero value\"\nH47_1: \"Slash Icon\" | Usage: \"Represents division or cancellation\"\nH48_1: \"Vertical: 33\" | Usage: \"Text showing the vertical position or value\"\nH49_1: \"Perfect m_id -> seraphine_group mapping\" | Usage: \"Text indicating a successful mapping between m_id and seraphine groups\"\nH50_1: \"Complete pipeline with seraphine group tracking and Gemini analysis\" | Usage: \"Text describing a complete pipeline for tracking and analysis\"\nH51_1: \"Seraphine: 1 intelligent group images\" | Usage: \"Text indicating that Seraphine has intelligent group images\"\nH52_1: \"Profile Icon\" | Usage: \"Represents a user profile or account\"\nH53_1: \"Y/O\" | Usage: \"Potentially an abbreviation or label for Y/O parameters\"\nH54_1: \"(with\" | Usage: \"Text used to indicate inclusion of the following element\"\nH55_1: \"M\" | Usage: \"A variable or parameter labeled M\"\nH56_1: \"tracking\" | Usage: \"Indicates that tracking is enabled or being done\"\nH57_1: \"Equals signs\" | Usage: \"Divider or visual separation\"\nH58_1: \"computer_agent.py\" | Usage: \"File name of a computer agent script\"\nH59_1: \"Equals signs\" | Usage: \"Divider or visual separation\"\nH60_1: \"Zero with parenthesis\" | Usage: \"Represents zero as an option or value\"\nH61_1: \"Ctrl+K to generate a command\" | Usage: \"Keyboard shortcut Ctrl+K to generate commands\"\nH62_1: \"analysis\" | Usage: \"Text indicating an analysis process\"\nH63_1: \"Ctrl+K to generate a con\" | Usage: \"Keyboard shortcut Ctrl+K to generate a connection\"\nH64_1: \"loop.py\" | Usage: \"File name of a loop script\"\nH64_2: \"test_agent.py\" | Usage: \"File name of a test agent script\"\nH64_3: \"mode_manager.py\" | Usage: \"File name of a mode manager script\"\nH64_4: \"perception.py\" | Usage: \"File name of a perception script\"\nH64_5: \"Plus Sign\" | Usage: \"Add or create a new item\"\nH64_6: \"Square icon\" | Usage: \"Represents a file or object\"\nH64_7: \"Ellipsis icon\" | Usage: \"Shows additional options or settings\"\nH65_1: \"uv - eagv1 - Cursor\" | Usage: \"Label for UV editing tool, Eagv1 workspace and cursor selection\"\nH66_1: \"jpg\" | Usage: \"File type of JPG image\"\nH67_1: \"File Icon\" | Usage: \"Generic icon representing a file\"\nH68_1: \"jpg\" | Usage: \"File type of JPG image\"\nH69_1: \"Files Icon\" | Usage: \"A collection of files\"\nH70_1: \"Arrow up and down\" | Usage: \"Expand or collapse an options menu\"\nH70_2: \"Ellipsis icon\" | Usage: \"Shows additional options or settings\"\nH70_3: \"Arrow Up\" | Usage: \"Move item up in order\"\nH70_4: \"Cross Icon\" | Usage: \"Close or delete\"\nH71_1: \"Window icon\" | Usage: \"Restore a minimized window\"\nH72_1: \"2. Now, let's create the summary module:\" | Usage: \"Text guiding the user to create a summary module\"\nH73_1: \"Ask ^\" | Usage: \"Drop down or search bar labeled ask\"\nH74_1: \"from typing import Dict, Any, Optional\" | Usage: \"Python typing import statement for a dictionary\"\nH75_1: \"import ModelMan\" | Usage: \"Python import statement for the ModelMan module\"\nH76_1: \"from config.log_config import setup_logging, lo\" | Usage: \"Python import statement for setup_logging config\"\nH77_1: \"logger = setup_logging(_name__)\" | Usage: \"Python setting up a logger\"\nH78_1: \"# agent/core/summo\" | Usage: \"File path comment or directory structure\"\nH78_2: \"mary.py\" | Usage: \"File name of mary script\"\nH79_1: \"Plus Icon\" | Usage: \"Add or create a new item\"\nH80_1: \"from\" | Usage: \"Python from keyword, beginning of an import statement\"\nH81_1: \"python\" | Usage: \"File type of Python Script\"\nH82_1: \"Arrow up\" | Usage: \"Move item up in order\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_3_54_bboxes.png",
+      "image_name": "combined_groups_3_54_bboxes.png",
+      "icons_found": 54,
+      "icons": [
+        {
+          "id": "H83_1",
+          "name": "Arrow",
+          "usage": "Likely an 'up' arrow used for navigation or expansion",
+          "group_type": "H"
+        },
+        {
+          "id": "H83_2",
+          "name": "ENG IN",
+          "usage": "Language input selection",
+          "group_type": "H"
+        },
+        {
+          "id": "H83_3",
+          "name": "Speaker with X icon",
+          "usage": "Mute/unmute audio",
+          "group_type": "H"
+        },
+        {
+          "id": "H83_4",
+          "name": "3:51 PM 6/6/2025",
+          "usage": "Timestamp of screenshot",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_1",
+          "name": "def",
+          "usage": "Python keyword defining a function",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_2",
+          "name": "_init_(self, model_manager: ModelMana",
+          "usage": "Python init function with model manager",
+          "group_type": "H"
+        },
+        {
+          "id": "H85_1",
+          "name": "async",
+          "usage": "Python keyword for asynchronous function",
+          "group_type": "H"
+        },
+        {
+          "id": "H86_1",
+          "name": "Initialize the summary module",
+          "usage": "Description of a function's purpose",
+          "group_type": "H"
+        },
+        {
+          "id": "H87_1",
+          "name": "Args:",
+          "usage": "Arguments label in code",
+          "group_type": "H"
+        },
+        {
+          "id": "H88_1",
+          "name": "self.model = model_manager",
+          "usage": "Python code assigning model manager to self.model",
+          "group_type": "H"
+        },
+        {
+          "id": "H89_1",
+          "name": "if not Path(self.prompt_path).exists():",
+          "usage": "Conditional statement in python to check path existence",
+          "group_type": "H"
+        },
+        {
+          "id": "H90_1",
+          "name": "Args:",
+          "usage": "Arguments label in code",
+          "group_type": "H"
+        },
+        {
+          "id": "H91_1",
+          "name": "Grid Icon",
+          "usage": "Represents multiple items in grid view",
+          "group_type": "H"
+        },
+        {
+          "id": "H92_1",
+          "name": "if",
+          "usage": "Python keyword if statement",
+          "group_type": "H"
+        },
+        {
+          "id": "H92_2",
+          "name": "not",
+          "usage": "Python keyword for negation",
+          "group_type": "H"
+        },
+        {
+          "id": "H92_3",
+          "name": "Path(self",
+          "usage": "Path method in python",
+          "group_type": "H"
+        },
+        {
+          "id": "H92_4",
+          "name": "prompt_path)",
+          "usage": "Variable name containing prompt path",
+          "group_type": "H"
+        },
+        {
+          "id": "H93_1",
+          "name": "Cloud Icon",
+          "usage": "Cloud storage or service",
+          "group_type": "H"
+        },
+        {
+          "id": "H93_2",
+          "name": "Document Icon",
+          "usage": "Shows a list of document files",
+          "group_type": "H"
+        },
+        {
+          "id": "H94_1",
+          "name": "latest_perception: Latest perceptio",
+          "usage": "Label and variable name in code",
+          "group_type": "H"
+        },
+        {
+          "id": "H95_1",
+          "name": "dict: Final plan with summary",
+          "usage": "Dictionary containing plan summary",
+          "group_type": "H"
+        },
+        {
+          "id": "H96_1",
+          "name": "with open(self.prompt_path, 'r', en",
+          "usage": "Python code for opening prompt path in read only mode",
+          "group_type": "H"
+        },
+        {
+          "id": "H97_1",
+          "name": "Document Icon",
+          "usage": "Represents document or file",
+          "group_type": "H"
+        },
+        {
+          "id": "H97_2",
+          "name": "File Icon",
+          "usage": "Represents a data or setting file",
+          "group_type": "H"
+        },
+        {
+          "id": "H97_3",
+          "name": "Monitor Icon",
+          "usage": "Shows display on a desktop screen",
+          "group_type": "H"
+        },
+        {
+          "id": "H97_4",
+          "name": "Settings Cog",
+          "usage": "Opens application settings panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H97_5",
+          "name": "Minus Sign",
+          "usage": "Represents minimizing or reducing an item",
+          "group_type": "H"
+        },
+        {
+          "id": "H97_6",
+          "name": "Save Icon",
+          "usage": "Represents Save action",
+          "group_type": "H"
+        },
+        {
+          "id": "H97_7",
+          "name": "X Icon",
+          "usage": "Represents closing or cancelling action",
+          "group_type": "H"
+        },
+        {
+          "id": "H98_1",
+          "name": "Start a new chat for better result",
+          "usage": "Button starting a new chat session",
+          "group_type": "H"
+        },
+        {
+          "id": "H98_2",
+          "name": "New Chat",
+          "usage": "Button for initiating a new chat",
+          "group_type": "H"
+        },
+        {
+          "id": "H99_1",
+          "name": "Arrow Icon",
+          "usage": "Represents navigation or selection",
+          "group_type": "H"
+        },
+        {
+          "id": "H99_2",
+          "name": "Temp Icon",
+          "usage": "Shows status about temporary file",
+          "group_type": "H"
+        },
+        {
+          "id": "H99_3",
+          "name": "Template Icon",
+          "usage": "Shows status about template file",
+          "group_type": "H"
+        },
+        {
+          "id": "H99_4",
+          "name": "= f read()",
+          "usage": "Function call to read a file",
+          "group_type": "H"
+        },
+        {
+          "id": "H100_1",
+          "name": "ModelManager",
+          "usage": "Class name ModelManager in code",
+          "group_type": "H"
+        },
+        {
+          "id": "H101_1",
+          "name": "operations",
+          "usage": "Label indicating available actions",
+          "group_type": "H"
+        },
+        {
+          "id": "H102_1",
+          "name": "Wifi Icon",
+          "usage": "Indicates WiFi connection status",
+          "group_type": "H"
+        },
+        {
+          "id": "H102_2",
+          "name": "Speaker with X icon",
+          "usage": "Mute/Unmute audio",
+          "group_type": "H"
+        },
+        {
+          "id": "H103_1",
+          "name": "Cursor Tab",
+          "usage": "Activate tab with cursor",
+          "group_type": "H"
+        },
+        {
+          "id": "H103_2",
+          "name": "Bell with plus sign",
+          "usage": "Add a notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H104_1",
+          "name": "Plus Sign",
+          "usage": "Represents adding a new item",
+          "group_type": "H"
+        },
+        {
+          "id": "H104_2",
+          "name": "Clock Icon",
+          "usage": "Represents time-related action or history",
+          "group_type": "H"
+        },
+        {
+          "id": "H104_3",
+          "name": "Three Dots",
+          "usage": "Shows additional options",
+          "group_type": "H"
+        },
+        {
+          "id": "H105_1",
+          "name": "ModelMan",
+          "usage": "Short form for Model Manager",
+          "group_type": "H"
+        },
+        {
+          "id": "H106_1",
+          "name": "▷ Apply",
+          "usage": "Button to apply an action",
+          "group_type": "H"
+        },
+        {
+          "id": "H107_1",
+          "name": "▷ Apply",
+          "usage": "Button to apply an action",
+          "group_type": "H"
+        },
+        {
+          "id": "H108_1",
+          "name": "Image Icon",
+          "usage": "Open an image file",
+          "group_type": "H"
+        },
+        {
+          "id": "H109_1",
+          "name": "en",
+          "usage": "Language setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H110_1",
+          "name": "pr",
+          "usage": "Another language setting, possibly for Portuguese",
+          "group_type": "H"
+        },
+        {
+          "id": "HL0_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a>",
+          "usage": "File system path to a project directory",
+          "group_type": "H"
+        },
+        {
+          "id": "HL1_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a> git push origin master",
+          "usage": "Command line input with git command",
+          "group_type": "H"
+        },
+        {
+          "id": "HL2_1",
+          "name": "create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_yolo_result_15-51.jpg",
+          "usage": "File creation message with timestamp",
+          "group_type": "H"
+        },
+        {
+          "id": "HL3_1",
+          "name": "create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_seraphine_groups_15-51.jpg",
+          "usage": "File creation message for seraphine groups output",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H83_1: \"Arrow\" | Usage: \"Likely an 'up' arrow used for navigation or expansion\"\nH83_2: \"ENG IN\" | Usage: \"Language input selection\"\nH83_3: \"Speaker with X icon\" | Usage: \"Mute/unmute audio\"\nH83_4: \"3:51 PM 6/6/2025\" | Usage: \"Timestamp of screenshot\"\nH84_1: \"def\" | Usage: \"Python keyword defining a function\"\nH84_2: \"_init_(self, model_manager: ModelMana\" | Usage: \"Python init function with model manager\"\nH85_1: \"async\" | Usage: \"Python keyword for asynchronous function\"\nH86_1: \"Initialize the summary module\" | Usage: \"Description of a function's purpose\"\nH87_1: \"Args:\" | Usage: \"Arguments label in code\"\nH88_1: \"self.model = model_manager\" | Usage: \"Python code assigning model manager to self.model\"\nH89_1: \"if not Path(self.prompt_path).exists():\" | Usage: \"Conditional statement in python to check path existence\"\nH90_1: \"Args:\" | Usage: \"Arguments label in code\"\nH91_1: \"Grid Icon\" | Usage: \"Represents multiple items in grid view\"\nH92_1: \"if\" | Usage: \"Python keyword if statement\"\nH92_2: \"not\" | Usage: \"Python keyword for negation\"\nH92_3: \"Path(self\" | Usage: \"Path method in python\"\nH92_4: \"prompt_path)\" | Usage: \"Variable name containing prompt path\"\nH93_1: \"Cloud Icon\" | Usage: \"Cloud storage or service\"\nH93_2: \"Document Icon\" | Usage: \"Shows a list of document files\"\nH94_1: \"latest_perception: Latest perceptio\" | Usage: \"Label and variable name in code\"\nH95_1: \"dict: Final plan with summary\" | Usage: \"Dictionary containing plan summary\"\nH96_1: \"with open(self.prompt_path, 'r', en\" | Usage: \"Python code for opening prompt path in read only mode\"\nH97_1: \"Document Icon\" | Usage: \"Represents document or file\"\nH97_2: \"File Icon\" | Usage: \"Represents a data or setting file\"\nH97_3: \"Monitor Icon\" | Usage: \"Shows display on a desktop screen\"\nH97_4: \"Settings Cog\" | Usage: \"Opens application settings panel\"\nH97_5: \"Minus Sign\" | Usage: \"Represents minimizing or reducing an item\"\nH97_6: \"Save Icon\" | Usage: \"Represents Save action\"\nH97_7: \"X Icon\" | Usage: \"Represents closing or cancelling action\"\nH98_1: \"Start a new chat for better result\" | Usage: \"Button starting a new chat session\"\nH98_2: \"New Chat\" | Usage: \"Button for initiating a new chat\"\nH99_1: \"Arrow Icon\" | Usage: \"Represents navigation or selection\"\nH99_2: \"Temp Icon\" | Usage: \"Shows status about temporary file\"\nH99_3: \"Template Icon\" | Usage: \"Shows status about template file\"\nH99_4: \"= f read()\" | Usage: \"Function call to read a file\"\nH100_1: \"ModelManager\" | Usage: \"Class name ModelManager in code\"\nH101_1: \"operations\" | Usage: \"Label indicating available actions\"\nH102_1: \"Wifi Icon\" | Usage: \"Indicates WiFi connection status\"\nH102_2: \"Speaker with X icon\" | Usage: \"Mute/Unmute audio\"\nH103_1: \"Cursor Tab\" | Usage: \"Activate tab with cursor\"\nH103_2: \"Bell with plus sign\" | Usage: \"Add a notification\"\nH104_1: \"Plus Sign\" | Usage: \"Represents adding a new item\"\nH104_2: \"Clock Icon\" | Usage: \"Represents time-related action or history\"\nH104_3: \"Three Dots\" | Usage: \"Shows additional options\"\nH105_1: \"ModelMan\" | Usage: \"Short form for Model Manager\"\nH106_1: \"▷ Apply\" | Usage: \"Button to apply an action\"\nH107_1: \"▷ Apply\" | Usage: \"Button to apply an action\"\nH108_1: \"Image Icon\" | Usage: \"Open an image file\"\nH109_1: \"en\" | Usage: \"Language setting\"\nH110_1: \"pr\" | Usage: \"Another language setting, possibly for Portuguese\"\nHL0_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a>\" | Usage: \"File system path to a project directory\"\nHL1_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a> git push origin master\" | Usage: \"Command line input with git command\"\nHL2_1: \"create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_yolo_result_15-51.jpg\" | Usage: \"File creation message with timestamp\"\nHL3_1: \"create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_seraphine_groups_15-51.jpg\" | Usage: \"File creation message for seraphine groups output\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_4_41_bboxes.png",
+      "image_name": "combined_groups_4_41_bboxes.png",
+      "icons_found": 40,
+      "icons": [
+        {
+          "id": "HL4_1",
+          "name": "create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_ocr_result_15-51.jpg",
+          "usage": "Text box showing the path and name of OCR result image",
+          "group_type": "H"
+        },
+        {
+          "id": "HL5_1",
+          "name": "create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_merged_result_15-51.jpg",
+          "usage": "Text box showing the path and name of merged result image",
+          "group_type": "H"
+        },
+        {
+          "id": "HL6_1",
+          "name": "create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_gemini_analysis_15-51.jpg",
+          "usage": "Text box showing the path and name of Gemini analysis image",
+          "group_type": "H"
+        },
+        {
+          "id": "HL7_1",
+          "name": "create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_complete_result_15-51.jpg",
+          "usage": "Text box showing the path and name of complete result image",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "YOLO: v1_screenshot_20250606_155121_yolo_result_15-51.jpg",
+          "usage": "Displays the YOLO detection results image",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_2",
+          "name": "MERGED: v1_screenshot_20250606_155121_merged",
+          "usage": "Displays the merged detection results image",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "Refresh Icon",
+          "usage": "Refreshes the current view or data",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_2",
+          "name": "Brown Circle",
+          "usage": "Represents a detected object or point",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_3",
+          "name": "Brown Circle",
+          "usage": "Represents a detected object or point",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_4",
+          "name": "Brown Circle",
+          "usage": "Represents a detected object or point",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_5",
+          "name": "Teal Circle",
+          "usage": "Represents a detected object or point",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_6",
+          "name": "Brown Circle",
+          "usage": "Represents a detected object or point",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_7",
+          "name": "Brown Circle",
+          "usage": "Represents a detected object or point",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_1",
+          "name": "EAGV1",
+          "usage": "Represents a specific Eag model version",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_2",
+          "name": "eag9",
+          "usage": "Represents a specific Eag model version",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_3",
+          "name": "> eag10",
+          "usage": "Represents a specific Eag model version",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_4",
+          "name": "> eag12",
+          "usage": "Represents a specific Eag model version",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_1",
+          "name": "python",
+          "usage": "Runs a Python script",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_2",
+          "name": "import os",
+          "usage": "Imports the OS module",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_1",
+          "name": "import json",
+          "usage": "Imports the JSON module",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_1",
+          "name": "File Icon",
+          "usage": "Opens a file",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_2",
+          "name": "Camera Icon",
+          "usage": "Opens the camera",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_3",
+          "name": "File Icon",
+          "usage": "Opens a specific file type",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_4",
+          "name": "Chain Link Icon",
+          "usage": "Creates a link or connection",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_5",
+          "name": "Brain Icon",
+          "usage": "Represents AI processing",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_1",
+          "name": "computer_agent",
+          "usage": "Shows the current computer agent",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_2",
+          "name": "__pycache_",
+          "usage": "Shows the pycache folder location",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_1",
+          "name": "from pathlib import Path",
+          "usage": "Imports the Path module",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_2",
+          "name": "from datetime import datetime",
+          "usage": "Imports the datetime module",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_3",
+          "name": "from agent.models.model_manager",
+          "usage": "Imports the model manager",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_1",
+          "name": "YOLO detections: 212 (Y001-Y212)",
+          "usage": "Displays the number of YOLO detections",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_2",
+          "name": "MERGED detections: 301 (M001-M301)",
+          "usage": "Displays the number of merged detections",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_3",
+          "name": "SERAPHINE groups: 161 in",
+          "usage": "Shows the number of Seraphine groups",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_1",
+          "name": ">",
+          "usage": "Navigates up in the directory structure",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_2",
+          "name": ">.venv",
+          "usage": "Shows the .venv folder",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_3",
+          "name": ">",
+          "usage": "Navigates up in the directory structure",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_1",
+          "name": "Horizontal: 128",
+          "usage": "Sets the horizontal resolution",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_2",
+          "name": "Long boxes: 3",
+          "usage": "Sets the number of long boxes",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_1",
+          "name": "> config",
+          "usage": "Opens the config folder",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_2",
+          "name": "✓ core",
+          "usage": "Opens the core folder",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "HL4_1: \"create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_ocr_result_15-51.jpg\" | Usage: \"Text box showing the path and name of OCR result image\"\nHL5_1: \"create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_merged_result_15-51.jpg\" | Usage: \"Text box showing the path and name of merged result image\"\nHL6_1: \"create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_gemini_analysis_15-51.jpg\" | Usage: \"Text box showing the path and name of Gemini analysis image\"\nHL7_1: \"create mode 100644 computer_agent/outputs/2025/06/06/session_20250606_155048/v1_screenshot_20250606_155048_complete_result_15-51.jpg\" | Usage: \"Text box showing the path and name of complete result image\"\nV0_1: \"YOLO: v1_screenshot_20250606_155121_yolo_result_15-51.jpg\" | Usage: \"Displays the YOLO detection results image\"\nV0_2: \"MERGED: v1_screenshot_20250606_155121_merged\" | Usage: \"Displays the merged detection results image\"\nV1_1: \"Refresh Icon\" | Usage: \"Refreshes the current view or data\"\nV1_2: \"Brown Circle\" | Usage: \"Represents a detected object or point\"\nV1_3: \"Brown Circle\" | Usage: \"Represents a detected object or point\"\nV1_4: \"Brown Circle\" | Usage: \"Represents a detected object or point\"\nV1_5: \"Teal Circle\" | Usage: \"Represents a detected object or point\"\nV1_6: \"Brown Circle\" | Usage: \"Represents a detected object or point\"\nV1_7: \"Brown Circle\" | Usage: \"Represents a detected object or point\"\nV2_1: \"EAGV1\" | Usage: \"Represents a specific Eag model version\"\nV2_2: \"eag9\" | Usage: \"Represents a specific Eag model version\"\nV2_3: \"> eag10\" | Usage: \"Represents a specific Eag model version\"\nV2_4: \"> eag12\" | Usage: \"Represents a specific Eag model version\"\nV3_1: \"python\" | Usage: \"Runs a Python script\"\nV3_2: \"import os\" | Usage: \"Imports the OS module\"\nV4_1: \"import json\" | Usage: \"Imports the JSON module\"\nV5_1: \"File Icon\" | Usage: \"Opens a file\"\nV5_2: \"Camera Icon\" | Usage: \"Opens the camera\"\nV5_3: \"File Icon\" | Usage: \"Opens a specific file type\"\nV5_4: \"Chain Link Icon\" | Usage: \"Creates a link or connection\"\nV5_5: \"Brain Icon\" | Usage: \"Represents AI processing\"\nV6_1: \"computer_agent\" | Usage: \"Shows the current computer agent\"\nV6_2: \"__pycache_\" | Usage: \"Shows the pycache folder location\"\nV7_1: \"from pathlib import Path\" | Usage: \"Imports the Path module\"\nV7_2: \"from datetime import datetime\" | Usage: \"Imports the datetime module\"\nV7_3: \"from agent.models.model_manager\" | Usage: \"Imports the model manager\"\nV8_1: \"YOLO detections: 212 (Y001-Y212)\" | Usage: \"Displays the number of YOLO detections\"\nV8_2: \"MERGED detections: 301 (M001-M301)\" | Usage: \"Displays the number of merged detections\"\nV8_3: \"SERAPHINE groups: 161 in\" | Usage: \"Shows the number of Seraphine groups\"\nV9_1: \">\" | Usage: \"Navigates up in the directory structure\"\nV9_2: \">.venv\" | Usage: \"Shows the .venv folder\"\nV9_3: \">\" | Usage: \"Navigates up in the directory structure\"\nV10_1: \"Horizontal: 128\" | Usage: \"Sets the horizontal resolution\"\nV10_2: \"Long boxes: 3\" | Usage: \"Sets the number of long boxes\"\nV11_1: \"> config\" | Usage: \"Opens the config folder\"\nV11_2: \"✓ core\" | Usage: \"Opens the core folder\"",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_5_53_bboxes.png",
+      "image_name": "combined_groups_5_53_bboxes.png",
+      "icons_found": 0,
+      "icons": [],
+      "raw_response": null,
+      "analysis_success": false,
+      "error": "Failed to get response from Gemini"
+    },
+    {
+      "image_path": "direct:combined_groups_6_17_bboxes.png",
+      "image_name": "combined_groups_6_17_bboxes.png",
+      "icons_found": 0,
+      "icons": [],
+      "raw_response": null,
+      "analysis_success": false,
+      "error": "Failed to get response from Gemini"
+    }
+  ]
+}

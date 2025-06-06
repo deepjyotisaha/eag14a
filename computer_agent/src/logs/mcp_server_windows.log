@@ -37,3 +37,16 @@
 2025-06-06 15:48:16,479 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
 2025-06-06 15:48:16,480 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:48:16 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
 2025-06-06 15:50:48,314 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 15:51:20,232 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:51:20 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 15:51:21,785 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 15:51:21,785 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 15:51:21,785 - INFO - mcp_server_windows:_execute_system_command:351 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-06 15:51:21,886 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-06 15:51:21,887 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:51:21 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 15:51:57,258 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:51:57 +0530] "GET /tools HTTP/1.1" 200 3032 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 15:51:58,545 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
+2025-06-06 15:51:58,546 - INFO - mcp_server_windows:_execute_command:202 - Executing _execute_command: type {'text': 'Hello World'}
+2025-06-06 15:51:58,546 - INFO - mcp_server_windows:_execute_keyboard_command:339 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
+2025-06-06 15:51:58,546 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
+2025-06-06 15:51:58,547 - INFO - web_log:log:214 - ::1 [06/Jun/2025:15:51:58 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-06 15:54:53,161 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected

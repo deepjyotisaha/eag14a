@@ -14,6 +14,7 @@ from utils.output_manager import get_output_folder
 from config.log_config import setup_logging, logger_json_block
 from agent.core.perception import Perception
 from agent.core.decision import Decision
+from agent.core.summary import Summary
 
 # Set up logging
 logger = setup_logging(__name__)
@@ -32,6 +33,7 @@ class ComputerAgentLoop:
         self.model_manager = model_manager
         self.perception = Perception(model_manager)
         self.decision = Decision(model_manager, multi_mcp)
+        self.summary = Summary(model_manager)
         self.max_steps = 10  # Maximum number of steps per session
         self.max_retries = 3  # Maximum retries per step
         
@@ -85,18 +87,10 @@ class ComputerAgentLoop:
                 )
                 ctx.mark_step_completed(perception_step.id, perception)
                 
-                # Check if we should exit
+                # When perception suggests summarization
                 if perception.get("route") == "summarize":
                     logger.info("Perception suggests summarization - task complete")
-                    # Save session summary before returning
-                    summary_path = ctx.save_summary()
-                    return {
-                        "status": "success",
-                        "session_id": session_id,
-                        "summary": perception.get("solution_summary", "Task completed"),
-                        "summary_path": summary_path,
-                        "steps": [step.to_dict() for step in ctx.steps.values()]
-                    }
+                    return await self.summary.summarize(query, ctx, perception)
                 
                 # Step 3: Decision
                 decision_step = ctx.add_step(
@@ -141,39 +135,30 @@ class ComputerAgentLoop:
                 
                 step_count += 1
             
-            # If we've reached max steps without completion
+            # When max steps reached
             if step_count >= self.max_steps:
                 logger.warning(f"Reached maximum steps ({self.max_steps}) without completion")
-                return {
-                    "status": "max_steps_reached",
-                    "session_id": session_id,
-                    "error": f"Maximum steps ({self.max_steps}) reached without completion",
-                    "steps": [step.to_dict() for step in ctx.steps.values()]
-                }
+                return await self.summary.summarize(
+                    query, 
+                    ctx, 
+                    {"route": "summarize", "solution_summary": f"Maximum steps ({self.max_steps}) reached without completion"}
+                )
             
-            # Save session summary
-            summary_path = ctx.save_summary()
-            logger.info(f"Session summary saved to {summary_path}")
-            
-            return {
-                "status": "success",
-                "session_id": session_id,
-                "summary_path": summary_path,
-                "steps": [step.to_dict() for step in ctx.steps.values()]
-            }
+            # Normal completion
+            return await self.summary.summarize(
+                query,
+                ctx,
+                {"route": "summarize", "solution_summary": "Task completed successfully"}
+            )
             
         except Exception as e:
             logger.error(f"Error in computer agent session {session_id}: {str(e)}")
             if ctx.current_step:
                 ctx.mark_step_failed(ctx.current_step.id, str(e))
             
-            # Save session summary even if there was an error
-            summary_path = ctx.save_summary()
-            
-            return {
-                "status": "failed",
-                "session_id": session_id,
-                "error": str(e),
-                "summary_path": summary_path,
-                "steps": [step.to_dict() for step in ctx.steps.values()]
-            }
+            # Error case
+            return await self.summary.summarize(
+                query,
+                ctx,
+                {"route": "summarize", "solution_summary": f"Task failed: {str(e)}"}
+            )
