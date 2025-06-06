@@ -8,8 +8,10 @@ from typing import Optional
 
 from .core.loop import ComputerAgentLoop
 from .mcp.simple_mcp import SimpleMCP
+from config.log_config import setup_logging
 
-logger = logging.getLogger(__name__)
+# Set up logging
+logger = setup_logging(__name__)
 
 class ComputerAgent:
     def __init__(self):

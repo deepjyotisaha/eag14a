@@ -48,6 +48,16 @@ class SimpleMCP:
             self.tools = await self.list_tools()
             self.initialized = True
             
+            # Print available tools
+            print("\n=== Available MCP Tools ===")
+            for category, tools in self.tools.items():
+                print(f"\n{category.upper()}:")
+                for tool_name, tool_info in tools.items():
+                    print(f"  - {tool_name}: {tool_info['description']}")
+                    if tool_info.get('params'):
+                        print(f"    Params: {tool_info['params']}")
+            print("\n========================\n")
+            
             logger.info(f"SimpleMCP initialized with {len(self.tools)} tools")
             
         except Exception as e:
