@@ -1,0 +1,21 @@
+{
+  "session_id": "session_20250606_131402",
+  "query": "Open Notepad and type 'Hello World'",
+  "start_time": "2025-06-06T13:14:02.223752",
+  "end_time": "2025-06-06T13:14:22.796337",
+  "steps": [
+    {
+      "id": "ROOT",
+      "description": "Initial query",
+      "type": "ROOT",
+      "from_step": null,
+      "status": "failed",
+      "result": {
+        "error": "logger_json_block() missing 2 required positional arguments: 'message' and 'data'"
+      },
+      "timestamp": "2025-06-06T13:14:02.223752"
+    }
+  ],
+  "pipeline_output": null,
+  "screenshot_path": "outputs\\2025\\06\\06\\session_20250606_131402\\screenshot_20250606_131402.jpg"
+}

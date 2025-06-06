@@ -1,0 +1,1461 @@
+{
+  "filename_base": "screenshot_20250606_141736",
+  "analysis_timestamp": "2025-06-06T14:18:01.279389",
+  "analysis_duration_seconds": 12.821812,
+  "total_images_analyzed": 5,
+  "total_input_images": 5,
+  "analysis_mode": "direct",
+  "successful_analyses": 5,
+  "total_icons_found": 234,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_88_bboxes.png",
+      "image_name": "combined_groups_0_88_bboxes.png",
+      "icons_found": 69,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "X Icon",
+          "usage": "Likely a close or exit button",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "master*",
+          "usage": "Indicates the current branch in a version control system, with unsaved changes",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_3",
+          "name": "ΟΔΟ",
+          "usage": "Likely represents transform orientation options",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_4",
+          "name": "0",
+          "usage": "Likely represents a numerical setting or value",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "Box icon",
+          "usage": "Represents a main menu or file-related operations",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "File",
+          "usage": "Opens the File menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_3",
+          "name": "Edit",
+          "usage": "Opens the Edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_4",
+          "name": "Selection",
+          "usage": "Opens the Selection menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_5",
+          "name": "View",
+          "usage": "Opens the View menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_6",
+          "name": "Go",
+          "usage": "Opens the Go menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_7",
+          "name": "Run",
+          "usage": "Opens the Run menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_8",
+          "name": "Terminal",
+          "usage": "Opens the Terminal menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_9",
+          "name": "Help",
+          "usage": "Opens the Help menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_1",
+          "name": "Problems",
+          "usage": "Displays a list of problems or errors",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_2",
+          "name": "Output",
+          "usage": "Displays program output",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_3",
+          "name": "Debug Console",
+          "usage": "Opens the debug console",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_4",
+          "name": "Ports",
+          "usage": "Displays port information",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_5",
+          "name": "Terminal",
+          "usage": "Opens the integrated terminal",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_1",
+          "name": "-",
+          "usage": "Likely a minimize button",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "✓ eag14a",
+          "usage": "Represents a selected option or branch",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Circle",
+          "usage": "Likely a connection indicator or toggle",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_2",
+          "name": "Circle with Ring",
+          "usage": "Likely represents an active or recording state",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_3",
+          "name": "PS",
+          "usage": "Likely refers to Powershell",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "> s14a_sample",
+          "usage": "Navigates to a subfolder",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": ".gitignore",
+          "usage": "Represents a git ignore file",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "* pyproject.toml",
+          "usage": "Represents a project file with unsaved changes",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "agent",
+          "usage": "Indicates current agent configuration",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "> src",
+          "usage": "Navigates to the src folder",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "__pycache_",
+          "usage": "Indicates a Python cache directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": ">",
+          "usage": "Represents a navigation button",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "computer_agent.py",
+          "usage": "Represents a Python script file",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "Document Icon",
+          "usage": "Likely creates a new file",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_2",
+          "name": "Magnifying Glass",
+          "usage": "Represents a search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_3",
+          "name": "Magnifying Glass with Gear",
+          "usage": "Represents a search with settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_4",
+          "name": "Grid Icon",
+          "usage": "Likely opens a window or pane",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_5",
+          "name": "Down Arrow",
+          "usage": "Represents a drop-down menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "0",
+          "usage": "Represents a count or setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_2",
+          "name": "Triangle Icon",
+          "usage": "Likely represents a play or run button",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_3",
+          "name": "0",
+          "usage": "Represents a count or setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Windows Icon",
+          "usage": "Opens the Windows menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_2",
+          "name": "Magnifying Glass",
+          "usage": "Opens a search bar or tool",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_3",
+          "name": "Square",
+          "usage": "Likely a build/compile button",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_4",
+          "name": "Earth Icon",
+          "usage": "Likely a network or online icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_5",
+          "name": "Globe Icon",
+          "usage": "Opens a world map",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_6",
+          "name": "Two People Icon",
+          "usage": "Likely a collaboration or sharing icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_7",
+          "name": "T Icon",
+          "usage": "Likely refers to Microsoft Teams",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_8",
+          "name": "HUD Icon",
+          "usage": "Represents a heads-up display",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_9",
+          "name": "Mobile Phone Icon",
+          "usage": "Likely opens a mobile app or emulation tool",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_10",
+          "name": "99+",
+          "usage": "Likely an extension icon, possibly for code quality metrics",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_11",
+          "name": "Purple Icon",
+          "usage": "Likely the icon for a Purple Assistant",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_12",
+          "name": "W Icon",
+          "usage": "Likely refers to Microsoft Word",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "M",
+          "usage": "Likely the icon for a module manager",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "uv computer_agent",
+          "usage": "Represents a UV agent computer",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_2",
+          "name": "test_agent.py M",
+          "usage": "Represents a testing agent file",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_3",
+          "name": ".env",
+          "usage": "Represents an environment file",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": "Rectangular Box",
+          "usage": "Represents an empty state or placeholder",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_1",
+          "name": "KEYBOARD_COMMANDS:",
+          "usage": "Header for keyboard command mappings",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_1",
+          "name": "SYSTEM_COMMANDS:",
+          "usage": "Header for system command listings",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_1",
+          "name": "user: Get user name",
+          "usage": "Specifies getting username",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_1",
+          "name": "-",
+          "usage": "Likely a separator or menu item",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_1",
+          "name": "send: Send key combination",
+          "usage": "Specifies function to send key combination",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_1",
+          "name": "cursor:",
+          "usage": "Setting for cursor configuration",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_1",
+          "name": "Params: {'start_x': 'number',",
+          "usage": "Specifies parameters for start x coordinate",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_2",
+          "name": "'start_y': 'number', 'end_x': 'number', 'end_y': 'number', 'button",
+          "usage": "Specifies parameters for start and end coordinates",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_1",
+          "name": "Params: {'keys':",
+          "usage": "Specifies parameter containing key combinations",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_2",
+          "name": "'string'}",
+          "usage": "Specifies that the key value is a string",
+          "group_type": "H"
+        },
+        {
+          "id": "H29_1",
+          "name": "Params: {'text':",
+          "usage": "Specifies parameter containing text value",
+          "group_type": "H"
+        },
+        {
+          "id": "H29_2",
+          "name": "'string'}",
+          "usage": "Specifies that the text value is a string",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "Notification Icon",
+          "usage": "Displays new notifications",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H0_1: \"X Icon\" | Usage: \"Likely a close or exit button\"\nH0_2: \"master*\" | Usage: \"Indicates the current branch in a version control system, with unsaved changes\"\nH0_3: \"ΟΔΟ\" | Usage: \"Likely represents transform orientation options\"\nH0_4: \"0\" | Usage: \"Likely represents a numerical setting or value\"\nH1_1: \"Box icon\" | Usage: \"Represents a main menu or file-related operations\"\nH1_2: \"File\" | Usage: \"Opens the File menu\"\nH1_3: \"Edit\" | Usage: \"Opens the Edit menu\"\nH1_4: \"Selection\" | Usage: \"Opens the Selection menu\"\nH1_5: \"View\" | Usage: \"Opens the View menu\"\nH1_6: \"Go\" | Usage: \"Opens the Go menu\"\nH1_7: \"Run\" | Usage: \"Opens the Run menu\"\nH1_8: \"Terminal\" | Usage: \"Opens the Terminal menu\"\nH1_9: \"Help\" | Usage: \"Opens the Help menu\"\nH21_1: \"Problems\" | Usage: \"Displays a list of problems or errors\"\nH21_2: \"Output\" | Usage: \"Displays program output\"\nH21_3: \"Debug Console\" | Usage: \"Opens the debug console\"\nH21_4: \"Ports\" | Usage: \"Displays port information\"\nH21_5: \"Terminal\" | Usage: \"Opens the integrated terminal\"\nH22_1: \"-\" | Usage: \"Likely a minimize button\"\nH3_1: \"✓ eag14a\" | Usage: \"Represents a selected option or branch\"\nH4_1: \"Circle\" | Usage: \"Likely a connection indicator or toggle\"\nH4_2: \"Circle with Ring\" | Usage: \"Likely represents an active or recording state\"\nH4_3: \"PS\" | Usage: \"Likely refers to Powershell\"\nH5_1: \"> s14a_sample\" | Usage: \"Navigates to a subfolder\"\nH6_1: \".gitignore\" | Usage: \"Represents a git ignore file\"\nH7_1: \"* pyproject.toml\" | Usage: \"Represents a project file with unsaved changes\"\nH8_1: \"agent\" | Usage: \"Indicates current agent configuration\"\nH9_1: \"> src\" | Usage: \"Navigates to the src folder\"\nH10_1: \"__pycache_\" | Usage: \"Indicates a Python cache directory\"\nH11_1: \">\" | Usage: \"Represents a navigation button\"\nH12_1: \"computer_agent.py\" | Usage: \"Represents a Python script file\"\nH13_1: \"Document Icon\" | Usage: \"Likely creates a new file\"\nH13_2: \"Magnifying Glass\" | Usage: \"Represents a search function\"\nH13_3: \"Magnifying Glass with Gear\" | Usage: \"Represents a search with settings\"\nH13_4: \"Grid Icon\" | Usage: \"Likely opens a window or pane\"\nH13_5: \"Down Arrow\" | Usage: \"Represents a drop-down menu\"\nH14_1: \"0\" | Usage: \"Represents a count or setting\"\nH14_2: \"Triangle Icon\" | Usage: \"Likely represents a play or run button\"\nH14_3: \"0\" | Usage: \"Represents a count or setting\"\nH15_1: \"Windows Icon\" | Usage: \"Opens the Windows menu\"\nH15_2: \"Magnifying Glass\" | Usage: \"Opens a search bar or tool\"\nH15_3: \"Square\" | Usage: \"Likely a build/compile button\"\nH15_4: \"Earth Icon\" | Usage: \"Likely a network or online icon\"\nH15_5: \"Globe Icon\" | Usage: \"Opens a world map\"\nH15_6: \"Two People Icon\" | Usage: \"Likely a collaboration or sharing icon\"\nH15_7: \"T Icon\" | Usage: \"Likely refers to Microsoft Teams\"\nH15_8: \"HUD Icon\" | Usage: \"Represents a heads-up display\"\nH15_9: \"Mobile Phone Icon\" | Usage: \"Likely opens a mobile app or emulation tool\"\nH15_10: \"99+\" | Usage: \"Likely an extension icon, possibly for code quality metrics\"\nH15_11: \"Purple Icon\" | Usage: \"Likely the icon for a Purple Assistant\"\nH15_12: \"W Icon\" | Usage: \"Likely refers to Microsoft Word\"\nH16_1: \"M\" | Usage: \"Likely the icon for a module manager\"\nH17_1: \"uv computer_agent\" | Usage: \"Represents a UV agent computer\"\nH17_2: \"test_agent.py M\" | Usage: \"Represents a testing agent file\"\nH17_3: \".env\" | Usage: \"Represents an environment file\"\nH18_1: \"Rectangular Box\" | Usage: \"Represents an empty state or placeholder\"\nH19_1: \"KEYBOARD_COMMANDS:\" | Usage: \"Header for keyboard command mappings\"\nH20_1: \"SYSTEM_COMMANDS:\" | Usage: \"Header for system command listings\"\nH23_1: \"user: Get user name\" | Usage: \"Specifies getting username\"\nH24_1: \"-\" | Usage: \"Likely a separator or menu item\"\nH25_1: \"send: Send key combination\" | Usage: \"Specifies function to send key combination\"\nH26_1: \"cursor:\" | Usage: \"Setting for cursor configuration\"\nH27_1: \"Params: {'start_x': 'number',\" | Usage: \"Specifies parameters for start x coordinate\"\nH27_2: \"'start_y': 'number', 'end_x': 'number', 'end_y': 'number', 'button\" | Usage: \"Specifies parameters for start and end coordinates\"\nH28_1: \"Params: {'keys':\" | Usage: \"Specifies parameter containing key combinations\"\nH28_2: \"'string'}\" | Usage: \"Specifies that the key value is a string\"\nH29_1: \"Params: {'text':\" | Usage: \"Specifies parameter containing text value\"\nH29_2: \"'string'}\" | Usage: \"Specifies that the text value is a string\"\nH2_1: \"Notification Icon\" | Usage: \"Displays new notifications\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_1_52_bboxes.png",
+      "image_name": "combined_groups_1_52_bboxes.png",
+      "icons_found": 52,
+      "icons": [
+        {
+          "id": "H30_1",
+          "name": "Params:",
+          "usage": "Label indicating parameters for a function or module",
+          "group_type": "H"
+        },
+        {
+          "id": "H30_2",
+          "name": "{'app_name': 'string', 'screen_id': 'number', 'fullscreen': 'boolean'}",
+          "usage": "Parameters defining app properties",
+          "group_type": "H"
+        },
+        {
+          "id": "H31_1",
+          "name": "Params: {'x': 'number (optional)', 'y': 'number (optional)'}",
+          "usage": "Parameters with optional x and y coordinates",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_1",
+          "name": "Params:",
+          "usage": "Label indicating parameters for a function or module",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_2",
+          "name": "{'direction': 'string', 'amount': 'number', 'x': 'number', 'y': 'number'}",
+          "usage": "Parameters for direction and amount related to movement",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_1",
+          "name": "Params: {'title': 'string',",
+          "usage": "Parameter defining window title",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_2",
+          "name": "'message': 'string', 'x': 'number', 'y': 'number'}",
+          "usage": "Parameters for a message with x and y coordinates",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_1",
+          "name": "drag:",
+          "usage": "Label indicating drag functionality",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_1",
+          "name": "{'x'",
+          "usage": "Parameter x",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_2",
+          "name": "number",
+          "usage": "Parameter type, number",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_3",
+          "name": "(optional)",
+          "usage": "Indicates parameter is optional",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_4",
+          "name": ",",
+          "usage": "Separator between parameters",
+          "group_type": "H"
+        },
+        {
+          "id": "H36_1",
+          "name": "'number'",
+          "usage": "Parameter type, number",
+          "group_type": "H"
+        },
+        {
+          "id": "H37_1",
+          "name": "'x':",
+          "usage": "Parameter x",
+          "group_type": "H"
+        },
+        {
+          "id": "H37_2",
+          "name": "'number'",
+          "usage": "Parameter type, number",
+          "group_type": "H"
+        },
+        {
+          "id": "H38_1",
+          "name": "i)",
+          "usage": "closing parenthesis of a paramaters group",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_1",
+          "name": "'number'",
+          "usage": "Parameter type, number",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_2",
+          "name": "'number'",
+          "usage": "Parameter type, number",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_3",
+          "name": "'end_y'",
+          "usage": "Parameter end_y",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_4",
+          "name": "'number'",
+          "usage": "Parameter type, number",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_1",
+          "name": "'number'",
+          "usage": "Parameter type, number",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_2",
+          "name": "'y':",
+          "usage": "Parameter y",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_1",
+          "name": "pyproject.toml M",
+          "usage": "Filename of a Python project configuration file",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_2",
+          "name": "computer_agent.py M",
+          "usage": "Filename of a Python script",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_3",
+          "name": "loop.py M",
+          "usage": "Filename of a Python script",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_4",
+          "name": "mode_manager.py U",
+          "usage": "Filename of a Python script",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_5",
+          "name": "Gear Icon",
+          "usage": "Represents settings or configuration",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_6",
+          "name": "+",
+          "usage": "Add or insert something new",
+          "group_type": "H"
+        },
+        {
+          "id": "H42_1",
+          "name": "'}",
+          "usage": "Closing brackets",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_1",
+          "name": "Ctrl+K to ge",
+          "usage": "Keyboard shortcut",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_2",
+          "name": "rate a com",
+          "usage": "Generate a component",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_3",
+          "name": "and",
+          "usage": "And operator",
+          "group_type": "H"
+        },
+        {
+          "id": "H44_1",
+          "name": "'y':",
+          "usage": "Parameter y",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_1",
+          "name": "Ctrl+K to gener",
+          "usage": "Keyboard shortcut",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_2",
+          "name": "erate a co",
+          "usage": "Generate a component",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_1",
+          "name": "uv - eagv1 - Cursor",
+          "usage": "Text describing Cursor",
+          "group_type": "H"
+        },
+        {
+          "id": "H47_1",
+          "name": "'}",
+          "usage": "Closing brackets",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_1",
+          "name": "'string',",
+          "usage": "Parameter type, string",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_2",
+          "name": "'duration':",
+          "usage": "Parameter, duration",
+          "group_type": "H"
+        },
+        {
+          "id": "H49_1",
+          "name": "Window Icon",
+          "usage": "Represents the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H50_1",
+          "name": "Folder with icon",
+          "usage": "Open file manager",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_1",
+          "name": "Plus/Minus Icon",
+          "usage": "Expand or contract",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_2",
+          "name": "Three Dots Icon",
+          "usage": "More options or actions",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_3",
+          "name": "Up Arrow Icon",
+          "usage": "Navigate upwards",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_4",
+          "name": "X Icon",
+          "usage": "Close or delete",
+          "group_type": "H"
+        },
+        {
+          "id": "H52_1",
+          "name": "List Icon",
+          "usage": "Show a list",
+          "group_type": "H"
+        },
+        {
+          "id": "H52_2",
+          "name": "Three Dots Icon",
+          "usage": "More options or actions",
+          "group_type": "H"
+        },
+        {
+          "id": "H52_3",
+          "name": "Analyze computer_agent folder conte",
+          "usage": "Button/action to analyze a folder",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_1",
+          "name": "> 13 files +731-92",
+          "usage": "Text indicating number of files",
+          "group_type": "H"
+        },
+        {
+          "id": "H54_1",
+          "name": "Listed 22 items in eag14a/computer_agent",
+          "usage": "Text showing number of items in a directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H55_1",
+          "name": "Alter updating the tom me, you can install the",
+          "usage": "Text box likely describing a configuration process",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_1",
+          "name": "dependencies using:",
+          "usage": "Text box likely describes dependencies installation",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H30_1: \"Params:\" | Usage: \"Label indicating parameters for a function or module\"\nH30_2: \"{'app_name': 'string', 'screen_id': 'number', 'fullscreen': 'boolean'}\" | Usage: \"Parameters defining app properties\"\nH31_1: \"Params: {'x': 'number (optional)', 'y': 'number (optional)'}\" | Usage: \"Parameters with optional x and y coordinates\"\nH32_1: \"Params:\" | Usage: \"Label indicating parameters for a function or module\"\nH32_2: \"{'direction': 'string', 'amount': 'number', 'x': 'number', 'y': 'number'}\" | Usage: \"Parameters for direction and amount related to movement\"\nH33_1: \"Params: {'title': 'string',\" | Usage: \"Parameter defining window title\"\nH33_2: \"'message': 'string', 'x': 'number', 'y': 'number'}\" | Usage: \"Parameters for a message with x and y coordinates\"\nH34_1: \"drag:\" | Usage: \"Label indicating drag functionality\"\nH35_1: \"{'x'\" | Usage: \"Parameter x\"\nH35_2: \"number\" | Usage: \"Parameter type, number\"\nH35_3: \"(optional)\" | Usage: \"Indicates parameter is optional\"\nH35_4: \",\" | Usage: \"Separator between parameters\"\nH36_1: \"'number'\" | Usage: \"Parameter type, number\"\nH37_1: \"'x':\" | Usage: \"Parameter x\"\nH37_2: \"'number'\" | Usage: \"Parameter type, number\"\nH38_1: \"i)\" | Usage: \"closing parenthesis of a paramaters group\"\nH39_1: \"'number'\" | Usage: \"Parameter type, number\"\nH39_2: \"'number'\" | Usage: \"Parameter type, number\"\nH39_3: \"'end_y'\" | Usage: \"Parameter end_y\"\nH39_4: \"'number'\" | Usage: \"Parameter type, number\"\nH40_1: \"'number'\" | Usage: \"Parameter type, number\"\nH40_2: \"'y':\" | Usage: \"Parameter y\"\nH41_1: \"pyproject.toml M\" | Usage: \"Filename of a Python project configuration file\"\nH41_2: \"computer_agent.py M\" | Usage: \"Filename of a Python script\"\nH41_3: \"loop.py M\" | Usage: \"Filename of a Python script\"\nH41_4: \"mode_manager.py U\" | Usage: \"Filename of a Python script\"\nH41_5: \"Gear Icon\" | Usage: \"Represents settings or configuration\"\nH41_6: \"+\" | Usage: \"Add or insert something new\"\nH42_1: \"'}\" | Usage: \"Closing brackets\"\nH43_1: \"Ctrl+K to ge\" | Usage: \"Keyboard shortcut\"\nH43_2: \"rate a com\" | Usage: \"Generate a component\"\nH43_3: \"and\" | Usage: \"And operator\"\nH44_1: \"'y':\" | Usage: \"Parameter y\"\nH45_1: \"Ctrl+K to gener\" | Usage: \"Keyboard shortcut\"\nH45_2: \"erate a co\" | Usage: \"Generate a component\"\nH46_1: \"uv - eagv1 - Cursor\" | Usage: \"Text describing Cursor\"\nH47_1: \"'}\" | Usage: \"Closing brackets\"\nH48_1: \"'string',\" | Usage: \"Parameter type, string\"\nH48_2: \"'duration':\" | Usage: \"Parameter, duration\"\nH49_1: \"Window Icon\" | Usage: \"Represents the current window\"\nH50_1: \"Folder with icon\" | Usage: \"Open file manager\"\nH51_1: \"Plus/Minus Icon\" | Usage: \"Expand or contract\"\nH51_2: \"Three Dots Icon\" | Usage: \"More options or actions\"\nH51_3: \"Up Arrow Icon\" | Usage: \"Navigate upwards\"\nH51_4: \"X Icon\" | Usage: \"Close or delete\"\nH52_1: \"List Icon\" | Usage: \"Show a list\"\nH52_2: \"Three Dots Icon\" | Usage: \"More options or actions\"\nH52_3: \"Analyze computer_agent folder conte\" | Usage: \"Button/action to analyze a folder\"\nH53_1: \"> 13 files +731-92\" | Usage: \"Text indicating number of files\"\nH54_1: \"Listed 22 items in eag14a/computer_agent\" | Usage: \"Text showing number of items in a directory\"\nH55_1: \"Alter updating the tom me, you can install the\" | Usage: \"Text box likely describing a configuration process\"\nH56_1: \"dependencies using:\" | Usage: \"Text box likely describes dependencies installation\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_2_58_bboxes.png",
+      "image_name": "combined_groups_2_58_bboxes.png",
+      "icons_found": 58,
+      "icons": [
+        {
+          "id": "H57_1",
+          "name": "Let me check your environment file and help set up the",
+          "usage": "Text describing a task to check the environment file",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_1",
+          "name": "API key correctly.",
+          "usage": "Text about verifying API key",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_1",
+          "name": "Let's fix this:",
+          "usage": "Text suggesting to fix a problem",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_1",
+          "name": "I have an env file",
+          "usage": "Text stating the existence of an env file",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_1",
+          "name": "line 28, in <module>",
+          "usage": "Text referencing a specific line in a module",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_1",
+          "name": "I notice two issues:",
+          "usage": "Text indicating that two issues are present",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_1",
+          "name": "2. I don't see a .env file in the directory",
+          "usage": "Text stating the absence of an env file",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_1",
+          "name": "1. First, let's create a .env file in your project root:",
+          "usage": "Text instructing to create an env file",
+          "group_type": "H"
+        },
+        {
+          "id": "H65_1",
+          "name": "uv pip install -e",
+          "usage": "Text representing a command to install something",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_1",
+          "name": "Grid Icon",
+          "usage": "Represents some kind of application or configuration setting.",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_2",
+          "name": "[2/15] uritemplate==4.2.0",
+          "usage": "Text displaying the name and version of a package",
+          "group_type": "H"
+        },
+        {
+          "id": "H67_1",
+          "name": "@",
+          "usage": "Represents an email address or a mention",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_1",
+          "name": "Ask",
+          "usage": "Button to ask a question to assistant",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_2",
+          "name": "Auto",
+          "usage": "Button to set some auto mode",
+          "group_type": "H"
+        },
+        {
+          "id": "H69_1",
+          "name": "computer_agent",
+          "usage": "Button that leads to computer agent settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H70_1",
+          "name": "File 'C:\\\\Users\\\\dsaha\\\\OneDrive -'",
+          "usage": "File path being displayed.",
+          "group_type": "H"
+        },
+        {
+          "id": "H71_1",
+          "name": "$ bash",
+          "usage": "Represents a bash terminal or script",
+          "group_type": "H"
+        },
+        {
+          "id": "H72_1",
+          "name": "computer_agent",
+          "usage": "Button that leads to computer agent settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H73_1",
+          "name": "Up Arrow",
+          "usage": "Likely used for navigating or scrolling up.",
+          "group_type": "H"
+        },
+        {
+          "id": "H74_1",
+          "name": "bash",
+          "usage": "Represents a bash terminal or script",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_1",
+          "name": "Up Arrow and Cloud",
+          "usage": "Related to cloud upload or sync.",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_2",
+          "name": "Keyboard Icon",
+          "usage": "Represents input language selection",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_3",
+          "name": "ENG IN",
+          "usage": "Represents the currently selected input language",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_4",
+          "name": "Sound Wave with Speaker",
+          "usage": "Audio input or output settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_5",
+          "name": "2:17 PM 6/6/2025",
+          "usage": "Date and time display",
+          "group_type": "H"
+        },
+        {
+          "id": "H76_1",
+          "name": "Cloud Icon",
+          "usage": "Cloud storage or related service",
+          "group_type": "H"
+        },
+        {
+          "id": "H77_1",
+          "name": "Rectangle Icon",
+          "usage": "Represents a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H77_2",
+          "name": "Rectangle Icon",
+          "usage": "Represents a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H77_3",
+          "name": "Rectangle Icon",
+          "usage": "Represents a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H77_4",
+          "name": "Gear Icon",
+          "usage": "Represents settings or configuration.",
+          "group_type": "H"
+        },
+        {
+          "id": "H78_1",
+          "name": "Start a new chat for be",
+          "usage": "Button to initiate a new chat.",
+          "group_type": "H"
+        },
+        {
+          "id": "H79_1",
+          "name": "Wifi Icon",
+          "usage": "Represents wifi connection or settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H79_2",
+          "name": "Speaker Muted Icon",
+          "usage": "Toggles audio muting",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_1",
+          "name": "Cursor Tab",
+          "usage": "Likely relates to cursor settings or tab actions",
+          "group_type": "H"
+        },
+        {
+          "id": "H81_1",
+          "name": "Plus Icon",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H81_2",
+          "name": "Clock Icon",
+          "usage": "Related to time or history",
+          "group_type": "H"
+        },
+        {
+          "id": "H81_3",
+          "name": "Three dots icon",
+          "usage": "Represents additional options or a menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H82_1",
+          "name": "Window Icon",
+          "usage": "Represents a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H82_2",
+          "name": "X Icon",
+          "usage": "Closes a window or dialog",
+          "group_type": "H"
+        },
+        {
+          "id": "H83_1",
+          "name": "Window Icon",
+          "usage": "Represents a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H83_2",
+          "name": "Three dots icon",
+          "usage": "Represents additional options or a menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_1",
+          "name": "Up Arrow",
+          "usage": "Navigate up or back.",
+          "group_type": "H"
+        },
+        {
+          "id": "H85_1",
+          "name": "Run",
+          "usage": "Button to execute something.",
+          "group_type": "H"
+        },
+        {
+          "id": "HL0_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a>",
+          "usage": "File path in the command prompt.",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "Params: {'button': 'string', 'x': 'number', 'y': 'number'}",
+          "usage": "Shows parameters with button string and coordinates",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_2",
+          "name": "Params: {'button': 'string', 'x': 'number', 'y': 'number'}",
+          "usage": "Shows parameters with button string and coordinates",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "Bracket Icon",
+          "usage": "Denotes brackets or code.",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_2",
+          "name": "Bracket Icon",
+          "usage": "Denotes brackets or code.",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_3",
+          "name": "Params: {'button': 'string', 'duration': 'number', 'x': 'number', 'y': 'number'}",
+          "usage": "Shows parameters with button string and other data",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_1",
+          "name": "Circle with line",
+          "usage": "Likely represents disable or cancel action",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_2",
+          "name": "'number'}",
+          "usage": "Text indicating that a number is needed",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_3",
+          "name": "'number'}",
+          "usage": "Text indicating that a number is needed",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_4",
+          "name": "'x':",
+          "usage": "Text field representing the X coordinate",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_5",
+          "name": "'x':",
+          "usage": "Text field representing the X coordinate",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_6",
+          "name": "'end_x'",
+          "usage": "Text field representing the End X coordinate",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_1",
+          "name": "> eagiu",
+          "usage": "Represents an identifier or element name",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_2",
+          "name": "> eag10a",
+          "usage": "Represents an identifier or element name",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_3",
+          "name": "> eag12",
+          "usage": "Represents an identifier or element name",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "H57_1: \"Let me check your environment file and help set up the\" | Usage: \"Text describing a task to check the environment file\"\nH58_1: \"API key correctly.\" | Usage: \"Text about verifying API key\"\nH59_1: \"Let's fix this:\" | Usage: \"Text suggesting to fix a problem\"\nH60_1: \"I have an env file\" | Usage: \"Text stating the existence of an env file\"\nH61_1: \"line 28, in <module>\" | Usage: \"Text referencing a specific line in a module\"\nH62_1: \"I notice two issues:\" | Usage: \"Text indicating that two issues are present\"\nH63_1: \"2. I don't see a .env file in the directory\" | Usage: \"Text stating the absence of an env file\"\nH64_1: \"1. First, let's create a .env file in your project root:\" | Usage: \"Text instructing to create an env file\"\nH65_1: \"uv pip install -e\" | Usage: \"Text representing a command to install something\"\nH66_1: \"Grid Icon\" | Usage: \"Represents some kind of application or configuration setting.\"\nH66_2: \"[2/15] uritemplate==4.2.0\" | Usage: \"Text displaying the name and version of a package\"\nH67_1: \"@\" | Usage: \"Represents an email address or a mention\"\nH68_1: \"Ask\" | Usage: \"Button to ask a question to assistant\"\nH68_2: \"Auto\" | Usage: \"Button to set some auto mode\"\nH69_1: \"computer_agent\" | Usage: \"Button that leads to computer agent settings\"\nH70_1: \"File 'C:\\\\Users\\\\dsaha\\\\OneDrive -'\" | Usage: \"File path being displayed.\"\nH71_1: \"$ bash\" | Usage: \"Represents a bash terminal or script\"\nH72_1: \"computer_agent\" | Usage: \"Button that leads to computer agent settings\"\nH73_1: \"Up Arrow\" | Usage: \"Likely used for navigating or scrolling up.\"\nH74_1: \"bash\" | Usage: \"Represents a bash terminal or script\"\nH75_1: \"Up Arrow and Cloud\" | Usage: \"Related to cloud upload or sync.\"\nH75_2: \"Keyboard Icon\" | Usage: \"Represents input language selection\"\nH75_3: \"ENG IN\" | Usage: \"Represents the currently selected input language\"\nH75_4: \"Sound Wave with Speaker\" | Usage: \"Audio input or output settings\"\nH75_5: \"2:17 PM 6/6/2025\" | Usage: \"Date and time display\"\nH76_1: \"Cloud Icon\" | Usage: \"Cloud storage or related service\"\nH77_1: \"Rectangle Icon\" | Usage: \"Represents a window\"\nH77_2: \"Rectangle Icon\" | Usage: \"Represents a window\"\nH77_3: \"Rectangle Icon\" | Usage: \"Represents a window\"\nH77_4: \"Gear Icon\" | Usage: \"Represents settings or configuration.\"\nH78_1: \"Start a new chat for be\" | Usage: \"Button to initiate a new chat.\"\nH79_1: \"Wifi Icon\" | Usage: \"Represents wifi connection or settings\"\nH79_2: \"Speaker Muted Icon\" | Usage: \"Toggles audio muting\"\nH80_1: \"Cursor Tab\" | Usage: \"Likely relates to cursor settings or tab actions\"\nH81_1: \"Plus Icon\" | Usage: \"Adds a new item or element\"\nH81_2: \"Clock Icon\" | Usage: \"Related to time or history\"\nH81_3: \"Three dots icon\" | Usage: \"Represents additional options or a menu\"\nH82_1: \"Window Icon\" | Usage: \"Represents a window\"\nH82_2: \"X Icon\" | Usage: \"Closes a window or dialog\"\nH83_1: \"Window Icon\" | Usage: \"Represents a window\"\nH83_2: \"Three dots icon\" | Usage: \"Represents additional options or a menu\"\nH84_1: \"Up Arrow\" | Usage: \"Navigate up or back.\"\nH85_1: \"Run\" | Usage: \"Button to execute something.\"\nHL0_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a>\" | Usage: \"File path in the command prompt.\"\nV0_1: \"Params: {'button': 'string', 'x': 'number', 'y': 'number'}\" | Usage: \"Shows parameters with button string and coordinates\"\nV0_2: \"Params: {'button': 'string', 'x': 'number', 'y': 'number'}\" | Usage: \"Shows parameters with button string and coordinates\"\nV1_1: \"Bracket Icon\" | Usage: \"Denotes brackets or code.\"\nV1_2: \"Bracket Icon\" | Usage: \"Denotes brackets or code.\"\nV1_3: \"Params: {'button': 'string', 'duration': 'number', 'x': 'number', 'y': 'number'}\" | Usage: \"Shows parameters with button string and other data\"\nV2_1: \"Circle with line\" | Usage: \"Likely represents disable or cancel action\"\nV2_2: \"'number'}\" | Usage: \"Text indicating that a number is needed\"\nV2_3: \"'number'}\" | Usage: \"Text indicating that a number is needed\"\nV2_4: \"'x':\" | Usage: \"Text field representing the X coordinate\"\nV2_5: \"'x':\" | Usage: \"Text field representing the X coordinate\"\nV2_6: \"'end_x'\" | Usage: \"Text field representing the End X coordinate\"\nV3_1: \"> eagiu\" | Usage: \"Represents an identifier or element name\"\nV3_2: \"> eag10a\" | Usage: \"Represents an identifier or element name\"\nV3_3: \"> eag12\" | Usage: \"Represents an identifier or element name\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_3_45_bboxes.png",
+      "image_name": "combined_groups_3_45_bboxes.png",
+      "icons_found": 38,
+      "icons": [
+        {
+          "id": "V4_1",
+          "name": "'x'",
+          "usage": "Unknown function",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_1",
+          "name": "doubleclick: Double click",
+          "usage": "Represents an action for double-clicking",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_2",
+          "name": "longclick: Long click",
+          "usage": "Represents an action for long-clicking",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_1",
+          "name": "Double",
+          "usage": "Represents a double action or setting",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_2",
+          "name": "click",
+          "usage": "Represents a click action",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_1",
+          "name": "Dark Circle",
+          "usage": "Represents a color or visual style option",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_2",
+          "name": "Yellow Circle",
+          "usage": "Represents a color or visual style option",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_3",
+          "name": "Brown Circle",
+          "usage": "Represents a color or visual style option",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_1",
+          "name": "'}'",
+          "usage": "Symbol or a code block",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_2",
+          "name": "'}'",
+          "usage": "Symbol or a code block",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_1",
+          "name": "scroll: Scroll",
+          "usage": "Related to scrolling functionality",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_2",
+          "name": "drag: Drag",
+          "usage": "Represents a drag action or functionality",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_1",
+          "name": "computer_agent",
+          "usage": "Selects the 'computer_agent' environment",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_2",
+          "name": "> _pycache_",
+          "usage": "Expands or navigates to the '_pycache_' directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_3",
+          "name": "> venv",
+          "usage": "Expands or navigates to the 'venv' directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_4",
+          "name": ">",
+          "usage": "Expands or navigates to another directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_5",
+          "name": ">",
+          "usage": "Expands or navigates to another directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_1",
+          "name": "This will install the correct package and you should be",
+          "usage": "Text indicating package installation status",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_2",
+          "name": "able to import google.generativeai in your code.",
+          "usage": "Text indicating a successful import capability",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_1",
+          "name": "type: Type text",
+          "usage": "Specifies the data type as text",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_1",
+          "name": "> config",
+          "usage": "Expands or navigates to the 'config' directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_2",
+          "name": "> mcp",
+          "usage": "Expands or navigates to the 'mcp' directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_1",
+          "name": "> core",
+          "usage": "Expands or navigates to the 'core' directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_2",
+          "name": "models",
+          "usage": "Selects or expands to the 'models' directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_1",
+          "name": "warning: Failed to hardlink files; falling back to full copy.",
+          "usage": "A warning message about hardlink failure",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_2",
+          "name": "If the cache and target directories are on different",
+          "usage": "Conditional message related to cache and target directories",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_1",
+          "name": "This may lead to degraded performance.",
+          "usage": "Warning message about potential performance degradation",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_2",
+          "name": "filesystems, hardlinking may not be supported.",
+          "usage": "Indicates hardlinking issues with certain file systems",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_3",
+          "name": "or use `--link-mode=copy` to suppress this",
+          "usage": "Instruction on how to resolve a hardlinking warning",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_1",
+          "name": "launch: Launch application",
+          "usage": "Button to launch an application",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_2",
+          "name": "msgbox: Show message box",
+          "usage": "Button to display a message box",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_3",
+          "name": "computer: Get computer name",
+          "usage": "Function to retrieve the computer's name",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_1",
+          "name": "Installed 15 packages in 931ms",
+          "usage": "Indicates the number of packages installed and time taken",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_2",
+          "name": "Traceback (most recent call last):",
+          "usage": "Indicates the start of a traceback log",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_1",
+          "name": "> config",
+          "usage": "Expands or navigates to the 'config' logs",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_2",
+          "name": "> logs",
+          "usage": "Expands or navigates to the 'logs' folder",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_1",
+          "name": "Microsoft\\Documents\\Personal\\deep\\study\\artificial",
+          "usage": "File path to a document",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_2",
+          "name": "intelligence\\eagv1\\eag14a\\computer_agent\\test_agent.py\\\",",
+          "usage": "File path to a python script",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "V4_1: \"'x'\" | Usage: \"Unknown function\"\nV5_1: \"doubleclick: Double click\" | Usage: \"Represents an action for double-clicking\"\nV5_2: \"longclick: Long click\" | Usage: \"Represents an action for long-clicking\"\nV6_1: \"Double\" | Usage: \"Represents a double action or setting\"\nV6_2: \"click\" | Usage: \"Represents a click action\"\nV7_1: \"Dark Circle\" | Usage: \"Represents a color or visual style option\"\nV7_2: \"Yellow Circle\" | Usage: \"Represents a color or visual style option\"\nV7_3: \"Brown Circle\" | Usage: \"Represents a color or visual style option\"\nV8_1: \"'}'\" | Usage: \"Symbol or a code block\"\nV8_2: \"'}'\" | Usage: \"Symbol or a code block\"\nV9_1: \"scroll: Scroll\" | Usage: \"Related to scrolling functionality\"\nV9_2: \"drag: Drag\" | Usage: \"Represents a drag action or functionality\"\nV10_1: \"computer_agent\" | Usage: \"Selects the 'computer_agent' environment\"\nV10_2: \"> _pycache_\" | Usage: \"Expands or navigates to the '_pycache_' directory\"\nV10_3: \"> venv\" | Usage: \"Expands or navigates to the 'venv' directory\"\nV10_4: \">\" | Usage: \"Expands or navigates to another directory\"\nV10_5: \">\" | Usage: \"Expands or navigates to another directory\"\nV11_1: \"This will install the correct package and you should be\" | Usage: \"Text indicating package installation status\"\nV11_2: \"able to import google.generativeai in your code.\" | Usage: \"Text indicating a successful import capability\"\nV12_1: \"type: Type text\" | Usage: \"Specifies the data type as text\"\nV13_1: \"> config\" | Usage: \"Expands or navigates to the 'config' directory\"\nV13_2: \"> mcp\" | Usage: \"Expands or navigates to the 'mcp' directory\"\nV14_1: \"> core\" | Usage: \"Expands or navigates to the 'core' directory\"\nV14_2: \"models\" | Usage: \"Selects or expands to the 'models' directory\"\nV15_1: \"warning: Failed to hardlink files; falling back to full copy.\" | Usage: \"A warning message about hardlink failure\"\nV15_2: \"If the cache and target directories are on different\" | Usage: \"Conditional message related to cache and target directories\"\nV16_1: \"This may lead to degraded performance.\" | Usage: \"Warning message about potential performance degradation\"\nV16_2: \"filesystems, hardlinking may not be supported.\" | Usage: \"Indicates hardlinking issues with certain file systems\"\nV16_3: \"or use `--link-mode=copy` to suppress this\" | Usage: \"Instruction on how to resolve a hardlinking warning\"\nV17_1: \"launch: Launch application\" | Usage: \"Button to launch an application\"\nV17_2: \"msgbox: Show message box\" | Usage: \"Button to display a message box\"\nV17_3: \"computer: Get computer name\" | Usage: \"Function to retrieve the computer's name\"\nV18_1: \"Installed 15 packages in 931ms\" | Usage: \"Indicates the number of packages installed and time taken\"\nV18_2: \"Traceback (most recent call last):\" | Usage: \"Indicates the start of a traceback log\"\nV19_1: \"> config\" | Usage: \"Expands or navigates to the 'config' logs\"\nV19_2: \"> logs\" | Usage: \"Expands or navigates to the 'logs' folder\"\nV20_1: \"Microsoft\\Documents\\Personal\\deep\\study\\artificial\" | Usage: \"File path to a document\"\nV20_2: \"intelligence\\eagv1\\eag14a\\computer_agent\\test_agent.py\\\",\" | Usage: \"File path to a python script\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_4_33_bboxes.png",
+      "image_name": "combined_groups_4_33_bboxes.png",
+      "icons_found": 17,
+      "icons": [
+        {
+          "id": "V21_1",
+          "name": "hover: Analyze element under mouse cursor",
+          "usage": "Button to analyze an element under the mouse cursor.",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_2",
+          "name": "- inspect: Full window analysis (same as i)",
+          "usage": "Button to inspect the full window analysis",
+          "group_type": "V"
+        },
+        {
+          "id": "V22_1",
+          "name": "images",
+          "usage": "Button to access images.",
+          "group_type": "V"
+        },
+        {
+          "id": "V22_2",
+          "name": "macManager",
+          "usage": "Button to access macManager.",
+          "group_type": "V"
+        },
+        {
+          "id": "V23_1",
+          "name": "uv computer...",
+          "usage": "Button to open uv computer application.",
+          "group_type": "V"
+        },
+        {
+          "id": "V23_2",
+          "name": "powershell...",
+          "usage": "Button to open powershell application.",
+          "group_type": "V"
+        },
+        {
+          "id": "V24_1",
+          "name": "1. The error message shows it's looking for GEMINI_API_",
+          "usage": "Text describing an error message looking for a specific API key",
+          "group_type": "V"
+        },
+        {
+          "id": "V24_2",
+          "name": "KEY but in our code we're looking for GOOGLE_API_KE",
+          "usage": "Text indicating a different API key is being used in the code.",
+          "group_type": "V"
+        },
+        {
+          "id": "V25_1",
+          "name": "Circle with a line through it",
+          "usage": "Represents a disabled or muted state.",
+          "group_type": "V"
+        },
+        {
+          "id": "V25_2",
+          "name": "M",
+          "usage": "Represents a function or option related to the letter 'M'.",
+          "group_type": "V"
+        },
+        {
+          "id": "V26_1",
+          "name": "KEY",
+          "usage": "Represents a function or option related to the word 'KEY'.",
+          "group_type": "V"
+        },
+        {
+          "id": "V26_2",
+          "name": "Y",
+          "usage": "Represents a function or option related to the letter 'Y'.",
+          "group_type": "V"
+        },
+        {
+          "id": "V27_1",
+          "name": "Picture Icon",
+          "usage": "Opens a picture or media file.",
+          "group_type": "V"
+        },
+        {
+          "id": "V27_2",
+          "name": "New Chat",
+          "usage": "Opens a new chat window.",
+          "group_type": "V"
+        },
+        {
+          "id": "V27_3",
+          "name": "Bell Icon",
+          "usage": "Represents notifications.",
+          "group_type": "V"
+        },
+        {
+          "id": "V28_1",
+          "name": "OUTLINE",
+          "usage": "Button to open or show the outline.",
+          "group_type": "V"
+        },
+        {
+          "id": "V28_2",
+          "name": "TIMELINE",
+          "usage": "Button to open or show the timeline.",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "```\nV21_1: \"hover: Analyze element under mouse cursor\" | Usage: \"Button to analyze an element under the mouse cursor.\"\nV21_2: \"- inspect: Full window analysis (same as i)\" | Usage: \"Button to inspect the full window analysis\"\nV22_1: \"images\" | Usage: \"Button to access images.\"\nV22_2: \"macManager\" | Usage: \"Button to access macManager.\"\nV23_1: \"uv computer...\" | Usage: \"Button to open uv computer application.\"\nV23_2: \"powershell...\" | Usage: \"Button to open powershell application.\"\nV24_1: \"1. The error message shows it's looking for GEMINI_API_\" | Usage: \"Text describing an error message looking for a specific API key\"\nV24_2: \"KEY but in our code we're looking for GOOGLE_API_KE\" | Usage: \"Text indicating a different API key is being used in the code.\"\nV25_1: \"Circle with a line through it\" | Usage: \"Represents a disabled or muted state.\"\nV25_2: \"M\" | Usage: \"Represents a function or option related to the letter 'M'.\"\nV26_1: \"KEY\" | Usage: \"Represents a function or option related to the word 'KEY'.\"\nV26_2: \"Y\" | Usage: \"Represents a function or option related to the letter 'Y'.\"\nV27_1: \"Picture Icon\" | Usage: \"Opens a picture or media file.\"\nV27_2: \"New Chat\" | Usage: \"Opens a new chat window.\"\nV27_3: \"Bell Icon\" | Usage: \"Represents notifications.\"\nV28_1: \"OUTLINE\" | Usage: \"Button to open or show the outline.\"\nV28_2: \"TIMELINE\" | Usage: \"Button to open or show the timeline.\"\n```",
+      "analysis_success": true
+    }
+  ]
+}

@@ -1,0 +1,1290 @@
+{
+  "filename_base": "screenshot_20250606_142048",
+  "analysis_timestamp": "2025-06-06T14:21:04.966483",
+  "analysis_duration_seconds": 12.351446,
+  "total_images_analyzed": 4,
+  "total_input_images": 4,
+  "analysis_mode": "direct",
+  "successful_analyses": 4,
+  "total_icons_found": 207,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_101_bboxes.png",
+      "image_name": "combined_groups_0_101_bboxes.png",
+      "icons_found": 84,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "Arrow Down",
+          "usage": "Dropdown menu indicator",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "EAGV1",
+          "usage": "Likely a project or environment name",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "X",
+          "usage": "Unclear, possibly to clear settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "master*",
+          "usage": "Indicates the current branch as 'master' with unsaved changes",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_3",
+          "name": "0",
+          "usage": "Unclear, possibly a version number",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "Document Icon",
+          "usage": "Likely creates a new file",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_4",
+          "name": "Selection",
+          "usage": "Opens the selection menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_5",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_6",
+          "name": "Go",
+          "usage": "Opens the Go menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_7",
+          "name": "Run",
+          "usage": "Opens the Run menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_8",
+          "name": "Terminal",
+          "usage": "Opens the terminal menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_9",
+          "name": "Help",
+          "usage": "Opens the help menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "Envelope Icon",
+          "usage": "Shows the number of new notifications",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "> eag12",
+          "usage": "Likely related to running or debugging an eag12 config",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Circle Icon",
+          "usage": "Likely related to logging",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "logs",
+          "usage": "Dropdown for log configurations",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": ">",
+          "usage": "Unknown",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "prompts",
+          "usage": "Dropdown for managing prompts",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "Python Icon",
+          "usage": "Likely related to a Python file",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "_init_.py",
+          "usage": "Python initialization script",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "decision_prompt.txt",
+          "usage": "Text file containing decision prompts",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "Document Icon",
+          "usage": "Create New File",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Search or Find",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_3",
+          "name": "Settings Icon",
+          "usage": "Settings or Preferences",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_4",
+          "name": "Window Icon",
+          "usage": "Toggle Window Layout",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_5",
+          "name": "Arrow Down",
+          "usage": "Dropdown Menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Zero Icon",
+          "usage": "Reset to Zero",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_2",
+          "name": "Triangle with Exclamation Mark Icon",
+          "usage": "Warning or Error",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_3",
+          "name": "Zero Icon",
+          "usage": "Reset to Zero",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "Windows Icon",
+          "usage": "Windows file explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_10",
+          "name": "99+ icon",
+          "usage": "Possibly a plugin store with number of results",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_11",
+          "name": "Abstract Icon",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_12",
+          "name": "W Icon",
+          "usage": "Microsoft Word",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Search Icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_3",
+          "name": "Square Icon",
+          "usage": "Square icon, purpose unclear",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_4",
+          "name": "Outlook Icon",
+          "usage": "Microsoft Outlook Icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_5",
+          "name": "File Explorer Icon",
+          "usage": "File Explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_6",
+          "name": "Web Icon",
+          "usage": "Opens a Webpage",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_7",
+          "name": "Teams Icon",
+          "usage": "Microsoft Teams",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_8",
+          "name": "App Icon",
+          "usage": "Application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_9",
+          "name": "App Icon",
+          "usage": "Application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "M",
+          "usage": "Text label likely related to version control",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "M",
+          "usage": "Text label likely related to version control",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "Sphere Icon",
+          "usage": "Sphere icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_2",
+          "name": "PS",
+          "usage": "Photoshop icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "O",
+          "usage": "Circle Icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_2",
+          "name": "PS",
+          "usage": "Photoshop icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": "uv computer_agent",
+          "usage": "File Browser with 'uv computer_agent' file",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_2",
+          "name": "computer_agent.py M",
+          "usage": "Python script file named 'computer_agent'",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_3",
+          "name": "loop.py M",
+          "usage": "Python script file named 'loop'",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_4",
+          "name": "mode_manager.py U",
+          "usage": "Python script file named 'mode_manager'",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_1",
+          "name": "Rectangle Icon",
+          "usage": "Rectangle icon, function unclear",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_1",
+          "name": "Problems",
+          "usage": "Shows a list of problems or errors",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_2",
+          "name": "Output",
+          "usage": "Displays the output console",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_3",
+          "name": "Debug Console",
+          "usage": "Opens the debug console",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_4",
+          "name": "Ports",
+          "usage": "Displays the active ports",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_5",
+          "name": "Terminal",
+          "usage": "Opens a command line terminal",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_1",
+          "name": "--1",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_1",
+          "name": "6/6/2025",
+          "usage": "Displays a date, likely a deadline",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_1",
+          "name": "LastWriteTime",
+          "usage": "Displays the last modified timestamp",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_1",
+          "name": "mcp",
+          "usage": "Unclear, possibly a file extension or project name",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_1",
+          "name": "_pycache_",
+          "usage": "Python's pycache folder",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_1",
+          "name": "Ctrl+K to g",
+          "usage": "Keyboard shortcut",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_2",
+          "name": "rate a com",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_3",
+          "name": "and",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_1",
+          "name": "Ctrl+K to gener",
+          "usage": "Keyboard shortcut",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_2",
+          "name": "erate a co",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_1",
+          "name": "uv - eagv1 - Cursor",
+          "usage": "Settings for the uv-eagv1 cursor",
+          "group_type": "H"
+        },
+        {
+          "id": "H29_1",
+          "name": "perception.py U",
+          "usage": "Python script file named 'perception'",
+          "group_type": "H"
+        },
+        {
+          "id": "H30_1",
+          "name": "Square Bracket Icon",
+          "usage": "Square Bracket Icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H31_1",
+          "name": "ls",
+          "usage": "List directory command",
+          "group_type": "H"
+        },
+        {
+          "id": "H31_2",
+          "name": ".agent\\",
+          "usage": "Directory named '.agent'",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_1",
+          "name": "Folder and Search Icon",
+          "usage": "Opens a file browser or search tool",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_1",
+          "name": "+",
+          "usage": "Add or Expand",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_2",
+          "name": "Three Dots Icon",
+          "usage": "More Options",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_3",
+          "name": "Arrow Up",
+          "usage": "Scroll up or Increase Value",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_4",
+          "name": "X",
+          "usage": "Close or Delete",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_1",
+          "name": "+",
+          "usage": "Add new item",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_2",
+          "name": "Grid Icon",
+          "usage": "Grid",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_3",
+          "name": "...",
+          "usage": "More options",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_4",
+          "name": "Analyze computer_agent folder conte",
+          "usage": "Button to initiate folder content analysis",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_1",
+          "name": "Let me check the decision module as well:",
+          "usage": "Button to initiate a check of the decision module",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H0_1: \"Arrow Down\" | Usage: \"Dropdown menu indicator\"\nH0_2: \"EAGV1\" | Usage: \"Likely a project or environment name\"\nH1_1: \"X\" | Usage: \"Unclear, possibly to clear settings\"\nH1_2: \"master*\" | Usage: \"Indicates the current branch as 'master' with unsaved changes\"\nH1_3: \"0\" | Usage: \"Unclear, possibly a version number\"\nH2_1: \"Document Icon\" | Usage: \"Likely creates a new file\"\nH2_2: \"File\" | Usage: \"Opens the file menu\"\nH2_3: \"Edit\" | Usage: \"Opens the edit menu\"\nH2_4: \"Selection\" | Usage: \"Opens the selection menu\"\nH2_5: \"View\" | Usage: \"Opens the view menu\"\nH2_6: \"Go\" | Usage: \"Opens the Go menu\"\nH2_7: \"Run\" | Usage: \"Opens the Run menu\"\nH2_8: \"Terminal\" | Usage: \"Opens the terminal menu\"\nH2_9: \"Help\" | Usage: \"Opens the help menu\"\nH3_1: \"Envelope Icon\" | Usage: \"Shows the number of new notifications\"\nH4_1: \"> eag12\" | Usage: \"Likely related to running or debugging an eag12 config\"\nH5_1: \"Circle Icon\" | Usage: \"Likely related to logging\"\nH6_1: \"logs\" | Usage: \"Dropdown for log configurations\"\nH7_1: \">\" | Usage: \"Unknown\"\nH8_1: \"prompts\" | Usage: \"Dropdown for managing prompts\"\nH9_1: \"Python Icon\" | Usage: \"Likely related to a Python file\"\nH9_2: \"_init_.py\" | Usage: \"Python initialization script\"\nH10_1: \"decision_prompt.txt\" | Usage: \"Text file containing decision prompts\"\nH11_1: \"Document Icon\" | Usage: \"Create New File\"\nH11_2: \"Magnifying Glass Icon\" | Usage: \"Search or Find\"\nH11_3: \"Settings Icon\" | Usage: \"Settings or Preferences\"\nH11_4: \"Window Icon\" | Usage: \"Toggle Window Layout\"\nH11_5: \"Arrow Down\" | Usage: \"Dropdown Menu\"\nH12_1: \"Zero Icon\" | Usage: \"Reset to Zero\"\nH12_2: \"Triangle with Exclamation Mark Icon\" | Usage: \"Warning or Error\"\nH12_3: \"Zero Icon\" | Usage: \"Reset to Zero\"\nH13_1: \"Windows Icon\" | Usage: \"Windows file explorer\"\nH13_10: \"99+ icon\" | Usage: \"Possibly a plugin store with number of results\"\nH13_11: \"Abstract Icon\" | Usage: \"Unknown function\"\nH13_12: \"W Icon\" | Usage: \"Microsoft Word\"\nH13_2: \"Magnifying Glass Icon\" | Usage: \"Search Icon\"\nH13_3: \"Square Icon\" | Usage: \"Square icon, purpose unclear\"\nH13_4: \"Outlook Icon\" | Usage: \"Microsoft Outlook Icon\"\nH13_5: \"File Explorer Icon\" | Usage: \"File Explorer\"\nH13_6: \"Web Icon\" | Usage: \"Opens a Webpage\"\nH13_7: \"Teams Icon\" | Usage: \"Microsoft Teams\"\nH13_8: \"App Icon\" | Usage: \"Application icon\"\nH13_9: \"App Icon\" | Usage: \"Application icon\"\nH14_1: \"M\" | Usage: \"Text label likely related to version control\"\nH15_1: \"M\" | Usage: \"Text label likely related to version control\"\nH16_1: \"Sphere Icon\" | Usage: \"Sphere icon\"\nH16_2: \"PS\" | Usage: \"Photoshop icon\"\nH17_1: \"O\" | Usage: \"Circle Icon\"\nH17_2: \"PS\" | Usage: \"Photoshop icon\"\nH18_1: \"uv computer_agent\" | Usage: \"File Browser with 'uv computer_agent' file\"\nH18_2: \"computer_agent.py M\" | Usage: \"Python script file named 'computer_agent'\"\nH18_3: \"loop.py M\" | Usage: \"Python script file named 'loop'\"\nH18_4: \"mode_manager.py U\" | Usage: \"Python script file named 'mode_manager'\"\nH19_1: \"Rectangle Icon\" | Usage: \"Rectangle icon, function unclear\"\nH20_1: \"Problems\" | Usage: \"Shows a list of problems or errors\"\nH20_2: \"Output\" | Usage: \"Displays the output console\"\nH20_3: \"Debug Console\" | Usage: \"Opens the debug console\"\nH20_4: \"Ports\" | Usage: \"Displays the active ports\"\nH20_5: \"Terminal\" | Usage: \"Opens a command line terminal\"\nH21_1: \"--1\" | Usage: \"Unknown function\"\nH22_1: \"6/6/2025\" | Usage: \"Displays a date, likely a deadline\"\nH23_1: \"LastWriteTime\" | Usage: \"Displays the last modified timestamp\"\nH24_1: \"mcp\" | Usage: \"Unclear, possibly a file extension or project name\"\nH25_1: \"_pycache_\" | Usage: \"Python's pycache folder\"\nH26_1: \"Ctrl+K to g\" | Usage: \"Keyboard shortcut\"\nH26_2: \"rate a com\" | Usage: \"Unknown function\"\nH26_3: \"and\" | Usage: \"Unknown function\"\nH27_1: \"Ctrl+K to gener\" | Usage: \"Keyboard shortcut\"\nH27_2: \"erate a co\" | Usage: \"Unknown function\"\nH28_1: \"uv - eagv1 - Cursor\" | Usage: \"Settings for the uv-eagv1 cursor\"\nH29_1: \"perception.py U\" | Usage: \"Python script file named 'perception'\"\nH30_1: \"Square Bracket Icon\" | Usage: \"Square Bracket Icon\"\nH31_1: \"ls\" | Usage: \"List directory command\"\nH31_2: \".agent\\\" | Usage: \"Directory named '.agent'\"\nH32_1: \"Folder and Search Icon\" | Usage: \"Opens a file browser or search tool\"\nH33_1: \"+\" | Usage: \"Add or Expand\"\nH33_2: \"Three Dots Icon\" | Usage: \"More Options\"\nH33_3: \"Arrow Up\" | Usage: \"Scroll up or Increase Value\"\nH33_4: \"X\" | Usage: \"Close or Delete\"\nH34_1: \"+\" | Usage: \"Add new item\"\nH34_2: \"Grid Icon\" | Usage: \"Grid\"\nH34_3: \"...\" | Usage: \"More options\"\nH34_4: \"Analyze computer_agent folder conte\" | Usage: \"Button to initiate folder content analysis\"\nH35_1: \"Let me check the decision module as well:\" | Usage: \"Button to initiate a check of the decision module\"",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_1_50_bboxes.png",
+      "image_name": "combined_groups_1_50_bboxes.png",
+      "icons_found": 50,
+      "icons": [
+        {
+          "id": "H36_1",
+          "name": "Read decision.py",
+          "usage": "Opens the 'decision.py' file in the editor",
+          "group_type": "H"
+        },
+        {
+          "id": "H37_1",
+          "name": "1. In agent/core/perception.py:",
+          "usage": "Shows the path to the current file",
+          "group_type": "H"
+        },
+        {
+          "id": "H38_1",
+          "name": "Ask ∧",
+          "usage": "Opens a menu or dropdown labeled 'Ask'",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_1",
+          "name": "^",
+          "usage": "Unclear, could be an 'up' control",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_1",
+          "name": "Cloud Upload",
+          "usage": "Upload data to a cloud service",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_2",
+          "name": "Document Icon",
+          "usage": "Likely opens a document viewer or settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_3",
+          "name": "ENG IN",
+          "usage": "Indicates selected language is English (IN)",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_4",
+          "name": "Speaker Icon",
+          "usage": "Adjusts audio settings or toggles mute",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_5",
+          "name": "2:20 PM 6/6/2025",
+          "usage": "Displays the current time and date",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_1",
+          "name": "perception.py +2-1 ✓",
+          "usage": "Shows the current file name, modification status, and a confirmation checkmark",
+          "group_type": "H"
+        },
+        {
+          "id": "H42_1",
+          "name": "def",
+          "usage": "Declaration for function or definition",
+          "group_type": "H"
+        },
+        {
+          "id": "H42_2",
+          "name": "__init__(self, model_manager):",
+          "usage": "Initialization function",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_1",
+          "name": "async",
+          "usage": "Keyword for asynchronous function",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_2",
+          "name": "def analyze(self, ctx, pipeline_resul",
+          "usage": "Defines an analyze function",
+          "group_type": "H"
+        },
+        {
+          "id": "H44_1",
+          "name": "def",
+          "usage": "Declaration for function or definition",
+          "group_type": "H"
+        },
+        {
+          "id": "H44_2",
+          "name": "__init__(self, model_manager, multi_m",
+          "usage": "Initialization function with more arguments",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_1",
+          "name": "self.model = model_manager",
+          "usage": "Assigns model manager to the self model",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_1",
+          "name": "self.prompt_path = Path(\\\"prompts/percept",
+          "usage": "Sets the prompt path to a perception directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H47_1",
+          "name": "self.prompt_path = Path(\\\"agent/prompts/",
+          "usage": "Sets the prompt path to an agent prompt directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_1",
+          "name": "except Exception as e:",
+          "usage": "Exception handling block",
+          "group_type": "H"
+        },
+        {
+          "id": "H49_1",
+          "name": "self.multi_mcp = multi_mcp",
+          "usage": "Assigns multi_mcp variable",
+          "group_type": "H"
+        },
+        {
+          "id": "H50_1",
+          "name": "self.prompt_path = Path(\\\"prompts/deci",
+          "usage": "Sets the prompt path to a decision directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_1",
+          "name": "self.model = model_manager",
+          "usage": "Assigns model manager to the self model",
+          "group_type": "H"
+        },
+        {
+          "id": "H52_1",
+          "name": "except Exception as e:",
+          "usage": "Exception handling block",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_1",
+          "name": "Cloud Icon",
+          "usage": "Possibly upload or synchronize to cloud",
+          "group_type": "H"
+        },
+        {
+          "id": "H54_1",
+          "name": "logger.error(f\\\"Perception analysis",
+          "usage": "Logs an error related to perception analysis",
+          "group_type": "H"
+        },
+        {
+          "id": "H55_1",
+          "name": "raise",
+          "usage": "Raises an exception",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_1",
+          "name": "Square Icon",
+          "usage": "Unclear, could be a file or window control",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_2",
+          "name": "Window Settings Icon",
+          "usage": "Opens window-specific settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_3",
+          "name": "Minus Icon",
+          "usage": "Minimizes window",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_4",
+          "name": "Window Icon",
+          "usage": "Possible Window Management",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_5",
+          "name": "X",
+          "usage": "Closes the current window or dialog",
+          "group_type": "H"
+        },
+        {
+          "id": "H57_1",
+          "name": "raise",
+          "usage": "Raises an exception",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_1",
+          "name": "Start a new chat for be",
+          "usage": "Opens a new chat window or session",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_1",
+          "name": "logger.error(f\\\"Decision making fa",
+          "usage": "Logs an error related to decision making",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_1",
+          "name": "Square Icon",
+          "usage": "Unclear, could be a file or window control",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_2",
+          "name": "Square Icon",
+          "usage": "Unclear, could be a file or window control",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_1",
+          "name": "Wifi Icon",
+          "usage": "Shows Wi-Fi status or network settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_2",
+          "name": "Speaker Mute Icon",
+          "usage": "Mutes or unmutes audio output",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_1",
+          "name": "Cursor Tab",
+          "usage": "Cursor Tab control",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_2",
+          "name": "Notification Bell Icon",
+          "usage": "Shows or clears notifications",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_1",
+          "name": "Plus Icon",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_2",
+          "name": "Clock Icon",
+          "usage": "Opens history or logs",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_3",
+          "name": "Three Dots Icon",
+          "usage": "Opens a menu with more options",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_1",
+          "name": "New Chat",
+          "usage": "Opens a new chat window or session",
+          "group_type": "H"
+        },
+        {
+          "id": "H65_1",
+          "name": "Picture Icon",
+          "usage": "Opens picture or images",
+          "group_type": "H"
+        },
+        {
+          "id": "H65_2",
+          "name": "Up Arrow Icon",
+          "usage": "Possibly indicates upload or move up directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_1",
+          "name": "Down Arrow Icon",
+          "usage": "Possibly indicates download or move down directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H67_1",
+          "name": "Down Arrow Icon",
+          "usage": "Possibly indicates download or move down directory",
+          "group_type": "H"
+        },
+        {
+          "id": "HL0_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a\\\\computer_agent> ls .\\\\agent\\\\",
+          "usage": "Shows a file system path and a command line prompt",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H36_1: \"Read decision.py\" | Usage: \"Opens the 'decision.py' file in the editor\"\nH37_1: \"1. In agent/core/perception.py:\" | Usage: \"Shows the path to the current file\"\nH38_1: \"Ask ∧\" | Usage: \"Opens a menu or dropdown labeled 'Ask'\"\nH39_1: \"^\" | Usage: \"Unclear, could be an 'up' control\"\nH40_1: \"Cloud Upload\" | Usage: \"Upload data to a cloud service\"\nH40_2: \"Document Icon\" | Usage: \"Likely opens a document viewer or settings\"\nH40_3: \"ENG IN\" | Usage: \"Indicates selected language is English (IN)\"\nH40_4: \"Speaker Icon\" | Usage: \"Adjusts audio settings or toggles mute\"\nH40_5: \"2:20 PM 6/6/2025\" | Usage: \"Displays the current time and date\"\nH41_1: \"perception.py +2-1 ✓\" | Usage: \"Shows the current file name, modification status, and a confirmation checkmark\"\nH42_1: \"def\" | Usage: \"Declaration for function or definition\"\nH42_2: \"__init__(self, model_manager):\" | Usage: \"Initialization function\"\nH43_1: \"async\" | Usage: \"Keyword for asynchronous function\"\nH43_2: \"def analyze(self, ctx, pipeline_resul\" | Usage: \"Defines an analyze function\"\nH44_1: \"def\" | Usage: \"Declaration for function or definition\"\nH44_2: \"__init__(self, model_manager, multi_m\" | Usage: \"Initialization function with more arguments\"\nH45_1: \"self.model = model_manager\" | Usage: \"Assigns model manager to the self model\"\nH46_1: \"self.prompt_path = Path(\\\"prompts/percept\" | Usage: \"Sets the prompt path to a perception directory\"\nH47_1: \"self.prompt_path = Path(\\\"agent/prompts/\" | Usage: \"Sets the prompt path to an agent prompt directory\"\nH48_1: \"except Exception as e:\" | Usage: \"Exception handling block\"\nH49_1: \"self.multi_mcp = multi_mcp\" | Usage: \"Assigns multi_mcp variable\"\nH50_1: \"self.prompt_path = Path(\\\"prompts/deci\" | Usage: \"Sets the prompt path to a decision directory\"\nH51_1: \"self.model = model_manager\" | Usage: \"Assigns model manager to the self model\"\nH52_1: \"except Exception as e:\" | Usage: \"Exception handling block\"\nH53_1: \"Cloud Icon\" | Usage: \"Possibly upload or synchronize to cloud\"\nH54_1: \"logger.error(f\\\"Perception analysis\" | Usage: \"Logs an error related to perception analysis\"\nH55_1: \"raise\" | Usage: \"Raises an exception\"\nH56_1: \"Square Icon\" | Usage: \"Unclear, could be a file or window control\"\nH56_2: \"Window Settings Icon\" | Usage: \"Opens window-specific settings\"\nH56_3: \"Minus Icon\" | Usage: \"Minimizes window\"\nH56_4: \"Window Icon\" | Usage: \"Possible Window Management\"\nH56_5: \"X\" | Usage: \"Closes the current window or dialog\"\nH57_1: \"raise\" | Usage: \"Raises an exception\"\nH58_1: \"Start a new chat for be\" | Usage: \"Opens a new chat window or session\"\nH59_1: \"logger.error(f\\\"Decision making fa\" | Usage: \"Logs an error related to decision making\"\nH60_1: \"Square Icon\" | Usage: \"Unclear, could be a file or window control\"\nH60_2: \"Square Icon\" | Usage: \"Unclear, could be a file or window control\"\nH61_1: \"Wifi Icon\" | Usage: \"Shows Wi-Fi status or network settings\"\nH61_2: \"Speaker Mute Icon\" | Usage: \"Mutes or unmutes audio output\"\nH62_1: \"Cursor Tab\" | Usage: \"Cursor Tab control\"\nH62_2: \"Notification Bell Icon\" | Usage: \"Shows or clears notifications\"\nH63_1: \"Plus Icon\" | Usage: \"Adds a new item or element\"\nH63_2: \"Clock Icon\" | Usage: \"Opens history or logs\"\nH63_3: \"Three Dots Icon\" | Usage: \"Opens a menu with more options\"\nH64_1: \"New Chat\" | Usage: \"Opens a new chat window or session\"\nH65_1: \"Picture Icon\" | Usage: \"Opens picture or images\"\nH65_2: \"Up Arrow Icon\" | Usage: \"Possibly indicates upload or move up directory\"\nH66_1: \"Down Arrow Icon\" | Usage: \"Possibly indicates download or move down directory\"\nH67_1: \"Down Arrow Icon\" | Usage: \"Possibly indicates download or move down directory\"\nHL0_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a\\\\computer_agent> ls .\\\\agent\\\\\" | Usage: \"Shows a file system path and a command line prompt\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_2_56_bboxes.png",
+      "image_name": "combined_groups_2_56_bboxes.png",
+      "icons_found": 50,
+      "icons": [
+        {
+          "id": "HL1_1",
+          "name": "PS C:\\Users\\dsaha\\OneDrive - Microsoft\\Documents\\Personal\\deep\\study\\artificial intelligence\\eagv1\\eag14a>",
+          "usage": "Command line path",
+          "group_type": "H"
+        },
+        {
+          "id": "HL2_1",
+          "name": "PS C:\\Users\\dsaha\\OneDrive - Microsoft\\Documents\\Personal\\deep\\study\\artificial intelligence\\eagv1\\eag14a\\computer_agent> uv run ./test_agent.py",
+          "usage": "Command to run the test agent",
+          "group_type": "H"
+        },
+        {
+          "id": "HL3_1",
+          "name": "Directory: C:\\Users\\dsaha\\OneDrive - Microsoft\\Documents\\Personal\\deep\\study\\artificial intelligence\\eagv1\\eag14a\\computer_agent\\agent",
+          "usage": "Shows the current directory",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "decision.py U",
+          "usage": "Python file named decision.py",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "▷ Apply",
+          "usage": "Applies some setting or action",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_1",
+          "name": "python",
+          "usage": "Executes a python script",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_2",
+          "name": "It should be:",
+          "usage": "A label indicating a expected output or value",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_1",
+          "name": "Circle Icon",
+          "usage": "Unknown function",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_2",
+          "name": "Circle Icon",
+          "usage": "Unknown function",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_1",
+          "name": "eayc",
+          "usage": "Running the 'eayc' command",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_2",
+          "name": "> eag3-sample",
+          "usage": "Runs the eag3-sample file",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_1",
+          "name": "> eag4",
+          "usage": "Runs the eag4 program",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_2",
+          "name": "> eag5",
+          "usage": "Runs the eag5 program",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_3",
+          "name": "> eag6",
+          "usage": "Runs the eag6 program",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_1",
+          "name": "Mode",
+          "usage": "Sets or displays the mode",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_2",
+          "name": "dar--1",
+          "usage": "Represents a configuration or parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_3",
+          "name": "dar--1",
+          "usage": "Represents a configuration or parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_4",
+          "name": "dar--1",
+          "usage": "Represents a configuration or parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_5",
+          "name": "d---",
+          "usage": "Represents a configuration or parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_6",
+          "name": "dar--1",
+          "usage": "Represents a configuration or parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_7",
+          "name": "dar--1",
+          "usage": "Represents a configuration or parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_8",
+          "name": "-a-",
+          "usage": "Represents a configuration or parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_9",
+          "name": "-a-",
+          "usage": "Represents a configuration or parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_1",
+          "name": "Length Name",
+          "usage": "Specifies the length of the name",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_2",
+          "name": "Dashed Line",
+          "usage": "Separates different parts of the user interface",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_1",
+          "name": "class Perception:",
+          "usage": "Indicates the class perception",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_1",
+          "name": "6/6/2025",
+          "usage": "A date value",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_2",
+          "name": "6/6/2025",
+          "usage": "A date value",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_3",
+          "name": "6/6/2025",
+          "usage": "A date value",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_4",
+          "name": "6/6/2025",
+          "usage": "A date value",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_5",
+          "name": "6/6/2025",
+          "usage": "A date value",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_6",
+          "name": "6/6/2025",
+          "usage": "A date value",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_7",
+          "name": "6/6/2025",
+          "usage": "A date value",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_1",
+          "name": "1:03 PM",
+          "usage": "A timestamp value",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_2",
+          "name": "1:22 PM",
+          "usage": "A timestamp value",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_3",
+          "name": "1:03 PM",
+          "usage": "A timestamp value",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_4",
+          "name": "2:10 PM",
+          "usage": "A timestamp value",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_5",
+          "name": "1:25 PM",
+          "usage": "A timestamp value",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_6",
+          "name": "2:10 PM",
+          "usage": "A timestamp value",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_7",
+          "name": "2:10 PM",
+          "usage": "A timestamp value",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_8",
+          "name": "12:30 PM",
+          "usage": "A timestamp value",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_1",
+          "name": "config",
+          "usage": "Settings or configuration files",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_2",
+          "name": "core",
+          "usage": "Core system components",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_3",
+          "name": "models",
+          "usage": "Stores machine learning models",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_4",
+          "name": "prompts",
+          "usage": "Stores prompt data",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_5",
+          "name": "2766 computer_agent.py",
+          "usage": "Python file named computer_agent.py",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_6",
+          "name": "0 __init__.py",
+          "usage": "Python initialization file",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_1",
+          "name": "computer_agent",
+          "usage": "Current computer agent is selected",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_2",
+          "name": "_pycache",
+          "usage": "Folder for Python cache files",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_3",
+          "name": "> .venv",
+          "usage": "A python virtual environment folder",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "HL1_1: \"PS C:\\Users\\dsaha\\OneDrive - Microsoft\\Documents\\Personal\\deep\\study\\artificial intelligence\\eagv1\\eag14a>\" | Usage: \"Command line path\"\nHL2_1: \"PS C:\\Users\\dsaha\\OneDrive - Microsoft\\Documents\\Personal\\deep\\study\\artificial intelligence\\eagv1\\eag14a\\computer_agent> uv run ./test_agent.py\" | Usage: \"Command to run the test agent\"\nHL3_1: \"Directory: C:\\Users\\dsaha\\OneDrive - Microsoft\\Documents\\Personal\\deep\\study\\artificial intelligence\\eagv1\\eag14a\\computer_agent\\agent\" | Usage: \"Shows the current directory\"\nV0_1: \"decision.py U\" | Usage: \"Python file named decision.py\"\nV1_1: \"▷ Apply\" | Usage: \"Applies some setting or action\"\nV2_1: \"python\" | Usage: \"Executes a python script\"\nV2_2: \"It should be:\" | Usage: \"A label indicating a expected output or value\"\nV3_1: \"Circle Icon\" | Usage: \"Unknown function\"\nV3_2: \"Circle Icon\" | Usage: \"Unknown function\"\nV4_1: \"eayc\" | Usage: \"Running the 'eayc' command\"\nV4_2: \"> eag3-sample\" | Usage: \"Runs the eag3-sample file\"\nV5_1: \"> eag4\" | Usage: \"Runs the eag4 program\"\nV5_2: \"> eag5\" | Usage: \"Runs the eag5 program\"\nV5_3: \"> eag6\" | Usage: \"Runs the eag6 program\"\nV6_1: \"Mode\" | Usage: \"Sets or displays the mode\"\nV6_2: \"dar--1\" | Usage: \"Represents a configuration or parameter\"\nV6_3: \"dar--1\" | Usage: \"Represents a configuration or parameter\"\nV6_4: \"dar--1\" | Usage: \"Represents a configuration or parameter\"\nV6_5: \"d---\" | Usage: \"Represents a configuration or parameter\"\nV6_6: \"dar--1\" | Usage: \"Represents a configuration or parameter\"\nV6_7: \"dar--1\" | Usage: \"Represents a configuration or parameter\"\nV6_8: \"-a-\" | Usage: \"Represents a configuration or parameter\"\nV6_9: \"-a-\" | Usage: \"Represents a configuration or parameter\"\nV7_1: \"Length Name\" | Usage: \"Specifies the length of the name\"\nV7_2: \"Dashed Line\" | Usage: \"Separates different parts of the user interface\"\nV8_1: \"class Perception:\" | Usage: \"Indicates the class perception\"\nV9_1: \"6/6/2025\" | Usage: \"A date value\"\nV9_2: \"6/6/2025\" | Usage: \"A date value\"\nV9_3: \"6/6/2025\" | Usage: \"A date value\"\nV9_4: \"6/6/2025\" | Usage: \"A date value\"\nV9_5: \"6/6/2025\" | Usage: \"A date value\"\nV9_6: \"6/6/2025\" | Usage: \"A date value\"\nV9_7: \"6/6/2025\" | Usage: \"A date value\"\nV10_1: \"1:03 PM\" | Usage: \"A timestamp value\"\nV10_2: \"1:22 PM\" | Usage: \"A timestamp value\"\nV10_3: \"1:03 PM\" | Usage: \"A timestamp value\"\nV10_4: \"2:10 PM\" | Usage: \"A timestamp value\"\nV10_5: \"1:25 PM\" | Usage: \"A timestamp value\"\nV10_6: \"2:10 PM\" | Usage: \"A timestamp value\"\nV10_7: \"2:10 PM\" | Usage: \"A timestamp value\"\nV10_8: \"12:30 PM\" | Usage: \"A timestamp value\"\nV11_1: \"config\" | Usage: \"Settings or configuration files\"\nV11_2: \"core\" | Usage: \"Core system components\"\nV11_3: \"models\" | Usage: \"Stores machine learning models\"\nV11_4: \"prompts\" | Usage: \"Stores prompt data\"\nV11_5: \"2766 computer_agent.py\" | Usage: \"Python file named computer_agent.py\"\nV11_6: \"0 __init__.py\" | Usage: \"Python initialization file\"\nV12_1: \"computer_agent\" | Usage: \"Current computer agent is selected\"\nV12_2: \"_pycache\" | Usage: \"Folder for Python cache files\"\nV12_3: \"> .venv\" | Usage: \"A python virtual environment folder\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_3_44_bboxes.png",
+      "image_name": "combined_groups_3_44_bboxes.png",
+      "icons_found": 23,
+      "icons": [
+        {
+          "id": "V13_1",
+          "name": "agent",
+          "usage": "Dropdown menu item, likely to select the agent",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_2",
+          "name": ">__pycache__",
+          "usage": "Navigation to a '__pycache__' directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_1",
+          "name": "The decision module has the same issue. Both modules",
+          "usage": "Text describing a problem with the decision module",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_2",
+          "name": "need to be updated to use the correct path to the",
+          "usage": "Text indicating a path update is needed",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_1",
+          "name": "python",
+          "usage": "Apply button for Python settings",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_2",
+          "name": "self.prompt_path = Path(\\\"agent/prompts/percep",
+          "usage": "Code snippet showing a file path",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_1",
+          "name": "2. In agent/core/decision.py:",
+          "usage": "File path navigation, focusing on 'decision.py'",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_2",
+          "name": "decision.py +2 -1",
+          "usage": "Shows changes in decision.py with additions and deletions",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_1",
+          "name": "uv computer...",
+          "usage": "Likely a selection of uv computer configuration",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_2",
+          "name": "powershell...",
+          "usage": "Likely a selection of powershell",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_1",
+          "name": "Circle Icon",
+          "usage": "Unknown usage, context needed",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_2",
+          "name": "U",
+          "usage": "Likely button to perform action 'U'",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_3",
+          "name": "U",
+          "usage": "Likely button to perform action 'U'",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_1",
+          "name": "perception_prompt.txt",
+          "usage": "Opens or shows 'perception_prompt.txt' file",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_2",
+          "name": "_init_.py",
+          "usage": "Opens or shows '_init_.py' file",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_1",
+          "name": "self.prompt_path = Path(\\\"agent/prompt",
+          "usage": "Code snippet showing a file path",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_2",
+          "name": "async def decide(self, ctx, perception: D",
+          "usage": "Code snippet showing 'decide' function definition",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_1",
+          "name": "13 files +731-92",
+          "usage": "File statistics showing count and changes",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_2",
+          "name": "@computer_agent",
+          "usage": "Likely displays the selected agent",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_3",
+          "name": "Ask, learn, brainstorm",
+          "usage": "Button to trigger the 'Ask, learn, brainstorm' action",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_4",
+          "name": "Auto",
+          "usage": "A dropdown menu that selects between modes",
+          "group_type": "V"
+        },
+        {
+          "id": "V22_1",
+          "name": ">",
+          "usage": "Next or forward arrow",
+          "group_type": "V"
+        },
+        {
+          "id": "V22_2",
+          "name": "@",
+          "usage": "Likely related to at mentioning or user",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "V13_1: \"agent\" | Usage: \"Dropdown menu item, likely to select the agent\"\nV13_2: \">__pycache__\" | Usage: \"Navigation to a '__pycache__' directory\"\nV14_1: \"The decision module has the same issue. Both modules\" | Usage: \"Text describing a problem with the decision module\"\nV14_2: \"need to be updated to use the correct path to the\" | Usage: \"Text indicating a path update is needed\"\nV15_1: \"python\" | Usage: \"Apply button for Python settings\"\nV15_2: \"self.prompt_path = Path(\\\"agent/prompts/percep\" | Usage: \"Code snippet showing a file path\"\nV16_1: \"2. In agent/core/decision.py:\" | Usage: \"File path navigation, focusing on 'decision.py'\"\nV16_2: \"decision.py +2 -1\" | Usage: \"Shows changes in decision.py with additions and deletions\"\nV17_1: \"uv computer...\" | Usage: \"Likely a selection of uv computer configuration\"\nV17_2: \"powershell...\" | Usage: \"Likely a selection of powershell\"\nV18_1: \"Circle Icon\" | Usage: \"Unknown usage, context needed\"\nV18_2: \"U\" | Usage: \"Likely button to perform action 'U'\"\nV18_3: \"U\" | Usage: \"Likely button to perform action 'U'\"\nV19_1: \"perception_prompt.txt\" | Usage: \"Opens or shows 'perception_prompt.txt' file\"\nV19_2: \"_init_.py\" | Usage: \"Opens or shows '_init_.py' file\"\nV20_1: \"self.prompt_path = Path(\\\"agent/prompt\" | Usage: \"Code snippet showing a file path\"\nV20_2: \"async def decide(self, ctx, perception: D\" | Usage: \"Code snippet showing 'decide' function definition\"\nV21_1: \"13 files +731-92\" | Usage: \"File statistics showing count and changes\"\nV21_2: \"@computer_agent\" | Usage: \"Likely displays the selected agent\"\nV21_3: \"Ask, learn, brainstorm\" | Usage: \"Button to trigger the 'Ask, learn, brainstorm' action\"\nV21_4: \"Auto\" | Usage: \"A dropdown menu that selects between modes\"\nV22_1: \">\" | Usage: \"Next or forward arrow\"\nV22_2: \"@\" | Usage: \"Likely related to at mentioning or user\"\n",
+      "analysis_success": true
+    }
+  ]
+}

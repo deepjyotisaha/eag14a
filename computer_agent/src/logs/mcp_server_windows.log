@@ -1,0 +1,11 @@
+2025-06-06 13:01:41,505 - INFO - mcp_server_windows:__init__:47 - Initializing MCPServer
+2025-06-06 13:02:06,275 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 13:03:00,065 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 13:05:01,729 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 13:07:35,685 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 13:08:41,110 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 13:09:30,441 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 13:14:02,217 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 13:15:06,220 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 14:17:36,126 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-06 14:20:48,422 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected

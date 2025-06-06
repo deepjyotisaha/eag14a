@@ -1,13 +1,20 @@
 import asyncio
-import logging
+import os
+from dotenv import load_dotenv
 from agent.computer_agent import ComputerAgent
 
-# Set up logging
-logging.basicConfig(level=logging.INFO)
 
 async def main():
-    # Create agent
-    agent = ComputerAgent()
+    # Load environment variables
+    load_dotenv()
+    
+    # Get API key from environment variable
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("GEMINI_API_KEY environment variable not set")
+    
+    # Initialize agent
+    agent = ComputerAgent(api_key=api_key)
     
     # Test query
     query = "Open Notepad and type 'Hello World'"

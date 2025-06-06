@@ -1,0 +1,1473 @@
+{
+  "filename_base": "screenshot_20250606_131506",
+  "analysis_timestamp": "2025-06-06T13:15:24.583054",
+  "analysis_duration_seconds": 14.376606,
+  "total_images_analyzed": 5,
+  "total_input_images": 5,
+  "analysis_mode": "direct",
+  "successful_analyses": 5,
+  "total_icons_found": 236,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_84_bboxes.png",
+      "image_name": "combined_groups_0_84_bboxes.png",
+      "icons_found": 67,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "Down Arrow",
+          "usage": "Likely part of a dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "EAGV1",
+          "usage": "Unclear, possibly application or configuration name",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "X Icon",
+          "usage": "Close or exit the current window/application",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "3D Cube",
+          "usage": "Represents file explorer or root directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "File",
+          "usage": "Opens the File menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "Edit",
+          "usage": "Opens the Edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_4",
+          "name": "Selection",
+          "usage": "Opens the Selection menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_5",
+          "name": "View",
+          "usage": "Opens the View menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_6",
+          "name": "Go",
+          "usage": "Opens the Go menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_7",
+          "name": "Run",
+          "usage": "Opens the Run menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_8",
+          "name": "Terminal",
+          "usage": "Opens the Terminal menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_9",
+          "name": "Help",
+          "usage": "Opens the Help menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": ">",
+          "usage": "Likely indicates a submenu or expansion",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "> eag5",
+          "usage": "Navigation to 'eag5' section or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "> eag6",
+          "usage": "Navigation to 'eag6' section or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "> eag12",
+          "usage": "Navigation to 'eag12' section or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "Dot Icon",
+          "usage": "Unclear; possibly a notification indicator",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "> eag4",
+          "usage": "Navigation to 'eag4' section or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "> eag9",
+          "usage": "Navigation to 'eag9' section or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "Circle Icon",
+          "usage": "Unclear, could be a toggle or setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "> tests",
+          "usage": "Navigation to 'tests' section or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "> config",
+          "usage": "Navigation to 'config' section or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "> models",
+          "usage": "Navigation to 'models' section or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Vertical Bar",
+          "usage": "Separator or visual divider",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Gear Icon",
+          "usage": "Settings or configuration",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "common.log",
+          "usage": "Opens or displays the common log file",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "_pycache",
+          "usage": "Opens or navigates to the pycache folder",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": "Document Icon",
+          "usage": "Represents a file or document",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Search or find",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_3",
+          "name": "Settings Icon",
+          "usage": "Settings or configurations",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_4",
+          "name": "Grid Icon",
+          "usage": "Show / Hide the grid",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_5",
+          "name": "Down Arrow Icon",
+          "usage": "Dropdown menu or expand options",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_1",
+          "name": "Cloud Icon",
+          "usage": "Cloud sync or related functionality",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_2",
+          "name": "0 Δ 0",
+          "usage": "Displays or sets the XYZ offset to 0",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_3",
+          "name": "A 0",
+          "usage": "Displays or sets scale value to 0",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_1",
+          "name": "0",
+          "usage": "Displays or sets rotation value to 0 degrees",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_2",
+          "name": "Triangle",
+          "usage": "Warning or Alert",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_3",
+          "name": "0",
+          "usage": "Displays or sets scale value to 0",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_1",
+          "name": "Windows Icon",
+          "usage": "Opens the Windows menu or start menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_2",
+          "name": "Q",
+          "usage": "Search or find",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_3",
+          "name": "Square Icon",
+          "usage": "Represents the current object",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_4",
+          "name": "Globe Icon",
+          "usage": "Web Browser",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_5",
+          "name": "Edge Icon",
+          "usage": "Microsoft Edge browser",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_6",
+          "name": "Page Icon",
+          "usage": "New document or page",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_7",
+          "name": "T Icon",
+          "usage": "Microsoft Teams",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_8",
+          "name": "H360",
+          "usage": "Represents application specific to the workflow",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_9",
+          "name": "Folder Icon",
+          "usage": "File explorer or directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_10",
+          "name": "99+",
+          "usage": "Notification with more than 99 notifications",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_11",
+          "name": "P Icon",
+          "usage": "Photoshop application",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_12",
+          "name": "W Icon",
+          "usage": "Microsoft Word",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_1",
+          "name": "Dot Icon",
+          "usage": "Represents the current object",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_1",
+          "name": "M",
+          "usage": "Unclear; related to module, measurement or matrix",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_1",
+          "name": "uv computer_agent",
+          "usage": "Executes the computer agent",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_2",
+          "name": "loop.py M",
+          "usage": "Executes the loop.py file",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_1",
+          "name": "MOUSE_COMMANDS:",
+          "usage": "Category name indicating mouse-related controls",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_1",
+          "name": "Problems",
+          "usage": "Displays the problems window",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_2",
+          "name": "Output",
+          "usage": "Displays the output window",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_3",
+          "name": "Debug Console",
+          "usage": "Displays the debug console",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_4",
+          "name": "Ports",
+          "usage": "Displays the ports window",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_5",
+          "name": "Terminal",
+          "usage": "Opens or displays the terminal window",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_1",
+          "name": "- print_windows_summary: Print summary of all windows",
+          "usage": "Prints the summary of all active windows",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_1",
+          "name": "- click: Mouse click",
+          "usage": "Simulates a mouse click event",
+          "group_type": "H"
+        },
+        {
+          "id": "H29_1",
+          "name": "- introspect: Deep window introspection",
+          "usage": "Performs deep introspection on the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H30_1",
+          "name": "monitor: Move to monitor",
+          "usage": "Moves the window to the specified monitor",
+          "group_type": "H"
+        },
+        {
+          "id": "H31_1",
+          "name": "screen: Move to screen position",
+          "usage": "Moves the window to a specific screen position",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_1",
+          "name": "Params:",
+          "usage": "Parameter input box for window dimensions",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_2",
+          "name": "{'window_id': 'string', 'width': 'number', 'height': 'number'}",
+          "usage": "Defines the structure for parameters like window ID, width, and height",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H0_1: \"Down Arrow\" | Usage: \"Likely part of a dropdown menu\"\nH0_2: \"EAGV1\" | Usage: \"Unclear, possibly application or configuration name\"\nH1_1: \"X Icon\" | Usage: \"Close or exit the current window/application\"\nH2_1: \"3D Cube\" | Usage: \"Represents file explorer or root directory\"\nH2_2: \"File\" | Usage: \"Opens the File menu\"\nH2_3: \"Edit\" | Usage: \"Opens the Edit menu\"\nH2_4: \"Selection\" | Usage: \"Opens the Selection menu\"\nH2_5: \"View\" | Usage: \"Opens the View menu\"\nH2_6: \"Go\" | Usage: \"Opens the Go menu\"\nH2_7: \"Run\" | Usage: \"Opens the Run menu\"\nH2_8: \"Terminal\" | Usage: \"Opens the Terminal menu\"\nH2_9: \"Help\" | Usage: \"Opens the Help menu\"\nH3_1: \">\" | Usage: \"Likely indicates a submenu or expansion\"\nH4_1: \"> eag5\" | Usage: \"Navigation to 'eag5' section or object\"\nH5_1: \"> eag6\" | Usage: \"Navigation to 'eag6' section or object\"\nH6_1: \"> eag12\" | Usage: \"Navigation to 'eag12' section or object\"\nH7_1: \"Dot Icon\" | Usage: \"Unclear; possibly a notification indicator\"\nH8_1: \"> eag4\" | Usage: \"Navigation to 'eag4' section or object\"\nH9_1: \"> eag9\" | Usage: \"Navigation to 'eag9' section or object\"\nH10_1: \"Circle Icon\" | Usage: \"Unclear, could be a toggle or setting\"\nH11_1: \"> tests\" | Usage: \"Navigation to 'tests' section or object\"\nH12_1: \"> config\" | Usage: \"Navigation to 'config' section or object\"\nH13_1: \"> models\" | Usage: \"Navigation to 'models' section or object\"\nH14_1: \"Vertical Bar\" | Usage: \"Separator or visual divider\"\nH15_1: \"Gear Icon\" | Usage: \"Settings or configuration\"\nH16_1: \"common.log\" | Usage: \"Opens or displays the common log file\"\nH17_1: \"_pycache\" | Usage: \"Opens or navigates to the pycache folder\"\nH18_1: \"Document Icon\" | Usage: \"Represents a file or document\"\nH18_2: \"Magnifying Glass Icon\" | Usage: \"Search or find\"\nH18_3: \"Settings Icon\" | Usage: \"Settings or configurations\"\nH18_4: \"Grid Icon\" | Usage: \"Show / Hide the grid\"\nH18_5: \"Down Arrow Icon\" | Usage: \"Dropdown menu or expand options\"\nH19_1: \"Cloud Icon\" | Usage: \"Cloud sync or related functionality\"\nH19_2: \"0 Δ 0\" | Usage: \"Displays or sets the XYZ offset to 0\"\nH19_3: \"A 0\" | Usage: \"Displays or sets scale value to 0\"\nH20_1: \"0\" | Usage: \"Displays or sets rotation value to 0 degrees\"\nH20_2: \"Triangle\" | Usage: \"Warning or Alert\"\nH20_3: \"0\" | Usage: \"Displays or sets scale value to 0\"\nH21_1: \"Windows Icon\" | Usage: \"Opens the Windows menu or start menu\"\nH21_2: \"Q\" | Usage: \"Search or find\"\nH21_3: \"Square Icon\" | Usage: \"Represents the current object\"\nH21_4: \"Globe Icon\" | Usage: \"Web Browser\"\nH21_5: \"Edge Icon\" | Usage: \"Microsoft Edge browser\"\nH21_6: \"Page Icon\" | Usage: \"New document or page\"\nH21_7: \"T Icon\" | Usage: \"Microsoft Teams\"\nH21_8: \"H360\" | Usage: \"Represents application specific to the workflow\"\nH21_9: \"Folder Icon\" | Usage: \"File explorer or directory\"\nH21_10: \"99+\" | Usage: \"Notification with more than 99 notifications\"\nH21_11: \"P Icon\" | Usage: \"Photoshop application\"\nH21_12: \"W Icon\" | Usage: \"Microsoft Word\"\nH22_1: \"Dot Icon\" | Usage: \"Represents the current object\"\nH23_1: \"M\" | Usage: \"Unclear; related to module, measurement or matrix\"\nH24_1: \"uv computer_agent\" | Usage: \"Executes the computer agent\"\nH24_2: \"loop.py M\" | Usage: \"Executes the loop.py file\"\nH25_1: \"MOUSE_COMMANDS:\" | Usage: \"Category name indicating mouse-related controls\"\nH26_1: \"Problems\" | Usage: \"Displays the problems window\"\nH26_2: \"Output\" | Usage: \"Displays the output window\"\nH26_3: \"Debug Console\" | Usage: \"Displays the debug console\"\nH26_4: \"Ports\" | Usage: \"Displays the ports window\"\nH26_5: \"Terminal\" | Usage: \"Opens or displays the terminal window\"\nH27_1: \"- print_windows_summary: Print summary of all windows\" | Usage: \"Prints the summary of all active windows\"\nH28_1: \"- click: Mouse click\" | Usage: \"Simulates a mouse click event\"\nH29_1: \"- introspect: Deep window introspection\" | Usage: \"Performs deep introspection on the current window\"\nH30_1: \"monitor: Move to monitor\" | Usage: \"Moves the window to the specified monitor\"\nH31_1: \"screen: Move to screen position\" | Usage: \"Moves the window to a specific screen position\"\nH32_1: \"Params:\" | Usage: \"Parameter input box for window dimensions\"\nH32_2: \"{'window_id': 'string', 'width': 'number', 'height': 'number'}\" | Usage: \"Defines the structure for parameters like window ID, width, and height\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_1_55_bboxes.png",
+      "image_name": "combined_groups_1_55_bboxes.png",
+      "icons_found": 55,
+      "icons": [
+        {
+          "id": "H33_1",
+          "name": "Params: {'window_id': 'string', 'x': 'number', 'y': 'number'}",
+          "usage": "Describes parameters for a window, including ID and coordinates",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_1",
+          "name": "Params: {'window_id': 'string', 'screen': 'number', 'x': 'number', 'y': 'number'}",
+          "usage": "Describes parameters for a window, including screen, ID, and coordinates",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_1",
+          "name": "Params: {'window_id': 'string', 'monitor': 'number'}",
+          "usage": "Describes window parameters, including the window ID and the monitor number",
+          "group_type": "H"
+        },
+        {
+          "id": "H36_1",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Describes parameters for a window, specifying the window ID as a string",
+          "group_type": "H"
+        },
+        {
+          "id": "H37_1",
+          "name": "Params: {'button': 'string', 'x': 'number', 'y': 'number'}",
+          "usage": "Describes parameters for a button, including the string and coordinates",
+          "group_type": "H"
+        },
+        {
+          "id": "H38_1",
+          "name": "drag: Drag",
+          "usage": "Indicates a drag function",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_1",
+          "name": "drag:",
+          "usage": "Indicates a drag function",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_1",
+          "name": "x':",
+          "usage": "Represents the x coordinate",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_1",
+          "name": "Comma Icon",
+          "usage": "Represents a comma symbol",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_2",
+          "name": "'start_y':",
+          "usage": "Represents the starting y coordinate",
+          "group_type": "H"
+        },
+        {
+          "id": "H42_1",
+          "name": "'x':",
+          "usage": "Represents the x coordinate",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_1",
+          "name": "'x'",
+          "usage": "Represents the x coordinate",
+          "group_type": "H"
+        },
+        {
+          "id": "H44_1",
+          "name": "common.log",
+          "usage": "Indicates the common log file",
+          "group_type": "H"
+        },
+        {
+          "id": "H44_2",
+          "name": "{}",
+          "usage": "Represents an empty code block or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_1",
+          "name": "]",
+          "usage": "Represents an array",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_1",
+          "name": "of",
+          "usage": "Preposition of",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_2",
+          "name": "all",
+          "usage": "Indicates the concept of all",
+          "group_type": "H"
+        },
+        {
+          "id": "H47_1",
+          "name": "Comma Icon",
+          "usage": "Represents a comma symbol",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_1",
+          "name": "'height':",
+          "usage": "Represents the height value",
+          "group_type": "H"
+        },
+        {
+          "id": "H49_1",
+          "name": "'number',",
+          "usage": "Represents a number",
+          "group_type": "H"
+        },
+        {
+          "id": "H50_1",
+          "name": "{} config.json",
+          "usage": "Indicates a configuration file in JSON format",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_1",
+          "name": "'}'",
+          "usage": "Represents a bracket",
+          "group_type": "H"
+        },
+        {
+          "id": "H52_1",
+          "name": "'}'",
+          "usage": "Represents a bracket",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_1",
+          "name": "Ctrl+K to g",
+          "usage": "Shortcut to generate",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_2",
+          "name": "rate a com",
+          "usage": "Rate a communication",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_3",
+          "name": "and",
+          "usage": "Represents the and operator",
+          "group_type": "H"
+        },
+        {
+          "id": "H54_1",
+          "name": "Comma Icon",
+          "usage": "Represents a comma symbol",
+          "group_type": "H"
+        },
+        {
+          "id": "H54_2",
+          "name": "'y':",
+          "usage": "Represents the y coordinate",
+          "group_type": "H"
+        },
+        {
+          "id": "H55_1",
+          "name": "'}'",
+          "usage": "Represents a bracket",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_1",
+          "name": "Ctrl+K to generate a comm",
+          "usage": "Keyboard shortcut to generate a command",
+          "group_type": "H"
+        },
+        {
+          "id": "H57_1",
+          "name": "uv - eagv1 - Cursor",
+          "usage": "Cursor type",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_1",
+          "name": "'number',",
+          "usage": "Represents a number",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_2",
+          "name": "'button':",
+          "usage": "Represents a button",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_1",
+          "name": "}",
+          "usage": "Represents an end bracket",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_1",
+          "name": "Square Icon",
+          "usage": "Represents a square",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_1",
+          "name": "}",
+          "usage": "Represents an end bracket",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_1",
+          "name": "+",
+          "usage": "Plus sign, likely for adding elements",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_2",
+          "name": "Ellipsis",
+          "usage": "More options or settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_3",
+          "name": "Up Arrow",
+          "usage": "Move item up",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_4",
+          "name": "X",
+          "usage": "Close or delete",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_1",
+          "name": "+",
+          "usage": "Add",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_2",
+          "name": "Window Icon",
+          "usage": "Represents a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_1",
+          "name": "Ellipsis",
+          "usage": "More options or settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H65_1",
+          "name": "> 8 files +376 -87",
+          "usage": "Indicates the number of files and a numerical value",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_1",
+          "name": "check the logging configuration.",
+          "usage": "Instructs to check the logging configuration",
+          "group_type": "H"
+        },
+        {
+          "id": "H67_1",
+          "name": "Here's how you can use it:",
+          "usage": "Instructional text on how to use something",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_1",
+          "name": "The logger_json_block function will:",
+          "usage": "Describes function of the logger_json_block",
+          "group_type": "H"
+        },
+        {
+          "id": "H69_1",
+          "name": "The output will look something like this:",
+          "usage": "Indicates the expected format of the output",
+          "group_type": "H"
+        },
+        {
+          "id": "H70_1",
+          "name": "Read log_config.py",
+          "usage": "Opens the log configuration file",
+          "group_type": "H"
+        },
+        {
+          "id": "H71_1",
+          "name": "1. First, get a logger instance for your module:",
+          "usage": "First step for setting up the logger",
+          "group_type": "H"
+        },
+        {
+          "id": "H72_1",
+          "name": "2. Then you can log JSON data using the logger_json_",
+          "usage": "Instructions on logging JSON data",
+          "group_type": "H"
+        },
+        {
+          "id": "H73_1",
+          "name": "@",
+          "usage": "Email or notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H74_1",
+          "name": "Ask",
+          "usage": "Opens the ask menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_1",
+          "name": "F text",
+          "usage": "Opens the text menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H76_1",
+          "name": "Up Arrow",
+          "usage": "Indicates moving up in a list or hierarchy",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H33_1: \"Params: {'window_id': 'string', 'x': 'number', 'y': 'number'}\" | Usage: \"Describes parameters for a window, including ID and coordinates\"\nH34_1: \"Params: {'window_id': 'string', 'screen': 'number', 'x': 'number', 'y': 'number'}\" | Usage: \"Describes parameters for a window, including screen, ID, and coordinates\"\nH35_1: \"Params: {'window_id': 'string', 'monitor': 'number'}\" | Usage: \"Describes window parameters, including the window ID and the monitor number\"\nH36_1: \"Params: {'window_id': 'string'}\" | Usage: \"Describes parameters for a window, specifying the window ID as a string\"\nH37_1: \"Params: {'button': 'string', 'x': 'number', 'y': 'number'}\" | Usage: \"Describes parameters for a button, including the string and coordinates\"\nH38_1: \"drag: Drag\" | Usage: \"Indicates a drag function\"\nH39_1: \"drag:\" | Usage: \"Indicates a drag function\"\nH40_1: \"x':\" | Usage: \"Represents the x coordinate\"\nH41_1: \"Comma Icon\" | Usage: \"Represents a comma symbol\"\nH41_2: \"'start_y':\" | Usage: \"Represents the starting y coordinate\"\nH42_1: \"'x':\" | Usage: \"Represents the x coordinate\"\nH43_1: \"'x'\" | Usage: \"Represents the x coordinate\"\nH44_1: \"common.log\" | Usage: \"Indicates the common log file\"\nH44_2: \"{}\" | Usage: \"Represents an empty code block or object\"\nH45_1: \"]\" | Usage: \"Represents an array\"\nH46_1: \"of\" | Usage: \"Preposition of\"\nH46_2: \"all\" | Usage: \"Indicates the concept of all\"\nH47_1: \"Comma Icon\" | Usage: \"Represents a comma symbol\"\nH48_1: \"'height':\" | Usage: \"Represents the height value\"\nH49_1: \"'number',\" | Usage: \"Represents a number\"\nH50_1: \"{} config.json\" | Usage: \"Indicates a configuration file in JSON format\"\nH51_1: \"'}'\" | Usage: \"Represents a bracket\"\nH52_1: \"'}'\" | Usage: \"Represents a bracket\"\nH53_1: \"Ctrl+K to g\" | Usage: \"Shortcut to generate\"\nH53_2: \"rate a com\" | Usage: \"Rate a communication\"\nH53_3: \"and\" | Usage: \"Represents the and operator\"\nH54_1: \"Comma Icon\" | Usage: \"Represents a comma symbol\"\nH54_2: \"'y':\" | Usage: \"Represents the y coordinate\"\nH55_1: \"'}'\" | Usage: \"Represents a bracket\"\nH56_1: \"Ctrl+K to generate a comm\" | Usage: \"Keyboard shortcut to generate a command\"\nH57_1: \"uv - eagv1 - Cursor\" | Usage: \"Cursor type\"\nH58_1: \"'number',\" | Usage: \"Represents a number\"\nH58_2: \"'button':\" | Usage: \"Represents a button\"\nH59_1: \"}\" | Usage: \"Represents an end bracket\"\nH60_1: \"Square Icon\" | Usage: \"Represents a square\"\nH61_1: \"}\" | Usage: \"Represents an end bracket\"\nH62_1: \"+\" | Usage: \"Plus sign, likely for adding elements\"\nH62_2: \"Ellipsis\" | Usage: \"More options or settings\"\nH62_3: \"Up Arrow\" | Usage: \"Move item up\"\nH62_4: \"X\" | Usage: \"Close or delete\"\nH63_1: \"+\" | Usage: \"Add\"\nH63_2: \"Window Icon\" | Usage: \"Represents a window\"\nH64_1: \"Ellipsis\" | Usage: \"More options or settings\"\nH65_1: \"> 8 files +376 -87\" | Usage: \"Indicates the number of files and a numerical value\"\nH66_1: \"check the logging configuration.\" | Usage: \"Instructs to check the logging configuration\"\nH67_1: \"Here's how you can use it:\" | Usage: \"Instructional text on how to use something\"\nH68_1: \"The logger_json_block function will:\" | Usage: \"Describes function of the logger_json_block\"\nH69_1: \"The output will look something like this:\" | Usage: \"Indicates the expected format of the output\"\nH70_1: \"Read log_config.py\" | Usage: \"Opens the log configuration file\"\nH71_1: \"1. First, get a logger instance for your module:\" | Usage: \"First step for setting up the logger\"\nH72_1: \"2. Then you can log JSON data using the logger_json_\" | Usage: \"Instructions on logging JSON data\"\nH73_1: \"@\" | Usage: \"Email or notification\"\nH74_1: \"Ask\" | Usage: \"Opens the ask menu\"\nH75_1: \"F text\" | Usage: \"Opens the text menu\"\nH76_1: \"Up Arrow\" | Usage: \"Indicates moving up in a list or hierarchy\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_2_44_bboxes.png",
+      "image_name": "combined_groups_2_44_bboxes.png",
+      "icons_found": 44,
+      "icons": [
+        {
+          "id": "H77_1",
+          "name": "json_block(logger, \\\"Pipeline result\\\", data)",
+          "usage": "Represents a JSON block with logger and pipeline result data",
+          "group_type": "H"
+        },
+        {
+          "id": "H78_1",
+          "name": "up_logging(_name_)",
+          "usage": "Function call related to logging",
+          "group_type": "H"
+        },
+        {
+          "id": "H79_1",
+          "name": "peline_result\\\": {",
+          "usage": "Likely defines a result in the pipeline",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_1",
+          "name": "Cloud Upload Icon",
+          "usage": "Upload files to the cloud",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_2",
+          "name": "Window Icon",
+          "usage": "Represents a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_3",
+          "name": "ENG IN",
+          "usage": "Toggles the input language",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_4",
+          "name": "Speaker Icon with Waves",
+          "usage": "Adjust or mute the audio output",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_5",
+          "name": "1:15 PM 6/6/2025",
+          "usage": "Shows the current time and date",
+          "group_type": "H"
+        },
+        {
+          "id": "H81_1",
+          "name": "The JSON data",
+          "usage": "Refers to a JSON data source",
+          "group_type": "H"
+        },
+        {
+          "id": "H82_1",
+          "name": "\\\"status\\\": \\\"success\\\",",
+          "usage": "Indicates a successful status message",
+          "group_type": "H"
+        },
+        {
+          "id": "H83_1",
+          "name": "\\\"data\\\": {\\\"key\\\": \\\"value\\\"}",
+          "usage": "Represents a data object with a key-value pair",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_1",
+          "name": "Cloud Icon",
+          "usage": "Access the cloud storage",
+          "group_type": "H"
+        },
+        {
+          "id": "H85_1",
+          "name": "Rectangle Icon",
+          "usage": "Represents a form or a button",
+          "group_type": "H"
+        },
+        {
+          "id": "H85_2",
+          "name": "Rectangle Icon",
+          "usage": "Represents a form or a button",
+          "group_type": "H"
+        },
+        {
+          "id": "H85_3",
+          "name": "Rectangle Icon",
+          "usage": "Represents a form or a button",
+          "group_type": "H"
+        },
+        {
+          "id": "H85_4",
+          "name": "Settings Cog Icon",
+          "usage": "Opens settings or configuration options",
+          "group_type": "H"
+        },
+        {
+          "id": "H86_1",
+          "name": "Start a new chat for b",
+          "usage": "Initiates a new chat session",
+          "group_type": "H"
+        },
+        {
+          "id": "H87_1",
+          "name": "logger_json_block",
+          "usage": "Represents a logger JSON block",
+          "group_type": "H"
+        },
+        {
+          "id": "H88_1",
+          "name": "Wifi Icon",
+          "usage": "Connects or shows wifi connectivity",
+          "group_type": "H"
+        },
+        {
+          "id": "H88_2",
+          "name": "Speaker Icon with Waves",
+          "usage": "Adjust or mute the audio output",
+          "group_type": "H"
+        },
+        {
+          "id": "H89_1",
+          "name": "log_config.py",
+          "usage": "Configuration file for logging",
+          "group_type": "H"
+        },
+        {
+          "id": "H90_1",
+          "name": "Cursor Tab",
+          "usage": "Select Cursor Tool",
+          "group_type": "H"
+        },
+        {
+          "id": "H91_1",
+          "name": "Plus Icon",
+          "usage": "Adds or creates a new item",
+          "group_type": "H"
+        },
+        {
+          "id": "H91_2",
+          "name": "Clock Icon",
+          "usage": "Shows the history",
+          "group_type": "H"
+        },
+        {
+          "id": "H91_3",
+          "name": "Three Dots Icon",
+          "usage": "Shows More options",
+          "group_type": "H"
+        },
+        {
+          "id": "H92_1",
+          "name": "Square Icon",
+          "usage": "Represents a checkbox",
+          "group_type": "H"
+        },
+        {
+          "id": "H92_2",
+          "name": "X Icon",
+          "usage": "Represents a cancel",
+          "group_type": "H"
+        },
+        {
+          "id": "H93_1",
+          "name": "Apply Icon",
+          "usage": "Applies the changes",
+          "group_type": "H"
+        },
+        {
+          "id": "H94_1",
+          "name": "Apply Icon",
+          "usage": "Applies the changes",
+          "group_type": "H"
+        },
+        {
+          "id": "H95_1",
+          "name": "Picture Icon",
+          "usage": "Represents an Image",
+          "group_type": "H"
+        },
+        {
+          "id": "HL0_1",
+          "name": "Params: {'start_x': 'number', 'start_y': 'number', 'end_x': 'number', 'end_y': 'number', 'button': 'string', 'duration': 'number'}",
+          "usage": "Parameter definitions, likely from a settings window",
+          "group_type": "H"
+        },
+        {
+          "id": "HL1_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a>",
+          "usage": "File path of the current directory in Windows",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "Analyze computer_agent folder conte",
+          "usage": "Text indicating the analysis of a computer agent folder content",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Parameter definition for the window ID",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_2",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Parameter definition for the window ID",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_3",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Parameter definition for the window ID",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_1",
+          "name": "eayc",
+          "usage": "Represents a form or a button",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_2",
+          "name": "> eag3-sample",
+          "usage": "Represents a form or a button",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_1",
+          "name": "- minimize: Minimize window",
+          "usage": "Button to minimize the current window",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_2",
+          "name": "close: Close window",
+          "usage": "Button to close the current window",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_3",
+          "name": "- resize: Resize window",
+          "usage": "Button to resize the current window",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_4",
+          "name": "move: Move window",
+          "usage": "Button to move the current window",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_1",
+          "name": "Let me help you understand how logging is currently set",
+          "usage": "Help text that explains current logging settings",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_2",
+          "name": "up and how we can implement JSON logging. First, I'll",
+          "usage": "Continuing help text about implementing JSON logging",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "H77_1: \"json_block(logger, \\\"Pipeline result\\\", data)\" | Usage: \"Represents a JSON block with logger and pipeline result data\"\nH78_1: \"up_logging(_name_)\" | Usage: \"Function call related to logging\"\nH79_1: \"peline_result\\\": {\" | Usage: \"Likely defines a result in the pipeline\"\nH80_1: \"Cloud Upload Icon\" | Usage: \"Upload files to the cloud\"\nH80_2: \"Window Icon\" | Usage: \"Represents a window\"\nH80_3: \"ENG IN\" | Usage: \"Toggles the input language\"\nH80_4: \"Speaker Icon with Waves\" | Usage: \"Adjust or mute the audio output\"\nH80_5: \"1:15 PM 6/6/2025\" | Usage: \"Shows the current time and date\"\nH81_1: \"The JSON data\" | Usage: \"Refers to a JSON data source\"\nH82_1: \"\\\"status\\\": \\\"success\\\",\" | Usage: \"Indicates a successful status message\"\nH83_1: \"\\\"data\\\": {\\\"key\\\": \\\"value\\\"}\" | Usage: \"Represents a data object with a key-value pair\"\nH84_1: \"Cloud Icon\" | Usage: \"Access the cloud storage\"\nH85_1: \"Rectangle Icon\" | Usage: \"Represents a form or a button\"\nH85_2: \"Rectangle Icon\" | Usage: \"Represents a form or a button\"\nH85_3: \"Rectangle Icon\" | Usage: \"Represents a form or a button\"\nH85_4: \"Settings Cog Icon\" | Usage: \"Opens settings or configuration options\"\nH86_1: \"Start a new chat for b\" | Usage: \"Initiates a new chat session\"\nH87_1: \"logger_json_block\" | Usage: \"Represents a logger JSON block\"\nH88_1: \"Wifi Icon\" | Usage: \"Connects or shows wifi connectivity\"\nH88_2: \"Speaker Icon with Waves\" | Usage: \"Adjust or mute the audio output\"\nH89_1: \"log_config.py\" | Usage: \"Configuration file for logging\"\nH90_1: \"Cursor Tab\" | Usage: \"Select Cursor Tool\"\nH91_1: \"Plus Icon\" | Usage: \"Adds or creates a new item\"\nH91_2: \"Clock Icon\" | Usage: \"Shows the history\"\nH91_3: \"Three Dots Icon\" | Usage: \"Shows More options\"\nH92_1: \"Square Icon\" | Usage: \"Represents a checkbox\"\nH92_2: \"X Icon\" | Usage: \"Represents a cancel\"\nH93_1: \"Apply Icon\" | Usage: \"Applies the changes\"\nH94_1: \"Apply Icon\" | Usage: \"Applies the changes\"\nH95_1: \"Picture Icon\" | Usage: \"Represents an Image\"\nHL0_1: \"Params: {'start_x': 'number', 'start_y': 'number', 'end_x': 'number', 'end_y': 'number', 'button': 'string', 'duration': 'number'}\" | Usage: \"Parameter definitions, likely from a settings window\"\nHL1_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a>\" | Usage: \"File path of the current directory in Windows\"\nV0_1: \"Analyze computer_agent folder conte\" | Usage: \"Text indicating the analysis of a computer agent folder content\"\nV1_1: \"Params: {'window_id': 'string'}\" | Usage: \"Parameter definition for the window ID\"\nV1_2: \"Params: {'window_id': 'string'}\" | Usage: \"Parameter definition for the window ID\"\nV1_3: \"Params: {'window_id': 'string'}\" | Usage: \"Parameter definition for the window ID\"\nV2_1: \"eayc\" | Usage: \"Represents a form or a button\"\nV2_2: \"> eag3-sample\" | Usage: \"Represents a form or a button\"\nV3_1: \"- minimize: Minimize window\" | Usage: \"Button to minimize the current window\"\nV3_2: \"close: Close window\" | Usage: \"Button to close the current window\"\nV3_3: \"- resize: Resize window\" | Usage: \"Button to resize the current window\"\nV3_4: \"move: Move window\" | Usage: \"Button to move the current window\"\nV4_1: \"Let me help you understand how logging is currently set\" | Usage: \"Help text that explains current logging settings\"\nV4_2: \"up and how we can implement JSON logging. First, I'll\" | Usage: \"Continuing help text about implementing JSON logging\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_3_34_bboxes.png",
+      "image_name": "combined_groups_3_34_bboxes.png",
+      "icons_found": 31,
+      "icons": [
+        {
+          "id": "V5_1",
+          "name": "> eag7",
+          "usage": "Expand item named eag7",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_2",
+          "name": "> eag8",
+          "usage": "Expand item named eag8",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_3",
+          "name": ">",
+          "usage": "Expand item",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_1",
+          "name": "Yes, you can definitely use JSON logging! The codebase",
+          "usage": "Text describing the application's logging capabilities",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_2",
+          "name": "already has built-in support for JSON logging through",
+          "usage": "Text describing the application's logging capabilities",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_1",
+          "name": "'x':",
+          "usage": "Displays variable x name",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_2",
+          "name": "{}",
+          "usage": "Displays an object",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_1",
+          "name": "> eag10",
+          "usage": "Expand item named eag10",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_2",
+          "name": "> eag10a",
+          "usage": "Expand item named eag10a",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_3",
+          "name": "eag14a",
+          "usage": "Collapse item named eag14a",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_1",
+          "name": "-",
+          "usage": "Collapse list item",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_2",
+          "name": "-",
+          "usage": "Collapse list item",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_3",
+          "name": "-",
+          "usage": "Collapse list item",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_4",
+          "name": "-",
+          "usage": "Collapse list item",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_1",
+          "name": "python",
+          "usage": "Script configuration for python",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_2",
+          "name": "Fig import setup_logging, logger_json_block",
+          "usage": "Imported python modules for logging",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_1",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Parameter settings for window id",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_2",
+          "name": "tree: Show UI hierarchy tree",
+          "usage": "Function to show the user interface hierarchy",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_3",
+          "name": "get_windows: Get all windows",
+          "usage": "Function to get all windows",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_1",
+          "name": ">",
+          "usage": "Expand Item",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_2",
+          "name": ">.venv",
+          "usage": "Expand the .venv item",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_1",
+          "name": "Params: {'show_minimized': 'boolean'}",
+          "usage": "Parameter indicating if the window is minimized",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_2",
+          "name": "- refresh_windows: Refresh window list",
+          "usage": "Refreshes window list",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_1",
+          "name": "agent",
+          "usage": "Agent Dropdown",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_2",
+          "name": "> __pycache__",
+          "usage": "Expand item __pycache__",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_3",
+          "name": "> config",
+          "usage": "Expand item config",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_1",
+          "name": "block function:",
+          "usage": "Block Function Tool",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_2",
+          "name": "python",
+          "usage": "Python Icon",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_3",
+          "name": "le data",
+          "usage": "Indicates Le data is being used",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_1",
+          "name": "'x':",
+          "usage": "Variable x",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_2",
+          "name": "Params: {'button': 'string', 'x': 'number', 'y': 'number'}",
+          "usage": "Parameters for a button element",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "```\nV5_1: \"> eag7\" | Usage: \"Expand item named eag7\"\nV5_2: \"> eag8\" | Usage: \"Expand item named eag8\"\nV5_3: \">\" | Usage: \"Expand item\"\nV6_1: \"Yes, you can definitely use JSON logging! The codebase\" | Usage: \"Text describing the application's logging capabilities\"\nV6_2: \"already has built-in support for JSON logging through\" | Usage: \"Text describing the application's logging capabilities\"\nV7_1: \"'x':\" | Usage: \"Displays variable x name\"\nV7_2: \"{}\" | Usage: \"Displays an object\"\nV8_1: \"> eag10\" | Usage: \"Expand item named eag10\"\nV8_2: \"> eag10a\" | Usage: \"Expand item named eag10a\"\nV8_3: \"eag14a\" | Usage: \"Collapse item named eag14a\"\nV9_1: \"-\" | Usage: \"Collapse list item\"\nV9_2: \"-\" | Usage: \"Collapse list item\"\nV9_3: \"-\" | Usage: \"Collapse list item\"\nV9_4: \"-\" | Usage: \"Collapse list item\"\nV10_1: \"python\" | Usage: \"Script configuration for python\"\nV10_2: \"Fig import setup_logging, logger_json_block\" | Usage: \"Imported python modules for logging\"\nV11_1: \"Params: {'window_id': 'string'}\" | Usage: \"Parameter settings for window id\"\nV11_2: \"tree: Show UI hierarchy tree\" | Usage: \"Function to show the user interface hierarchy\"\nV11_3: \"get_windows: Get all windows\" | Usage: \"Function to get all windows\"\nV12_1: \">\" | Usage: \"Expand Item\"\nV12_2: \">.venv\" | Usage: \"Expand the .venv item\"\nV13_1: \"Params: {'show_minimized': 'boolean'}\" | Usage: \"Parameter indicating if the window is minimized\"\nV13_2: \"- refresh_windows: Refresh window list\" | Usage: \"Refreshes window list\"\nV14_1: \"agent\" | Usage: \"Agent Dropdown\"\nV14_2: \"> __pycache__\" | Usage: \"Expand item __pycache__\"\nV14_3: \"> config\" | Usage: \"Expand item config\"\nV15_1: \"block function:\" | Usage: \"Block Function Tool\"\nV15_2: \"python\" | Usage: \"Python Icon\"\nV15_3: \"le data\" | Usage: \"Indicates Le data is being used\"\nV16_1: \"'x':\" | Usage: \"Variable x\"\nV16_2: \"Params: {'button': 'string', 'x': 'number', 'y': 'number'}\" | Usage: \"Parameters for a button element\"\n```",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_4_52_bboxes.png",
+      "image_name": "combined_groups_4_52_bboxes.png",
+      "icons_found": 39,
+      "icons": [
+        {
+          "id": "V17_1",
+          "name": "doubleclick: Double click",
+          "usage": "Indicates the action of double clicking",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_2",
+          "name": "longclick: Long click",
+          "usage": "Indicates the action of long clicking",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_1",
+          "name": "Right Arrow",
+          "usage": "Likely expands or navigates to a submenu",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_2",
+          "name": "Python Icon",
+          "usage": "Related to a Python script or file",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_1",
+          "name": "__pycache__",
+          "usage": "Indicates a Python cache directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_2",
+          "name": "_init__.py",
+          "usage": "Indicates a Python initialization file",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_3",
+          "name": "loop.py",
+          "usage": "Indicates a Python loop file",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_1",
+          "name": "'number'",
+          "usage": "Represents a numerical parameter or value",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_2",
+          "name": "Params: {'button': 'string', 'duration': 'number', 'x': 'number', 'y': 'number'}",
+          "usage": "Displays parameter names and types for a function or operation",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_1",
+          "name": "'number'}",
+          "usage": "Represents a numerical parameter or value",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_2",
+          "name": "'x'",
+          "usage": "Represents the X-coordinate parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_3",
+          "name": "'x'",
+          "usage": "Represents the X-coordinate parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_4",
+          "name": "'end x'",
+          "usage": "Represents the ending X-coordinate",
+          "group_type": "V"
+        },
+        {
+          "id": "V22_1",
+          "name": "context.py",
+          "usage": "Indicates a Python context file",
+          "group_type": "V"
+        },
+        {
+          "id": "V22_2",
+          "name": "> mcp",
+          "usage": "Opens the 'mcp' directory or setting",
+          "group_type": "V"
+        },
+        {
+          "id": "V23_1",
+          "name": "'y':",
+          "usage": "Represents the Y-coordinate parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V23_2",
+          "name": "'y'",
+          "usage": "Represents the Y-coordinate parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V24_1",
+          "name": "'}",
+          "usage": "Closing curly bracket, likely used in code",
+          "group_type": "V"
+        },
+        {
+          "id": "V24_2",
+          "name": "'}",
+          "usage": "Closing curly bracket, likely used in code",
+          "group_type": "V"
+        },
+        {
+          "id": "V25_1",
+          "name": "scroll: Scroll",
+          "usage": "Represents scroll function",
+          "group_type": "V"
+        },
+        {
+          "id": "V25_2",
+          "name": "{",
+          "usage": "Opening curly bracket, likely used in code",
+          "group_type": "V"
+        },
+        {
+          "id": "V25_3",
+          "name": "{",
+          "usage": "Opening curly bracket, likely used in code",
+          "group_type": "V"
+        },
+        {
+          "id": "V26_1",
+          "name": "uv computer...",
+          "usage": "Related to UV or computer",
+          "group_type": "V"
+        },
+        {
+          "id": "V26_2",
+          "name": "powershell...",
+          "usage": "Related to Powershell terminal",
+          "group_type": "V"
+        },
+        {
+          "id": "V27_1",
+          "name": "Format your JSON data with proper indentation",
+          "usage": "Describes a function to format JSON data with indentation",
+          "group_type": "V"
+        },
+        {
+          "id": "V27_2",
+          "name": "Add clear separators and emoji indicators",
+          "usage": "Describes a function that add separators and emoji indicators",
+          "group_type": "V"
+        },
+        {
+          "id": "V27_3",
+          "name": "Handle any JSON formattin",
+          "usage": "Function to handle json formatting",
+          "group_type": "V"
+        },
+        {
+          "id": "V28_1",
+          "name": "> macManager",
+          "usage": "Opens the macManager directory or setting",
+          "group_type": "V"
+        },
+        {
+          "id": "V28_2",
+          "name": "> outputs",
+          "usage": "Opens the outputs directory or setting",
+          "group_type": "V"
+        },
+        {
+          "id": "V29_1",
+          "name": "computer_agent",
+          "usage": "Represents computer agent setting",
+          "group_type": "V"
+        },
+        {
+          "id": "V29_2",
+          "name": "Ask, learn, brainstorm",
+          "usage": "Represents a function to ask, learn and brainstorm",
+          "group_type": "V"
+        },
+        {
+          "id": "V29_3",
+          "name": "Auto",
+          "usage": "Represents auto function",
+          "group_type": "V"
+        },
+        {
+          "id": "V30_1",
+          "name": "Image Upload Icon",
+          "usage": "Upload image setting",
+          "group_type": "V"
+        },
+        {
+          "id": "V30_2",
+          "name": "New Chat",
+          "usage": "Starts a new chat",
+          "group_type": "V"
+        },
+        {
+          "id": "V30_3",
+          "name": "Bell Icon",
+          "usage": "Represents notification",
+          "group_type": "V"
+        },
+        {
+          "id": "V31_1",
+          "name": "Equal Icon",
+          "usage": "Represents an equal",
+          "group_type": "V"
+        },
+        {
+          "id": "V31_2",
+          "name": "TIMELINE",
+          "usage": "Displays or controls timeline",
+          "group_type": "V"
+        },
+        {
+          "id": "V31_3",
+          "name": "Settings Icon",
+          "usage": "Represents setting adjustments",
+          "group_type": "V"
+        },
+        {
+          "id": "V31_4",
+          "name": "Folder Icon",
+          "usage": "Represents folder to hold files",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "V17_1: \"doubleclick: Double click\" | Usage: \"Indicates the action of double clicking\"\nV17_2: \"longclick: Long click\" | Usage: \"Indicates the action of long clicking\"\nV18_1: \"Right Arrow\" | Usage: \"Likely expands or navigates to a submenu\"\nV18_2: \"Python Icon\" | Usage: \"Related to a Python script or file\"\nV19_1: \"__pycache__\" | Usage: \"Indicates a Python cache directory\"\nV19_2: \"_init__.py\" | Usage: \"Indicates a Python initialization file\"\nV19_3: \"loop.py\" | Usage: \"Indicates a Python loop file\"\nV20_1: \"'number'\" | Usage: \"Represents a numerical parameter or value\"\nV20_2: \"Params: {'button': 'string', 'duration': 'number', 'x': 'number', 'y': 'number'}\" | Usage: \"Displays parameter names and types for a function or operation\"\nV21_1: \"'number'}\" | Usage: \"Represents a numerical parameter or value\"\nV21_2: \"'x'\" | Usage: \"Represents the X-coordinate parameter\"\nV21_3: \"'x'\" | Usage: \"Represents the X-coordinate parameter\"\nV21_4: \"'end x'\" | Usage: \"Represents the ending X-coordinate\"\nV22_1: \"context.py\" | Usage: \"Indicates a Python context file\"\nV22_2: \"> mcp\" | Usage: \"Opens the 'mcp' directory or setting\"\nV23_1: \"'y':\" | Usage: \"Represents the Y-coordinate parameter\"\nV23_2: \"'y'\" | Usage: \"Represents the Y-coordinate parameter\"\nV24_1: \"'}\" | Usage: \"Closing curly bracket, likely used in code\"\nV24_2: \"'}\" | Usage: \"Closing curly bracket, likely used in code\"\nV25_1: \"scroll: Scroll\" | Usage: \"Represents scroll function\"\nV25_2: \"{\" | Usage: \"Opening curly bracket, likely used in code\"\nV25_3: \"{\" | Usage: \"Opening curly bracket, likely used in code\"\nV26_1: \"uv computer...\" | Usage: \"Related to UV or computer\"\nV26_2: \"powershell...\" | Usage: \"Related to Powershell terminal\"\nV27_1: \"Format your JSON data with proper indentation\" | Usage: \"Describes a function to format JSON data with indentation\"\nV27_2: \"Add clear separators and emoji indicators\" | Usage: \"Describes a function that add separators and emoji indicators\"\nV27_3: \"Handle any JSON formattin\" | Usage: \"Function to handle json formatting\"\nV28_1: \"> macManager\" | Usage: \"Opens the macManager directory or setting\"\nV28_2: \"> outputs\" | Usage: \"Opens the outputs directory or setting\"\nV29_1: \"computer_agent\" | Usage: \"Represents computer agent setting\"\nV29_2: \"Ask, learn, brainstorm\" | Usage: \"Represents a function to ask, learn and brainstorm\"\nV29_3: \"Auto\" | Usage: \"Represents auto function\"\nV30_1: \"Image Upload Icon\" | Usage: \"Upload image setting\"\nV30_2: \"New Chat\" | Usage: \"Starts a new chat\"\nV30_3: \"Bell Icon\" | Usage: \"Represents notification\"\nV31_1: \"Equal Icon\" | Usage: \"Represents an equal\"\nV31_2: \"TIMELINE\" | Usage: \"Displays or controls timeline\"\nV31_3: \"Settings Icon\" | Usage: \"Represents setting adjustments\"\nV31_4: \"Folder Icon\" | Usage: \"Represents folder to hold files\"\n",
+      "analysis_success": true
+    }
+  ]
+}

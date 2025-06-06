@@ -11,21 +11,27 @@ from .context import ComputerAgentContext, StepType
 from pipeline.screenshot import take_screenshot
 from pipeline.pipeline import run_pipeline
 from utils.output_manager import get_output_folder
-from config.log_config import setup_logging
+from config.log_config import setup_logging, logger_json_block
+from agent.core.perception import Perception
+from agent.core.decision import Decision
 
 # Set up logging
 logger = setup_logging(__name__)
 
 
 class ComputerAgentLoop:
-    def __init__(self, multi_mcp):
+    def __init__(self, multi_mcp, model_manager):
         """
         Initialize the computer agent loop
         
         Args:
             multi_mcp: MultiMCP instance for tool execution
+            model_manager: ModelManager instance for LLM integration
         """
         self.multi_mcp = multi_mcp
+        self.model_manager = model_manager
+        self.perception = Perception(model_manager)
+        self.decision = Decision(model_manager, multi_mcp)
         self.max_steps = 10  # Maximum number of steps per session
         self.max_retries = 3  # Maximum retries per step
         
@@ -42,54 +48,100 @@ class ComputerAgentLoop:
         # Create session ID and context
         session_id = f"session_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         output_dir = get_output_folder(session_id)
+        logger.info(f"Output directory: {output_dir}")
         ctx = ComputerAgentContext(session_id, query)
         
         try:
             logger.info(f"Starting computer agent session {session_id}")
+            step_count = 0
             
-            # Step 1: Take screenshot and run pipeline
-            screenshot_path = take_screenshot(output_dir=str(ctx.output_dir))
-            ctx.screenshot_path = screenshot_path
+            while step_count < self.max_steps:
+                # Step 1: Take screenshot and run pipeline for current state
+                screenshot_path = take_screenshot(output_dir=str(ctx.output_dir))
+                ctx.screenshot_path = screenshot_path
+                logger.info(f"Screenshot taken and saved to {screenshot_path}")
+                
+                # Run pipeline on screenshot
+                pipeline_result = await run_pipeline(screenshot_path, mode="debug", output_dir=str(ctx.output_dir))
+                ctx.pipeline_output = pipeline_result
+                
+                # Step 2: Perception
+                perception_step = ctx.add_step(
+                    f"PERCEPTION_{step_count + 1}",
+                    "Analyzing current screen state",
+                    StepType.PERCEPTION,
+                    from_step="ROOT" if step_count == 0 else f"TOOL_{step_count}"
+                )
+                
+                perception = await self.perception.analyze(
+                    ctx, 
+                    pipeline_result,
+                    snapshot_type="user_query" if step_count == 0 else "step_result"
+                )
+                ctx.mark_step_completed(perception_step.id, perception)
+                
+                # Check if we should exit
+                if perception.get("route") == "summarize":
+                    logger.info("Perception suggests summarization - task complete")
+                    return {
+                        "status": "success",
+                        "session_id": session_id,
+                        "summary": perception.get("solution_summary", "Task completed"),
+                        "steps": [step.to_dict() for step in ctx.steps.values()]
+                    }
+                
+                # Step 3: Decision
+                decision_step = ctx.add_step(
+                    f"DECISION_{step_count + 1}",
+                    "Deciding next action",
+                    StepType.DECISION,
+                    from_step=f"PERCEPTION_{step_count + 1}"
+                )
+                
+                decision = await self.decision.decide(ctx, perception)
+                ctx.mark_step_completed(decision_step.id, decision)
+                
+                # Step 4: Tool Execution
+                if not decision.get("selected_tool"):
+                    logger.warning("No tool selected by decision module")
+                    break
+                    
+                tool_step = ctx.add_step(
+                    f"TOOL_{step_count + 1}",
+                    f"Executing {decision['selected_tool']}",
+                    StepType.TOOL_EXECUTION,
+                    from_step=f"DECISION_{step_count + 1}"
+                )
+                
+                # Execute tool with retries
+                retry_count = 0
+                while retry_count < self.max_retries:
+                    try:
+                        result = await self.multi_mcp.execute_tool(
+                            decision["selected_tool"],
+                            decision["tool_parameters"]
+                        )
+                        ctx.mark_step_completed(tool_step.id, result)
+                        break
+                    except Exception as e:
+                        retry_count += 1
+                        if retry_count == self.max_retries:
+                            ctx.mark_step_failed(tool_step.id, str(e))
+                            raise
+                        logger.warning(f"Tool execution failed, retrying ({retry_count}/{self.max_retries})")
+                        await asyncio.sleep(1)  # Wait before retry
+                
+                step_count += 1
             
-            # Run pipeline on screenshot
-            pipeline_result = await run_pipeline(screenshot_path, mode="deploy_mcp", output_dir=str(ctx.output_dir))
-            ctx.pipeline_output = pipeline_result
-            
-            # Add perception step
-            perception_step = ctx.add_step(
-                "PERCEPTION_1",
-                "Initial perception of screen state",
-                StepType.PERCEPTION,
-                from_step="ROOT"
-            )
-            
-            # TODO: Add perception logic here using pipeline_result
-            # For now, we'll just mark it as completed
-            ctx.mark_step_completed("PERCEPTION_1", pipeline_result)
-            
-            # Step 2: Decision making
-            decision_step = ctx.add_step(
-                "DECISION_1",
-                "Decide next action based on perception",
-                StepType.DECISION,
-                from_step="PERCEPTION_1"
-            )
-            
-            # TODO: Add decision logic here
-            # For now, we'll just mark it as completed
-            ctx.mark_step_completed("DECISION_1", {"action": "example_action"})
-            
-            # Step 3: Tool execution
-            tool_step = ctx.add_step(
-                "TOOL_1",
-                "Execute decided action",
-                StepType.TOOL_EXECUTION,
-                from_step="DECISION_1"
-            )
-            
-            # TODO: Add tool execution logic here
-            # For now, we'll just mark it as completed
-            ctx.mark_step_completed("TOOL_1", {"result": "example_result"})
+            # If we've reached max steps without completion
+            if step_count >= self.max_steps:
+                logger.warning(f"Reached maximum steps ({self.max_steps}) without completion")
+                return {
+                    "status": "max_steps_reached",
+                    "session_id": session_id,
+                    "error": f"Maximum steps ({self.max_steps}) reached without completion",
+                    "steps": [step.to_dict() for step in ctx.steps.values()]
+                }
             
             # Save session summary
             summary_path = ctx.save_summary()

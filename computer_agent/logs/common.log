@@ -1,0 +1,21 @@
+2025-06-06 14:20:48,416 - INFO - computer_agent:__init__:26 - Initializing ComputerAgent...
+2025-06-06 14:20:48,417 - INFO - computer_agent:__init__:42 - Initializing SimpleMCP with windows tools...
+2025-06-06 14:20:48,417 - INFO - computer_agent:__init__:44 - SimpleMCP initialized with windows tools
+2025-06-06 14:20:48,417 - INFO - computer_agent:__init__:47 - Initializing ModelManager...
+2025-06-06 14:20:48,417 - INFO - computer_agent:__init__:49 - ModelManager initialized
+2025-06-06 14:20:48,417 - INFO - computer_agent:run:65 - Starting computer agent operation...
+2025-06-06 14:20:48,427 - INFO - simple_mcp:initialize:63 - SimpleMCP initialized with 4 tools
+2025-06-06 14:20:48,427 - INFO - loop:run:51 - Output directory: outputs\2025\06\06\session_20250606_142048
+2025-06-06 14:20:48,428 - INFO - loop:run:55 - Starting computer agent session session_20250606_142048
+2025-06-06 14:20:48,480 - INFO - loop:run:62 - Screenshot taken and saved to outputs\2025\06\06\session_20250606_142048\screenshot_20250606_142048.jpg
+2025-06-06 14:20:52,619 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-06 14:20:52,632 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-06 14:20:52,639 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-06 14:20:52,646 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-06 14:20:58,870 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-06 14:21:01,307 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-06 14:21:03,472 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-06 14:21:04,961 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-06 14:21:05,258 - ERROR - perception:analyze:59 - Perception analysis failed: Object of type BBoxProcessor is not JSON serializable
+2025-06-06 14:21:05,258 - ERROR - loop:run:158 - Error in computer agent session session_20250606_142048: Object of type BBoxProcessor is not JSON serializable
+2025-06-06 14:21:05,294 - ERROR - computer_agent:run:77 - Computer agent operation failed: Object of type BBoxProcessor is not JSON serializable

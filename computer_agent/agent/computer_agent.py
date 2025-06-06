@@ -5,17 +5,24 @@ import logging
 from pathlib import Path
 import yaml
 from typing import Optional
+import os
 
 from .core.loop import ComputerAgentLoop
 from .mcp.simple_mcp import SimpleMCP
+from .models.mode_manager import ModelManager
 from config.log_config import setup_logging
 
 # Set up logging
 logger = setup_logging(__name__)
 
 class ComputerAgent:
-    def __init__(self):
-        """Initialize the computer agent"""
+    def __init__(self, api_key: Optional[str] = None):
+        """
+        Initialize the computer agent
+        
+        Args:
+            api_key: Google API key (optional, can use environment variable)
+        """
         logger.info("Initializing ComputerAgent...")
         
         # Load MCP server config
@@ -36,9 +43,13 @@ class ComputerAgent:
         self.mcp = SimpleMCP(windows_config)
         logger.info("SimpleMCP initialized with windows tools")
         
+        # Initialize model manager
+        logger.info("Initializing ModelManager...")
+        self.model_manager = ModelManager(api_key=api_key)
+        logger.info("ModelManager initialized")
         
         # Initialize agent loop
-        self.loop = ComputerAgentLoop(self.mcp)
+        self.loop = ComputerAgentLoop(self.mcp, self.model_manager)
         
     async def run(self, query: str) -> dict:
         """
