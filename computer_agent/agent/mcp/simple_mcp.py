@@ -4,6 +4,7 @@ Simple MCP Client for Windows Automation
 import asyncio
 import json
 import logging
+import aiohttp
 from typing import Dict, Any, List, Optional
 from pathlib import Path
 
@@ -19,59 +20,62 @@ class SimpleMCP:
         """
         self.server_config = server_config
         self.server_id = server_config["id"]
-        self.script_path = server_config["script"]
-        self.working_dir = server_config["cwd"]
-        self.process = None
-        self.tools = []
+        self.base_url = "http://localhost:8080"  # SSE server URL
+        self.session = None
         self.initialized = False
+        self.tools = {}
         
     async def initialize(self) -> None:
-        """Initialize the MCP server and load tools"""
+        """Initialize the MCP client and connect to server"""
         if self.initialized:
             return
             
         try:
-            # Start the MCP server process
-            self.process = await asyncio.create_subprocess_exec(
-                "python",
-                self.script_path,
-                cwd=self.working_dir,
-                stdin=asyncio.subprocess.PIPE,
-                stdout=asyncio.subprocess.PIPE,
-                stderr=asyncio.subprocess.PIPE
-            )
+            # Create aiohttp session
+            self.session = aiohttp.ClientSession()
             
-            # Wait for server to start
-            await asyncio.sleep(2)
-            
-            # Load available tools
-            self.tools = await self.list_tools()
-            self.initialized = True
-            
-            # Print available tools
-            print("\n=== Available MCP Tools ===")
-            for category, tools in self.tools.items():
-                print(f"\n{category.upper()}:")
-                for tool_name, tool_info in tools.items():
-                    print(f"  - {tool_name}: {tool_info['description']}")
-                    if tool_info.get('params'):
-                        print(f"    Params: {tool_info['params']}")
-            print("\n========================\n")
+            # Connect to SSE endpoint to get initial tools
+            async with self.session.get(f"{self.base_url}/sse") as resp:
+                async for line in resp.content:
+                    if line:
+                        try:
+                            decoded = line.decode().strip()
+                            if decoded.startswith("data: "):
+                                data = json.loads(decoded[6:])
+                                if data.get('status') == 'connected':
+                                    self.tools = data.get('tools', {})
+                                    self.initialized = True
+                                    
+                                    # Print available tools
+                                    print("\n=== Available MCP Tools ===")
+                                    for category, tools in self.tools.items():
+                                        print(f"\n{category.upper()}:")
+                                        for tool_name, tool_info in tools.items():
+                                            print(f"  - {tool_name}: {tool_info['description']}")
+                                            if tool_info.get('params'):
+                                                print(f"    Params: {tool_info['params']}")
+                                    print("\n========================\n")
+                                    break
+                        except Exception as e:
+                            logger.error(f"Failed to parse SSE data: {e}")
+                            continue
             
             logger.info(f"SimpleMCP initialized with {len(self.tools)} tools")
             
         except Exception as e:
             logger.error(f"Failed to initialize SimpleMCP: {str(e)}")
+            if self.session:
+                await self.session.close()
             raise
             
-    async def list_tools(self) -> List[Dict[str, Any]]:
+    async def list_tools(self) -> Dict:
         """Get list of available tools from the server"""
         try:
-            response = await self._send_command("list_tools", {})
-            return response.get("tools", [])
+            async with self.session.get(f"{self.base_url}/tools") as response:
+                return await response.json()
         except Exception as e:
             logger.error(f"Failed to list tools: {str(e)}")
-            return []
+            return {}
             
     async def execute_tool(self, tool_name: str, arguments: Dict[str, Any]) -> Any:
         """
@@ -88,61 +92,16 @@ class SimpleMCP:
             raise RuntimeError("SimpleMCP not initialized")
             
         try:
-            response = await self._send_command("execute_tool", {
-                "tool_name": tool_name,
-                "arguments": arguments
-            })
-            return response.get("result")
+            data = {"command": tool_name, "params": arguments}
+            async with self.session.post(f"{self.base_url}/command", json=data) as response:
+                result = await response.json()
+                return result.get("result")
         except Exception as e:
             logger.error(f"Failed to execute tool {tool_name}: {str(e)}")
             raise
             
-    async def _send_command(self, command: str, data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Send a command to the MCP server
-        
-        Args:
-            command: Command to send
-            data: Command data
-            
-        Returns:
-            Server response
-        """
-        if not self.process:
-            raise RuntimeError("MCP server not running")
-            
-        try:
-            # Prepare command
-            cmd = {
-                "command": command,
-                "data": data
-            }
-            
-            # Send command
-            self.process.stdin.write(json.dumps(cmd).encode() + b"\n")
-            await self.process.stdin.drain()
-            
-            # Read response
-            response_line = await self.process.stdout.readline()
-            response = json.loads(response_line.decode())
-            
-            if response.get("status") == "error":
-                raise Exception(response.get("error", "Unknown error"))
-                
-            return response.get("data", {})
-            
-        except Exception as e:
-            logger.error(f"Failed to send command {command}: {str(e)}")
-            raise
-            
     async def shutdown(self) -> None:
-        """Shutdown the MCP server"""
-        if self.process:
-            try:
-                self.process.terminate()
-                await self.process.wait()
-            except Exception as e:
-                logger.error(f"Error during shutdown: {str(e)}")
-            finally:
-                self.process = None
-                self.initialized = False
+        """Shutdown the MCP client"""
+        if self.session:
+            await self.session.close()
+            self.initialized = False
