@@ -4,6 +4,7 @@ Test file for the pipeline module
 import os
 import sys
 import asyncio
+from datetime import datetime
 
 # Add parent directory to Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -11,6 +12,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # Import pipeline and screenshot functionality
 from pipeline import run_pipeline
 from screenshot import take_screenshot
+from utils.output_manager import get_output_folder
 
 async def test_pipeline():
     """Test the pipeline functionality"""
@@ -22,8 +24,13 @@ async def test_pipeline():
     print(f"📸 Testing with image path: {image_path}")
     
     try:
-        # Run pipeline with image path
-        results = await run_pipeline(image_path, mode="debug")
+        # Create session-specific output folder for image test
+        image_session_id = f"image_test_{datetime.now().strftime('%H%M%S')}"
+        image_output_folder = get_output_folder(image_session_id)
+        print(f"📁 Using output folder for image test: {image_output_folder}")
+        
+        # Run pipeline with image path and custom output folder
+        results = await run_pipeline(image_path, mode="debug", output_dir=str(image_output_folder))
         
         # Basic validation
         if results is None:
@@ -49,13 +56,20 @@ async def test_pipeline():
         
         # Test 2: With screenshot
         print("\n📸 Testing with screenshot")
-        screenshot_path = take_screenshot()
+        
+        # Create new session-specific output folder for screenshot test
+        screenshot_session_id = f"screenshot_test_{datetime.now().strftime('%H%M%S')}"
+        screenshot_output_folder = get_output_folder(screenshot_session_id)
+        print(f"📁 Using output folder for screenshot test: {screenshot_output_folder}")
+        
+        # Take screenshot in the new output folder
+        screenshot_path = take_screenshot(output_dir=str(screenshot_output_folder))
         if screenshot_path is None:
             print("❌ Test Failed: Could not take screenshot")
             return False
             
-        # Run pipeline with screenshot
-        screenshot_results = await run_pipeline(screenshot_path, mode="debug")
+        # Run pipeline with screenshot using its own output folder
+        screenshot_results = await run_pipeline(screenshot_path, mode="debug", output_dir=str(screenshot_output_folder))
         
         if screenshot_results is None:
             print("❌ Test Failed: Pipeline returned None for screenshot")

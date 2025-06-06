@@ -38,13 +38,14 @@ from pipeline_utils import (
     display_enhanced_pipeline_summary
 )
 
-async def run_pipeline(image_path, mode="debug"):
+async def run_pipeline(image_path, mode="debug", output_dir=None):
     """
     Run the complete pipeline on an image.
     
     Args:
         image_path (str): Path to the input image
         mode (str): "debug" for detailed output, "deploy_mcp" for production
+        output_dir (str): Custom output directory path (optional)
     
     Returns:
         dict: Pipeline results including:
@@ -59,6 +60,10 @@ async def run_pipeline(image_path, mode="debug"):
     config = load_configuration()
     if not config:
         return None
+    
+    # Update output directory if provided
+    if output_dir:
+        config["output_dir"] = output_dir
     
     # Force disable ALL debug output in deploy mode
     if mode == "deploy_mcp":
