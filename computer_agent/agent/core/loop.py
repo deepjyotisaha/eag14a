@@ -10,8 +10,12 @@ from pathlib import Path
 from .context import ComputerAgentContext, StepType
 from pipeline.screenshot import take_screenshot
 from pipeline.pipeline import run_pipeline
+from utils.output_manager import get_output_folder
+from config.log_config import setup_logging
 
-logger = logging.getLogger(__name__)
+# Set up logging
+logger = setup_logging(__name__)
+
 
 class ComputerAgentLoop:
     def __init__(self, multi_mcp):
@@ -37,6 +41,7 @@ class ComputerAgentLoop:
         """
         # Create session ID and context
         session_id = f"session_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+        output_dir = get_output_folder(session_id)
         ctx = ComputerAgentContext(session_id, query)
         
         try:
@@ -47,7 +52,7 @@ class ComputerAgentLoop:
             ctx.screenshot_path = screenshot_path
             
             # Run pipeline on screenshot
-            pipeline_result = await run_pipeline(screenshot_path, mode="debug", output_dir=str(ctx.output_dir))
+            pipeline_result = await run_pipeline(screenshot_path, mode="deploy_mcp", output_dir=str(ctx.output_dir))
             ctx.pipeline_output = pipeline_result
             
             # Add perception step

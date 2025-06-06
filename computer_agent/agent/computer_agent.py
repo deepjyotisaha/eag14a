@@ -34,6 +34,8 @@ class ComputerAgent:
         # Initialize SimpleMCP with windows config
         logger.info("Initializing SimpleMCP with windows tools...")
         self.mcp = SimpleMCP(windows_config)
+        logger.info("SimpleMCP initialized with windows tools")
+        
         
         # Initialize agent loop
         self.loop = ComputerAgentLoop(self.mcp)
