@@ -7,8 +7,9 @@ import logging
 import aiohttp
 from typing import Dict, Any, List, Optional
 from pathlib import Path
+from config.log_config import setup_logging
 
-logger = logging.getLogger(__name__)
+logger = setup_logging(__name__)
 
 class SimpleMCP:
     def __init__(self, server_config: Dict[str, Any]):
@@ -95,7 +96,8 @@ class SimpleMCP:
             data = {"command": tool_name, "params": arguments}
             async with self.session.post(f"{self.base_url}/command", json=data) as response:
                 result = await response.json()
-                return result.get("result")
+                logger.info(f"Tool {tool_name} executed with result: {result}")
+                return result
         except Exception as e:
             logger.error(f"Failed to execute tool {tool_name}: {str(e)}")
             raise

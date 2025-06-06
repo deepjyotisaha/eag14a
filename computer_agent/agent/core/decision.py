@@ -55,7 +55,7 @@ class Decision:
             full_prompt = f"{full_prompt.strip()}\n\n```json\n{json.dumps(decision_input, indent=2)}\n```"
             
             # Log the prompt
-            logger_prompt(logger, "📝 Decision prompt:", full_prompt)
+            #logger_prompt(logger, "📝 Decision prompt:", full_prompt)
             
             # Get LLM response
             response = await self.model.generate_text(prompt=full_prompt)

@@ -1,16 +1,10 @@
-2025-06-06 15:54:53,155 - INFO - computer_agent:__init__:26 - Initializing ComputerAgent...
-2025-06-06 15:54:53,155 - INFO - computer_agent:__init__:42 - Initializing SimpleMCP with windows tools...
-2025-06-06 15:54:53,155 - INFO - computer_agent:__init__:44 - SimpleMCP initialized with windows tools
-2025-06-06 15:54:53,156 - INFO - computer_agent:__init__:47 - Initializing ModelManager...
-2025-06-06 15:54:53,156 - INFO - computer_agent:__init__:49 - ModelManager initialized
-2025-06-06 15:54:53,156 - INFO - computer_agent:run:65 - Starting computer agent operation...
-2025-06-06 15:54:53,166 - INFO - simple_mcp:initialize:63 - SimpleMCP initialized with 4 tools
-2025-06-06 15:54:53,166 - INFO - loop:run:53 - Output directory: outputs\2025\06\06\session_20250606_155453
-2025-06-06 15:54:53,167 - INFO - loop:run:57 - Starting computer agent session session_20250606_155453
-2025-06-06 15:54:53,227 - INFO - loop:run:64 - Screenshot taken and saved to outputs\2025\06\06\session_20250606_155453\screenshot_20250606_155453.jpg
-2025-06-06 15:54:56,989 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-06 15:54:57,000 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-06 15:54:57,006 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-06 15:54:57,013 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-06 15:55:03,974 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-06 15:55:03,987 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-06 17:11:24,276 - INFO - computer_agent:__init__:26 - Initializing ComputerAgent...
+2025-06-06 17:11:24,277 - INFO - computer_agent:__init__:42 - Initializing SimpleMCP with windows tools...
+2025-06-06 17:11:24,278 - INFO - computer_agent:__init__:44 - SimpleMCP initialized with windows tools
+2025-06-06 17:11:24,278 - INFO - computer_agent:__init__:47 - Initializing ModelManager...
+2025-06-06 17:11:24,278 - INFO - computer_agent:__init__:49 - ModelManager initialized
+2025-06-06 17:11:24,279 - INFO - computer_agent:run:65 - Starting computer agent operation...
+2025-06-06 17:11:24,295 - INFO - simple_mcp:initialize:64 - SimpleMCP initialized with 4 tools
+2025-06-06 17:11:24,304 - INFO - loop:run:53 - Output directory: outputs\2025\06\06\session_20250606_171124
+2025-06-06 17:11:24,305 - INFO - loop:run:57 - Starting computer agent session session_20250606_171124
+2025-06-06 17:11:24,440 - INFO - loop:run:65 - Screenshot taken and saved to outputs\2025\06\06\session_20250606_171124\screenshot_20250606_171124.jpg

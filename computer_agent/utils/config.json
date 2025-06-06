@@ -1,5 +1,5 @@
 {
-    "mode": "debug",
+    "mode": "mcp_deploy",
     "save_json": true,
     "save_visualizations": true,
     "generate_grouped_images": true,

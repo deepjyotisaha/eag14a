@@ -12,6 +12,32 @@ logging.addLevelName(CODE_BLOCK, 'CODE_BLOCK')
 logging.addLevelName(JSON_BLOCK, 'JSON_BLOCK')
 logging.addLevelName(PROMPT_BLOCK, 'PROMPT_BLOCK')
 
+def log_step(title: str, payload=None, symbol: str = "🟢"):
+    """Log a major step in the execution flow with visual emphasis
+    
+    Args:
+        title: The step title/description
+        payload: Optional data to log with the step
+        symbol: Emoji symbol to use (default: 🟢)
+    """
+    # Create a separator
+    separator = "=" * 80
+    
+    # Create the complete message
+    complete_message = f"\n{separator}\n{symbol} {title}\n{separator}\n"
+    
+    # Add payload if provided
+    if payload:
+        if isinstance(payload, dict):
+            json_str = json.dumps(payload, indent=2, sort_keys=False)
+            complete_message += f"{json_str}\n"
+        else:
+            complete_message += f"{payload}\n"
+        complete_message += f"{separator}\n"
+    
+    # Print to console
+    print(complete_message)
+
 def setup_logging(module_name: str):
     """
     Simple logging setup with both file and console output
@@ -33,21 +59,32 @@ def setup_logging(module_name: str):
         format=log_format,
         handlers=[
             logging.FileHandler(log_file, mode='w', encoding='utf-8'),
-            #logging.StreamHandler(sys.stdout)
+            #logging.StreamHandler(sys.stdout)  # Add console output
         ]
     )
 
     return logging.getLogger(module_name)
 
 
-def logger_json_block(logger, message, data):
-    """Log JSON data in a clean block format without timestamps"""
+def logger_json_block(logger, message, data, char_limit: int = 500):
+    """Log JSON data in a clean block format without timestamps
+    
+    Args:
+        logger: Logger instance
+        message: Message to display
+        data: Data to log
+        char_limit: Maximum number of characters to display (default: 500)
+    """
     try:
         # Create a separator
         separator = "=" * 80
         
         # Create the formatted JSON string
         json_str = json.dumps(data, indent=2, sort_keys=False)
+        
+        # Truncate if over limit
+        if len(json_str) > char_limit:
+            json_str = json_str[:char_limit] + "...\n[truncated, total length: " + str(len(json_str)) + " chars]"
         
         # Create the complete message
         complete_message = f"\n{separator}\n📌 {message}\n{separator}\n{json_str}\n{separator}\n"
@@ -124,3 +161,31 @@ def logger_code_block(logger, message, code, output=None):
     except Exception as e:
         logger.error(f"Failed to format code block: {e}")
         logger.info(f"{message}: {code}")
+
+def log_json_block(message: str, data: dict, char_limit: int = 500):
+    """Print JSON data to screen in a clean block format
+    
+    Args:
+        message: Message to display
+        data: Data to log
+        char_limit: Maximum number of characters to display (default: 500)
+    """
+    try:
+        # Create a separator
+        separator = "=" * 80
+        
+        # Create the formatted JSON string
+        json_str = json.dumps(data, indent=2, sort_keys=False)
+        
+        # Truncate if over limit
+        if len(json_str) > char_limit:
+            json_str = json_str[:char_limit] + "...\n[truncated, total length: " + str(len(json_str)) + " chars]"
+        
+        # Create the complete message
+        complete_message = f"\n{separator}\n📌 {message}\n{separator}\n{json_str}\n{separator}\n"
+        
+        # Print to console
+        print(complete_message)
+    except Exception as e:
+        print(f"Failed to format JSON: {e}")
+        print(f"{message}: {data}")
