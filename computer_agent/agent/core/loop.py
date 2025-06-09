@@ -7,7 +7,7 @@ from datetime import datetime
 import logging
 from pathlib import Path
 
-from .context import ComputerAgentContext, StepType
+from .context import ComputerAgentContext, StepType, Step
 from pipeline.screenshot import take_screenshot
 from pipeline.pipeline import run_pipeline
 from utils.output_manager import get_output_folder
@@ -59,18 +59,19 @@ class ComputerAgentLoop:
             
             while step_count < self.max_steps:
                 # Step 1: Take screenshot and run pipeline for current state
-                log_step("📸 Taking screenshot")
-                screenshot_path = take_screenshot(output_dir=str(ctx.output_dir))
-                ctx.screenshot_path = screenshot_path
-                logger.info(f"Screenshot taken and saved to {screenshot_path}")
+                #log_step("📸 Taking screenshot")
+                #screenshot_path = take_screenshot(output_dir=str(ctx.output_dir))
+                #ctx.screenshot_path = screenshot_path
+                #logger.info(f"Screenshot taken and saved to {screenshot_path}")
                 
                 # Run pipeline on screenshot
-                log_step("🔍 Running image processing pipeline")
-                pipeline_result = await run_pipeline(screenshot_path, mode="mcp_deploy", output_dir=str(ctx.output_dir))
-                ctx.pipeline_output = pipeline_result
-                log_json_block("Pipeline Result", pipeline_result)
-                log_step("🔍 Image processing pipeline completed")
+                #log_step("🔍 Running image processing pipeline")
+                #pipeline_result = await run_pipeline(screenshot_path, mode="mcp_deploy", output_dir=str(ctx.output_dir))
+                #ctx.pipeline_output = pipeline_result
+                #log_json_block("Pipeline Result", pipeline_result)
+                #log_step("🔍 Image processing pipeline completed")
                 
+                pipeline_result = {"pipeline_output": "No Screenshot"}
                 
                 # Step 2: Perception
                 perception_step = ctx.add_step(
@@ -129,103 +130,10 @@ class ComputerAgentLoop:
                 #log_json_block("Tool Parameters", decision["tool_parameters"])
                 
                 # Execute tool with retries
-                retry_count = 0
-                while retry_count < self.max_retries:
-                    try:
-                        logger.info(f"Attempt {retry_count + 1}/{self.max_retries} to execute {decision['selected_tool']}")
-                        
-                        # Execute the tool
-                        result = await self.multi_mcp.execute_tool(
-                            decision["selected_tool"],
-                            decision["tool_parameters"]
-                        )
-
-                        log_json_block(f"🛠️ Tool Execution Result ({step_count + 1})", result)
-                        
-                        # Check if the result indicates failure
-                        if isinstance(result, dict) and result.get('success') is False:
-                            error_msg = result.get('message', 'Unknown error')
-                            log_step(f"❌ Tool execution failed: {error_msg}")
-                            logger.error(f"❌ Tool execution failed: {error_msg}")
-                            
-                            # Take screenshot and run pipeline to understand the error state
-                            #log_step("📸 Taking screenshot after error")
-                            #screenshot_path = take_screenshot(output_dir=str(ctx.output_dir))
-                            #ctx.screenshot_path = screenshot_path
-                            
-                            # Run pipeline on error screenshot
-                            #log_step("🔍 Running image processing pipeline after error")
-                            #pipeline_result = await run_pipeline(screenshot_path, mode="mcp_deploy", output_dir=str(ctx.output_dir))
-                            #ctx.pipeline_output = pipeline_result
-                            
-                            # TODO: Remove this once we have a way to run the pipeline after error
-                            ctx.pipeline_output = ""
-                            
-                            # Run perception to understand the error
-                            error_perception_step = ctx.add_step(
-                                f"ERROR_PERCEPTION_{step_count + 1}_{retry_count + 1}",
-                                "Analyzing error state",
-                                StepType.PERCEPTION,
-                                from_step=f"TOOL_{step_count + 1}"
-                            )
-                            
-                            log_step("🧠 Running perception analysis for error")
-                            logger.info("🧠 Running perception analysis for error")
-                            # Pass error message in the context instead of as a parameter
-                            ctx.current_error = error_msg
-                            error_perception = await self.perception.analyze(
-                                ctx, 
-                                pipeline_result,
-                                snapshot_type="error_state"
-                            )
-                            ctx.mark_step_completed(error_perception_step.id, error_perception)
-                            log_json_block(f"📌 Error Perception output ({step_count + 1}_{retry_count + 1})", error_perception)
-                            
-                            # Run decision to determine next action based on error
-                            error_decision_step = ctx.add_step(
-                                f"ERROR_DECISION_{step_count + 1}_{retry_count + 1}",
-                                "Deciding next action after error",
-                                StepType.DECISION,
-                                from_step=f"ERROR_PERCEPTION_{step_count + 1}_{retry_count + 1}"
-                            )
-                            
-                            log_step("🤔 Making decision after error")
-                            logger.info("🤔 Making decision after error")
-                            error_decision = await self.decision.decide(ctx, error_perception)
-                            ctx.mark_step_completed(error_decision_step.id, error_decision)
-                            log_json_block(f"📌 Error Decision output ({step_count + 1}_{retry_count + 1})", error_decision)
-                            
-                            # Update tool parameters based on error decision
-                            if error_decision.get("selected_tool") == decision["selected_tool"]:
-                                decision["tool_parameters"] = error_decision["tool_parameters"]
-                                retry_count += 1
-                                logger.warning(f"🔄 Retrying tool execution with updated parameters ({retry_count}/{self.max_retries})")
-                                await asyncio.sleep(1)  # Wait before retry
-                                continue
-                            else:
-                                # If decision suggests a different tool, break the retry loop
-                                logger.info("Decision suggests using a different tool, breaking retry loop")
-                                break
-                        
-                        # Log successful execution
-                        log_step(f"✅ Tool {decision['selected_tool']} executed successfully")
-                        log_json_block("Tool Execution Result", result)
-                        
-                        # Mark step as completed
-                        ctx.mark_step_completed(tool_step.id, result)
-                        break
-                        
-                    except Exception as e:
-                        retry_count += 1
-                        logger.error(f"❌ Tool execution failed: {str(e)}")
-                        
-                        if retry_count == self.max_retries:
-                            logger.error(f"❌ All {self.max_retries} attempts failed for {decision['selected_tool']}")
-                            ctx.mark_step_failed(tool_step.id, str(e))
-                            raise
-                            
-                        logger.warning(f"🔄 Retrying tool execution ({retry_count}/{self.max_retries})")
-                        await asyncio.sleep(1)  # Wait before retry
+                execution_result = await self._execute_with_retry(ctx, decision, tool_step)
+                
+                # Record complete cycle
+                ctx.record_cycle(perception, decision, execution_result)
                 
                 step_count += 1
             
@@ -256,3 +164,70 @@ class ComputerAgentLoop:
                 ctx,
                 {"route": "summarize", "solution_summary": f"Task failed: {str(e)}"}
             )
+
+    async def _execute_with_retry(self, ctx: ComputerAgentContext, decision: Dict[str, Any], tool_step: Step) -> Dict[str, Any]:
+        """Execute tool with retry logic"""
+        retry_count = 0
+        while retry_count < self.max_retries:
+            try:
+                result = await self.multi_mcp.execute_tool(
+                    decision["selected_tool"],
+                    decision["tool_parameters"]
+                )
+                
+                if isinstance(result, dict) and result.get('success') is False:
+                    # Handle failure
+                    error_msg = result.get('message', 'Unknown error')
+                    error_perception = await self._handle_error(ctx, error_msg, decision)
+                    
+                    if error_perception.get("should_retry"):
+                        retry_count += 1
+                        decision = await self._adjust_decision(ctx, error_perception)
+                        continue
+                    
+                # Success or non-retryable error
+                ctx.mark_step_completed(tool_step.id, result)
+                return result
+                
+            except Exception as e:
+                retry_count += 1
+                if retry_count == self.max_retries:
+                    ctx.mark_step_failed(tool_step.id, str(e))
+                    raise
+                await asyncio.sleep(1)
+
+    async def _handle_error(self, ctx: ComputerAgentContext, error_msg: str, decision: Dict[str, Any]) -> Dict[str, Any]:
+        """Handle error state and determine if retry is needed"""
+        # Create error perception step
+        error_perception_step = ctx.add_step(
+            f"ERROR_PERCEPTION_{ctx.current_step.id}",
+            "Analyzing error state",
+            StepType.PERCEPTION,
+            from_step=ctx.current_step.id
+        )
+        
+        # Run perception on error
+        error_perception = await self.perception.analyze(
+            ctx,
+            ctx.pipeline_output,
+            snapshot_type="error_state"
+        )
+        ctx.mark_step_completed(error_perception_step.id, error_perception)
+        
+        return error_perception
+
+    async def _adjust_decision(self, ctx: ComputerAgentContext, error_perception: Dict[str, Any]) -> Dict[str, Any]:
+        """Adjust decision based on error perception"""
+        # Create error decision step
+        error_decision_step = ctx.add_step(
+            f"ERROR_DECISION_{ctx.current_step.id}",
+            "Deciding next action after error",
+            StepType.DECISION,
+            from_step=f"ERROR_PERCEPTION_{ctx.current_step.id}"
+        )
+        
+        # Run decision on error perception
+        error_decision = await self.decision.decide(ctx, error_perception)
+        ctx.mark_step_completed(error_decision_step.id, error_decision)
+        
+        return error_decision

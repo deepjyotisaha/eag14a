@@ -44,6 +44,21 @@ class ComputerAgentContext:
         self.screenshot_path = None
         self.start_time = datetime.now()
         
+        # Add state management (similar to browser agent)
+        self.current_state: Dict[str, Any] = {}
+        self.state_history: List[Dict[str, Any]] = []
+        self.failed_steps: List[str] = []
+        
+        # Add memory management (similar to browser agent)
+        self.memory: List[Dict[str, Any]] = []
+        self.globals: Dict[str, Any] = {}
+        self.global_history: Dict[str, List[Any]] = {}
+        
+        # Add cycle tracking directly in context (like browser agent)
+        self.perception_history: List[Dict[str, Any]] = []
+        self.decision_history: List[Dict[str, Any]] = []
+        self.execution_history: List[Dict[str, Any]] = []
+        
         # Add new fields as strings
         self.open_windows = ""  # Will store JSON string of open windows
         self.computer_state = ""  # Will store JSON string of computer state
@@ -105,3 +120,40 @@ class ComputerAgentContext:
             json.dump(summary, f, indent=2)
             
         return str(output_file)
+
+    def record_cycle(self, perception: Dict[str, Any], decision: Dict[str, Any], execution: Dict[str, Any]) -> None:
+        """Record a complete perception-decision-execution cycle"""
+        self.perception_history.append(perception)
+        self.decision_history.append(decision)
+        self.execution_history.append(execution)
+        
+        # Update state with cycle information
+        self.update_state({
+            "last_cycle": {
+                "perception": perception,
+                "decision": decision,
+                "execution": execution,
+                "timestamp": datetime.now().isoformat()
+            }
+        })
+
+    def update_state(self, new_state: Dict[str, Any]) -> None:
+        """Update the current state with new values"""
+        self.current_state.update(new_state)
+        self.state_history.append({
+            "timestamp": datetime.now().isoformat(),
+            "state": self.current_state.copy()
+        })
+
+    def update_globals(self, new_vars: Dict[str, Any]) -> None:
+        """Update global variables with versioning"""
+        for k, v in new_vars.items():
+            if k in self.globals:
+                versioned_key = f"{k}__{len(self.global_history.get(k, []))}"
+                self.globals[versioned_key] = v
+                if k not in self.global_history:
+                    self.global_history[k] = []
+                self.global_history[k].append(v)
+            else:
+                self.globals[k] = v
+                self.global_history[k] = [v]
