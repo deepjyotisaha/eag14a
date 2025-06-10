@@ -1,6 +1,74 @@
-2025-06-10 17:58:37,596 - INFO - test_agent:interactive:28 - Initializing Computer Agent...
-2025-06-10 17:58:37,597 - INFO - computer_agent:__init__:26 - Initializing ComputerAgent...
-2025-06-10 17:58:37,598 - INFO - computer_agent:__init__:42 - Initializing SimpleMCP with windows tools...
-2025-06-10 17:58:37,598 - INFO - computer_agent:__init__:44 - SimpleMCP initialized with windows tools
-2025-06-10 17:58:37,598 - INFO - computer_agent:__init__:47 - Initializing ModelManager...
-2025-06-10 17:58:37,598 - INFO - computer_agent:__init__:49 - ModelManager initialized
+2025-06-10 23:46:10,529 - INFO - test_agent:interactive:28 - Initializing Computer Agent...
+2025-06-10 23:46:10,529 - INFO - computer_agent:__init__:26 - Initializing ComputerAgent...
+2025-06-10 23:46:10,530 - INFO - computer_agent:__init__:42 - Initializing SimpleMCP with windows tools...
+2025-06-10 23:46:10,530 - INFO - computer_agent:__init__:44 - SimpleMCP initialized with windows tools
+2025-06-10 23:46:10,530 - INFO - computer_agent:__init__:47 - Initializing ModelManager...
+2025-06-10 23:46:10,530 - INFO - computer_agent:__init__:49 - ModelManager initialized
+2025-06-10 23:46:18,690 - INFO - computer_agent:run:65 - Starting computer agent operation...
+2025-06-10 23:46:18,714 - INFO - simple_mcp:initialize:64 - SimpleMCP initialized with 4 tools
+2025-06-10 23:46:18,715 - INFO - loop:run:53 - Output directory: outputs\2025\06\10\session_20250610_234618
+2025-06-10 23:46:18,716 - INFO - loop:run:57 - Starting computer agent session session_20250610_234618
+2025-06-10 23:46:18,717 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 1
+2025-06-10 23:46:18,833 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\10\session_20250610_234618\step_1\screenshot_20250610_234618__step_1.jpg
+2025-06-10 23:46:28,378 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-10 23:46:28,413 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-10 23:46:28,426 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-10 23:46:28,442 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-10 23:46:36,087 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-10 23:46:36,090 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-10 23:46:37,456 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-10 23:46:38,611 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-10 23:46:39,985 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-10 23:46:40,269 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-10 23:46:40,806 - INFO - loop:run:100 - 🧠 Running perception analysis for step 1
+2025-06-10 23:46:47,985 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Perception Results
+================================================================================
+{
+  "entities": [
+    "Notepad",
+    "helloworld",
+    "Desktop"
+  ],
+  "result_requirement": "Notepad opened with 'helloworld' content and saved on desktop.",
+  "original_goal_achieved": false,
+  "local_goal_achieved": false,
+  "confidence": "0.95",
+  "reasoning": "The user query involves opening Notepad, typing 'helloworld', and saving it to the desktop. The screen snapshot does not show a Notepad window with 'helloworld' typed in it, nor does it confirm the file has been saved to the desktop. Therefore, the original goal is not achieved. The screen contains icons and OCR detections, but none indicate the Notepad window has been opened or the text has been typed.",
+  "local_reasoning": "The screen contains desktop icons, toolbars, and system tray icons. However, there is no evidence of Notepad being open and 'helloworld' being typed into it. Thus, the local goal is not achieved.",
+  "last_tooluse_summary": "No tool was used in the previous step.",
+  "solution_summary": "Need to open Notepad, type 'helloworld' in the Notepad, then save the file to the desktop.",
+  "route": "decision",
+  "open_windows": "",
+  "computer_state": "No Notepad window is currently open. There are Icons on the desktop and on the toolbar. There is a search box where commands can be typed",
+  "important_coordinates": "Search Box (535, 228)"
+}
+================================================================================
+
+2025-06-10 23:46:47,986 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 1
+2025-06-10 23:46:47,988 - INFO - loop:run:126 - 🤔 Making decision for step 1
+2025-06-10 23:46:49,338 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Decision Results
+================================================================================
+{
+  "selected_tool": "launch",
+  "tool_parameters": {
+    "app_name": "Notepad",
+    "screen_id": 0,
+    "fullscreen": false
+  },
+  "reasoning": "The user wants to open Notepad. The perception module indicates that Notepad is not currently open. Therefore, the 'launch' tool is the appropriate choice to open Notepad.",
+  "confidence": "0.95"
+}
+================================================================================
+
+2025-06-10 23:46:49,338 - INFO - loop:run:128 - 🤔 Decision completed for step 1
+2025-06-10 23:46:49,340 - INFO - loop:run:147 - 🛠️ Executing tool for step 1: launch
+2025-06-10 23:46:49,340 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 1: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-10 23:46:49,443 - INFO - simple_mcp:execute_tool:99 - Tool launch executed with result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-10 23:46:49,444 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 1
+2025-06-10 23:46:49,444 - INFO - loop:run:155 - 🛠️ Execution result for step 1: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-10 23:46:49,445 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 2
+2025-06-10 23:46:49,572 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\10\session_20250610_234618\step_2\screenshot_20250610_234649__step_2.jpg

@@ -49,8 +49,8 @@ class ComputerAgentLoop:
         """
         # Create session ID and context
         session_id = f"session_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-        output_dir = get_output_folder(session_id)
-        logger.info(f"Output directory: {output_dir}")
+        base_output_dir = get_output_folder(session_id)  # Store base output directory
+        logger.info(f"Output directory: {base_output_dir}")
         ctx = ComputerAgentContext(session_id, query)
         
         try:
@@ -61,20 +61,27 @@ class ComputerAgentLoop:
                 log_step(f"🔄 Starting new cycle with step count {step_count + 1}")
                 logger.info(f"🔄 Starting new cycle with step count {step_count + 1}")
 
+                # Create step directory at the same level
+                step_output_dir = base_output_dir.joinpath(f"step_{step_count + 1}")
+                step_output_dir.mkdir(parents=True, exist_ok=True)
+
                 # Step 1: Take screenshot and run pipeline for current state
-                #log_step("📸 Taking screenshot")
-                #screenshot_path = take_screenshot(output_dir=str(ctx.output_dir))
-                #ctx.screenshot_path = screenshot_path
-                #logger.info(f"Screenshot taken and saved to {screenshot_path}")
+                log_step("📸 Taking screenshot")
+                screenshot_path = take_screenshot(
+                    output_dir=str(step_output_dir),
+                    suffix=f"step_{step_count + 1}"
+                )
+                ctx.screenshot_path = screenshot_path
+                logger.info(f"Screenshot taken and saved to {screenshot_path}")
                 
                 # Run pipeline on screenshot
-                #log_step("🔍 Running image processing pipeline")
-                #pipeline_result = await run_pipeline(screenshot_path, mode="mcp_deploy", output_dir=str(ctx.output_dir))
-                #ctx.pipeline_output = pipeline_result
+                log_step("🔍 Running image processing pipeline")
+                pipeline_result = await run_pipeline(screenshot_path, mode="mcp_deploy", output_dir=str(step_output_dir))
+                ctx.pipeline_output = pipeline_result
                 #log_json_block("Pipeline Result", pipeline_result)
-                #log_step("🔍 Image processing pipeline completed")
+                log_step("🔍 Image processing pipeline completed")
                 
-                pipeline_result = {"pipeline_output": "No Screenshot"}
+                #pipeline_result = {"pipeline_output": "No Screenshot"}
                 
                 # Step 2: Perception
                 perception_step = ctx.add_step(

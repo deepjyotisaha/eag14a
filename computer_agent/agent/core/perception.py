@@ -29,11 +29,23 @@ class Perception:
         """
         try:
             # Build perception input
+            #perception_input = {
+            #    "snapshot_type": snapshot_type,
+            #    "original_query": ctx.query,
+            #    "raw_input": ctx.query if snapshot_type == "user_query" else str(pipeline_result),
+            #    "pipeline_output": pipeline_result,
+            #    "completed_steps": [step.to_dict() for step in ctx.steps.values() if step.status == "completed"],
+            #    "failed_steps": [step.to_dict() for step in ctx.steps.values() if step.status == "failed"],
+            #    "open_windows": ctx.open_windows,
+            #    "computer_state": ctx.computer_state
+            #}
+
+            # Build perception input
             perception_input = {
                 "snapshot_type": snapshot_type,
                 "original_query": ctx.query,
-                "raw_input": ctx.query if snapshot_type == "user_query" else str(pipeline_result),
-                "pipeline_output": pipeline_result,
+                "raw_input": ctx.query if snapshot_type == "user_query" else "",
+                "screen_snapshot": pipeline_result,
                 "completed_steps": [step.to_dict() for step in ctx.steps.values() if step.status == "completed"],
                 "failed_steps": [step.to_dict() for step in ctx.steps.values() if step.status == "failed"],
                 "open_windows": ctx.open_windows,
@@ -45,7 +57,7 @@ class Perception:
             full_prompt = f"{prompt_template.strip()}\n\n```json\n{json.dumps(perception_input, indent=2)}\n```"
             
             # Log the prompt
-            logger_prompt(logger, "📝 Perception prompt:", full_prompt)
+            #logger_prompt(logger, "📝 Perception prompt:", full_prompt)
             
             
             # Get LLM response
@@ -66,7 +78,8 @@ class Perception:
                 'confidence',
                 'route',
                 'open_windows',
-                'computer_state'
+                'computer_state',
+                'important_coordinates'
             ])
             
             # Log perception results

@@ -7,7 +7,7 @@ import numpy as np
 from PIL import ImageGrab
 from datetime import datetime
 
-def take_screenshot(output_dir="outputs"):
+def take_screenshot(output_dir="outputs", suffix="none"):
     """
     Take a screenshot of the entire screen and save it to output folder.
     
@@ -30,7 +30,10 @@ def take_screenshot(output_dir="outputs"):
         
         # Generate filename with timestamp
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"screenshot_{timestamp}.jpg"
+        if suffix == "none":    
+            filename = f"screenshot_{timestamp}.jpg"
+        else:
+            filename = f"screenshot_{timestamp}_{suffix}.jpg"
         filepath = os.path.join(output_dir, filename)
         
         # Save screenshot
