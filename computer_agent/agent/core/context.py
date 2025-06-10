@@ -6,6 +6,9 @@ from datetime import datetime
 import json
 import os
 from pathlib import Path
+from config.log_config import log_step, log_json_block, setup_logging, logger_json_block
+
+logger = setup_logging(__name__)
 
 class StepType:
     ROOT = "ROOT"
@@ -121,8 +124,82 @@ class ComputerAgentContext:
             
         return str(output_file)
 
+    def print_cycle_steps(self, cycle_number: int) -> None:
+        """
+        Log all steps from all cycles up to the current cycle number
+        
+        Args:
+            cycle_number: The current cycle number
+        """
+        
+        if cycle_number <= 0:
+            return
+        
+        # Log session header
+        log_step(f"📋 Session Steps Summary (Up to Cycle {cycle_number})")
+        
+        # Iterate through all cycles up to current
+        for current_cycle in range(1, cycle_number + 1):
+            # Get steps for this cycle
+            cycle_steps = []
+            for step_id, step in self.steps.items():
+                if step_id.startswith(f"PERCEPTION_{current_cycle}") or \
+                   step_id.startswith(f"DECISION_{current_cycle}") or \
+                   step_id.startswith(f"TOOL_{current_cycle}"):
+                    cycle_steps.append(step)
+            
+            # Sort steps by their sequence
+            cycle_steps.sort(key=lambda x: x.id)
+            
+            # Log cycle header
+            log_step(f"🔄 Cycle {current_cycle}")
+            
+            # Log each step in sequence
+            for step in cycle_steps:
+                # Create step header with status indicator
+                status_emoji = "✅" if step.status == "completed" else "❌" if step.status == "failed" else "⏳"
+                log_step(f"{status_emoji} {step.id} - {step.type}")
+                
+                # Log step details in a compact format
+                step_info = {
+                    "Description": step.description,
+                    "From Step": step.from_step,
+                    "Timestamp": step.timestamp,
+                    "Status": step.status
+                }
+                log_json_block("Step Info", step_info)
+                
+                # Log step result if exists
+                if step.result:
+                    if step.type == "TOOL_EXECUTION":
+                        # For tool execution, show success and message
+                        result_info = {
+                            "Success": step.result.get("success", False),
+                            "Message": step.result.get("message", "No message")
+                        }
+                    else:
+                        # For perception and decision, show key information
+                        result_info = {
+                            "Key Points": {
+                                k: v for k, v in step.result.items() 
+                                if k in ["selected_tool", "tool_parameters", "confidence", "route", "local_goal_achieved"]
+                            }
+                        }
+                    log_json_block("Result", result_info)
+            
+            # Log cycle summary
+            log_step(f"📊 Cycle {current_cycle} Summary")
+            logger.info(f"• Steps: {', '.join(step.id for step in cycle_steps)}")
+            logger.info(f"• Status: {'✅ Completed' if all(step.status == 'completed' for step in cycle_steps) else '❌ Failed'}")
+            logger.info(f"• Goal Achieved: {'✅ Yes' if self.perception_history[current_cycle-1].get('local_goal_achieved', False) else '❌ No'}")
+            
+            # Add separator between cycles
+            if current_cycle < cycle_number:
+                log_step("=" * 80)
+
     def record_cycle(self, perception: Dict[str, Any], decision: Dict[str, Any], execution: Dict[str, Any]) -> None:
         """Record a complete perception-decision-execution cycle"""
+        # Record the cycle data
         self.perception_history.append(perception)
         self.decision_history.append(decision)
         self.execution_history.append(execution)
@@ -136,6 +213,28 @@ class ComputerAgentContext:
                 "timestamp": datetime.now().isoformat()
             }
         })
+        
+        # Log cycle summary with proper formatting
+        #cycle_number = len(self.perception_history)
+        
+        # Log perception
+        #log_step("🧠 Running perception analysis")
+        #log_json_block(f"📌 📌 Perception output ({cycle_number})", perception)
+        
+        # Log decision
+        #log_step("🤔 Making decision")
+        #log_json_block(f"📌 📌 Decision output ({cycle_number})", decision)
+        
+        # Log execution
+        #log_step(f"🛠️ Executing tool: {decision.get('selected_tool', 'unknown')}")
+        #log_json_block(f"📌 📌 Execution output ({cycle_number})", execution)
+        
+        # Log cycle status
+        #log_step("📊 Cycle Status")
+        #logger.info(f"• Goal Achieved: {perception.get('local_goal_achieved', False)}")
+        #logger.info(f"• Confidence: {perception.get('confidence', 'N/A')}")
+        #logger.info(f"• Route: {perception.get('route', 'N/A')}")
+        #logger.info(f"• Computer State: {perception.get('computer_state', 'N/A')}")
 
     def update_state(self, new_state: Dict[str, Any]) -> None:
         """Update the current state with new values"""

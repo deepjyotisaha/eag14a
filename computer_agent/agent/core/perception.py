@@ -5,7 +5,7 @@ from typing import Dict, Any, Optional
 from datetime import datetime
 import json
 from pathlib import Path
-from config.log_config import setup_logging, logger_json_block, logger_prompt
+from config.log_config import setup_logging, logger_json_block, logger_prompt, log_step, log_json_block
 from agent.utils.json_parser import parse_llm_json
 
 logger = setup_logging(__name__)
@@ -45,13 +45,13 @@ class Perception:
             full_prompt = f"{prompt_template.strip()}\n\n```json\n{json.dumps(perception_input, indent=2)}\n```"
             
             # Log the prompt
-            #logger_prompt(logger, "📝 Perception prompt:", full_prompt)
+            logger_prompt(logger, "📝 Perception prompt:", full_prompt)
             
             
             # Get LLM response
             response = await self.model.generate_text(prompt=full_prompt)
 
-            logger_json_block(logger, "Perception Response", response, 3000)
+            #logger_json_block(logger, "Perception Response", response, 3000)
             
             # Parse response using robust parser
             perception = parse_llm_json(response, required_keys=[
@@ -77,3 +77,5 @@ class Perception:
         except Exception as e:
             logger.error(f"Perception analysis failed: {str(e)}")
             raise
+
+   

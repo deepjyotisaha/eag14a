@@ -45,14 +45,15 @@ async def interactive():
             logger.debug(f"📝 Query: {query}")
             
             # Construct context string from past rounds
-            context_prefix = ""
-            for idx, (q, r) in enumerate(conversation_history, start=1):
-                context_prefix += f"Query {idx}: {q}\nResponse {idx}: {r}\n"
+            #context_prefix = ""
+            #for idx, (q, r) in enumerate(conversation_history, start=1):
+            #    context_prefix += f"Query {idx}: {q}\nResponse {idx}: {r}\n"
             
-            logger.debug(f"📝 Context Prefix: {context_prefix}")
+            #logger.debug(f"📝 Context Prefix: {context_prefix}")
             
-            full_query = context_prefix + f"Query {len(conversation_history)+1}: {query}"
-            
+            #full_query = context_prefix + f"Query {len(conversation_history)+1}: {query}"
+            full_query = query
+
             try:
                 # Run agent
                 result = await agent.run(full_query)
@@ -70,7 +71,7 @@ async def interactive():
                     print(f"Error: {result.get('error', 'Unknown error')}")
                 
                 # Store in history
-                conversation_history.append((query, str(result)))
+                #conversation_history.append((query, str(result)))
                 
             except Exception as e:
                 logger.error(f"Agent failed: {str(e)}")

@@ -58,6 +58,9 @@ class ComputerAgentLoop:
             step_count = 0
             
             while step_count < self.max_steps:
+                log_step(f"🔄 Starting new cycle with step count {step_count + 1}")
+                logger.info(f"🔄 Starting new cycle with step count {step_count + 1}")
+
                 # Step 1: Take screenshot and run pipeline for current state
                 #log_step("📸 Taking screenshot")
                 #screenshot_path = take_screenshot(output_dir=str(ctx.output_dir))
@@ -86,18 +89,22 @@ class ComputerAgentLoop:
                 else:
                     snapshot_type = "step_result"
 
-                log_step("🧠 Running perception analysis")
+                log_step(f"🧠 Running perception analysis for step {step_count + 1}")
+                logger.info(f"🧠 Running perception analysis for step {step_count + 1}")
                 perception = await self.perception.analyze(
                     ctx, 
                     pipeline_result,
                     snapshot_type=snapshot_type
                 )
+                logger.info(f"🧠 Perception analysis completed for step {step_count + 1}")
                 ctx.mark_step_completed(perception_step.id, perception)
-                log_json_block(f"📌 Perception output ({step_count + 1})", perception, char_limit=2000)
+                log_json_block(f"📌 Perception output for step {step_count + 1}", perception, char_limit=2000)
                 
                 # When perception suggests summarization
                 if perception.get("route") == "summarize":
                     logger.info("Perception suggests summarization - task complete")
+                    log_step(f"🔄 Summarization task complete for step {step_count + 1}")
+                    #ctx.print_cycle_steps(step_count + 1)
                     return await self.summary.summarize(query, ctx, perception)
                 
                 # Step 3: Decision
@@ -108,14 +115,17 @@ class ComputerAgentLoop:
                     from_step=f"PERCEPTION_{step_count + 1}"
                 )
                 
-                log_step("🤔 Making decision")
+                log_step(f"🤔 Making decision for step {step_count + 1}")
+                logger.info(f"🤔 Making decision for step {step_count + 1}")
                 decision = await self.decision.decide(ctx, perception)
+                logger.info(f"🤔 Decision completed for step {step_count + 1}")
                 ctx.mark_step_completed(decision_step.id, decision)
-                log_json_block(f"📌 Decision output ({step_count + 1})", decision)
+                log_json_block(f"📌 Decision output for step {step_count + 1}", decision)
                 
                 # Step 4: Tool Execution
                 if not decision.get("selected_tool"):
-                    logger.warning("No tool selected by decision module")
+                    logger.warning(f"🔄 No tool selected by decision module for step {step_count + 1}")
+                    log_step(f"🔄 No tool selected by decision module for step {step_count + 1}")
                     break
                     
                 tool_step = ctx.add_step(
@@ -126,14 +136,23 @@ class ComputerAgentLoop:
                 )
                 
                 # Log tool execution details
-                log_step(f"🛠️ Executing tool: {decision['selected_tool']}", decision["tool_parameters"])
-                #log_json_block("Tool Parameters", decision["tool_parameters"])
+                log_step(f"🛠️ Executing tool for step {step_count + 1}: {decision['selected_tool']}", decision["tool_parameters"])
+                logger.info(f"🛠️ Executing tool for step {step_count + 1}: {decision['selected_tool']}")
+                logger.info(f"🛠️ Tool Parameters for step {step_count + 1}: {decision['tool_parameters']}")
+                #log_json_block(f"📌 Tool Parameters for step {step_count + 1}", decision["tool_parameters"])
                 
                 # Execute tool with retries
-                execution_result = await self._execute_with_retry(ctx, decision, tool_step)
+                #execution_result = await self._execute_with_retry(ctx, decision, tool_step)
+                execution_result = await self._execute_tool(ctx, decision, tool_step)
+                logger.info(f"🛠️ Tool execution completed for step {step_count + 1}")
+                logger.info(f"🛠️ Execution result for step {step_count + 1}: {execution_result}")
+                log_json_block(f"📌 Execution result for step {step_count + 1}", execution_result)
                 
                 # Record complete cycle
                 ctx.record_cycle(perception, decision, execution_result)
+
+                # Print all cycles up to current
+                #ctx.print_cycle_steps(step_count + 1)
                 
                 step_count += 1
             
@@ -164,6 +183,34 @@ class ComputerAgentLoop:
                 ctx,
                 {"route": "summarize", "solution_summary": f"Task failed: {str(e)}"}
             )
+
+    async def _execute_tool(self, ctx: ComputerAgentContext, decision: Dict[str, Any], tool_step: Step) -> Dict[str, Any]:
+        """
+        Execute a tool without retry logic
+        
+        Args:
+            ctx: Agent context
+            decision: Decision containing tool and parameters
+            tool_step: Step object for tracking
+            
+        Returns:
+            Dict containing execution result
+        """
+        try:
+            # Execute the tool
+            result = await self.multi_mcp.execute_tool(
+                decision["selected_tool"],
+                decision["tool_parameters"]
+            )
+            
+            # Mark step as completed with result
+            ctx.mark_step_completed(tool_step.id, result)
+            return result
+            
+        except Exception as e:
+            # Mark step as failed and raise the exception
+            ctx.mark_step_failed(tool_step.id, str(e))
+            raise
 
     async def _execute_with_retry(self, ctx: ComputerAgentContext, decision: Dict[str, Any], tool_step: Step) -> Dict[str, Any]:
         """Execute tool with retry logic"""
