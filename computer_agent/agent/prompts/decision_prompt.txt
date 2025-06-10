@@ -11,6 +11,15 @@ Your role is to select the appropriate tool and parameters based on:
 - Available tools
 - Previous actions
 
+---
+
+## ✅ NOTES
+
+* No markdown. No prose. Output strict JSON ONLY.
+* Any ERRORs in windows which are not related to query SHOULD BE IGNORED
+
+---
+
 ## ✅ INPUT FORMAT
 
 ```json

@@ -1,0 +1,1350 @@
+{
+  "filename_base": "screenshot_20250610_235544_step_4",
+  "analysis_timestamp": "2025-06-10T23:56:01.206287",
+  "analysis_duration_seconds": 13.027153,
+  "total_images_analyzed": 4,
+  "total_input_images": 4,
+  "analysis_mode": "direct",
+  "successful_analyses": 4,
+  "total_icons_found": 217,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_75_bboxes.png",
+      "image_name": "combined_groups_0_75_bboxes.png",
+      "icons_found": 63,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "Down Arrow",
+          "usage": "Likely expands/collapses a dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "EAGV1",
+          "usage": "Likely a setting option in dropdown",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "Right Arrow",
+          "usage": "Expands a sub-menu or navigates forward",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "Document Icon",
+          "usage": "Represents a new file",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_4",
+          "name": "Selection",
+          "usage": "Opens the selection menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_5",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_6",
+          "name": "Go",
+          "usage": "Opens the go menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_7",
+          "name": "Run",
+          "usage": "Opens the run menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_8",
+          "name": "Terminal",
+          "usage": "Opens the terminal menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_9",
+          "name": "Help",
+          "usage": "Opens the help menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "Branch Icon",
+          "usage": "Likely switches to a different branch",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_2",
+          "name": "master*",
+          "usage": "Displays the current branch",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_3",
+          "name": "0 ⏃ 1",
+          "usage": "Likely represents an object status or code changes",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_4",
+          "name": "0",
+          "usage": "Likely represents a state or setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "23°",
+          "usage": "Indicates environment temperature",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "pipeline_utils.py",
+          "usage": "Opens the 'pipeline_utils.py' file",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "pipeline",
+          "usage": "Shows a directory or project named 'pipeline'",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "screenshot.py",
+          "usage": "Opens the 'screenshot.py' file",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "> images",
+          "usage": "Opens the 'images' directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "! mcp_server_config.yaml",
+          "usage": "Opens the 'mcp_server_config.yaml' file (potentially with a warning)",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "core",
+          "usage": "Shows the directory named 'core'",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "__init__.py",
+          "usage": "Opens the '__init__.py' file",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "logs",
+          "usage": "Shows the directory named 'logs'",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": ">",
+          "usage": "Opens the directory or file",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_2",
+          "name": "__pycache__",
+          "usage": "Shows the '__pycache__' directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Python Icon",
+          "usage": "Likely represents a python file.",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Python Icon",
+          "usage": "Likely represents a python file.",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_2",
+          "name": "__init__.py",
+          "usage": "Opens the '__init__.py' file",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "pipeline.py",
+          "usage": "Opens the 'pipeline.py' file",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "test_pipeline.py",
+          "usage": "Opens the 'test_pipeline.py' file",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": ">",
+          "usage": "Opens a directory or file",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_2",
+          "name": "__pycache__",
+          "usage": "Shows the '__pycache__' directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_1",
+          "name": "Python Icon",
+          "usage": "Likely represents a python file.",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_2",
+          "name": "context.py",
+          "usage": "Opens the 'context.py' file",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_1",
+          "name": "summary.py",
+          "usage": "Opens the 'summary.py' file",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_1",
+          "name": "Lock Icon",
+          "usage": "Toggles locking of the viewport",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Zooms into the viewport",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_3",
+          "name": "Connected Nodes Icon",
+          "usage": "Connects nodes",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_4",
+          "name": "Grid Icon",
+          "usage": "Toggles viewport grid visibility",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_5",
+          "name": "Down Arrow",
+          "usage": "Likely opens a dropdown menu of options.",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_1",
+          "name": "Warning Icon",
+          "usage": "Displays a warning alert",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_2",
+          "name": "1",
+          "usage": "Likely indicates a step or iteration number",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_1",
+          "name": "Magnifying Glass Icon",
+          "usage": "Likely searches for something",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_2",
+          "name": "Image Icon",
+          "usage": "Likely represents an image file",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_3",
+          "name": "Sphere Icon",
+          "usage": "Likely represents a 3D object or world",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_4",
+          "name": "Avatar Icon",
+          "usage": "Represents user profile or account settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_5",
+          "name": "Calendar Icon",
+          "usage": "Represents a calendar or scheduling function",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_6",
+          "name": "T+",
+          "usage": "Likely represents text formatting options",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_7",
+          "name": "360 Icon",
+          "usage": "Likely opens a 360 degree view.",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_8",
+          "name": "Folder Icon",
+          "usage": "Represents a folder",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_9",
+          "name": "99+",
+          "usage": "Likely indicates notifications or number of items.",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_10",
+          "name": "Paintbrush Icon",
+          "usage": "Represents a design tool like painter",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_11",
+          "name": "W",
+          "usage": "Represents Microsoft Word file",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_12",
+          "name": "X",
+          "usage": "Represents an excel file",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_1",
+          "name": "Circle Icon",
+          "usage": "Represents a circular color patch.",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_1",
+          "name": "Gauge Icon",
+          "usage": "Represents the performance or usage.",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_1",
+          "name": "M",
+          "usage": "Represents a Media file",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_1",
+          "name": "uv computer_agent",
+          "usage": "Opens the 'uv computer_agent' file.",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_2",
+          "name": "perception_prompt.txt",
+          "usage": "Opens the 'perception_prompt.txt' file",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_3",
+          "name": "Python Icon",
+          "usage": "Likely opens a Python file",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_4",
+          "name": "context.py",
+          "usage": "Opens the 'context.py' file",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H0_1: \"Down Arrow\" | Usage: \"Likely expands/collapses a dropdown menu\"\nH0_2: \"EAGV1\" | Usage: \"Likely a setting option in dropdown\"\nH1_1: \"Right Arrow\" | Usage: \"Expands a sub-menu or navigates forward\"\nH2_1: \"Document Icon\" | Usage: \"Represents a new file\"\nH2_2: \"File\" | Usage: \"Opens the file menu\"\nH2_3: \"Edit\" | Usage: \"Opens the edit menu\"\nH2_4: \"Selection\" | Usage: \"Opens the selection menu\"\nH2_5: \"View\" | Usage: \"Opens the view menu\"\nH2_6: \"Go\" | Usage: \"Opens the go menu\"\nH2_7: \"Run\" | Usage: \"Opens the run menu\"\nH2_8: \"Terminal\" | Usage: \"Opens the terminal menu\"\nH2_9: \"Help\" | Usage: \"Opens the help menu\"\nH3_1: \"Branch Icon\" | Usage: \"Likely switches to a different branch\"\nH3_2: \"master*\" | Usage: \"Displays the current branch\"\nH3_3: \"0 ⏃ 1\" | Usage: \"Likely represents an object status or code changes\"\nH3_4: \"0\" | Usage: \"Likely represents a state or setting\"\nH4_1: \"23°\" | Usage: \"Indicates environment temperature\"\nH5_1: \"pipeline_utils.py\" | Usage: \"Opens the 'pipeline_utils.py' file\"\nH6_1: \"pipeline\" | Usage: \"Shows a directory or project named 'pipeline'\"\nH7_1: \"screenshot.py\" | Usage: \"Opens the 'screenshot.py' file\"\nH8_1: \"> images\" | Usage: \"Opens the 'images' directory\"\nH9_1: \"! mcp_server_config.yaml\" | Usage: \"Opens the 'mcp_server_config.yaml' file (potentially with a warning)\"\nH10_1: \"core\" | Usage: \"Shows the directory named 'core'\"\nH11_1: \"__init__.py\" | Usage: \"Opens the '__init__.py' file\"\nH12_1: \"logs\" | Usage: \"Shows the directory named 'logs'\"\nH13_1: \">\" | Usage: \"Opens the directory or file\"\nH13_2: \"__pycache__\" | Usage: \"Shows the '__pycache__' directory\"\nH14_1: \"Python Icon\" | Usage: \"Likely represents a python file.\"\nH15_1: \"Python Icon\" | Usage: \"Likely represents a python file.\"\nH15_2: \"__init__.py\" | Usage: \"Opens the '__init__.py' file\"\nH16_1: \"pipeline.py\" | Usage: \"Opens the 'pipeline.py' file\"\nH17_1: \"test_pipeline.py\" | Usage: \"Opens the 'test_pipeline.py' file\"\nH18_1: \">\" | Usage: \"Opens a directory or file\"\nH18_2: \"__pycache__\" | Usage: \"Shows the '__pycache__' directory\"\nH19_1: \"Python Icon\" | Usage: \"Likely represents a python file.\"\nH19_2: \"context.py\" | Usage: \"Opens the 'context.py' file\"\nH20_1: \"summary.py\" | Usage: \"Opens the 'summary.py' file\"\nH21_1: \"Lock Icon\" | Usage: \"Toggles locking of the viewport\"\nH21_2: \"Magnifying Glass Icon\" | Usage: \"Zooms into the viewport\"\nH21_3: \"Connected Nodes Icon\" | Usage: \"Connects nodes\"\nH21_4: \"Grid Icon\" | Usage: \"Toggles viewport grid visibility\"\nH21_5: \"Down Arrow\" | Usage: \"Likely opens a dropdown menu of options.\"\nH22_1: \"Warning Icon\" | Usage: \"Displays a warning alert\"\nH22_2: \"1\" | Usage: \"Likely indicates a step or iteration number\"\nH23_1: \"Magnifying Glass Icon\" | Usage: \"Likely searches for something\"\nH23_2: \"Image Icon\" | Usage: \"Likely represents an image file\"\nH23_3: \"Sphere Icon\" | Usage: \"Likely represents a 3D object or world\"\nH23_4: \"Avatar Icon\" | Usage: \"Represents user profile or account settings\"\nH23_5: \"Calendar Icon\" | Usage: \"Represents a calendar or scheduling function\"\nH23_6: \"T+\" | Usage: \"Likely represents text formatting options\"\nH23_7: \"360 Icon\" | Usage: \"Likely opens a 360 degree view.\"\nH23_8: \"Folder Icon\" | Usage: \"Represents a folder\"\nH23_9: \"99+\" | Usage: \"Likely indicates notifications or number of items.\"\nH23_10: \"Paintbrush Icon\" | Usage: \"Represents a design tool like painter\"\nH23_11: \"W\" | Usage: \"Represents Microsoft Word file\"\nH23_12: \"X\" | Usage: \"Represents an excel file\"\nH24_1: \"Circle Icon\" | Usage: \"Represents a circular color patch.\"\nH25_1: \"Gauge Icon\" | Usage: \"Represents the performance or usage.\"\nH26_1: \"M\" | Usage: \"Represents a Media file\"\nH27_1: \"uv computer_agent\" | Usage: \"Opens the 'uv computer_agent' file.\"\nH27_2: \"perception_prompt.txt\" | Usage: \"Opens the 'perception_prompt.txt' file\"\nH27_3: \"Python Icon\" | Usage: \"Likely opens a Python file\"\nH27_4: \"context.py\" | Usage: \"Opens the 'context.py' file\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_1_85_bboxes.png",
+      "image_name": "combined_groups_1_85_bboxes.png",
+      "icons_found": 85,
+      "icons": [
+        {
+          "id": "H28_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_2",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_3",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H29_1",
+          "name": "Circle",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H29_2",
+          "name": "PS",
+          "usage": "Opens Photoshop",
+          "group_type": "H"
+        },
+        {
+          "id": "H30_1",
+          "name": "Document Icon",
+          "usage": "Likely creates a new document",
+          "group_type": "H"
+        },
+        {
+          "id": "H30_2",
+          "name": "helloworld",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H31_1",
+          "name": "Green Circle",
+          "usage": "Indicates a running process or successful status",
+          "group_type": "H"
+        },
+        {
+          "id": "H31_2",
+          "name": "Making",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_1",
+          "name": "helloworld",
+          "usage": "Displays the current file name or project name",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_1",
+          "name": "To",
+          "usage": "Used to specify a destination or target",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_1",
+          "name": "remote:",
+          "usage": "Indicates a remote connection setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_1",
+          "name": "To https://github.com/deepjyotisaha/eag14a.git",
+          "usage": "Shows the URL of a remote repository",
+          "group_type": "H"
+        },
+        {
+          "id": "H36_1",
+          "name": "7869812..8a47589",
+          "usage": "Represents a commit ID or version number",
+          "group_type": "H"
+        },
+        {
+          "id": "H36_2",
+          "name": "master -> master",
+          "usage": "Shows the current branch and its relation to a remote branch",
+          "group_type": "H"
+        },
+        {
+          "id": "H37_1",
+          "name": "Making decision for step 3",
+          "usage": "Indicates progress in a multi-step process",
+          "group_type": "H"
+        },
+        {
+          "id": "H38_1",
+          "name": "(delta",
+          "usage": "Relates to a change or difference in a value",
+          "group_type": "H"
+        },
+        {
+          "id": "H38_2",
+          "name": "10)",
+          "usage": "Indicates a numerical value or counter",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_1",
+          "name": "d 0",
+          "usage": "Represents a differential or change value",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_1",
+          "name": "100%",
+          "usage": "Indicates a percentage or zoom level",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_1",
+          "name": "(delta",
+          "usage": "Relates to a change or difference in a value",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_2",
+          "name": "0)",
+          "usage": "Shows a numerical value",
+          "group_type": "H"
+        },
+        {
+          "id": "H42_1",
+          "name": "(10/10)",
+          "usage": "Indicates completion status",
+          "group_type": "H"
+        },
+        {
+          "id": "H42_2",
+          "name": "completed",
+          "usage": "Confirms that a task or process has finished",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_1",
+          "name": "Dot",
+          "usage": "Indicates status",
+          "group_type": "H"
+        },
+        {
+          "id": "H44_1",
+          "name": "+",
+          "usage": "Adds something",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_1",
+          "name": "Ctrl+K to generate a command",
+          "usage": "Describes a keyboard shortcut",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_1",
+          "name": "sed 0 with",
+          "usage": "Used to search and replace text within a file",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_2",
+          "name": "(fr 10",
+          "usage": "Indicates a numerical value or counter",
+          "group_type": "H"
+        },
+        {
+          "id": "H47_1",
+          "name": "uv - eagv1 - Cursor",
+          "usage": "Indicates current input mode or context",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_1",
+          "name": "0)",
+          "usage": "Shows a numerical value",
+          "group_type": "H"
+        },
+        {
+          "id": "H49_1",
+          "name": "common.log M",
+          "usage": "Opens the common log file",
+          "group_type": "H"
+        },
+        {
+          "id": "H50_1",
+          "name": "Spiral Icon",
+          "usage": "Unknown",
+          "group_type": "H"
+        },
+        {
+          "id": "H50_2",
+          "name": "loop.py",
+          "usage": "Opens a python file",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_1",
+          "name": "Spiral Icon",
+          "usage": "Unknown",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_2",
+          "name": "screenshot.py",
+          "usage": "Opens a python file",
+          "group_type": "H"
+        },
+        {
+          "id": "H52_1",
+          "name": "Square outline",
+          "usage": "Likely represents window frame",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_1",
+          "name": "Square with line",
+          "usage": "Likely represents window setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H54_1",
+          "name": "Filled square",
+          "usage": "Likely represents window state",
+          "group_type": "H"
+        },
+        {
+          "id": "H55_1",
+          "name": "100%",
+          "usage": "Indicates scaling factor",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_1",
+          "name": "+",
+          "usage": "Adds something",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_2",
+          "name": "Multiple Windows",
+          "usage": "Likely opens multiple windows",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_3",
+          "name": "Three Dots",
+          "usage": "Displays more options",
+          "group_type": "H"
+        },
+        {
+          "id": "H57_1",
+          "name": "Window with text",
+          "usage": "Likely opens a window with a text",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_1",
+          "name": "Windows (CRLF)",
+          "usage": "Sets the line ending format for the editor",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_1",
+          "name": "Up Arrow",
+          "usage": "Scrolls up",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_2",
+          "name": "Cloud",
+          "usage": "Cloud sync",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_3",
+          "name": "Globe",
+          "usage": "Cloud sync",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_4",
+          "name": "Microphone",
+          "usage": "Activates the microphone",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_5",
+          "name": "Keyboard",
+          "usage": "Opens the keyboard settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_6",
+          "name": "ENG IN",
+          "usage": "Indicates the input language",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_7",
+          "name": "Speaker",
+          "usage": "Adjusts the speaker volume",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_8",
+          "name": "11:55 PM 6/10/2025",
+          "usage": "Displays timestamp",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_1",
+          "name": "Square",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_1",
+          "name": "Analyze code in windowManager dire",
+          "usage": "Text box likely describing an area to be analyzed",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_1",
+          "name": "@",
+          "usage": "Mentions someone",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_2",
+          "name": "Terminal",
+          "usage": "Opens the terminal window",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_1",
+          "name": "Ask ^",
+          "usage": "Opens the ask menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_2",
+          "name": "Auto",
+          "usage": "Sets auto function",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_1",
+          "name": "text",
+          "usage": "Indicates input is text",
+          "group_type": "H"
+        },
+        {
+          "id": "H65_1",
+          "name": "UTF-8",
+          "usage": "Indicates encoding method",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_1",
+          "name": "Square",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_2",
+          "name": "Gear Icon",
+          "usage": "Opens settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_3",
+          "name": "Square",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_4",
+          "name": "Gear Icon",
+          "usage": "Opens settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_5",
+          "name": "Dash Icon",
+          "usage": "Decrease Value",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_6",
+          "name": "Record Icon",
+          "usage": "Indicates a record",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_7",
+          "name": "X",
+          "usage": "Closes or deletes something",
+          "group_type": "H"
+        },
+        {
+          "id": "H67_1",
+          "name": "Start a new chat for better results.",
+          "usage": "Indicates start new chat",
+          "group_type": "H"
+        },
+        {
+          "id": "H67_2",
+          "name": "New Chat",
+          "usage": "Opens the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_1",
+          "name": "Colorfull Icon",
+          "usage": "Opens something",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_2",
+          "name": "Down Arrow",
+          "usage": "Opens a Dropdown",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_3",
+          "name": "People Icon",
+          "usage": "Opens window of people",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_4",
+          "name": "Settings Icon",
+          "usage": "Opens settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H69_1",
+          "name": "Square",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H70_1",
+          "name": "Square",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H71_1",
+          "name": "session_summary.json",
+          "usage": "Opens a file",
+          "group_type": "H"
+        },
+        {
+          "id": "H72_1",
+          "name": "Wifi Icon",
+          "usage": "Connects to the internet",
+          "group_type": "H"
+        },
+        {
+          "id": "H73_1",
+          "name": ".jpg",
+          "usage": "Opens a jpg",
+          "group_type": "H"
+        },
+        {
+          "id": "H74_1",
+          "name": "X",
+          "usage": "Closes or deletes something",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_1",
+          "name": "Picture",
+          "usage": "Opens a picture",
+          "group_type": "H"
+        },
+        {
+          "id": "H76_1",
+          "name": "Cursor Tab",
+          "usage": "Opens a tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H76_2",
+          "name": "Bell Icon",
+          "usage": "Shows notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H77_1",
+          "name": "Double dots",
+          "usage": "Indicates next line",
+          "group_type": "H"
+        },
+        {
+          "id": "H78_1",
+          "name": "f the",
+          "usage": "Text caption",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H28_1: \"File\" | Usage: \"Opens the file menu\"\nH28_2: \"Edit\" | Usage: \"Opens the edit menu\"\nH28_3: \"View\" | Usage: \"Opens the view menu\"\nH29_1: \"Circle\" | Usage: \"Unknown function\"\nH29_2: \"PS\" | Usage: \"Opens Photoshop\"\nH30_1: \"Document Icon\" | Usage: \"Likely creates a new document\"\nH30_2: \"helloworld\" | Usage: \"Unknown function\"\nH31_1: \"Green Circle\" | Usage: \"Indicates a running process or successful status\"\nH31_2: \"Making\" | Usage: \"Unknown function\"\nH32_1: \"helloworld\" | Usage: \"Displays the current file name or project name\"\nH33_1: \"To\" | Usage: \"Used to specify a destination or target\"\nH34_1: \"remote:\" | Usage: \"Indicates a remote connection setting\"\nH35_1: \"To https://github.com/deepjyotisaha/eag14a.git\" | Usage: \"Shows the URL of a remote repository\"\nH36_1: \"7869812..8a47589\" | Usage: \"Represents a commit ID or version number\"\nH36_2: \"master -> master\" | Usage: \"Shows the current branch and its relation to a remote branch\"\nH37_1: \"Making decision for step 3\" | Usage: \"Indicates progress in a multi-step process\"\nH38_1: \"(delta\" | Usage: \"Relates to a change or difference in a value\"\nH38_2: \"10)\" | Usage: \"Indicates a numerical value or counter\"\nH39_1: \"d 0\" | Usage: \"Represents a differential or change value\"\nH40_1: \"100%\" | Usage: \"Indicates a percentage or zoom level\"\nH41_1: \"(delta\" | Usage: \"Relates to a change or difference in a value\"\nH41_2: \"0)\" | Usage: \"Shows a numerical value\"\nH42_1: \"(10/10)\" | Usage: \"Indicates completion status\"\nH42_2: \"completed\" | Usage: \"Confirms that a task or process has finished\"\nH43_1: \"Dot\" | Usage: \"Indicates status\"\nH44_1: \"+\" | Usage: \"Adds something\"\nH45_1: \"Ctrl+K to generate a command\" | Usage: \"Describes a keyboard shortcut\"\nH46_1: \"sed 0 with\" | Usage: \"Used to search and replace text within a file\"\nH46_2: \"(fr 10\" | Usage: \"Indicates a numerical value or counter\"\nH47_1: \"uv - eagv1 - Cursor\" | Usage: \"Indicates current input mode or context\"\nH48_1: \"0)\" | Usage: \"Shows a numerical value\"\nH49_1: \"common.log M\" | Usage: \"Opens the common log file\"\nH50_1: \"Spiral Icon\" | Usage: \"Unknown\"\nH50_2: \"loop.py\" | Usage: \"Opens a python file\"\nH51_1: \"Spiral Icon\" | Usage: \"Unknown\"\nH51_2: \"screenshot.py\" | Usage: \"Opens a python file\"\nH52_1: \"Square outline\" | Usage: \"Likely represents window frame\"\nH53_1: \"Square with line\" | Usage: \"Likely represents window setting\"\nH54_1: \"Filled square\" | Usage: \"Likely represents window state\"\nH55_1: \"100%\" | Usage: \"Indicates scaling factor\"\nH56_1: \"+\" | Usage: \"Adds something\"\nH56_2: \"Multiple Windows\" | Usage: \"Likely opens multiple windows\"\nH56_3: \"Three Dots\" | Usage: \"Displays more options\"\nH57_1: \"Window with text\" | Usage: \"Likely opens a window with a text\"\nH58_1: \"Windows (CRLF)\" | Usage: \"Sets the line ending format for the editor\"\nH59_1: \"Up Arrow\" | Usage: \"Scrolls up\"\nH59_2: \"Cloud\" | Usage: \"Cloud sync\"\nH59_3: \"Globe\" | Usage: \"Cloud sync\"\nH59_4: \"Microphone\" | Usage: \"Activates the microphone\"\nH59_5: \"Keyboard\" | Usage: \"Opens the keyboard settings\"\nH59_6: \"ENG IN\" | Usage: \"Indicates the input language\"\nH59_7: \"Speaker\" | Usage: \"Adjusts the speaker volume\"\nH59_8: \"11:55 PM 6/10/2025\" | Usage: \"Displays timestamp\"\nH60_1: \"Square\" | Usage: \"Unknown function\"\nH61_1: \"Analyze code in windowManager dire\" | Usage: \"Text box likely describing an area to be analyzed\"\nH62_1: \"@\" | Usage: \"Mentions someone\"\nH62_2: \"Terminal\" | Usage: \"Opens the terminal window\"\nH63_1: \"Ask ^\" | Usage: \"Opens the ask menu\"\nH63_2: \"Auto\" | Usage: \"Sets auto function\"\nH64_1: \"text\" | Usage: \"Indicates input is text\"\nH65_1: \"UTF-8\" | Usage: \"Indicates encoding method\"\nH66_1: \"Square\" | Usage: \"Unknown function\"\nH66_2: \"Gear Icon\" | Usage: \"Opens settings\"\nH66_3: \"Square\" | Usage: \"Unknown function\"\nH66_4: \"Gear Icon\" | Usage: \"Opens settings\"\nH66_5: \"Dash Icon\" | Usage: \"Decrease Value\"\nH66_6: \"Record Icon\" | Usage: \"Indicates a record\"\nH66_7: \"X\" | Usage: \"Closes or deletes something\"\nH67_1: \"Start a new chat for better results.\" | Usage: \"Indicates start new chat\"\nH67_2: \"New Chat\" | Usage: \"Opens the window\"\nH68_1: \"Colorfull Icon\" | Usage: \"Opens something\"\nH68_2: \"Down Arrow\" | Usage: \"Opens a Dropdown\"\nH68_3: \"People Icon\" | Usage: \"Opens window of people\"\nH68_4: \"Settings Icon\" | Usage: \"Opens settings\"\nH69_1: \"Square\" | Usage: \"Unknown function\"\nH70_1: \"Square\" | Usage: \"Unknown function\"\nH71_1: \"session_summary.json\" | Usage: \"Opens a file\"\nH72_1: \"Wifi Icon\" | Usage: \"Connects to the internet\"\nH73_1: \".jpg\" | Usage: \"Opens a jpg\"\nH74_1: \"X\" | Usage: \"Closes or deletes something\"\nH75_1: \"Picture\" | Usage: \"Opens a picture\"\nH76_1: \"Cursor Tab\" | Usage: \"Opens a tab\"\nH76_2: \"Bell Icon\" | Usage: \"Shows notification\"\nH77_1: \"Double dots\" | Usage: \"Indicates next line\"\nH78_1: \"f the\" | Usage: \"Text caption\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_2_42_bboxes.png",
+      "image_name": "combined_groups_2_42_bboxes.png",
+      "icons_found": 40,
+      "icons": [
+        {
+          "id": "H79_1",
+          "name": "take_scre",
+          "usage": "Executes a screenshot action",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_1",
+          "name": "rror_decis",
+          "usage": "Likely related to error handling or decision making processes",
+          "group_type": "H"
+        },
+        {
+          "id": "H81_1",
+          "name": "▷ Apply",
+          "usage": "Applies a selected action or configuration",
+          "group_type": "H"
+        },
+        {
+          "id": "H82_1",
+          "name": "p_{step_co",
+          "usage": "Represents a step-by-step process or workflow component",
+          "group_type": "H"
+        },
+        {
+          "id": "H83_1",
+          "name": "take_scre",
+          "usage": "Executes a screenshot action",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_1",
+          "name": "+",
+          "usage": "Adds a new element or feature",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_2",
+          "name": "Clock Icon",
+          "usage": "Represents a time-related function, possibly history or recent events",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_3",
+          "name": "Three Dots",
+          "usage": "Indicates more options or an overflow menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H85_1",
+          "name": "Document Icon",
+          "usage": "Opens a document or file",
+          "group_type": "H"
+        },
+        {
+          "id": "H85_2",
+          "name": "Ellipsis Icon",
+          "usage": "Indicates more options related to the current context",
+          "group_type": "H"
+        },
+        {
+          "id": "H86_1",
+          "name": "Picture Icon",
+          "usage": "Opens an image or picture file",
+          "group_type": "H"
+        },
+        {
+          "id": "H86_2",
+          "name": "Up Arrow",
+          "usage": "Moves an item up in a list or hierarchy",
+          "group_type": "H"
+        },
+        {
+          "id": "H87_1",
+          "name": "Down Arrow",
+          "usage": "Moves an item down in a list or hierarchy",
+          "group_type": "H"
+        },
+        {
+          "id": "HL0_1",
+          "name": "remote: Resolving deltas: 100% (10/10), completed with 10 local objects.",
+          "usage": "Status message indicating a successful synchronization process",
+          "group_type": "H"
+        },
+        {
+          "id": "HL1_1",
+          "name": "Total 16 (delta 10), reused 0 (delta 0), pack-reused 0 (from 0)",
+          "usage": "Summary of data operations, including total changes, reused elements, and packed elements",
+          "group_type": "H"
+        },
+        {
+          "id": "HL2_1",
+          "name": "step 3",
+          "usage": "Display of step number in a multistep operation",
+          "group_type": "H"
+        },
+        {
+          "id": "HL3_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1",
+          "usage": "Shows the current file path or directory in the system",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "▷ Apply",
+          "usage": "Applies the selected settings",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "eag14a",
+          "usage": "Selects a specific agent or configuration",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_2",
+          "name": "computer_agent",
+          "usage": "Selects a specific agent or configuration",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_1",
+          "name": "screenshot_202506",
+          "usage": "Selects a specific file",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_2",
+          "name": "pipeline_output.j",
+          "usage": "Selects a specific file",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_1",
+          "name": "agent",
+          "usage": "Navigates to or displays agent configuration",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_2",
+          "name": "config",
+          "usage": "Navigates to or displays configuration settings",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_1",
+          "name": "Minus Sign",
+          "usage": "Removes or subtracts an element",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_1",
+          "name": "ame?",
+          "usage": "Name input field or selection",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_2",
+          "name": "checkpoint",
+          "usage": "Selection of checkpoint",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_1",
+          "name": "decision.py",
+          "usage": "Executes or opens the decision.py script",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_2",
+          "name": "execution.py",
+          "usage": "Executes or opens the execution.py script",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_1",
+          "name": "output, I",
+          "usage": "Field for output or logs",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_2",
+          "name": "g from the",
+          "usage": "Some selection process",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_1",
+          "name": ">",
+          "usage": "Moves forward in a sequence or history",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_2",
+          "name": ">",
+          "usage": "Moves forward in a sequence or history",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_3",
+          "name": ">",
+          "usage": "Moves forward in a sequence or history",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_1",
+          "name": "mcp",
+          "usage": "Selects or navigates to the 'mcp' module",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_2",
+          "name": "models",
+          "usage": "Selects or navigates to the 'models' module",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_3",
+          "name": "prompts",
+          "usage": "Selects or navigates to the 'prompts' module",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_4",
+          "name": "utils",
+          "usage": "Selects or navigates to the 'utils' module",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_1",
+          "name": "_init_.py",
+          "usage": "Executes or opens the _init_.py script",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_2",
+          "name": "computer_agent.py",
+          "usage": "Executes or opens the computer_agent.py script",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "```\nH79_1: \"take_scre\" | Usage: \"Executes a screenshot action\"\nH80_1: \"rror_decis\" | Usage: \"Likely related to error handling or decision making processes\"\nH81_1: \"▷ Apply\" | Usage: \"Applies a selected action or configuration\"\nH82_1: \"p_{step_co\" | Usage: \"Represents a step-by-step process or workflow component\"\nH83_1: \"take_scre\" | Usage: \"Executes a screenshot action\"\nH84_1: \"+\" | Usage: \"Adds a new element or feature\"\nH84_2: \"Clock Icon\" | Usage: \"Represents a time-related function, possibly history or recent events\"\nH84_3: \"Three Dots\" | Usage: \"Indicates more options or an overflow menu\"\nH85_1: \"Document Icon\" | Usage: \"Opens a document or file\"\nH85_2: \"Ellipsis Icon\" | Usage: \"Indicates more options related to the current context\"\nH86_1: \"Picture Icon\" | Usage: \"Opens an image or picture file\"\nH86_2: \"Up Arrow\" | Usage: \"Moves an item up in a list or hierarchy\"\nH87_1: \"Down Arrow\" | Usage: \"Moves an item down in a list or hierarchy\"\nHL0_1: \"remote: Resolving deltas: 100% (10/10), completed with 10 local objects.\" | Usage: \"Status message indicating a successful synchronization process\"\nHL1_1: \"Total 16 (delta 10), reused 0 (delta 0), pack-reused 0 (from 0)\" | Usage: \"Summary of data operations, including total changes, reused elements, and packed elements\"\nHL2_1: \"step 3\" | Usage: \"Display of step number in a multistep operation\"\nHL3_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\" | Usage: \"Shows the current file path or directory in the system\"\nV0_1: \"▷ Apply\" | Usage: \"Applies the selected settings\"\nV1_1: \"eag14a\" | Usage: \"Selects a specific agent or configuration\"\nV1_2: \"computer_agent\" | Usage: \"Selects a specific agent or configuration\"\nV2_1: \"screenshot_202506\" | Usage: \"Selects a specific file\"\nV2_2: \"pipeline_output.j\" | Usage: \"Selects a specific file\"\nV3_1: \"agent\" | Usage: \"Navigates to or displays agent configuration\"\nV3_2: \"config\" | Usage: \"Navigates to or displays configuration settings\"\nV4_1: \"Minus Sign\" | Usage: \"Removes or subtracts an element\"\nV5_1: \"ame?\" | Usage: \"Name input field or selection\"\nV5_2: \"checkpoint\" | Usage: \"Selection of checkpoint\"\nV6_1: \"decision.py\" | Usage: \"Executes or opens the decision.py script\"\nV6_2: \"execution.py\" | Usage: \"Executes or opens the execution.py script\"\nV7_1: \"output, I\" | Usage: \"Field for output or logs\"\nV7_2: \"g from the\" | Usage: \"Some selection process\"\nV8_1: \">\" | Usage: \"Moves forward in a sequence or history\"\nV8_2: \">\" | Usage: \"Moves forward in a sequence or history\"\nV8_3: \">\" | Usage: \"Moves forward in a sequence or history\"\nV9_1: \"mcp\" | Usage: \"Selects or navigates to the 'mcp' module\"\nV9_2: \"models\" | Usage: \"Selects or navigates to the 'models' module\"\nV9_3: \"prompts\" | Usage: \"Selects or navigates to the 'prompts' module\"\nV9_4: \"utils\" | Usage: \"Selects or navigates to the 'utils' module\"\nV10_1: \"_init_.py\" | Usage: \"Executes or opens the _init_.py script\"\nV10_2: \"computer_agent.py\" | Usage: \"Executes or opens the computer_agent.py script\"\n```",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_3_30_bboxes.png",
+      "image_name": "combined_groups_3_30_bboxes.png",
+      "icons_found": 29,
+      "icons": [
+        {
+          "id": "V11_1",
+          "name": "config",
+          "usage": "Opens the configuration settings",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_2",
+          "name": ">",
+          "usage": "Expands or navigates",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_1",
+          "name": "reenshot a",
+          "usage": "Related to taking a screenshot",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_2",
+          "name": "ing screens",
+          "usage": "Related to managing screens",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_3",
+          "name": "take_scre",
+          "usage": "Takes a screenshot",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_4",
+          "name": "take_scre",
+          "usage": "Takes a screenshot",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_5",
+          "name": "r(step_out",
+          "usage": "Related to a step out process, maybe for debugging",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_6",
+          "name": "p_{step_co",
+          "usage": "Related to step code or component, maybe for debugging",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_7",
+          "name": "th = scree eenshot ta",
+          "usage": "Likely some argument to a screenshot function",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_1",
+          "name": ">_pycache_",
+          "usage": "Navigation to the pycache directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_2",
+          "name": "log_config.py",
+          "usage": "Python file for logging configuration",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_1",
+          "name": "common.log",
+          "usage": "Opens the common log file",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_2",
+          "name": "macManager",
+          "usage": "Opens the Mac manager",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_1",
+          "name": ">",
+          "usage": "Expands or navigates",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_2",
+          "name": ">",
+          "usage": "Expands or navigates",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_3",
+          "name": ">",
+          "usage": "Expands or navigates",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_1",
+          "name": "models",
+          "usage": "Navigates to the models directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_2",
+          "name": "outputs",
+          "usage": "Navigates to the outputs directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_1",
+          "name": "src",
+          "usage": "Navigates to the source directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_2",
+          "name": "temp",
+          "usage": "Navigates to the temp directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_1",
+          "name": "Ln 1, Col 11 10 characters",
+          "usage": "Text indicating the current line and column number, as well as the number of characters",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_1",
+          "name": "Ask, learn, brainstorm",
+          "usage": "A text input or information field for asking questions or brainstorming ideas",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_1",
+          "name": "tests",
+          "usage": "Navigates to the tests directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_2",
+          "name": "utils",
+          "usage": "Navigates to the utils directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_3",
+          "name": "env",
+          "usage": "Navigates to the environment directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_1",
+          "name": "Settings Gear",
+          "usage": "Opens the settings or configuration panel",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_2",
+          "name": "OUTLINE",
+          "usage": "Toggles or opens the outline view",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_3",
+          "name": "TIMELINE",
+          "usage": "Toggles or opens the timeline view",
+          "group_type": "V"
+        },
+        {
+          "id": "V22_1",
+          "name": "Windows Icon",
+          "usage": "Indicates a Windows-specific action or setting",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "V11_1: \"config\" | Usage: \"Opens the configuration settings\"\nV11_2: \">\" | Usage: \"Expands or navigates\"\nV12_1: \"reenshot a\" | Usage: \"Related to taking a screenshot\"\nV12_2: \"ing screens\" | Usage: \"Related to managing screens\"\nV12_3: \"take_scre\" | Usage: \"Takes a screenshot\"\nV12_4: \"take_scre\" | Usage: \"Takes a screenshot\"\nV12_5: \"r(step_out\" | Usage: \"Related to a step out process, maybe for debugging\"\nV12_6: \"p_{step_co\" | Usage: \"Related to step code or component, maybe for debugging\"\nV12_7: \"th = scree eenshot ta\" | Usage: \"Likely some argument to a screenshot function\"\nV13_1: \">_pycache_\" | Usage: \"Navigation to the pycache directory\"\nV13_2: \"log_config.py\" | Usage: \"Python file for logging configuration\"\nV14_1: \"common.log\" | Usage: \"Opens the common log file\"\nV14_2: \"macManager\" | Usage: \"Opens the Mac manager\"\nV15_1: \">\" | Usage: \"Expands or navigates\"\nV15_2: \">\" | Usage: \"Expands or navigates\"\nV15_3: \">\" | Usage: \"Expands or navigates\"\nV16_1: \"models\" | Usage: \"Navigates to the models directory\"\nV16_2: \"outputs\" | Usage: \"Navigates to the outputs directory\"\nV17_1: \"src\" | Usage: \"Navigates to the source directory\"\nV17_2: \"temp\" | Usage: \"Navigates to the temp directory\"\nV18_1: \"Ln 1, Col 11 10 characters\" | Usage: \"Text indicating the current line and column number, as well as the number of characters\"\nV19_1: \"Ask, learn, brainstorm\" | Usage: \"A text input or information field for asking questions or brainstorming ideas\"\nV20_1: \"tests\" | Usage: \"Navigates to the tests directory\"\nV20_2: \"utils\" | Usage: \"Navigates to the utils directory\"\nV20_3: \"env\" | Usage: \"Navigates to the environment directory\"\nV21_1: \"Settings Gear\" | Usage: \"Opens the settings or configuration panel\"\nV21_2: \"OUTLINE\" | Usage: \"Toggles or opens the outline view\"\nV21_3: \"TIMELINE\" | Usage: \"Toggles or opens the timeline view\"\nV22_1: \"Windows Icon\" | Usage: \"Indicates a Windows-specific action or setting\"\n",
+      "analysis_success": true
+    }
+  ]
+}
