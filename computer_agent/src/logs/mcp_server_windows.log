@@ -1,69 +1,20 @@
-2025-06-10 16:09:19,804 - INFO - mcp_server_windows:__init__:47 - Initializing MCPServer
-2025-06-10 16:09:30,328 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-10 16:09:32,298 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:09:32 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:09:33,843 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-10 16:09:33,844 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-10 16:09:33,844 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-10 16:09:33,944 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-10 16:09:33,945 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:09:33 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:10:14,307 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-10 16:10:16,381 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:10:16 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:10:17,863 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-10 16:10:17,863 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-10 16:10:17,863 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-10 16:10:17,964 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-10 16:10:17,965 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:10:17 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:10:22,494 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:10:22 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:10:23,916 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 1, 'fullscreen': False}
-2025-06-10 16:10:23,916 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 1, 'fullscreen': False}
-2025-06-10 16:10:23,916 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 1, 'fullscreen': False}
-2025-06-10 16:10:27,671 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "✅ Successfully launched 'Notepad' on Screen 1"}
-2025-06-10 16:10:27,672 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:10:23 +0530] "POST /command HTTP/1.1" 200 241 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:10:29,615 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:10:29 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:10:30,881 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-10 16:10:30,881 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-10 16:10:30,881 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-10 16:10:30,882 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-10 16:10:30,882 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:10:30 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:10:35,601 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:10:35 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:10:37,095 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
-2025-06-10 16:10:37,095 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'Hello World'}
-2025-06-10 16:10:37,095 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
-2025-06-10 16:10:37,096 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/22 key events'}
-2025-06-10 16:10:37,096 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:10:37 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:11:27,918 - INFO - mcp_server_windows:handle_command:120 - Executing command: get_windows with params: {'show_minimized': True}
-2025-06-10 16:11:27,918 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: get_windows {'show_minimized': True}
-2025-06-10 16:11:27,918 - INFO - mcp_server_windows:_execute_window_command:219 - Executing _execute_window_command: get_windows {'show_minimized': True}
-2025-06-10 16:11:27,923 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'result': {'windows': [{'hwnd': 263842, 'window_id': '263842_11760_d41d8cd9', 'title': '', 'pid': 11760, 'proc': 'explorer.exe', 'rect': [0, 0, 1, 1], 'screen': 1, 'minimized': 0}, {'hwnd': 65872, 'window_id': '65872_11760_d41d8cd9', 'title': '', 'pid': 11760, 'proc': 'explorer.exe', 'rect': [0, 1032, 1920, 1080], 'screen': 1, 'minimized': 0}, {'hwnd': 1444422, 'window_id': '1444422_11760_4febd367', 'title': 'teams agent demo - File Explorer', 'pid': 11760, 'proc': 'explorer.exe', 'rect': [-8, -8, 1928, 1040], 'screen': 1, 'minimized': 0}, {'hwnd': 67192, 'window_id': '67192_11760_d41d8cd9', 'title': '', 'pid': 11760, 'proc': 'explorer.exe', 'rect': [0, 0, 1920, 1032], 'screen': 1, 'minimized': 0}, {'hwnd': 66018, 'window_id': '66018_11760_d41d8cd9', 'title': '', 'pid': 11760, 'proc': 'explorer.exe', 'rect': [15, 0, 1920, 4], 'screen': 1, 'minimized': 0}, {'hwnd': 65918, 'window_id': '65918_11760_673eed9d', 'title': 'Program Manager', 'pid': 11760, 'proc': 'explorer.exe', 'rect': [0, 0, 1920, 1080], 'screen': 1, 'minimized': 0}, {'hwnd': 9963314, 'window_id': '9963314_28208_00410c5a', 'title': 'uv - eagv1 - Cursor', 'pid': 28208, 'proc': 'Cursor.exe', 'rect': [-8, -8, 1928, 1040], 'screen': 1, 'minimized': 0}, {'hwnd': 1248518, 'window_id': '1248518_27240_e074a62c', 'title': 'Untitled - Notepad', 'pid': 27240, 'proc': 'Notepad.exe', 'rect': [336, 151, 1584, 928], 'screen': 1, 'minimized': 0}, {'hwnd': 721540, 'window_id': '721540_17692_92555a99', 'title': 'CAPE - Partner UX Issues & Recommendations - May 2025.pptx - PowerPoint', 'pid': 17692, 'proc': 'POWERPNT.EXE', 'rect': [-8, -8, 1928, 1040], 'screen': 1, 'minimized': 0}, {'hwnd': 985978, 'window_id': '985978_47616_0c8a1162', 'title': 'icertis logo transparent - Google Search and 6 more pages - Work - Microsoft\u200b Edge', 'pid': 47616, 'proc': 'msedge.exe', 'rect': [-8, -8, 1928, 1040], 'screen': 1, 'minimized': 0}, {'hwnd': 198368, 'window_id': '198368_53564_7c4d78ea', 'title': 'Chat | 🎨 Agents UX Reimagined - CAPE v-team | Microsoft Teams', 'pid': 53564, 'proc': 'ms-teams.exe', 'rect': [-8, -8, 1928, 1040], 'screen': 1, 'minimized': 0}, {'hwnd': 132712, 'window_id': '132712_49924_7c902ba5', 'title': 'Microsoft To Do', 'pid': 49924, 'proc': 'ApplicationFrameHost.exe', 'rect': [-8, -8, 1928, 1040], 'screen': 1, 'minimized': 0}, {'hwnd': 198198, 'window_id': '198198_49924_f4f70727', 'title': 'Settings', 'pid': 49924, 'proc': 'ApplicationFrameHost.exe', 'rect': [-8, -8, 1928, 1040], 'screen': 1, 'minimized': 0}, {'hwnd': 461364, 'window_id': '461364_22424_24081b98', 'title': 'Calendar - Deepjyoti Saha - Outlook', 'pid': 22424, 'proc': 'olk.exe', 'rect': [-8, -8, 1928, 1040], 'screen': 1, 'minimized': 0}, {'hwnd': 133214, 'window_id': '133214_44148_3404ca16', 'title': 'Microsoft 365 Copilot', 'pid': 44148, 'proc': 'WebViewHost.exe', 'rect': [-8, -8, 1928, 1040], 'screen': 1, 'minimized': 0}, {'hwnd': 132676, 'window_id': '132676_50928_f4f70727', 'title': 'Settings', 'pid': 50928, 'proc': 'SystemSettings.exe', 'rect': [0, 8, 1920, 1040], 'screen': 1, 'minimized': 0}, {'hwnd': 196628, 'window_id': '196628_41896_018c6e2d', 'title': 'Windows Input Experience', 'pid': 41896, 'proc': 'TextInputHost.exe', 'rect': [0, 0, 1920, 1080], 'screen': 1, 'minimized': 0}, {'hwnd': 67944, 'window_id': '67944_20996_e36c7cc3', 'title': 'wv_1001', 'pid': 20996, 'proc': 'msedgewebview2.exe', 'rect': [2840, 0, 3340, 280], 'screen': 1, 'minimized': 0}, {'hwnd': 68056, 'window_id': '68056_15816_1bac848a', 'title': 'wv_1002', 'pid': 15816, 'proc': 'msedgewebview2.exe', 'rect': [0, 0, 1920, 1032], 'screen': 1, 'minimized': 0}]}, 'message': 'Found 19 windows'}
-2025-06-10 16:11:27,923 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:11:27 +0530] "POST /command HTTP/1.1" 200 3841 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:11:27,949 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:11:27 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:11:37,384 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:11:37 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:11:37,385 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {}
-2025-06-10 16:11:37,385 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {}
-2025-06-10 16:11:37,385 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {}
-2025-06-10 16:11:37,488 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': "Failed to launch application: 'NoneType' object has no attribute 'lower'"}
-2025-06-10 16:11:37,489 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:11:37 +0530] "POST /command HTTP/1.1" 200 265 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:11:45,263 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:11:45 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:11:45,264 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {}
-2025-06-10 16:11:45,264 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {}
-2025-06-10 16:11:45,264 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {}
-2025-06-10 16:11:45,369 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': "Failed to launch application: 'NoneType' object has no attribute 'lower'"}
-2025-06-10 16:11:45,370 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:11:45 +0530] "POST /command HTTP/1.1" 200 265 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:11:57,104 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:11:57 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:11:57,105 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {}
-2025-06-10 16:11:57,105 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {}
-2025-06-10 16:11:57,105 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {}
-2025-06-10 16:11:57,208 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': "Failed to launch application: 'NoneType' object has no attribute 'lower'"}
-2025-06-10 16:11:57,209 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:11:57 +0530] "POST /command HTTP/1.1" 200 265 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:12:05,945 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:12:05 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:12:05,945 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
-2025-06-10 16:12:05,945 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
-2025-06-10 16:12:05,945 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
-2025-06-10 16:12:09,306 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "✅ Successfully launched 'notepad' on Screen 1 in fullscreen mode"}
-2025-06-10 16:12:09,307 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:12:05 +0530] "POST /command HTTP/1.1" 200 261 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:12:15,350 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:12:15 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-10 16:12:15,351 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'helloworld'}
-2025-06-10 16:12:15,351 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'helloworld'}
-2025-06-10 16:12:15,351 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'helloworld'}
-2025-06-10 16:12:15,351 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Only sent 0/20 key events'}
-2025-06-10 16:12:15,352 - INFO - web_log:log:214 - ::1 [10/Jun/2025:16:12:15 +0530] "POST /command HTTP/1.1" 200 217 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-10 16:32:25,694 - INFO - mcp_server_windows:__init__:47 - Initializing MCPServer
+2025-06-10 16:32:41,359 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-10 16:32:43,610 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:32:43 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-10 16:32:45,310 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-10 16:32:45,310 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-10 16:32:45,310 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-10 16:32:45,411 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-10 16:32:45,412 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:32:45 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-10 16:32:49,471 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:32:49 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-10 16:32:51,056 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'Notepad', 'screen_id': 1, 'fullscreen': False}
+2025-06-10 16:32:51,056 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'Notepad', 'screen_id': 1, 'fullscreen': False}
+2025-06-10 16:32:51,056 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'Notepad', 'screen_id': 1, 'fullscreen': False}
+2025-06-10 16:32:54,283 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "✅ Successfully launched 'Notepad' on Screen 1"}
+2025-06-10 16:32:54,284 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:32:51 +0530] "POST /command HTTP/1.1" 200 241 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-10 16:32:56,244 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:32:56 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-10 16:32:57,560 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World'}
+2025-06-10 16:32:57,560 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'Hello World'}
+2025-06-10 16:32:57,560 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'Hello World'}
+2025-06-10 16:32:57,757 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "Sent text: 'Hello World' (11 characters)"}
+2025-06-10 16:32:57,757 - INFO - web_log:log:214 - 127.0.0.1 [10/Jun/2025:16:32:57 +0530] "POST /command HTTP/1.1" 200 231 "-" "Python/3.11 aiohttp/3.12.7"

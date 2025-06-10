@@ -1199,59 +1199,103 @@ class WindowManager:
             import ctypes
             from ctypes import wintypes
             
-            # Define input structures (same as above)
-            class KEYBDINPUT(ctypes.Structure):
-                _fields_ = [
-                    ("wVk", wintypes.WORD),
-                    ("wScan", wintypes.WORD),
-                    ("dwFlags", wintypes.DWORD),
-                    ("time", wintypes.DWORD),
-                    ("dwExtraInfo", ctypes.POINTER(wintypes.ULONG))
-                ]
+            #print(f"[send_text] Starting to send text: '{text}'")
             
-            class INPUT(ctypes.Structure):
-                class _INPUT(ctypes.Union):
-                    _fields_ = [("ki", KEYBDINPUT)]
-                _anonymous_ = ("_input",)
-                _fields_ = [
-                    ("type", wintypes.DWORD),
-                    ("_input", _INPUT)
-                ]
+            # Extended map for characters to virtual key codes
+            vk_map = {
+                # Letters
+                'a': 0x41, 'b': 0x42, 'c': 0x43, 'd': 0x44, 'e': 0x45,
+                'f': 0x46, 'g': 0x47, 'h': 0x48, 'i': 0x49, 'j': 0x4A,
+                'k': 0x4B, 'l': 0x4C, 'm': 0x4D, 'n': 0x4E, 'o': 0x4F,
+                'p': 0x50, 'q': 0x51, 'r': 0x52, 's': 0x53, 't': 0x54,
+                'u': 0x55, 'v': 0x56, 'w': 0x57, 'x': 0x58, 'y': 0x59,
+                'z': 0x5A,
+                # Numbers
+                '0': 0x30, '1': 0x31, '2': 0x32, '3': 0x33, '4': 0x34,
+                '5': 0x35, '6': 0x36, '7': 0x37, '8': 0x38, '9': 0x39,
+                # Special characters
+                ' ': 0x20,  # Space
+                '!': 0x31,  # Shift + 1
+                '@': 0x32,  # Shift + 2
+                '#': 0x33,  # Shift + 3
+                '$': 0x34,  # Shift + 4
+                '%': 0x35,  # Shift + 5
+                '^': 0x36,  # Shift + 6
+                '&': 0x37,  # Shift + 7
+                '*': 0x38,  # Shift + 8
+                '(': 0x39,  # Shift + 9
+                ')': 0x30,  # Shift + 0
+                '-': 0xBD,  # Minus
+                '_': 0xBD,  # Shift + Minus
+                '=': 0xBB,  # Equals
+                '+': 0xBB,  # Shift + Equals
+                '[': 0xDB,  # Left bracket
+                '{': 0xDB,  # Shift + Left bracket
+                ']': 0xDD,  # Right bracket
+                '}': 0xDD,  # Shift + Right bracket
+                '\\': 0xDC, # Backslash
+                '|': 0xDC,  # Shift + Backslash
+                ';': 0xBA,  # Semicolon
+                ':': 0xBA,  # Shift + Semicolon
+                "'": 0xDE,  # Single quote
+                '"': 0xDE,  # Shift + Single quote
+                ',': 0xBC,  # Comma
+                '<': 0xBC,  # Shift + Comma
+                '.': 0xBE,  # Period
+                '>': 0xBE,  # Shift + Period
+                '/': 0xBF,  # Forward slash
+                '?': 0xBF,  # Shift + Forward slash
+                '`': 0xC0,  # Backtick
+                '~': 0xC0,  # Shift + Backtick
+            }
             
-            inputs = []
+            # Shift key VK code
+            VK_SHIFT = 0x10
+            
+            user32 = ctypes.windll.user32
+            KEYEVENTF_KEYUP = 0x0002
+            
+            #print(f"[send_text] Processing {len(text)} characters")
+            
             for char in text:
+                if char not in vk_map:
+                    #print(f"[send_text] Warning: Character '{char}' not in VK map, skipping")
+                    continue
+                    
+                vk_code = vk_map[char]
+                needs_shift = char.isupper() or char in '!@#$%^&*()_+{}|:"<>?~'
+                
+                #print(f"[send_text] Sending character '{char}' (VK: 0x{vk_code:02X}, needs_shift: {needs_shift})")
+                
+                # Press shift if needed
+                if needs_shift:
+                    #print(f"[send_text] Key down: VK=0x{VK_SHIFT:02X} (Shift)")
+                    user32.keybd_event(VK_SHIFT, 0, 0, 0)
+                    time.sleep(0.01)
+                
                 # Key down
-                inp = INPUT()
-                inp.type = 1  # INPUT_KEYBOARD
-                inp.ki.wVk = 0
-                inp.ki.wScan = ord(char)
-                inp.ki.dwFlags = 4  # KEYEVENTF_UNICODE
-                inp.ki.time = 0
-                inp.ki.dwExtraInfo = None
-                inputs.append(inp)
+                #print(f"[send_text] Key down: VK=0x{vk_code:02X}")
+                user32.keybd_event(vk_code, 0, 0, 0)
+                time.sleep(0.01)
                 
                 # Key up
-                inp = INPUT()
-                inp.type = 1  # INPUT_KEYBOARD
-                inp.ki.wVk = 0
-                inp.ki.wScan = ord(char)
-                inp.ki.dwFlags = 4 | 2  # KEYEVENTF_UNICODE | KEYEVENTF_KEYUP
-                inp.ki.time = 0
-                inp.ki.dwExtraInfo = None
-                inputs.append(inp)
+                #print(f"[send_text] Key up: VK=0x{vk_code:02X}")
+                user32.keybd_event(vk_code, 0, KEYEVENTF_KEYUP, 0)
+                time.sleep(0.01)
+                
+                # Release shift if needed
+                if needs_shift:
+                    #print(f"[send_text] Key up: VK=0x{VK_SHIFT:02X} (Shift)")
+                    user32.keybd_event(VK_SHIFT, 0, KEYEVENTF_KEYUP, 0)
+                    time.sleep(0.01)
             
-            # Send the inputs
-            user32 = ctypes.windll.user32
-            print(f"Inputs: {inputs}")
-            num_sent = user32.SendInput(len(inputs), (INPUT * len(inputs))(*inputs), ctypes.sizeof(INPUT))
-            print(f"Num sent: {num_sent}")
-            
-            if num_sent == len(inputs):
-                return True, f"Sent text: '{text}' ({len(text)} characters)"
-            else:
-                return False, f"Only sent {num_sent}/{len(inputs)} key events"
+            return True, f"Sent text: '{text}' ({len(text)} characters)"
                 
         except Exception as e:
+            print(f"[send_text] Exception occurred: {str(e)}")
+            print(f"[send_text] Exception type: {type(e).__name__}")
+            import traceback
+            print(f"[send_text] Traceback: {traceback.format_exc()}")
             return False, f"Failed to send text: {e}"
 
     # =============== MOUSE OPERATIONS ===============
