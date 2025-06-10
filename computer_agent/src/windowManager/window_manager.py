@@ -1242,7 +1242,9 @@ class WindowManager:
             
             # Send the inputs
             user32 = ctypes.windll.user32
+            print(f"Inputs: {inputs}")
             num_sent = user32.SendInput(len(inputs), (INPUT * len(inputs))(*inputs), ctypes.sizeof(INPUT))
+            print(f"Num sent: {num_sent}")
             
             if num_sent == len(inputs):
                 return True, f"Sent text: '{text}' ({len(text)} characters)"
