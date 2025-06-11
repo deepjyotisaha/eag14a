@@ -1,313 +1,515 @@
-2025-06-10 23:53:09,658 - INFO - test_agent:interactive:28 - Initializing Computer Agent...
-2025-06-10 23:53:09,658 - INFO - computer_agent:__init__:26 - Initializing ComputerAgent...
-2025-06-10 23:53:09,658 - INFO - computer_agent:__init__:42 - Initializing SimpleMCP with windows tools...
-2025-06-10 23:53:09,659 - INFO - computer_agent:__init__:44 - SimpleMCP initialized with windows tools
-2025-06-10 23:53:09,659 - INFO - computer_agent:__init__:47 - Initializing ModelManager...
-2025-06-10 23:53:09,659 - INFO - computer_agent:__init__:49 - ModelManager initialized
-2025-06-10 23:54:09,589 - INFO - computer_agent:run:65 - Starting computer agent operation...
-2025-06-10 23:54:09,616 - INFO - simple_mcp:initialize:64 - SimpleMCP initialized with 4 tools
-2025-06-10 23:54:09,616 - INFO - loop:run:53 - Output directory: outputs\2025\06\10\session_20250610_235409
-2025-06-10 23:54:09,617 - INFO - loop:run:57 - Starting computer agent session session_20250610_235409
-2025-06-10 23:54:09,618 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 1
-2025-06-10 23:54:09,713 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\10\session_20250610_235409\step_1\screenshot_20250610_235409_step_1.jpg
-2025-06-10 23:54:15,469 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:15,481 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:15,490 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:15,497 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:24,419 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:54:24,424 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:25,730 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:54:25,739 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:28,116 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:54:28,670 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:54:31,020 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:54:33,348 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:54:33,839 - INFO - loop:run:100 - 🧠 Running perception analysis for step 1
-2025-06-10 23:54:43,030 - JSON_BLOCK - log_config:logger_json_block:116 - 
-================================================================================
-📌 Perception Results
-================================================================================
-{
-  "entities": [
-    "Notepad",
-    "file",
-    "desktop"
-  ],
-  "result_requirement": "Open notepad, type helloworld, and save the notepad file to the desktop.",
-  "original_goal_achieved": false,
-  "local_goal_achieved": false,
-  "confidence": "0.95",
-  "reasoning": "The screen snapshot shows the desktop environment but does not indicate that Notepad has been opened, 'helloworld' has been typed, or any save dialog has been launched. Thus, the original goal has not been achieved.",
-  "local_reasoning": "The screen snapshot doesn't show any open Notepad window with 'helloworld' typed in it. No save prompt is visible either. Therefore, the local goal has not been achieved. We need to open Notepad first.",
-  "last_tooluse_summary": null,
-  "solution_summary": null,
-  "route": "decision",
-  "open_windows": null,
-  "computer_state": "Desktop is visible, ready to perform actions to open Notepad, type 'helloworld' and save the file.",
-  "important_coordinates": null
-}
-================================================================================
-
-2025-06-10 23:54:43,031 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 1
-2025-06-10 23:54:43,034 - INFO - loop:run:126 - 🤔 Making decision for step 1
-2025-06-10 23:54:44,446 - JSON_BLOCK - log_config:logger_json_block:116 - 
-================================================================================
-📌 Decision Results
-================================================================================
-{
-  "selected_tool": "launch",
-  "tool_parameters": {
-    "app_name": "Notepad",
-    "screen_id": 0,
-    "fullscreen": false
-  },
-  "reasoning": "The user wants to open Notepad. The current state shows the desktop and Notepad is not open. Thus, the appropriate tool to use is the 'launch' tool with 'app_name' set to 'Notepad'.",
-  "confidence": "0.99"
-}
-================================================================================
-
-2025-06-10 23:54:44,446 - INFO - loop:run:128 - 🤔 Decision completed for step 1
-2025-06-10 23:54:44,448 - INFO - loop:run:147 - 🛠️ Executing tool for step 1: launch
-2025-06-10 23:54:44,448 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 1: {'app_name': 'Notepad', 'screen_id': 0, 'fullscreen': False}
-2025-06-10 23:54:44,551 - INFO - simple_mcp:execute_tool:99 - Tool launch executed with result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-10 23:54:44,551 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 1
-2025-06-10 23:54:44,551 - INFO - loop:run:155 - 🛠️ Execution result for step 1: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-10 23:54:44,553 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 2
-2025-06-10 23:54:44,651 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\10\session_20250610_235409\step_2\screenshot_20250610_235444_step_2.jpg
-2025-06-10 23:54:48,670 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:48,676 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:48,683 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:48,688 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:56,606 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:54:56,610 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:57,210 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:54:57,216 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:54:59,791 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:54:59,796 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:55:00,430 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:55:01,714 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:55:01,735 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:55:04,944 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:55:05,404 - INFO - loop:run:100 - 🧠 Running perception analysis for step 2
-2025-06-10 23:55:14,711 - JSON_BLOCK - log_config:logger_json_block:116 - 
-================================================================================
-📌 Perception Results
-================================================================================
-{
-  "entities": [
-    "Notepad",
-    "desktop"
-  ],
-  "result_requirement": "Type 'helloworld' in Notepad and save the file to the desktop",
-  "original_goal_achieved": false,
-  "local_goal_achieved": false,
-  "confidence": "0.98",
-  "reasoning": "The last tool used to launch Notepad failed due to an invalid screen ID. The screenshot shows the desktop, not a Notepad window. The goal of typing 'helloworld' and saving to the desktop remains unfulfilled.",
-  "local_reasoning": "Notepad failed to launch in the previous step due to invalid screen id. We need to launch Notepad using a valid screen ID, type 'helloworld' in the notepad, and then save the file to desktop to complete the user query",
-  "last_tooluse_summary": "The `launch` tool was used to open Notepad, but it failed.",
-  "solution_summary": "The user wants to open notepad, type helloworld, and save it to the desktop. The previous step failed to open notepad due to invalid screen id. We have a screen snapshot of the desktop. The next step is to launch Notepad with the correct screen ID, type 'helloworld', and then save the file.",
-  "route": "decision",
-  "open_windows": "Desktop visible",
-  "computer_state": "Current screen shows the desktop. Notepad is not open. Available icons on the desktop include: 'Window Icon', 'File', 'Edit', 'Selection', 'View', 'Go', 'Run', 'Terminal', and 'Help'",
-  "important_coordinates": ""
-}
-================================================================================
-
-2025-06-10 23:55:14,711 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 2
-2025-06-10 23:55:14,714 - INFO - loop:run:126 - 🤔 Making decision for step 2
-2025-06-10 23:55:16,230 - JSON_BLOCK - log_config:logger_json_block:116 - 
-================================================================================
-📌 Decision Results
-================================================================================
-{
-  "selected_tool": "launch",
-  "tool_parameters": {
-    "app_name": "Notepad",
-    "screen_id": 1,
-    "fullscreen": false
-  },
-  "reasoning": "The user wants to open Notepad. The previous attempt to launch Notepad failed due to an invalid screen ID. The perception indicates that the available screens are 1-1.  Therefore, we should try launching Notepad again, but this time with screen_id set to 1.",
-  "confidence": "0.99"
-}
-================================================================================
-
-2025-06-10 23:55:16,230 - INFO - loop:run:128 - 🤔 Decision completed for step 2
-2025-06-10 23:55:16,232 - INFO - loop:run:147 - 🛠️ Executing tool for step 2: launch
-2025-06-10 23:55:16,232 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 2: {'app_name': 'Notepad', 'screen_id': 1, 'fullscreen': False}
-2025-06-10 23:55:19,963 - INFO - simple_mcp:execute_tool:99 - Tool launch executed with result: {'success': True, 'message': "✅ Successfully launched 'Notepad' on Screen 1"}
-2025-06-10 23:55:19,963 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 2
-2025-06-10 23:55:19,963 - INFO - loop:run:155 - 🛠️ Execution result for step 2: {'success': True, 'message': "✅ Successfully launched 'Notepad' on Screen 1"}
-2025-06-10 23:55:19,965 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 3
-2025-06-10 23:55:20,087 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\10\session_20250610_235409\step_3\screenshot_20250610_235520_step_3.jpg
-2025-06-10 23:55:23,900 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:55:23,908 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:55:23,916 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:55:23,921 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:55:26,102 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
-2025-06-10 23:55:29,870 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:55:34,529 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:55:35,992 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:55:36,535 - INFO - loop:run:100 - 🧠 Running perception analysis for step 3
-2025-06-10 23:55:42,847 - JSON_BLOCK - log_config:logger_json_block:116 - 
+2025-06-11 23:47:24,729 - INFO - test_agent:interactive:28 - Initializing Computer Agent...
+2025-06-11 23:47:24,729 - INFO - computer_agent:__init__:26 - Initializing ComputerAgent...
+2025-06-11 23:47:24,731 - INFO - computer_agent:__init__:42 - Initializing SimpleMCP with windows tools...
+2025-06-11 23:47:24,731 - INFO - computer_agent:__init__:44 - SimpleMCP initialized with windows tools
+2025-06-11 23:47:24,731 - INFO - computer_agent:__init__:47 - Initializing ModelManager...
+2025-06-11 23:47:24,731 - INFO - computer_agent:__init__:49 - ModelManager initialized
+2025-06-11 23:48:22,346 - INFO - computer_agent:run:65 - Starting computer agent operation...
+2025-06-11 23:48:22,370 - INFO - simple_mcp:initialize:64 - SimpleMCP initialized with 4 tools
+2025-06-11 23:48:22,373 - INFO - loop:run:53 - Output directory: outputs\2025\06\11\session_20250611_234822
+2025-06-11 23:48:22,374 - INFO - loop:run:57 - Starting computer agent session session_20250611_234822
+2025-06-11 23:48:22,374 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 1
+2025-06-11 23:48:22,443 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\11\session_20250611_234822\step_1\screenshot_20250611_234822_step_1.jpg
+2025-06-11 23:48:26,929 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:48:26,941 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:48:26,946 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:48:26,952 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:48:34,993 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:48:35,035 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:48:35,416 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:48:37,655 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:48:38,651 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:48:40,815 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:48:41,124 - INFO - loop:run:100 - 🧠 Running perception analysis for step 1
+2025-06-11 23:48:48,982 - JSON_BLOCK - log_config:logger_json_block:116 - 
 ================================================================================
 📌 Perception Results
 ================================================================================
 {
   "entities": [
     "notepad",
-    "file",
-    "desktop"
+    "hello world",
+    "desktop",
+    "hello"
   ],
-  "result_requirement": "Type 'helloworld' in Notepad and save the file to the desktop",
+  "result_requirement": "Notepad is launched, 'hello world' is written on it, and it is saved as 'hello' on desktop.",
   "original_goal_achieved": false,
   "local_goal_achieved": false,
-  "confidence": "0.98",
-  "reasoning": "The last tool used launched Notepad successfully. We need to verify that Notepad is open and ready to receive input, and then proceed with the next steps (typing 'helloworld' and saving the file to the desktop).",
-  "local_reasoning": "Notepad launched successfully. We now need to type 'helloworld' in the Notepad, and then save the file to the desktop to complete the user query.",
-  "last_tooluse_summary": "The `launch` tool was used to open Notepad and was successful.",
-  "solution_summary": "The user wants to open notepad, type helloworld, and save it to the desktop. Notepad has been launched, and the next step is to type 'helloworld' then save the file to the desktop.",
+  "confidence": "0.95",
+  "reasoning": "The user wants to launch notepad, write \"hello world\" and save the notepad file as \"hello\" on the desktop. I can route to decision as notepad is not yet launched and needs to be launched first.",
+  "local_reasoning": "The screen snapshot shows the desktop, but notepad is not yet launched. So, I need to route to decision to launch notepad.",
+  "last_tooluse_summary": "No tool used yet",
+  "solution_summary": "User query is to launch notepad, write hello world, and save as hello on desktop. Notepad has not been launched yet",
   "route": "decision",
-  "open_windows": "Notepad",
-  "computer_state": "Notepad is now open on Screen 1.",
-  "important_coordinates": ""
+  "open_windows": "None",
+  "computer_state": "The desktop is visible, but Notepad has not been launched.",
+  "important_coordinates": null
 }
 ================================================================================
 
-2025-06-10 23:55:42,848 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 3
-2025-06-10 23:55:42,850 - INFO - loop:run:126 - 🤔 Making decision for step 3
-2025-06-10 23:55:44,150 - JSON_BLOCK - log_config:logger_json_block:116 - 
+2025-06-11 23:48:48,982 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 1
+2025-06-11 23:48:48,984 - INFO - loop:run:126 - 🤔 Making decision for step 1
+2025-06-11 23:48:50,427 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Decision Results
+================================================================================
+{
+  "selected_tool": "launch",
+  "tool_parameters": {
+    "app_name": "notepad",
+    "screen_id": 0,
+    "fullscreen": true
+  },
+  "reasoning": "The user wants to launch notepad, so I should use the 'launch' tool with 'notepad' as the app name. I will open it in fullscreen mode as it's generally helpful to maximize windows.",
+  "confidence": "0.95"
+}
+================================================================================
+
+2025-06-11 23:48:50,427 - INFO - loop:run:128 - 🤔 Decision completed for step 1
+2025-06-11 23:48:50,430 - INFO - loop:run:147 - 🛠️ Executing tool for step 1: launch
+2025-06-11 23:48:50,430 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 1: {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': True}
+2025-06-11 23:48:50,622 - INFO - simple_mcp:execute_tool:99 - Tool launch executed with result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-11 23:48:50,622 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 1
+2025-06-11 23:48:50,622 - INFO - loop:run:155 - 🛠️ Execution result for step 1: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-11 23:48:50,623 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 2
+2025-06-11 23:48:50,697 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\11\session_20250611_234822\step_2\screenshot_20250611_234850_step_2.jpg
+2025-06-11 23:48:52,895 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:48:52,907 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:48:52,915 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:48:52,921 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:48:57,826 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:49:01,391 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:49:03,605 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:49:03,979 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:49:04,346 - INFO - loop:run:100 - 🧠 Running perception analysis for step 2
+2025-06-11 23:49:11,254 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Perception Results
+================================================================================
+{
+  "entities": [
+    "notepad",
+    "hello world",
+    "desktop",
+    "hello"
+  ],
+  "result_requirement": "Notepad is launched, 'hello world' is written on it, and it is saved as 'hello' on desktop.",
+  "original_goal_achieved": false,
+  "local_goal_achieved": false,
+  "confidence": "0.95",
+  "reasoning": "The tool launch has failed because the given screen id 0 is invalid. It must be one of the available screen 1-1. The next step should be routing to decision so the agent can use a valid screen id and launch notepad",
+  "local_reasoning": "The previous tool execution to launch Notepad failed because an invalid screen ID was provided, the available screen ID from merged detection should be extracted and then passed.",
+  "last_tooluse_summary": "The tool launch was executed and it failed",
+  "solution_summary": "User query is to launch notepad, write hello world, and save as hello on desktop. Notepad launch failed due to an invalid screen ID.",
+  "route": "decision",
+  "open_windows": "None",
+  "computer_state": "Notepad has not been launched. Tool launch failed due to Invalid screen ID 0. The Available screen ID is 1-1.",
+  "important_coordinates": null
+}
+================================================================================
+
+2025-06-11 23:49:11,255 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 2
+2025-06-11 23:49:11,258 - INFO - loop:run:126 - 🤔 Making decision for step 2
+2025-06-11 23:49:12,751 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Decision Results
+================================================================================
+{
+  "selected_tool": "launch",
+  "tool_parameters": {
+    "app_name": "notepad",
+    "screen_id": 1,
+    "fullscreen": true
+  },
+  "reasoning": "The previous attempt to launch Notepad failed because the screen_id was invalid. The available screen IDs are 1-1. I will now attempt to launch Notepad again, this time using screen_id 1. I will also open it in fullscreen mode.",
+  "confidence": "0.95"
+}
+================================================================================
+
+2025-06-11 23:49:12,751 - INFO - loop:run:128 - 🤔 Decision completed for step 2
+2025-06-11 23:49:12,752 - INFO - loop:run:147 - 🛠️ Executing tool for step 2: launch
+2025-06-11 23:49:12,753 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 2: {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-11 23:49:16,612 - INFO - simple_mcp:execute_tool:99 - Tool launch executed with result: {'success': True, 'message': "✅ Successfully launched 'notepad' on Screen 1 in fullscreen mode"}
+2025-06-11 23:49:16,612 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 2
+2025-06-11 23:49:16,612 - INFO - loop:run:155 - 🛠️ Execution result for step 2: {'success': True, 'message': "✅ Successfully launched 'notepad' on Screen 1 in fullscreen mode"}
+2025-06-11 23:49:16,614 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 3
+2025-06-11 23:49:16,699 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\11\session_20250611_234822\step_3\screenshot_20250611_234916_step_3.jpg
+2025-06-11 23:49:18,953 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:49:18,962 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:49:18,971 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:49:21,938 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-11 23:49:24,807 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:49:27,213 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:49:27,661 - INFO - loop:run:100 - 🧠 Running perception analysis for step 3
+2025-06-11 23:49:33,405 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Perception Results
+================================================================================
+{
+  "entities": [
+    "notepad",
+    "hello world",
+    "desktop",
+    "hello"
+  ],
+  "result_requirement": "Notepad is launched, 'hello world' is written on it, and it is saved as 'hello' on desktop.",
+  "original_goal_achieved": false,
+  "local_goal_achieved": false,
+  "confidence": "0.95",
+  "reasoning": "The user wants to launch notepad, write 'hello world' on it, and save it as 'hello' on the desktop. Notepad has been launched successfully in full-screen mode. The next steps are to write 'hello world' and save the file, so route to decision.",
+  "local_reasoning": "Notepad is launched. The screen shows a notepad window with title 'Untitled - Notepad'. Need to enter 'hello world' text and save this file with name 'hello'",
+  "last_tooluse_summary": "The tool launch was executed and it succeeded",
+  "solution_summary": "User query is to launch notepad, write hello world, and save as hello on desktop. Notepad is launched successfully in full-screen mode. The next steps are to write 'hello world' and save the file.",
+  "route": "decision",
+  "open_windows": "Notepad",
+  "computer_state": "Notepad is launched in fullscreen mode, the next step is to type 'hello world' and save it.",
+  "important_coordinates": null
+}
+================================================================================
+
+2025-06-11 23:49:33,406 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 3
+2025-06-11 23:49:33,407 - INFO - loop:run:126 - 🤔 Making decision for step 3
+2025-06-11 23:49:34,909 - JSON_BLOCK - log_config:logger_json_block:116 - 
 ================================================================================
 📌 Decision Results
 ================================================================================
 {
   "selected_tool": "type",
   "tool_parameters": {
-    "text": "helloworld"
+    "text": "hello world"
   },
-  "reasoning": "Now that Notepad is open, the next step is to type 'helloworld'. The 'type' tool allows typing text into the active window. Therefore, I select the 'type' tool with the 'text' parameter set to 'helloworld'.",
-  "confidence": "0.99"
-}
-================================================================================
-
-2025-06-10 23:55:44,150 - INFO - loop:run:128 - 🤔 Decision completed for step 3
-2025-06-10 23:55:44,152 - INFO - loop:run:147 - 🛠️ Executing tool for step 3: type
-2025-06-10 23:55:44,152 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 3: {'text': 'helloworld'}
-2025-06-10 23:55:44,375 - INFO - simple_mcp:execute_tool:99 - Tool type executed with result: {'success': True, 'message': "Sent text: 'helloworld' (10 characters)"}
-2025-06-10 23:55:44,375 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 3
-2025-06-10 23:55:44,375 - INFO - loop:run:155 - 🛠️ Execution result for step 3: {'success': True, 'message': "Sent text: 'helloworld' (10 characters)"}
-2025-06-10 23:55:44,376 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 4
-2025-06-10 23:55:44,498 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\10\session_20250610_235409\step_4\screenshot_20250610_235544_step_4.jpg
-2025-06-10 23:55:48,183 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:55:48,190 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:55:48,199 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:55:48,205 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:55:54,494 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:55:56,463 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:55:58,680 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:56:01,201 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:56:01,765 - INFO - loop:run:100 - 🧠 Running perception analysis for step 4
-2025-06-10 23:56:08,143 - JSON_BLOCK - log_config:logger_json_block:116 - 
-================================================================================
-📌 Perception Results
-================================================================================
-{
-  "entities": [
-    "Notepad",
-    "helloworld",
-    "file",
-    "desktop"
-  ],
-  "result_requirement": "Save the notepad file containing 'helloworld' to the desktop.",
-  "original_goal_achieved": false,
-  "local_goal_achieved": false,
-  "confidence": "0.95",
-  "reasoning": "The screen snapshot doesn't show the 'Save As' dialog or any confirmation that the file has been saved. The last steps successfully opened Notepad and typed 'helloworld'.",
-  "local_reasoning": "While Notepad is open and contains the text 'helloworld', the file has not yet been saved to the desktop. We need to save the content to the desktop to achieve the local goal.",
-  "last_tooluse_summary": "The `type` tool was used to type 'helloworld' into Notepad and was successful.",
-  "solution_summary": "The user wants to open Notepad, type helloworld, and save it to the desktop. Notepad has been launched, and the text 'helloworld' has been entered. We will proceed by saving the notepad to the desktop.",
-  "route": "decision",
-  "open_windows": "Notepad",
-  "computer_state": "Notepad is open with the text 'helloworld' entered. The file needs to be saved to the desktop.",
-  "important_coordinates": ""
-}
-================================================================================
-
-2025-06-10 23:56:08,144 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 4
-2025-06-10 23:56:08,147 - INFO - loop:run:126 - 🤔 Making decision for step 4
-2025-06-10 23:56:09,637 - JSON_BLOCK - log_config:logger_json_block:116 - 
-================================================================================
-📌 Decision Results
-================================================================================
-{
-  "selected_tool": "send",
-  "tool_parameters": {
-    "keys": "^s"
-  },
-  "reasoning": "To save the file, we need to open the 'Save As' dialog. The standard shortcut for 'Save As' is Ctrl+S, which can be sent using the 'send' tool with the 'keys' parameter set to '^s'.",
+  "reasoning": "The user wants to write 'hello world' in the notepad. Notepad is already launched and maximized. Therefore, the 'type' tool can be used to type the text 'hello world' into the notepad window.",
   "confidence": "0.98"
 }
 ================================================================================
 
-2025-06-10 23:56:09,637 - INFO - loop:run:128 - 🤔 Decision completed for step 4
-2025-06-10 23:56:09,638 - INFO - loop:run:147 - 🛠️ Executing tool for step 4: send
-2025-06-10 23:56:09,639 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 4: {'keys': '^s'}
-2025-06-10 23:56:09,742 - INFO - simple_mcp:execute_tool:99 - Tool send executed with result: {'success': False, 'message': "Unknown key: ^S. Use 'keys' command to see all available keys."}
-2025-06-10 23:56:09,742 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 4
-2025-06-10 23:56:09,742 - INFO - loop:run:155 - 🛠️ Execution result for step 4: {'success': False, 'message': "Unknown key: ^S. Use 'keys' command to see all available keys."}
-2025-06-10 23:56:09,743 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 5
-2025-06-10 23:56:09,861 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\10\session_20250610_235409\step_5\screenshot_20250610_235609_step_5.jpg
-2025-06-10 23:56:13,494 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:56:13,501 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:56:13,507 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:56:13,516 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
-2025-06-10 23:56:19,453 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:56:22,386 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:56:24,084 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:56:26,008 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
-2025-06-10 23:56:26,530 - INFO - loop:run:100 - 🧠 Running perception analysis for step 5
-2025-06-10 23:56:32,791 - JSON_BLOCK - log_config:logger_json_block:116 - 
+2025-06-11 23:49:34,909 - INFO - loop:run:128 - 🤔 Decision completed for step 3
+2025-06-11 23:49:34,912 - INFO - loop:run:147 - 🛠️ Executing tool for step 3: type
+2025-06-11 23:49:34,912 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 3: {'text': 'hello world'}
+2025-06-11 23:49:35,158 - INFO - simple_mcp:execute_tool:99 - Tool type executed with result: {'success': True, 'message': "Sent text: 'hello world' (11 characters)"}
+2025-06-11 23:49:35,159 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 3
+2025-06-11 23:49:35,159 - INFO - loop:run:155 - 🛠️ Execution result for step 3: {'success': True, 'message': "Sent text: 'hello world' (11 characters)"}
+2025-06-11 23:49:35,161 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 4
+2025-06-11 23:49:35,250 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\11\session_20250611_234822\step_4\screenshot_20250611_234935_step_4.jpg
+2025-06-11 23:49:37,620 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:49:45,098 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:49:45,501 - INFO - loop:run:100 - 🧠 Running perception analysis for step 4
+2025-06-11 23:49:49,249 - JSON_BLOCK - log_config:logger_json_block:116 - 
 ================================================================================
 📌 Perception Results
 ================================================================================
 {
   "entities": [
     "notepad",
-    "helloworld",
-    "save as dialog",
-    "desktop"
+    "hello world",
+    "desktop",
+    "hello"
   ],
-  "result_requirement": "Save the notepad file containing 'helloworld' to the desktop.",
+  "result_requirement": "Notepad is launched, 'hello world' is written on it, and it is saved as 'hello' on desktop.",
   "original_goal_achieved": false,
   "local_goal_achieved": false,
   "confidence": "0.95",
-  "reasoning": "The 'send' tool failed to save the file in Notepad as Ctrl+S command is unknown. We need to analyze the desktop and call the save from file menu.",
-  "local_reasoning": "Notepad is open with text 'helloworld', the file needs to be saved. Since the shortcut command failed, we need to find the coordinates to save as. Since we cannot open the file menu with the existing tools, we call summarizer.",
-  "last_tooluse_summary": "The `send` tool was used, but it failed to send the hotkey Ctrl+S.",
-  "solution_summary": "The user wants to open notepad, type helloworld, and save it to the desktop. Notepad is open and the text 'helloworld' has been typed. Saving the file to desktop is remaining.",
-  "route": "summarize",
+  "reasoning": "The user wants to launch notepad, write \"hello world\" on the same, and then save this on desktop with filename hello. Notepad has been launched and the text 'hello world' has been written. The next step is to save the file on desktop with filename hello. The file menu and the save option has been detected. So, I can route to decision to save the file.",
+  "local_reasoning": "The screen snapshot shows the notepad with 'hello world' text written on it. Also, save option is visible under File Menu which can be clicked to save the file. So, route to decision to save the file.",
+  "last_tooluse_summary": "The tool type was executed and it succeeded",
+  "solution_summary": "User query is to launch notepad, write hello world, and save as hello on desktop. Notepad is launched and the text 'hello world' is written. The next step is to save the file on desktop with filename hello.",
+  "route": "decision",
   "open_windows": "Notepad",
-  "computer_state": "Need to save the notepad with text helloworld to desktop.",
-  "important_coordinates": ""
+  "computer_state": "Notepad is launched and the text 'hello world' has been written on the notepad. The next step is to save the file on desktop with filename hello. The file menu on Notepad window is now visible and there is a save menu item at (1619, 1047) which can be clicked to save the notepad.",
+  "important_coordinates": "File Menu for Notepad (1, 36), Save Icon on the Notepad Window (1619, 1047)"
 }
 ================================================================================
 
-2025-06-10 23:56:32,791 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 5
-2025-06-10 23:56:32,793 - INFO - loop:run:112 - Perception suggests summarization - task complete
-2025-06-10 23:56:36,121 - JSON_BLOCK - log_config:logger_json_block:116 - 
+2025-06-11 23:49:49,250 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 4
+2025-06-11 23:49:49,252 - INFO - loop:run:126 - 🤔 Making decision for step 4
+2025-06-11 23:49:50,798 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Decision Results
+================================================================================
+{
+  "selected_tool": "click",
+  "tool_parameters": {
+    "button": "left",
+    "x": 1,
+    "y": 36
+  },
+  "reasoning": "The next step is to save the file on desktop with filename hello. The file menu and the save option has been detected.So, I should click on File Menu for Notepad at (1, 36) so I can select save option.",
+  "confidence": "0.95"
+}
+================================================================================
+
+2025-06-11 23:49:50,799 - INFO - loop:run:128 - 🤔 Decision completed for step 4
+2025-06-11 23:49:50,801 - INFO - loop:run:147 - 🛠️ Executing tool for step 4: click
+2025-06-11 23:49:50,801 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 4: {'button': 'left', 'x': 1, 'y': 36}
+2025-06-11 23:49:51,020 - INFO - simple_mcp:execute_tool:99 - Tool click executed with result: {'success': True, 'message': 'Left click at (1, 36) on Monitor 1'}
+2025-06-11 23:49:51,020 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 4
+2025-06-11 23:49:51,020 - INFO - loop:run:155 - 🛠️ Execution result for step 4: {'success': True, 'message': 'Left click at (1, 36) on Monitor 1'}
+2025-06-11 23:49:51,022 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 5
+2025-06-11 23:49:51,086 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\11\session_20250611_234822\step_5\screenshot_20250611_234951_step_5.jpg
+2025-06-11 23:49:53,435 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:50:00,946 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:50:01,346 - INFO - loop:run:100 - 🧠 Running perception analysis for step 5
+2025-06-11 23:50:05,047 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Perception Results
+================================================================================
+{
+  "entities": [
+    "notepad",
+    "hello world",
+    "desktop",
+    "hello"
+  ],
+  "result_requirement": "Notepad is launched, 'hello world' is written on it, and it is saved as 'hello' on desktop.",
+  "original_goal_achieved": false,
+  "local_goal_achieved": false,
+  "confidence": "0.95",
+  "reasoning": "The user wants to launch notepad, write \"hello world\" on the same, and then save this on desktop with filename hello. Notepad has been launched, 'hello world' is typed and the file menu is clicked. We now need to click Save as option to save the file. Routing to decision.",
+  "local_reasoning": "The screen snapshot shows the file menu is open. The next step is to click the save as option. Route to decision to save file.",
+  "last_tooluse_summary": "The tool click was executed and it succeeded to open the file menu.",
+  "solution_summary": "User query is to launch notepad, write hello world, and save as hello on desktop. Notepad is launched, 'hello world' is typed and the file menu is clicked. The next step is to click the save as option.",
+  "route": "decision",
+  "open_windows": "Notepad",
+  "computer_state": "Notepad is launched, 'hello world' is typed and the file menu is clicked. The next step is to click the save as option. The File Menu is visible on Notepad window at coordinates (1, 36) and the Save Icon on the Notepad Window is at (1619, 1047)",
+  "important_coordinates": "File Menu for Notepad (1, 36), Save Icon on the Notepad Window (1619, 1047)"
+}
+================================================================================
+
+2025-06-11 23:50:05,047 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 5
+2025-06-11 23:50:05,049 - INFO - loop:run:126 - 🤔 Making decision for step 5
+2025-06-11 23:50:07,150 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Decision Results
+================================================================================
+{
+  "selected_tool": "click",
+  "tool_parameters": {
+    "button": "left",
+    "x": 50,
+    "y": 150
+  },
+  "reasoning": "The user wants to save the file. The file menu in notepad is open. The next step is to click the save as option. After inspecting the open menu the 'Save As...' option is located at approximately x=50 and y=150. Clicking here will open the save as dialog box.",
+  "confidence": "0.90"
+}
+================================================================================
+
+2025-06-11 23:50:07,151 - INFO - loop:run:128 - 🤔 Decision completed for step 5
+2025-06-11 23:50:07,154 - INFO - loop:run:147 - 🛠️ Executing tool for step 5: click
+2025-06-11 23:50:07,154 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 5: {'button': 'left', 'x': 50, 'y': 150}
+2025-06-11 23:50:07,371 - INFO - simple_mcp:execute_tool:99 - Tool click executed with result: {'success': True, 'message': 'Left click at (50, 150) on Monitor 1'}
+2025-06-11 23:50:07,371 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 5
+2025-06-11 23:50:07,371 - INFO - loop:run:155 - 🛠️ Execution result for step 5: {'success': True, 'message': 'Left click at (50, 150) on Monitor 1'}
+2025-06-11 23:50:07,374 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 6
+2025-06-11 23:50:07,446 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\11\session_20250611_234822\step_6\screenshot_20250611_235007_step_6.jpg
+2025-06-11 23:50:09,937 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:50:18,262 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:50:18,657 - INFO - loop:run:100 - 🧠 Running perception analysis for step 6
+2025-06-11 23:50:23,646 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Perception Results
+================================================================================
+{
+  "entities": [
+    "notepad",
+    "hello world",
+    "desktop",
+    "hello"
+  ],
+  "result_requirement": "Notepad is launched, 'hello world' is written on it, and it is saved as 'hello' on desktop.",
+  "original_goal_achieved": false,
+  "local_goal_achieved": false,
+  "confidence": "0.95",
+  "reasoning": "The user wants to launch notepad, write \"hello world\" on the same, and then save this on desktop with filename hello. Notepad has been launched, 'hello world' is typed and the file menu is clicked. A click event was triggered to open the Save As dialog. Now, we need to enter the filename as 'hello', select desktop as the location, and click Save. The 'File name:' text box is visible at (1616, 1007) and the 'Desktop' navigation icon is visible in group H3 at (14, 1007). So, I can route to decision to save the file.",
+  "local_reasoning": "The screen snapshot shows the save as dialog is now open and we need to select the name and location for the same. The text box to provide file name is visible at (1616, 1007) and desktop icon is visible at (14, 1007).",
+  "last_tooluse_summary": "The tool click was executed and it succeeded to open the save as dialog.",
+  "solution_summary": "User query is to launch notepad, write hello world, and save as hello on desktop. Notepad is launched, 'hello world' is typed and the file menu is clicked. A click event was triggered to open the Save As dialog. Now, we need to enter the filename as 'hello', select desktop as the location, and click Save.",
+  "route": "decision",
+  "open_windows": "Notepad",
+  "computer_state": "Notepad is launched, 'hello world' is typed and the file menu is clicked. A click event was triggered to open the Save As dialog.  The 'File name:' text box is visible at (1616, 1007) and the 'Desktop' navigation icon is visible in group H3 at (14, 1007).",
+  "important_coordinates": "File name text box: (1616, 1007), Desktop Icon on the dialog window : (14, 1007)"
+}
+================================================================================
+
+2025-06-11 23:50:23,647 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 6
+2025-06-11 23:50:23,648 - INFO - loop:run:126 - 🤔 Making decision for step 6
+2025-06-11 23:50:25,445 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Decision Results
+================================================================================
+{
+  "selected_tool": "click",
+  "tool_parameters": {
+    "button": "left",
+    "x": 14,
+    "y": 1007
+  },
+  "reasoning": "The Save As dialog is open. The next step is to navigate to the desktop. The perception module indicates that the 'Desktop' icon is located at (14, 1007). Therefore, I should click on this coordinate to select the desktop as the save location.",
+  "confidence": "0.95"
+}
+================================================================================
+
+2025-06-11 23:50:25,445 - INFO - loop:run:128 - 🤔 Decision completed for step 6
+2025-06-11 23:50:25,447 - INFO - loop:run:147 - 🛠️ Executing tool for step 6: click
+2025-06-11 23:50:25,448 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 6: {'button': 'left', 'x': 14, 'y': 1007}
+2025-06-11 23:50:25,671 - INFO - simple_mcp:execute_tool:99 - Tool click executed with result: {'success': True, 'message': 'Left click at (14, 1007) on Monitor 1'}
+2025-06-11 23:50:25,671 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 6
+2025-06-11 23:50:25,671 - INFO - loop:run:155 - 🛠️ Execution result for step 6: {'success': True, 'message': 'Left click at (14, 1007) on Monitor 1'}
+2025-06-11 23:50:25,674 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 7
+2025-06-11 23:50:25,750 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\11\session_20250611_234822\step_7\screenshot_20250611_235025_step_7.jpg
+2025-06-11 23:50:28,107 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:50:35,614 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:50:36,010 - INFO - loop:run:100 - 🧠 Running perception analysis for step 7
+2025-06-11 23:50:40,317 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Perception Results
+================================================================================
+{
+  "entities": [
+    "notepad",
+    "hello world",
+    "desktop",
+    "hello"
+  ],
+  "result_requirement": "Notepad is launched, 'hello world' is written on it, and it is saved as 'hello' on desktop.",
+  "original_goal_achieved": false,
+  "local_goal_achieved": false,
+  "confidence": "0.95",
+  "reasoning": "The user wants to launch notepad, write \"hello world\" on the same, and then save this on desktop with filename hello. Notepad has been launched, 'hello world' is typed and the file menu is clicked. A click event was triggered to open the Save As dialog and desktop is selected. Now, we need to enter the filename as 'hello', and click Save button to save. I can route to decision to save the file.",
+  "local_reasoning": "The screen snapshot shows the save as dialog is now open and we need to select the name and save the file. The text box to provide file name is visible at (1616, 1007) and Save icon is visible at (1762, 1044).",
+  "last_tooluse_summary": "The tool click was executed and it succeeded to select desktop location.",
+  "solution_summary": "User query is to launch notepad, write hello world, and save as hello on desktop. Notepad is launched, 'hello world' is typed and the file menu is clicked. A click event was triggered to open the Save As dialog and desktop is selected. Now, we need to enter the filename as 'hello', and click Save button to save.",
+  "route": "decision",
+  "open_windows": "Notepad",
+  "computer_state": "Notepad is launched, 'hello world' is typed and the file menu is clicked. A click event was triggered to open the Save As dialog and desktop is selected.  The 'File name:' text box is visible at (1616, 1007) and the 'Save' icon is visible at (1762, 1044).",
+  "important_coordinates": "File name text box: (1616, 1007), Save Icon on the dialog window : (1762, 1044)"
+}
+================================================================================
+
+2025-06-11 23:50:40,318 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 7
+2025-06-11 23:50:40,319 - INFO - loop:run:126 - 🤔 Making decision for step 7
+2025-06-11 23:50:42,401 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Decision Results
+================================================================================
+{
+  "selected_tool": "type",
+  "tool_parameters": {
+    "text": "hello"
+  },
+  "reasoning": "The Save As dialog is open, and the desktop has been selected. The next step is to type the filename 'hello' into the 'File name:' text box. The perception module identified the file name text box location at (1616, 1007), but we can use 'type' without coordinates as it will type the text in the active text box. Therefore, I should use the 'type' tool to type the filename.",
+  "confidence": "0.95"
+}
+================================================================================
+
+2025-06-11 23:50:42,401 - INFO - loop:run:128 - 🤔 Decision completed for step 7
+2025-06-11 23:50:42,403 - INFO - loop:run:147 - 🛠️ Executing tool for step 7: type
+2025-06-11 23:50:42,403 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 7: {'text': 'hello'}
+2025-06-11 23:50:42,515 - INFO - simple_mcp:execute_tool:99 - Tool type executed with result: {'success': True, 'message': "Sent text: 'hello' (5 characters)"}
+2025-06-11 23:50:42,515 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 7
+2025-06-11 23:50:42,515 - INFO - loop:run:155 - 🛠️ Execution result for step 7: {'success': True, 'message': "Sent text: 'hello' (5 characters)"}
+2025-06-11 23:50:42,516 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 8
+2025-06-11 23:50:42,586 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\11\session_20250611_234822\step_8\screenshot_20250611_235042_step_8.jpg
+2025-06-11 23:50:44,694 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:50:52,389 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:50:52,918 - INFO - loop:run:100 - 🧠 Running perception analysis for step 8
+2025-06-11 23:50:56,829 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Perception Results
+================================================================================
+{
+  "entities": [
+    "notepad",
+    "hello world",
+    "desktop",
+    "hello"
+  ],
+  "result_requirement": "Notepad is launched, 'hello world' is written on it, and it is saved as 'hello' on desktop.",
+  "original_goal_achieved": false,
+  "local_goal_achieved": false,
+  "confidence": "0.95",
+  "reasoning": "The user wants to launch notepad, write \"hello world\" on the same, and then save this on desktop with filename hello. Notepad has been launched, 'hello world' is typed and the file menu is clicked. A click event was triggered to open the Save As dialog and desktop is selected. Now, we need to click Save button to save the file on desktop with filename hello.The Save icon is visible at (1762, 1044). So, I can route to decision to save the file.",
+  "local_reasoning": "The screen snapshot shows the save as dialog is now open and we need to click the Save button to save the file. The 'Save' icon is visible at (1762, 1044).",
+  "last_tooluse_summary": "The tool type was executed and it succeeded to type the filename.",
+  "solution_summary": "User query is to launch notepad, write hello world, and save as hello on desktop. Notepad is launched, 'hello world' is typed and the file menu is clicked. A click event was triggered to open the Save As dialog and desktop is selected. Now, we need to click Save button to save.",
+  "route": "decision",
+  "open_windows": "Notepad",
+  "computer_state": "Notepad is launched, 'hello world' is typed and the file menu is clicked. A click event was triggered to open the Save As dialog and desktop is selected. The file name hello is typed to the file name text box and the Save icon is visible at (1762, 1044).",
+  "important_coordinates": "Save Icon on the dialog window : (1762, 1044)"
+}
+================================================================================
+
+2025-06-11 23:50:56,829 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 8
+2025-06-11 23:50:56,832 - INFO - loop:run:126 - 🤔 Making decision for step 8
+2025-06-11 23:50:58,786 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Decision Results
+================================================================================
+{
+  "selected_tool": "click",
+  "tool_parameters": {
+    "button": "left",
+    "x": 1762,
+    "y": 1044
+  },
+  "reasoning": "The Save As dialog is open, the desktop has been selected, and the filename 'hello' has been typed. The final step is to click the 'Save' button. The perception module indicates the Save icon is at (1762, 1044). Therefore, I should use the 'click' tool to click on this coordinate and save the file.",
+  "confidence": "0.98"
+}
+================================================================================
+
+2025-06-11 23:50:58,787 - INFO - loop:run:128 - 🤔 Decision completed for step 8
+2025-06-11 23:50:58,788 - INFO - loop:run:147 - 🛠️ Executing tool for step 8: click
+2025-06-11 23:50:58,788 - INFO - loop:run:148 - 🛠️ Tool Parameters for step 8: {'button': 'left', 'x': 1762, 'y': 1044}
+2025-06-11 23:50:59,007 - INFO - simple_mcp:execute_tool:99 - Tool click executed with result: {'success': True, 'message': 'Left click at (1762, 1044) on Monitor 1'}
+2025-06-11 23:50:59,007 - INFO - loop:run:154 - 🛠️ Tool execution completed for step 8
+2025-06-11 23:50:59,007 - INFO - loop:run:155 - 🛠️ Execution result for step 8: {'success': True, 'message': 'Left click at (1762, 1044) on Monitor 1'}
+2025-06-11 23:50:59,009 - INFO - loop:run:62 - 🔄 Starting new cycle with step count 9
+2025-06-11 23:50:59,070 - INFO - loop:run:75 - Screenshot taken and saved to outputs\2025\06\11\session_20250611_234822\step_9\screenshot_20250611_235059_step_9.jpg
+2025-06-11 23:51:01,281 - INFO - models:generate_content:7447 - AFC is enabled with max remote calls: 10.
+2025-06-11 23:51:08,875 - INFO - _client:_send_single_request:1740 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-06-11 23:51:09,501 - INFO - loop:run:100 - 🧠 Running perception analysis for step 9
+2025-06-11 23:51:13,071 - JSON_BLOCK - log_config:logger_json_block:116 - 
+================================================================================
+📌 Perception Results
+================================================================================
+{
+  "entities": [
+    "notepad",
+    "hello world",
+    "desktop",
+    "hello"
+  ],
+  "result_requirement": "Notepad is launched, 'hello world' is written on it, and it is saved as 'hello' on desktop.",
+  "original_goal_achieved": true,
+  "local_goal_achieved": true,
+  "confidence": "0.95",
+  "reasoning": "The user wanted to launch notepad, write \"hello world\" on the same, and then save this on desktop with filename hello. Notepad has been launched, 'hello world' is typed and the file is saved as hello on desktop. So, routing to summarize.",
+  "local_reasoning": "The screen snapshot shows the desktop after saving file as hello, so routing to summarize.",
+  "last_tooluse_summary": "The tool click was executed and it succeeded to save the file.",
+  "solution_summary": "User query is to launch notepad, write hello world, and save as hello on desktop. Notepad is launched, 'hello world' is typed and the file is saved as hello on desktop.",
+  "route": "summarize",
+  "open_windows": "None",
+  "computer_state": "Notepad is launched, 'hello world' is typed and the file is saved as hello on desktop.",
+  "important_coordinates": null
+}
+================================================================================
+
+2025-06-11 23:51:13,071 - INFO - loop:run:106 - 🧠 Perception analysis completed for step 9
+2025-06-11 23:51:13,072 - INFO - loop:run:112 - Perception suggests summarization - task complete
+2025-06-11 23:51:15,915 - JSON_BLOCK - log_config:logger_json_block:116 - 
 ================================================================================
 📌 Final plan
 ================================================================================
 {
   "status": "success",
-  "session_id": "session_20250610_235409",
+  "session_id": "session_20250611_234822",
   "_truncated": true,
-  "_total_length": 11432,
+  "_total_length": 22570,
   "_truncated_keys": [
-    "summary_path",
     "summary",
+    "summary_path",
     "steps"
   ]
 }
 ================================================================================
 
-2025-06-10 23:56:36,121 - INFO - computer_agent:run:73 - Computer agent operation completed
+2025-06-11 23:51:15,916 - INFO - computer_agent:run:73 - Computer agent operation completed

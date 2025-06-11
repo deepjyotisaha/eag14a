@@ -15,8 +15,8 @@ Your role is to select the appropriate tool and parameters based on:
 
 ## ✅ NOTES
 
-* No markdown. No prose. Output strict JSON ONLY.
-* Any ERRORs in windows which are not related to query SHOULD BE IGNORED
+* ALWAYS maximize windows when working with them, either open them in fullscreen mode or maximize the windows by clicking
+* ALWAYS maximize the window where you want to perform actions
 
 ---
 
