@@ -1,0 +1,1335 @@
+{
+  "filename_base": "screenshot_20250612_185259_step_2",
+  "analysis_timestamp": "2025-06-12T18:53:14.214376",
+  "analysis_duration_seconds": 12.132663,
+  "total_images_analyzed": 5,
+  "total_input_images": 5,
+  "analysis_mode": "direct",
+  "successful_analyses": 5,
+  "total_icons_found": 213,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_58_bboxes.png",
+      "image_name": "combined_groups_0_58_bboxes.png",
+      "icons_found": 58,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "TIMELINE",
+          "usage": "Opens or focuses the timeline panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "Arrow Icon",
+          "usage": "Likely a source control or navigation control",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "master*",
+          "usage": "Indicates the currently active branch and has uncommitted changes",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_3",
+          "name": "ΟΔΟ",
+          "usage": "Likely showing merge conflict status",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_4",
+          "name": "0",
+          "usage": "Shows number of pending items",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "File Icon",
+          "usage": "Opens file options dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "File",
+          "usage": "Opens file options dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "Edit",
+          "usage": "Opens edit options dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_4",
+          "name": "Selection",
+          "usage": "Opens selection options dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_5",
+          "name": "View",
+          "usage": "Opens view options dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_6",
+          "name": "Go",
+          "usage": "Opens go options dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_7",
+          "name": "Run",
+          "usage": "Opens run options dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_8",
+          "name": "Terminal",
+          "usage": "Opens terminal options dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_9",
+          "name": "Help",
+          "usage": "Opens help options dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "Magnifying Glass Icon",
+          "usage": "Likely a search or find function",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "eag14a",
+          "usage": "Shows name of the selected configuration",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "EAGV1",
+          "usage": "Shows name of the selected configuration",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "computer_agent",
+          "usage": "Shows name of the selected configuration",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "Gear Icon",
+          "usage": "Opens settings panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_2",
+          "name": "env",
+          "usage": "Opens environment configuration",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Changes not staged for commit:",
+          "usage": "Indicates there are unstaged changes",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "test_pipeline.py",
+          "usage": "Shows the name of python script",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "{",
+          "usage": "Shows a panel of code",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "Code icon",
+          "usage": "Shows code file",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_2",
+          "name": "_init__.py",
+          "usage": "Shows the name of python script",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Document Icon",
+          "usage": "Likely adds a new file",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Likely search in file",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_3",
+          "name": "Magnifying Glass Icon",
+          "usage": "Likely a search in file",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_4",
+          "name": "Multi Squares Icon",
+          "usage": "Likely shows the files location",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_5",
+          "name": "Arrow Down Icon",
+          "usage": "Dropdown menu to choose the item",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "0",
+          "usage": "Likely shows number of error issues",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_2",
+          "name": "Triangle Icon",
+          "usage": "Likely shows a number of warning issues",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_3",
+          "name": "0",
+          "usage": "Likely shows number of issues",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Circle Slash Icon",
+          "usage": "Likely disables the inspection tool",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_2",
+          "name": "Vertical Bar",
+          "usage": "Likely enable the inspection tool",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "U",
+          "usage": "Likely shows suggestions",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "Circle Slash Icon",
+          "usage": "Likely shows hides suggestions",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "uv computer_agent",
+          "usage": "Shows the name of user",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_2",
+          "name": "{} config.json",
+          "usage": "Shows the name of config file",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_3",
+          "name": "test_pipeline.py U",
+          "usage": "Shows the name of python script",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_4",
+          "name": "prompt_test.txt U",
+          "usage": "Shows the name of text file",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": "{",
+          "usage": "Shows a panel of code",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_1",
+          "name": "}",
+          "usage": "Shows a panel of code",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_1",
+          "name": "Problems",
+          "usage": "Shows the problems panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_2",
+          "name": "Output",
+          "usage": "Shows the output panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_3",
+          "name": "Debug Console",
+          "usage": "Shows the debug console",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_4",
+          "name": "Ports",
+          "usage": "Shows the ports panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_5",
+          "name": "Terminal",
+          "usage": "Shows the terminal panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_1",
+          "name": "On branch master",
+          "usage": "Shows current git branch",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_1",
+          "name": "Untracked files:",
+          "usage": "Shows untracked files",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_1",
+          "name": "no changes added to commit (use \\\"git add\\\" and/or \\\"git commit -a\\\")",
+          "usage": "Advisory message about committing changes",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_1",
+          "name": "Pin Icon",
+          "usage": "Likely pinned the item",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_2",
+          "name": "Pin Icon",
+          "usage": "Likely pinned the item",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_1",
+          "name": "Green Circle",
+          "usage": "Shows status success",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_2",
+          "name": "Executing tool for step 1: launch",
+          "usage": "Indicates launch execution status",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_1",
+          "name": "},",
+          "usage": "Shows a panel of code",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_1",
+          "name": "(use \\\"git add <file>...\\\" to update what will be committed)",
+          "usage": "Explains how to add files to the commit",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_1",
+          "name": "(use \\\"git restore <file>...\\\" to discard changes in working directory)",
+          "usage": "Explains how to restore files in the working directory",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "```\nH0_1: \"TIMELINE\" | Usage: \"Opens or focuses the timeline panel\"\nH1_1: \"Arrow Icon\" | Usage: \"Likely a source control or navigation control\"\nH1_2: \"master*\" | Usage: \"Indicates the currently active branch and has uncommitted changes\"\nH1_3: \"ΟΔΟ\" | Usage: \"Likely showing merge conflict status\"\nH1_4: \"0\" | Usage: \"Shows number of pending items\"\nH2_1: \"File Icon\" | Usage: \"Opens file options dropdown menu\"\nH2_2: \"File\" | Usage: \"Opens file options dropdown menu\"\nH2_3: \"Edit\" | Usage: \"Opens edit options dropdown menu\"\nH2_4: \"Selection\" | Usage: \"Opens selection options dropdown menu\"\nH2_5: \"View\" | Usage: \"Opens view options dropdown menu\"\nH2_6: \"Go\" | Usage: \"Opens go options dropdown menu\"\nH2_7: \"Run\" | Usage: \"Opens run options dropdown menu\"\nH2_8: \"Terminal\" | Usage: \"Opens terminal options dropdown menu\"\nH2_9: \"Help\" | Usage: \"Opens help options dropdown menu\"\nH3_1: \"Magnifying Glass Icon\" | Usage: \"Likely a search or find function\"\nH4_1: \"eag14a\" | Usage: \"Shows name of the selected configuration\"\nH5_1: \"EAGV1\" | Usage: \"Shows name of the selected configuration\"\nH6_1: \"computer_agent\" | Usage: \"Shows name of the selected configuration\"\nH7_1: \"Gear Icon\" | Usage: \"Opens settings panel\"\nH7_2: \"env\" | Usage: \"Opens environment configuration\"\nH8_1: \"Changes not staged for commit:\" | Usage: \"Indicates there are unstaged changes\"\nH9_1: \"test_pipeline.py\" | Usage: \"Shows the name of python script\"\nH10_1: \"{\" | Usage: \"Shows a panel of code\"\nH11_1: \"Code icon\" | Usage: \"Shows code file\"\nH11_2: \"_init__.py\" | Usage: \"Shows the name of python script\"\nH12_1: \"Document Icon\" | Usage: \"Likely adds a new file\"\nH12_2: \"Magnifying Glass Icon\" | Usage: \"Likely search in file\"\nH12_3: \"Magnifying Glass Icon\" | Usage: \"Likely a search in file\"\nH12_4: \"Multi Squares Icon\" | Usage: \"Likely shows the files location\"\nH12_5: \"Arrow Down Icon\" | Usage: \"Dropdown menu to choose the item\"\nH13_1: \"0\" | Usage: \"Likely shows number of error issues\"\nH13_2: \"Triangle Icon\" | Usage: \"Likely shows a number of warning issues\"\nH13_3: \"0\" | Usage: \"Likely shows number of issues\"\nH14_1: \"Circle Slash Icon\" | Usage: \"Likely disables the inspection tool\"\nH14_2: \"Vertical Bar\" | Usage: \"Likely enable the inspection tool\"\nH15_1: \"U\" | Usage: \"Likely shows suggestions\"\nH16_1: \"Circle Slash Icon\" | Usage: \"Likely shows hides suggestions\"\nH17_1: \"uv computer_agent\" | Usage: \"Shows the name of user\"\nH17_2: \"{} config.json\" | Usage: \"Shows the name of config file\"\nH17_3: \"test_pipeline.py U\" | Usage: \"Shows the name of python script\"\nH17_4: \"prompt_test.txt U\" | Usage: \"Shows the name of text file\"\nH18_1: \"{\" | Usage: \"Shows a panel of code\"\nH19_1: \"}\" | Usage: \"Shows a panel of code\"\nH20_1: \"Problems\" | Usage: \"Shows the problems panel\"\nH20_2: \"Output\" | Usage: \"Shows the output panel\"\nH20_3: \"Debug Console\" | Usage: \"Shows the debug console\"\nH20_4: \"Ports\" | Usage: \"Shows the ports panel\"\nH20_5: \"Terminal\" | Usage: \"Shows the terminal panel\"\nH21_1: \"On branch master\" | Usage: \"Shows current git branch\"\nH22_1: \"Untracked files:\" | Usage: \"Shows untracked files\"\nH23_1: \"no changes added to commit (use \\\"git add\\\" and/or \\\"git commit -a\\\")\" | Usage: \"Advisory message about committing changes\"\nH24_1: \"Pin Icon\" | Usage: \"Likely pinned the item\"\nH24_2: \"Pin Icon\" | Usage: \"Likely pinned the item\"\nH25_1: \"Green Circle\" | Usage: \"Shows status success\"\nH25_2: \"Executing tool for step 1: launch\" | Usage: \"Indicates launch execution status\"\nH26_1: \"},\" | Usage: \"Shows a panel of code\"\nH27_1: \"(use \\\"git add <file>...\\\" to update what will be committed)\" | Usage: \"Explains how to add files to the commit\"\nH28_1: \"(use \\\"git restore <file>...\\\" to discard changes in working directory)\" | Usage: \"Explains how to restore files in the working directory\"\n```",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_1_75_bboxes.png",
+      "image_name": "combined_groups_1_75_bboxes.png",
+      "icons_found": 60,
+      "icons": [
+        {
+          "id": "H29_1",
+          "name": "(use \"git add <file>...\" to include in what will be committed)",
+          "usage": "Instruction on how to stage files for a git commit",
+          "group_type": "H"
+        },
+        {
+          "id": "H30_1",
+          "name": "'\"screen_id\": 0,'",
+          "usage": "Specifies a screen ID value, likely for configuration or tracking purposes",
+          "group_type": "H"
+        },
+        {
+          "id": "H31_1",
+          "name": "'\"reasoning\":'",
+          "usage": "Likely precedes an explanation or justification generated by a system",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_1",
+          "name": "'\"confidence\":'",
+          "usage": "Indicates a level of certainty or accuracy, possibly in a AI-generated text",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_2",
+          "name": "'\"0.95\"'",
+          "usage": "Confidence score with a specific value of 0.95",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_1",
+          "name": "'\"screen_id\": 0,'",
+          "usage": "Configuration setting for screen id",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_1",
+          "name": "Windows Icon",
+          "usage": "Likely opens the Windows start menu or a similar interface",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Activates a search function, possibly for the system or application",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_3",
+          "name": "L Icon",
+          "usage": "May represent an installed launcher application",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_4",
+          "name": "Outlook Icon",
+          "usage": "Opens the Microsoft Outlook email client",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_5",
+          "name": "Microsoft Office Icon",
+          "usage": "Opens the Microsoft Office application",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_6",
+          "name": "Folder Icon",
+          "usage": "Opens a file explorer or directory browser",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_7",
+          "name": "Teams Icon",
+          "usage": "Opens the Microsoft Teams communication platform",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_8",
+          "name": "Microsoft 365 Icon",
+          "usage": "Opens the Microsoft 365 dashboard or application suite",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_9",
+          "name": "OneNote Icon",
+          "usage": "Opens the Microsoft OneNote note-taking application",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_10",
+          "name": "To Do Icon",
+          "usage": "Opens the Microsoft To Do task management app",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_11",
+          "name": "PowerPoint Icon",
+          "usage": "Opens the Microsoft PowerPoint presentation software",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_12",
+          "name": "Word Icon",
+          "usage": "Opens the Microsoft Word text editor",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_1",
+          "name": "modified:",
+          "usage": "Indicates that a file or content has been changed",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_2",
+          "name": "computer_agent/logs/common.log",
+          "usage": "File path to a log file named 'common.log'",
+          "group_type": "H"
+        },
+        {
+          "id": "H36_1",
+          "name": "computer_agent/pipeline/pipeline_test.py",
+          "usage": "File path to a Python script named 'pipeline_test.py'",
+          "group_type": "H"
+        },
+        {
+          "id": "H37_1",
+          "name": "computer_agent/outputs/",
+          "usage": "Directory path where outputs from the agent are stored",
+          "group_type": "H"
+        },
+        {
+          "id": "H38_1",
+          "name": "computer_agent/utils/gemini_integration_test.py",
+          "usage": "File path to a Python script named 'gemini_integration_test.py'",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_1",
+          "name": "Equals Sign",
+          "usage": "Visually separates sections or denotes a specific parameter",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_2",
+          "name": "Equals Sign",
+          "usage": "Visually separates sections or denotes a specific parameter",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_3",
+          "name": "Equals Sign",
+          "usage": "Visually separates sections or denotes a specific parameter",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_1",
+          "name": "Ctrl+K to generate a command",
+          "usage": "Keyboard shortcut to generate a command",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_1",
+          "name": "Ctrl+K to gene",
+          "usage": "Keyboard shortcut to generate something",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_2",
+          "name": "rate a con",
+          "usage": "Part of label, rate something",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_3",
+          "name": "and",
+          "usage": "Part of label",
+          "group_type": "H"
+        },
+        {
+          "id": "H42_1",
+          "name": "uv - eagv1 - Cursor",
+          "usage": "Select Cursor",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_1",
+          "name": "Rectangle Icon",
+          "usage": "May represent a selected region or object on screen",
+          "group_type": "H"
+        },
+        {
+          "id": "H44_1",
+          "name": "Therefore,",
+          "usage": "Transitional word",
+          "group_type": "H"
+        },
+        {
+          "id": "H44_2",
+          "name": "the next step is to launch notepad.",
+          "usage": "Instruction to launch notepad",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_1",
+          "name": "Quote Icon",
+          "usage": "Quoting something",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_1",
+          "name": "Line Icon",
+          "usage": "Likely a divider",
+          "group_type": "H"
+        },
+        {
+          "id": "H47_1",
+          "name": "Exclamation Icon",
+          "usage": "Likely for notifications",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_1",
+          "name": "Plus Minus Icon",
+          "usage": "Likely for increasing or decreasing value",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_2",
+          "name": "Triple Dots Icon",
+          "usage": "Options menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_3",
+          "name": "Up Arrow",
+          "usage": "Scroll up",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_4",
+          "name": "X Icon",
+          "usage": "Close button",
+          "group_type": "H"
+        },
+        {
+          "id": "H49_1",
+          "name": "Plus Icon",
+          "usage": "Add button",
+          "group_type": "H"
+        },
+        {
+          "id": "H49_2",
+          "name": "Pause Icon",
+          "usage": "Pausing function",
+          "group_type": "H"
+        },
+        {
+          "id": "H50_1",
+          "name": "Triple Dots Icon",
+          "usage": "Options menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_1",
+          "name": "Cloud Up Arrow Icon",
+          "usage": "Cloud syncing settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_2",
+          "name": "ENG IN",
+          "usage": "Language input settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_3",
+          "name": "Speaker and Battery Icon",
+          "usage": "Sound and battery settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_4",
+          "name": "6:52 PM 6/12/2025",
+          "usage": "System time and date",
+          "group_type": "H"
+        },
+        {
+          "id": "H52_1",
+          "name": "> 4 files +218 -8",
+          "usage": "Shows the number of files and their change status",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_1",
+          "name": "Plan, search, build anything",
+          "usage": "Describes an action or goal related to project development",
+          "group_type": "H"
+        },
+        {
+          "id": "H54_1",
+          "name": "Review changes",
+          "usage": "Initiate a review process for code or documents",
+          "group_type": "H"
+        },
+        {
+          "id": "H55_1",
+          "name": "Add Context",
+          "usage": "Include additional information",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_1",
+          "name": "Agent Ctrl+^",
+          "usage": "Triggers an Agent action using a keyboard shortcut",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_2",
+          "name": "Auto",
+          "usage": "Automatic Mode",
+          "group_type": "H"
+        },
+        {
+          "id": "H57_1",
+          "name": "Arrow Icon",
+          "usage": "Advance forward",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_1",
+          "name": "Cloud Icon",
+          "usage": "Cloud Sync",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_2",
+          "name": "Cloud Icon",
+          "usage": "Cloud Service",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_3",
+          "name": "File Icon",
+          "usage": "Access to Files",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_1",
+          "name": "'\"seraph'",
+          "usage": "Text string 'seraph', possibly a username or label",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_1",
+          "name": "'\"seraphine_max_text_log\": 0.8,'",
+          "usage": "Configuration setting for 'seraphine_max_text_log'",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H29_1: \"(use \"git add <file>...\" to include in what will be committed)\" | Usage: \"Instruction on how to stage files for a git commit\"\nH30_1: '\"screen_id\": 0,' | Usage: \"Specifies a screen ID value, likely for configuration or tracking purposes\"\nH31_1: '\"reasoning\":' | Usage: \"Likely precedes an explanation or justification generated by a system\"\nH32_1: '\"confidence\":' | Usage: \"Indicates a level of certainty or accuracy, possibly in a AI-generated text\"\nH32_2: '\"0.95\"' | Usage: \"Confidence score with a specific value of 0.95\"\nH33_1: '\"screen_id\": 0,' | Usage: \"Configuration setting for screen id\"\nH34_1: \"Windows Icon\" | Usage: \"Likely opens the Windows start menu or a similar interface\"\nH34_2: \"Magnifying Glass Icon\" | Usage: \"Activates a search function, possibly for the system or application\"\nH34_3: \"L Icon\" | Usage: \"May represent an installed launcher application\"\nH34_4: \"Outlook Icon\" | Usage: \"Opens the Microsoft Outlook email client\"\nH34_5: \"Microsoft Office Icon\" | Usage: \"Opens the Microsoft Office application\"\nH34_6: \"Folder Icon\" | Usage: \"Opens a file explorer or directory browser\"\nH34_7: \"Teams Icon\" | Usage: \"Opens the Microsoft Teams communication platform\"\nH34_8: \"Microsoft 365 Icon\" | Usage: \"Opens the Microsoft 365 dashboard or application suite\"\nH34_9: \"OneNote Icon\" | Usage: \"Opens the Microsoft OneNote note-taking application\"\nH34_10: \"To Do Icon\" | Usage: \"Opens the Microsoft To Do task management app\"\nH34_11: \"PowerPoint Icon\" | Usage: \"Opens the Microsoft PowerPoint presentation software\"\nH34_12: \"Word Icon\" | Usage: \"Opens the Microsoft Word text editor\"\nH35_1: \"modified:\" | Usage: \"Indicates that a file or content has been changed\"\nH35_2: \"computer_agent/logs/common.log\" | Usage: \"File path to a log file named 'common.log'\"\nH36_1: \"computer_agent/pipeline/pipeline_test.py\" | Usage: \"File path to a Python script named 'pipeline_test.py'\"\nH37_1: \"computer_agent/outputs/\" | Usage: \"Directory path where outputs from the agent are stored\"\nH38_1: \"computer_agent/utils/gemini_integration_test.py\" | Usage: \"File path to a Python script named 'gemini_integration_test.py'\"\nH39_1: \"Equals Sign\" | Usage: \"Visually separates sections or denotes a specific parameter\"\nH39_2: \"Equals Sign\" | Usage: \"Visually separates sections or denotes a specific parameter\"\nH39_3: \"Equals Sign\" | Usage: \"Visually separates sections or denotes a specific parameter\"\nH40_1: \"Ctrl+K to generate a command\" | Usage: \"Keyboard shortcut to generate a command\"\nH41_1: \"Ctrl+K to gene\" | Usage: \"Keyboard shortcut to generate something\"\nH41_2: \"rate a con\" | Usage: \"Part of label, rate something\"\nH41_3: \"and\" | Usage: \"Part of label\"\nH42_1: \"uv - eagv1 - Cursor\" | Usage: \"Select Cursor\"\nH43_1: \"Rectangle Icon\" | Usage: \"May represent a selected region or object on screen\"\nH44_1: \"Therefore,\" | Usage: \"Transitional word\"\nH44_2: \"the next step is to launch notepad.\" | Usage: \"Instruction to launch notepad\"\nH45_1: \"Quote Icon\" | Usage: \"Quoting something\"\nH46_1: \"Line Icon\" | Usage: \"Likely a divider\"\nH47_1: \"Exclamation Icon\" | Usage: \"Likely for notifications\"\nH48_1: \"Plus Minus Icon\" | Usage: \"Likely for increasing or decreasing value\"\nH48_2: \"Triple Dots Icon\" | Usage: \"Options menu\"\nH48_3: \"Up Arrow\" | Usage: \"Scroll up\"\nH48_4: \"X Icon\" | Usage: \"Close button\"\nH49_1: \"Plus Icon\" | Usage: \"Add button\"\nH49_2: \"Pause Icon\" | Usage: \"Pausing function\"\nH50_1: \"Triple Dots Icon\" | Usage: \"Options menu\"\nH51_1: \"Cloud Up Arrow Icon\" | Usage: \"Cloud syncing settings\"\nH51_2: \"ENG IN\" | Usage: \"Language input settings\"\nH51_3: \"Speaker and Battery Icon\" | Usage: \"Sound and battery settings\"\nH51_4: \"6:52 PM 6/12/2025\" | Usage: \"System time and date\"\nH52_1: \"> 4 files +218 -8\" | Usage: \"Shows the number of files and their change status\"\nH53_1: \"Plan, search, build anything\" | Usage: \"Describes an action or goal related to project development\"\nH54_1: \"Review changes\" | Usage: \"Initiate a review process for code or documents\"\nH55_1: \"Add Context\" | Usage: \"Include additional information\"\nH56_1: \"Agent Ctrl+^\" | Usage: \"Triggers an Agent action using a keyboard shortcut\"\nH56_2: \"Auto\" | Usage: \"Automatic Mode\"\nH57_1: \"Arrow Icon\" | Usage: \"Advance forward\"\nH58_1: \"Cloud Icon\" | Usage: \"Cloud Sync\"\nH58_2: \"Cloud Icon\" | Usage: \"Cloud Service\"\nH58_3: \"File Icon\" | Usage: \"Access to Files\"\nH59_1: '\"seraph' | Usage: \"Text string 'seraph', possibly a username or label\"\nH60_1: '\"seraphine_max_text_log\": 0.8,' | Usage: \"Configuration setting for 'seraphine_max_text_log'\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_2_49_bboxes.png",
+      "image_name": "combined_groups_2_49_bboxes.png",
+      "icons_found": 45,
+      "icons": [
+        {
+          "id": "H61_1",
+          "name": "seraphine_",
+          "usage": "Part of a text label, likely a variable name",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_2",
+          "name": "_max_text_instruction",
+          "usage": "Text label indicating a maximum text instruction setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_3",
+          "name": ": 0.8,",
+          "usage": "Value assignment for a setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_1",
+          "name": "seraphine_",
+          "usage": "Part of a text label, likely a variable name",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_2",
+          "name": "ence",
+          "usage": "Part of a text label, likely completes a word",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_3",
+          "name": ": 0.8,",
+          "usage": "Value assignment for a setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_1",
+          "name": "seraphine_max_text_quote\": 0.8,",
+          "usage": "Text label indicating a maximum text quote setting and its value",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_1",
+          "name": "seraphine_max_text_guide\": 0.8,",
+          "usage": "Text label indicating a maximum text guide setting and its value",
+          "group_type": "H"
+        },
+        {
+          "id": "H65_1",
+          "name": "seraphine",
+          "usage": "Part of a text label, likely a variable name",
+          "group_type": "H"
+        },
+        {
+          "id": "H65_2",
+          "name": "_max_text_background\": 0.8,",
+          "usage": "Text label indicating a maximum text background setting and its value",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_1",
+          "name": "seraphine",
+          "usage": "Part of a text label, likely a variable name",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_2",
+          "name": "_max_text_su",
+          "usage": "Text label indicating a maximum text setting (suffix unclear)",
+          "group_type": "H"
+        },
+        {
+          "id": "H67_1",
+          "name": "Start a new chat for better result",
+          "usage": "Button to initiate a new chat conversation",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_1",
+          "name": "Rectangle Icon",
+          "usage": "Likely represents a window or screen",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_2",
+          "name": "Window Icon",
+          "usage": "Possibly minimizes or restores the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_3",
+          "name": "Document Icon",
+          "usage": "Likely opens a document or file",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_4",
+          "name": "Gear Icon",
+          "usage": "Opens the settings or preferences panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_5",
+          "name": "Minus Icon",
+          "usage": "Minimizes the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_6",
+          "name": "Square Icon",
+          "usage": "Maximize or restore the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_7",
+          "name": "X Icon",
+          "usage": "Closes the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H69_1",
+          "name": "Speaker Icon",
+          "usage": "Adjusts audio volume or mute",
+          "group_type": "H"
+        },
+        {
+          "id": "H69_2",
+          "name": "Document with Magnifying Glass Icon",
+          "usage": "Find or search within a document",
+          "group_type": "H"
+        },
+        {
+          "id": "H70_1",
+          "name": "fer",
+          "usage": "Unclear, part of a file transfer label?",
+          "group_type": "H"
+        },
+        {
+          "id": "H71_1",
+          "name": "Thumbs Up/Down Icon",
+          "usage": "Likely a like/dislike or feedback button",
+          "group_type": "H"
+        },
+        {
+          "id": "H71_2",
+          "name": "Document Icon",
+          "usage": "Likely opens a file or document",
+          "group_type": "H"
+        },
+        {
+          "id": "H71_3",
+          "name": "Three Dots Icon",
+          "usage": "Opens a menu or more options",
+          "group_type": "H"
+        },
+        {
+          "id": "H72_1",
+          "name": "Thumbs Up Icon",
+          "usage": "Likely a like or approval button",
+          "group_type": "H"
+        },
+        {
+          "id": "H73_1",
+          "name": "Cursor Tab",
+          "usage": "Label or tool related to cursor settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H74_1",
+          "name": ": 0.8,",
+          "usage": "Value assignment for a setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_1",
+          "name": "0.8,",
+          "usage": "Numerical Value",
+          "group_type": "H"
+        },
+        {
+          "id": "H76_1",
+          "name": "Plus Icon",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H76_2",
+          "name": "Clock Icon",
+          "usage": "Opens history or recent items",
+          "group_type": "H"
+        },
+        {
+          "id": "H76_3",
+          "name": "Three Dots Icon",
+          "usage": "Opens a menu or more options",
+          "group_type": "H"
+        },
+        {
+          "id": "H77_1",
+          "name": "Picture Frame Icon",
+          "usage": "Opens or inserts an image file",
+          "group_type": "H"
+        },
+        {
+          "id": "HL0_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a>",
+          "usage": "File path in the file system",
+          "group_type": "H"
+        },
+        {
+          "id": "HL1_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a> git status",
+          "usage": "Command line showing the git status",
+          "group_type": "H"
+        },
+        {
+          "id": "HL2_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1> cd .\\\\eag14a\\\\",
+          "usage": "Command line showing directory change",
+          "group_type": "H"
+        },
+        {
+          "id": "HL3_1",
+          "name": "\\\"The user wants to open notepad. The current screen shows the desktop and notepad is not open.",
+          "usage": "Text describing the current state and user intent",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "Abstract Icon",
+          "usage": "Likely representing view settings or a perspective transformation.",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "Create test pipeline function",
+          "usage": "Button to create a test pipeline",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_2",
+          "name": "{} config.json No chang",
+          "usage": "Button related to configuration files and version control",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_1",
+          "name": "ges",
+          "usage": "Part of a text label, likely a variable name",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_2",
+          "name": "seraphine_max_text_trace\": 0.8,",
+          "usage": "Text label indicating a maximum text trace setting and its value",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_3",
+          "name": "seraphine_max_text_metric\": 0.8,",
+          "usage": "Text label indicating a maximum text metric setting and its value",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_4",
+          "name": "seraphine_max_text_statistic",
+          "usage": "Text label indicating a maximum text statistic setting",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "H61_1: \"seraphine_\" | Usage: \"Part of a text label, likely a variable name\"\nH61_2: \"_max_text_instruction\" | Usage: \"Text label indicating a maximum text instruction setting\"\nH61_3: \": 0.8,\" | Usage: \"Value assignment for a setting\"\nH62_1: \"\"seraphine_\" | Usage: \"Part of a text label, likely a variable name\"\nH62_2: \"ence\" | Usage: \"Part of a text label, likely completes a word\"\nH62_3: \": 0.8,\" | Usage: \"Value assignment for a setting\"\nH63_1: \"\"seraphine_max_text_quote\": 0.8,\" | Usage: \"Text label indicating a maximum text quote setting and its value\"\nH64_1: \"\"seraphine_max_text_guide\": 0.8,\" | Usage: \"Text label indicating a maximum text guide setting and its value\"\nH65_1: \"\"seraphine\" | Usage: \"Part of a text label, likely a variable name\"\nH65_2: \"_max_text_background\": 0.8,\" | Usage: \"Text label indicating a maximum text background setting and its value\"\nH66_1: \"seraphine\" | Usage: \"Part of a text label, likely a variable name\"\nH66_2: \"_max_text_su\" | Usage: \"Text label indicating a maximum text setting (suffix unclear)\"\nH67_1: \"Start a new chat for better result\" | Usage: \"Button to initiate a new chat conversation\"\nH68_1: \"Rectangle Icon\" | Usage: \"Likely represents a window or screen\"\nH68_2: \"Window Icon\" | Usage: \"Possibly minimizes or restores the current window\"\nH68_3: \"Document Icon\" | Usage: \"Likely opens a document or file\"\nH68_4: \"Gear Icon\" | Usage: \"Opens the settings or preferences panel\"\nH68_5: \"Minus Icon\" | Usage: \"Minimizes the current window\"\nH68_6: \"Square Icon\" | Usage: \"Maximize or restore the current window\"\nH68_7: \"X Icon\" | Usage: \"Closes the current window\"\nH69_1: \"Speaker Icon\" | Usage: \"Adjusts audio volume or mute\"\nH69_2: \"Document with Magnifying Glass Icon\" | Usage: \"Find or search within a document\"\nH70_1: \"fer\" | Usage: \"Unclear, part of a file transfer label?\"\nH71_1: \"Thumbs Up/Down Icon\" | Usage: \"Likely a like/dislike or feedback button\"\nH71_2: \"Document Icon\" | Usage: \"Likely opens a file or document\"\nH71_3: \"Three Dots Icon\" | Usage: \"Opens a menu or more options\"\nH72_1: \"Thumbs Up Icon\" | Usage: \"Likely a like or approval button\"\nH73_1: \"Cursor Tab\" | Usage: \"Label or tool related to cursor settings\"\nH74_1: \": 0.8,\" | Usage: \"Value assignment for a setting\"\nH75_1: \"0.8,\" | Usage: \"Numerical Value\"\nH76_1: \"Plus Icon\" | Usage: \"Adds a new item or element\"\nH76_2: \"Clock Icon\" | Usage: \"Opens history or recent items\"\nH76_3: \"Three Dots Icon\" | Usage: \"Opens a menu or more options\"\nH77_1: \"Picture Frame Icon\" | Usage: \"Opens or inserts an image file\"\nHL0_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a>\" | Usage: \"File path in the file system\"\nHL1_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a> git status\" | Usage: \"Command line showing the git status\"\nHL2_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1> cd .\\\\eag14a\\\\\" | Usage: \"Command line showing directory change\"\nHL3_1: \"\\\"The user wants to open notepad. The current screen shows the desktop and notepad is not open.\" | Usage: \"Text describing the current state and user intent\"\nV0_1: \"Abstract Icon\" | Usage: \"Likely representing view settings or a perspective transformation.\"\nV1_1: \"Create test pipeline function\" | Usage: \"Button to create a test pipeline\"\nV1_2: \"{} config.json No chang\" | Usage: \"Button related to configuration files and version control\"\nV2_1: \"ges\" | Usage: \"Part of a text label, likely a variable name\"\nV2_2: \"\"seraphine_max_text_trace\": 0.8,\" | Usage: \"Text label indicating a maximum text trace setting and its value\"\nV2_3: \"\"seraphine_max_text_metric\": 0.8,\" | Usage: \"Text label indicating a maximum text metric setting and its value\"\nV2_4: \"\"seraphine_max_text_statistic\"\" | Usage: \"Text label indicating a maximum text statistic setting\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_3_70_bboxes.png",
+      "image_name": "combined_groups_3_70_bboxes.png",
+      "icons_found": 32,
+      "icons": [
+        {
+          "id": "V3_1",
+          "name": "Black Circle",
+          "usage": "Unknown toggle or indicator",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_2",
+          "name": "Black Circle",
+          "usage": "Unknown toggle or indicator",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_3",
+          "name": "Black Circle",
+          "usage": "Unknown toggle or indicator",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_1",
+          "name": "Decision output for step 1",
+          "usage": "Text box displaying the step number output",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_2",
+          "name": "Equals symbol",
+          "usage": "Displaying equivalence",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_3",
+          "name": "\\\"selected_tool\\\": \\\"launch\\\",",
+          "usage": "Text box showing the selected tool is set to launch",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_4",
+          "name": "\\\"tool_parameters\\\": {",
+          "usage": "Text box showing the beginning of the tool parameters",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_1",
+          "name": "{",
+          "usage": "Code block start",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_1",
+          "name": "agent",
+          "usage": "Menu to select an agent",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_2",
+          "name": "prompts",
+          "usage": "Menu to select a prompt",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_1",
+          "name": "\\\"seraphine_max_text_analysis\\\": 0.8,",
+          "usage": "Text box displaying a seraphine analysis score",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_2",
+          "name": "\\\"seraphine_max_text_summary\\\": 0.8,",
+          "usage": "Text box displaying a seraphine summary score",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_1",
+          "name": "summary_prompt.txt",
+          "usage": "File name of a summary prompt",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_2",
+          "name": "> utils",
+          "usage": "Folder Directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_3",
+          "name": "computer_agent.py",
+          "usage": "Python script filename",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_1",
+          "name": "\\\"seraphine_max_text_suggestion\\\": 0.8,",
+          "usage": "Text box displaying a seraphine suggestion score",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_2",
+          "name": "\\\"seraphine_max_text_guidance\\\": 0.8,",
+          "usage": "Text box displaying a seraphine guidance score",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_3",
+          "name": "\\\"seraphine_max_text_tutoria",
+          "usage": "Text box displaying a seraphine tutorial",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_1",
+          "name": "\\\"seraphine_max_text_documentation\\\": 0.8",
+          "usage": "Text box displaying a seraphine documentation score",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_2",
+          "name": "\\\"seraphine_max_text_bibliography\\\": 0.8,",
+          "usage": "Text box displaying a seraphine bibliography score",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_1",
+          "name": "\\\"app_name\\\": \\\"notepad\\\",",
+          "usage": "Text box showing the app name is set to notepad",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_2",
+          "name": "\\\"fullscreen\\\": true",
+          "usage": "Text box showing that fullscreen is enabled",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_1",
+          "name": "\\\"seraphine_max_text_introduction\\\": 0.8,",
+          "usage": "Text box displaying a seraphine introduction score",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_2",
+          "name": "\\\"seraphine_max_text_methodology\\\": 0.8,",
+          "usage": "Text box displaying a seraphine methodology score",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_3",
+          "name": "\\\"seraphine_max_text_disco",
+          "usage": "Text box displaying a seraphine discovery",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_1",
+          "name": "Circle",
+          "usage": "Unknown toggle or indicator",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_1",
+          "name": "> utils",
+          "usage": "Folder Directory",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_1",
+          "name": "\\\"seraphine_max_text_results\\\": 0.8,",
+          "usage": "Text box displaying a seraphine results score",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_2",
+          "name": "\\\"seraphine_max_text_conclusion\\\": 0.8,",
+          "usage": "Text box displaying a seraphine conclusion score",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_1",
+          "name": ".gitignore",
+          "usage": "File related to git",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_2",
+          "name": ".python-version",
+          "usage": "File storing the python version",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_3",
+          "name": "log_config.py",
+          "usage": "Python script filename",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "V3_1: \"Black Circle\" | Usage: \"Unknown toggle or indicator\"\nV3_2: \"Black Circle\" | Usage: \"Unknown toggle or indicator\"\nV3_3: \"Black Circle\" | Usage: \"Unknown toggle or indicator\"\nV4_1: \"Decision output for step 1\" | Usage: \"Text box displaying the step number output\"\nV4_2: \"Equals symbol\" | Usage: \"Displaying equivalence\"\nV4_3: \"\\\"selected_tool\\\": \\\"launch\\\",\" | Usage: \"Text box showing the selected tool is set to launch\"\nV4_4: \"\\\"tool_parameters\\\": {\" | Usage: \"Text box showing the beginning of the tool parameters\"\nV5_1: \"{\" | Usage: \"Code block start\"\nV6_1: \"agent\" | Usage: \"Menu to select an agent\"\nV6_2: \"prompts\" | Usage: \"Menu to select a prompt\"\nV7_1: \"\\\"seraphine_max_text_analysis\\\": 0.8,\" | Usage: \"Text box displaying a seraphine analysis score\"\nV7_2: \"\\\"seraphine_max_text_summary\\\": 0.8,\" | Usage: \"Text box displaying a seraphine summary score\"\nV8_1: \"summary_prompt.txt\" | Usage: \"File name of a summary prompt\"\nV8_2: \"> utils\" | Usage: \"Folder Directory\"\nV8_3: \"computer_agent.py\" | Usage: \"Python script filename\"\nV9_1: \"\\\"seraphine_max_text_suggestion\\\": 0.8,\" | Usage: \"Text box displaying a seraphine suggestion score\"\nV9_2: \"\\\"seraphine_max_text_guidance\\\": 0.8,\" | Usage: \"Text box displaying a seraphine guidance score\"\nV9_3: \"\\\"seraphine_max_text_tutoria\" | Usage: \"Text box displaying a seraphine tutorial\"\nV10_1: \"\\\"seraphine_max_text_documentation\\\": 0.8\" | Usage: \"Text box displaying a seraphine documentation score\"\nV10_2: \"\\\"seraphine_max_text_bibliography\\\": 0.8,\" | Usage: \"Text box displaying a seraphine bibliography score\"\nV11_1: \"\\\"app_name\\\": \\\"notepad\\\",\" | Usage: \"Text box showing the app name is set to notepad\"\nV11_2: \"\\\"fullscreen\\\": true\" | Usage: \"Text box showing that fullscreen is enabled\"\nV12_1: \"\\\"seraphine_max_text_introduction\\\": 0.8,\" | Usage: \"Text box displaying a seraphine introduction score\"\nV12_2: \"\\\"seraphine_max_text_methodology\\\": 0.8,\" | Usage: \"Text box displaying a seraphine methodology score\"\nV12_3: \"\\\"seraphine_max_text_disco\" | Usage: \"Text box displaying a seraphine discovery\"\nV13_1: \"Circle\" | Usage: \"Unknown toggle or indicator\"\nV14_1: \"> utils\" | Usage: \"Folder Directory\"\nV15_1: \"\\\"seraphine_max_text_results\\\": 0.8,\" | Usage: \"Text box displaying a seraphine results score\"\nV15_2: \"\\\"seraphine_max_text_conclusion\\\": 0.8,\" | Usage: \"Text box displaying a seraphine conclusion score\"\nV16_1: \".gitignore\" | Usage: \"File related to git\"\nV16_2: \".python-version\" | Usage: \"File storing the python version\"\nV16_3: \"log_config.py\" | Usage: \"Python script filename\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_4_20_bboxes.png",
+      "image_name": "combined_groups_4_20_bboxes.png",
+      "icons_found": 18,
+      "icons": [
+        {
+          "id": "V17_1",
+          "name": "uv computer...",
+          "usage": "Opens or switches to the uv computer application.",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_2",
+          "name": "powershell...",
+          "usage": "Opens or switches to the powershell application.",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_3",
+          "name": "powershell",
+          "usage": "Opens or switches to the powershell application.",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_1",
+          "name": "seraphine_max_text_glossary\": 0.8,",
+          "usage": "Displays the title of a text glossary file and a version number.",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_2",
+          "name": "seraphine_max_text_table\": 0.8,",
+          "usage": "Displays the title of a text table file and a version number.",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_3",
+          "name": "seraphine_max_text_diagram\": 0.8",
+          "usage": "Displays the title of a text diagram file and a version number.",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_1",
+          "name": "modified:",
+          "usage": "Indicates that the file has been modified.",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_2",
+          "name": "modified:",
+          "usage": "Indicates that the file has been modified.",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_3",
+          "name": "modified:",
+          "usage": "Indicates that the file has been modified.",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_1",
+          "name": "computer_agent/agent/prompts/decision_prompt.txt",
+          "usage": "File path to a text file related to decision prompts.",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_2",
+          "name": "computer_agent/agent/prompts/perception_prompt.txt",
+          "usage": "File path to a text file related to perception prompts.",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_1",
+          "name": "computer_agent/test_pipeline.py",
+          "usage": "File path to a Python script related to a test pipeline.",
+          "group_type": "V"
+        },
+        {
+          "id": "V21_2",
+          "name": "computer_agent/utils/prompt_test.txt",
+          "usage": "File path to a text file containing utility prompts.",
+          "group_type": "V"
+        },
+        {
+          "id": "V22_1",
+          "name": "Gallery Upload",
+          "usage": "Opens or activates gallery upload functionality.",
+          "group_type": "V"
+        },
+        {
+          "id": "V22_2",
+          "name": "New Chat",
+          "usage": "Opens or activates a new chat window or functionality.",
+          "group_type": "V"
+        },
+        {
+          "id": "V22_3",
+          "name": "Notification Bell",
+          "usage": "Displays or toggles notification settings.",
+          "group_type": "V"
+        },
+        {
+          "id": "V23_1",
+          "name": "Arrow Icon",
+          "usage": "Button to navigate forward or advance to the next step.",
+          "group_type": "V"
+        },
+        {
+          "id": "V23_2",
+          "name": "Avatar with Notification",
+          "usage": "Displays the user's avatar with a notification badge.",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "V17_1: \"uv computer...\" | Usage: \"Opens or switches to the uv computer application.\"\nV17_2: \"powershell...\" | Usage: \"Opens or switches to the powershell application.\"\nV17_3: \"powershell\" | Usage: \"Opens or switches to the powershell application.\"\nV18_1: \"\"seraphine_max_text_glossary\": 0.8,\" | Usage: \"Displays the title of a text glossary file and a version number.\"\nV18_2: \"\"seraphine_max_text_table\": 0.8,\" | Usage: \"Displays the title of a text table file and a version number.\"\nV18_3: \"\"seraphine_max_text_diagram\": 0.8\" | Usage: \"Displays the title of a text diagram file and a version number.\"\nV19_1: \"modified:\" | Usage: \"Indicates that the file has been modified.\"\nV19_2: \"modified:\" | Usage: \"Indicates that the file has been modified.\"\nV19_3: \"modified:\" | Usage: \"Indicates that the file has been modified.\"\nV20_1: \"computer_agent/agent/prompts/decision_prompt.txt\" | Usage: \"File path to a text file related to decision prompts.\"\nV20_2: \"computer_agent/agent/prompts/perception_prompt.txt\" | Usage: \"File path to a text file related to perception prompts.\"\nV21_1: \"computer_agent/test_pipeline.py\" | Usage: \"File path to a Python script related to a test pipeline.\"\nV21_2: \"computer_agent/utils/prompt_test.txt\" | Usage: \"File path to a text file containing utility prompts.\"\nV22_1: \"Gallery Upload\" | Usage: \"Opens or activates gallery upload functionality.\"\nV22_2: \"New Chat\" | Usage: \"Opens or activates a new chat window or functionality.\"\nV22_3: \"Notification Bell\" | Usage: \"Displays or toggles notification settings.\"\nV23_1: \"Arrow Icon\" | Usage: \"Button to navigate forward or advance to the next step.\"\nV23_2: \"Avatar with Notification\" | Usage: \"Displays the user's avatar with a notification badge.\"\n",
+      "analysis_success": true
+    }
+  ]
+}

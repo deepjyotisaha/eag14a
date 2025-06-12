@@ -1,0 +1,729 @@
+{
+  "filename_base": "screenshot_20250612_185327_step_3",
+  "analysis_timestamp": "2025-06-12T18:53:42.219161",
+  "analysis_duration_seconds": 11.994167,
+  "total_images_analyzed": 3,
+  "total_input_images": 3,
+  "analysis_mode": "direct",
+  "successful_analyses": 2,
+  "total_icons_found": 115,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_91_bboxes.png",
+      "image_name": "combined_groups_0_91_bboxes.png",
+      "icons_found": 75,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "Cube Icon",
+          "usage": "Represents a menu or file system root",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_3",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_4",
+          "name": "Selection",
+          "usage": "Opens the selection menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_5",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_6",
+          "name": "Go",
+          "usage": "Opens the go menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_7",
+          "name": "Run",
+          "usage": "Opens the run menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_8",
+          "name": "Terminal",
+          "usage": "Opens the terminal",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_9",
+          "name": "Help",
+          "usage": "Opens the help menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "Gear Icon",
+          "usage": "Settings or configuration options",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_2",
+          "name": "env",
+          "usage": "Opens environment settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "> images",
+          "usage": "Folder named 'images', likely expands to show content",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Python Icon",
+          "usage": "Represents a Python file",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_2",
+          "name": "_init__.py",
+          "usage": "Represents an init file for a Python module",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "summary_prompt.txt",
+          "usage": "Represents a text file named 'summary_prompt'",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Document Icon",
+          "usage": "Generic document or file icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_2",
+          "name": "Magnifying Glass Icon on Document",
+          "usage": "Search within document",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_3",
+          "name": "Linked Document Icon",
+          "usage": "Share or connect document",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_4",
+          "name": "Grid Icon",
+          "usage": "View as grid/tiles",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_5",
+          "name": "Down Arrow",
+          "usage": "Open dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Cloud Icon",
+          "usage": "Cloud storage",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_2",
+          "name": "Warning Icon",
+          "usage": "Indicates warning or error",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_3",
+          "name": "Wifi Off Icon",
+          "usage": "Indicates no wifi connection",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "0",
+          "usage": "Represents numeric value of 0",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "Filled Circle Icon",
+          "usage": "Selection or focus indicator",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": "Circle with Line Icon",
+          "usage": "Disable or mute",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_1",
+          "name": "Circle with Line Icon",
+          "usage": "Disable or mute",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "X Icon",
+          "usage": "Close window or application",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "Linked Circles Icon",
+          "usage": "Share function",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_1",
+          "name": "uv computer_agent",
+          "usage": "Represents file named 'uv computer_agent'",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_2",
+          "name": "{} config.json",
+          "usage": "Configuration file in JSON format",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_3",
+          "name": "test_pipeline.py U",
+          "usage": "Python file named 'test_pipeline'",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_4",
+          "name": "prompt_test.txt U",
+          "usage": "Text file named 'prompt_test'",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_1",
+          "name": "List of symbols",
+          "usage": "Shows list of symbols or functions",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_1",
+          "name": "Box Icon",
+          "usage": "Indicates a pane or container",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_1",
+          "name": "Circle",
+          "usage": "Object display or representation",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_1",
+          "name": "{}",
+          "usage": "Curly brace notation, possibly code",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_1",
+          "name": "Windows Logo",
+          "usage": "Windows OS application",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_3",
+          "name": "Document Icon",
+          "usage": "Open file explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_4",
+          "name": "Microsoft Office Icon",
+          "usage": "Opens Microsoft Office application",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_5",
+          "name": "Microsoft 365 Icon",
+          "usage": "Opens Microsoft 365 application",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_6",
+          "name": "File Explorer Icon",
+          "usage": "Opens file explorer window",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_7",
+          "name": "Microsoft Teams Icon",
+          "usage": "Opens Microsoft Teams application",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_8",
+          "name": "Microsoft 365 Logo",
+          "usage": "Shortcut for Microsoft 365 application",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_9",
+          "name": "Folder Icon",
+          "usage": "Opens folder directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_10",
+          "name": "99+",
+          "usage": "Indicates notifications or updates",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_11",
+          "name": "Adobe Creative Cloud Icon",
+          "usage": "Opens Adobe Creative Cloud application",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_12",
+          "name": "Word Icon",
+          "usage": "Opens Microsoft Word application",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_1",
+          "name": "app_name\": \"notepad\",",
+          "usage": "String with app name",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_1",
+          "name": "Document with chart Icon",
+          "usage": "Chart data",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_1",
+          "name": "Ln",
+          "usage": "Line number",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_2",
+          "name": "Ln 1, Col 12 characters",
+          "usage": "Status showing line, column and number of characters",
+          "group_type": "H"
+        },
+        {
+          "id": "H29_1",
+          "name": "File Edit View",
+          "usage": "Text showing different style names or formatting presets",
+          "group_type": "H"
+        },
+        {
+          "id": "H29_2",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "PS C:\\Users\\dsaha\\OneDrive -",
+          "usage": "Filepath in power shell",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "Microsoft\\Documents\\Personal\\deep\\study\\artificial intelligence\\eagv1\\eag14a>",
+          "usage": "Filepath of current file",
+          "group_type": "H"
+        },
+        {
+          "id": "H30_1",
+          "name": "Ctrl+K to gene",
+          "usage": "Shortcut key",
+          "group_type": "H"
+        },
+        {
+          "id": "H30_2",
+          "name": "ate a command",
+          "usage": "Indicates ability to run a command",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "no changes added to commit (use \"git add\" and/or \"git commit -a\")",
+          "usage": "Text saying changes haven't been commited to Git",
+          "group_type": "H"
+        },
+        {
+          "id": "H31_1",
+          "name": "Equals Icon",
+          "usage": "Shows display settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_1",
+          "name": "uv - eagv1 - Cursor",
+          "usage": "Shows current cursor position",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_1",
+          "name": "Square Icon",
+          "usage": "Visual indicator of cursor",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_1",
+          "name": "(CRLF)",
+          "usage": "Line break style",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_1",
+          "name": "UTF-8",
+          "usage": "Character encoding",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_2",
+          "name": "100%",
+          "usage": "Zoom level",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Github Icon",
+          "usage": "Opens Github",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "computer_agent",
+          "usage": "Shows current agent name",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "agent",
+          "usage": "Opens agent configuration",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "prompts",
+          "usage": "Opens prompt selector",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_2",
+          "name": "Code block",
+          "usage": "Display of code",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_3",
+          "name": "hello world",
+          "usage": "Text file named hello world",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_4",
+          "name": "Plus sign",
+          "usage": "Add new element",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Curly Braces",
+          "usage": "Code block delimiter",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "Checklist icon",
+          "usage": "Checklist icon",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H0_1: \"Cube Icon\" | Usage: \"Represents a menu or file system root\"\nH0_2: \"File\" | Usage: \"Opens the file menu\"\nH0_3: \"Edit\" | Usage: \"Opens the edit menu\"\nH0_4: \"Selection\" | Usage: \"Opens the selection menu\"\nH0_5: \"View\" | Usage: \"Opens the view menu\"\nH0_6: \"Go\" | Usage: \"Opens the go menu\"\nH0_7: \"Run\" | Usage: \"Opens the run menu\"\nH0_8: \"Terminal\" | Usage: \"Opens the terminal\"\nH0_9: \"Help\" | Usage: \"Opens the help menu\"\nH10_1: \"Gear Icon\" | Usage: \"Settings or configuration options\"\nH10_2: \"env\" | Usage: \"Opens environment settings\"\nH11_1: \"> images\" | Usage: \"Folder named 'images', likely expands to show content\"\nH12_1: \"Python Icon\" | Usage: \"Represents a Python file\"\nH12_2: \"_init__.py\" | Usage: \"Represents an init file for a Python module\"\nH13_1: \"summary_prompt.txt\" | Usage: \"Represents a text file named 'summary_prompt'\"\nH14_1: \"Document Icon\" | Usage: \"Generic document or file icon\"\nH14_2: \"Magnifying Glass Icon on Document\" | Usage: \"Search within document\"\nH14_3: \"Linked Document Icon\" | Usage: \"Share or connect document\"\nH14_4: \"Grid Icon\" | Usage: \"View as grid/tiles\"\nH14_5: \"Down Arrow\" | Usage: \"Open dropdown menu\"\nH15_1: \"Cloud Icon\" | Usage: \"Cloud storage\"\nH15_2: \"Warning Icon\" | Usage: \"Indicates warning or error\"\nH15_3: \"Wifi Off Icon\" | Usage: \"Indicates no wifi connection\"\nH16_1: \"0\" | Usage: \"Represents numeric value of 0\"\nH17_1: \"Filled Circle Icon\" | Usage: \"Selection or focus indicator\"\nH18_1: \"Circle with Line Icon\" | Usage: \"Disable or mute\"\nH19_1: \"Circle with Line Icon\" | Usage: \"Disable or mute\"\nH1_1: \"X Icon\" | Usage: \"Close window or application\"\nH1_2: \"Linked Circles Icon\" | Usage: \"Share function\"\nH20_1: \"uv computer_agent\" | Usage: \"Represents file named 'uv computer_agent'\"\nH20_2: \"{} config.json\" | Usage: \"Configuration file in JSON format\"\nH20_3: \"test_pipeline.py U\" | Usage: \"Python file named 'test_pipeline'\"\nH20_4: \"prompt_test.txt U\" | Usage: \"Text file named 'prompt_test'\"\nH21_1: \"List of symbols\" | Usage: \"Shows list of symbols or functions\"\nH22_1: \"Box Icon\" | Usage: \"Indicates a pane or container\"\nH23_1: \"Circle\" | Usage: \"Object display or representation\"\nH24_1: \"{}\" | Usage: \"Curly brace notation, possibly code\"\nH25_1: \"Windows Logo\" | Usage: \"Windows OS application\"\nH25_2: \"Magnifying Glass Icon\" | Usage: \"Search function\"\nH25_3: \"Document Icon\" | Usage: \"Open file explorer\"\nH25_4: \"Microsoft Office Icon\" | Usage: \"Opens Microsoft Office application\"\nH25_5: \"Microsoft 365 Icon\" | Usage: \"Opens Microsoft 365 application\"\nH25_6: \"File Explorer Icon\" | Usage: \"Opens file explorer window\"\nH25_7: \"Microsoft Teams Icon\" | Usage: \"Opens Microsoft Teams application\"\nH25_8: \"Microsoft 365 Logo\" | Usage: \"Shortcut for Microsoft 365 application\"\nH25_9: \"Folder Icon\" | Usage: \"Opens folder directory\"\nH25_10: \"99+\" | Usage: \"Indicates notifications or updates\"\nH25_11: \"Adobe Creative Cloud Icon\" | Usage: \"Opens Adobe Creative Cloud application\"\nH25_12: \"Word Icon\" | Usage: \"Opens Microsoft Word application\"\nH26_1: \"\"app_name\": \"notepad\",\" | Usage: \"String with app name\"\nH27_1: \"Document with chart Icon\" | Usage: \"Chart data\"\nH28_1: \"Ln\" | Usage: \"Line number\"\nH28_2: \"Ln 1, Col 12 characters\" | Usage: \"Status showing line, column and number of characters\"\nH29_1: \"File Edit View\" | Usage: \"Text showing different style names or formatting presets\"\nH29_2: \"View\" | Usage: \"Opens the view menu\"\nH2_1: \"PS C:\\Users\\dsaha\\OneDrive -\" | Usage: \"Filepath in power shell\"\nH2_2: \"Microsoft\\Documents\\Personal\\deep\\study\\artificial intelligence\\eagv1\\eag14a>\" | Usage: \"Filepath of current file\"\nH30_1: \"Ctrl+K to gene\" | Usage: \"Shortcut key\"\nH30_2: \"ate a command\" | Usage: \"Indicates ability to run a command\"\nH3_1: \"no changes added to commit (use \"git add\" and/or \"git commit -a\")\" | Usage: \"Text saying changes haven't been commited to Git\"\nH31_1: \"Equals Icon\" | Usage: \"Shows display settings\"\nH32_1: \"uv - eagv1 - Cursor\" | Usage: \"Shows current cursor position\"\nH33_1: \"Square Icon\" | Usage: \"Visual indicator of cursor\"\nH34_1: \"(CRLF)\" | Usage: \"Line break style\"\nH35_1: \"UTF-8\" | Usage: \"Character encoding\"\nH35_2: \"100%\" | Usage: \"Zoom level\"\nH4_1: \"Github Icon\" | Usage: \"Opens Github\"\nH5_1: \"computer_agent\" | Usage: \"Shows current agent name\"\nH6_1: \"agent\" | Usage: \"Opens agent configuration\"\nH7_1: \"prompts\" | Usage: \"Opens prompt selector\"\nH7_2: \"Code block\" | Usage: \"Display of code\"\nH7_3: \"hello world\" | Usage: \"Text file named hello world\"\nH7_4: \"Plus sign\" | Usage: \"Add new element\"\nH8_1: \"Curly Braces\" | Usage: \"Code block delimiter\"\nH9_1: \"Checklist icon\" | Usage: \"Checklist icon\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_1_77_bboxes.png",
+      "image_name": "combined_groups_1_77_bboxes.png",
+      "icons_found": 0,
+      "icons": [],
+      "raw_response": null,
+      "analysis_success": false,
+      "error": "Failed to get response from Gemini"
+    },
+    {
+      "image_path": "direct:combined_groups_2_83_bboxes.png",
+      "image_name": "combined_groups_2_83_bboxes.png",
+      "icons_found": 40,
+      "icons": [
+        {
+          "id": "V3_1",
+          "name": "seraphine_max_text_trace\": 0.8,",
+          "usage": "Text box likely related to tracing with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_2",
+          "name": "seraphine_max_text_metric\": 0.8,",
+          "usage": "Text box likely related to metrics with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_3",
+          "name": "seraphine_max_text_analysis\": 0.8,",
+          "usage": "Text box likely related to analysis with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_1",
+          "name": "seraphine_max_text_log\": 0.8,",
+          "usage": "Text box likely related to logging with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_2",
+          "name": "seraphine_max_text_statistic\": 0.8,",
+          "usage": "Text box likely related to statistics with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_3",
+          "name": "seraphine_max_text_report\": 0.8,",
+          "usage": "Text box likely related to reports with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_1",
+          "name": "screen_id\": 1,",
+          "usage": "Text box showing the screen ID value",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_2",
+          "name": "fullscreer",
+          "usage": "Button to make the view fullscreen",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_1",
+          "name": "seraphine_max_text_reco",
+          "usage": "Text box likely related to recognition",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_1",
+          "name": "> utils",
+          "usage": "Button to access utility functions",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_1",
+          "name": "hello world",
+          "usage": "Text input field or label",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_1",
+          "name": "computer_agent.py",
+          "usage": "File or process related to a computer agent",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_2",
+          "name": "> config",
+          "usage": "Button to access configurations",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_3",
+          "name": "> logs",
+          "usage": "Button to view logs",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_1",
+          "name": "seraphine_max_text_guidance\": 0.8,",
+          "usage": "Text box likely related to guidance with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_2",
+          "name": "seraphine_max_text_tutorial\": 0.8,",
+          "usage": "Text box likely related to tutorial with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_1",
+          "name": "seraphine",
+          "usage": "Text box likely a label for seraphine",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_2",
+          "name": "serap",
+          "usage": "Text box likely a shortened label for seraphine",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_3",
+          "name": "seraphine",
+          "usage": "Text box likely a label for seraphine",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_4",
+          "name": "phine",
+          "usage": "Text box likely part of the word seraphine",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_5",
+          "name": "seraphine_m",
+          "usage": "Text box likely part of the word seraphine",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_6",
+          "name": "phine",
+          "usage": "Text box likely part of the word seraphine",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_7",
+          "name": "phine",
+          "usage": "Text box likely part of the word seraphine",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_1",
+          "name": "hine_max_text_guid",
+          "usage": "Text box likely related to guidance",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_2",
+          "name": "max_text_do",
+          "usage": "Text box likely related to doing",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_3",
+          "name": "max_text_r",
+          "usage": "Text box likely related to a specific role",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_4",
+          "name": "seraphine_max_text_bibliogra",
+          "usage": "Text box likely related to bibliography",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_5",
+          "name": "seraphine_max_text_q",
+          "usage": "Text box likely related to a specific question",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_1",
+          "name": "seraphine_max_text_introduction\": 0.8,",
+          "usage": "Text box likely related to introduction with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_2",
+          "name": "seraphine_max_text_methodology\": 0.8,",
+          "usage": "Text box likely related to methodology with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_3",
+          "name": "seraphine_max_text_discuss",
+          "usage": "Text box likely related to discussion",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_1",
+          "name": "seraphine_max_text_index",
+          "usage": "Text box likely related to index",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_1",
+          "name": "seraphine_max_text_index\": 0.8,",
+          "usage": "Text box likely related to index with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_2",
+          "name": "seraphine_max_text_figure\": 0.8,",
+          "usage": "Text box likely related to figure with a value",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_1",
+          "name": "Blank Rectangle",
+          "usage": "Represents a placeholder or empty area",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_2",
+          "name": "> 4 files +218 -8",
+          "usage": "Displays the number of files and some information",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_1",
+          "name": "UTF-8",
+          "usage": "Button to change text encoding to UTF-8",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_2",
+          "name": "Rectangle Icon",
+          "usage": "Unclear, possibly related to display settings",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_1",
+          "name": "Arrow Upload",
+          "usage": "Icon for file upload",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_2",
+          "name": "New Chat",
+          "usage": "Button to start a new chat",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "V3_1: \"\"seraphine_max_text_trace\": 0.8,\" | Usage: \"Text box likely related to tracing with a value\"\nV3_2: \"\"seraphine_max_text_metric\": 0.8,\" | Usage: \"Text box likely related to metrics with a value\"\nV3_3: \"\"seraphine_max_text_analysis\": 0.8,\" | Usage: \"Text box likely related to analysis with a value\"\nV4_1: \"\"seraphine_max_text_log\": 0.8,\" | Usage: \"Text box likely related to logging with a value\"\nV4_2: \"\"seraphine_max_text_statistic\": 0.8,\" | Usage: \"Text box likely related to statistics with a value\"\nV4_3: \"\"seraphine_max_text_report\": 0.8,\" | Usage: \"Text box likely related to reports with a value\"\nV5_1: \"\"screen_id\": 1,\" | Usage: \"Text box showing the screen ID value\"\nV5_2: \"\"fullscreer\" | Usage: \"Button to make the view fullscreen\"\nV6_1: \"\"seraphine_max_text_reco\" | Usage: \"Text box likely related to recognition\"\nV7_1: \"> utils\" | Usage: \"Button to access utility functions\"\nV8_1: \"hello world\" | Usage: \"Text input field or label\"\nV9_1: \"computer_agent.py\" | Usage: \"File or process related to a computer agent\"\nV9_2: \"> config\" | Usage: \"Button to access configurations\"\nV9_3: \"> logs\" | Usage: \"Button to view logs\"\nV10_1: \"\"seraphine_max_text_guidance\": 0.8,\" | Usage: \"Text box likely related to guidance with a value\"\nV10_2: \"\"seraphine_max_text_tutorial\": 0.8,\" | Usage: \"Text box likely related to tutorial with a value\"\nV11_1: \"seraphine\" | Usage: \"Text box likely a label for seraphine\"\nV11_2: \"serap\" | Usage: \"Text box likely a shortened label for seraphine\"\nV11_3: \"\"seraphine\" | Usage: \"Text box likely a label for seraphine\"\nV11_4: \"phine\" | Usage: \"Text box likely part of the word seraphine\"\nV11_5: \"\"seraphine_m\" | Usage: \"Text box likely part of the word seraphine\"\nV11_6: \"phine\" | Usage: \"Text box likely part of the word seraphine\"\nV11_7: \"phine\" | Usage: \"Text box likely part of the word seraphine\"\nV12_1: \"hine_max_text_guid\" | Usage: \"Text box likely related to guidance\"\nV12_2: \"max_text_do\" | Usage: \"Text box likely related to doing\"\nV12_3: \"max_text_r\" | Usage: \"Text box likely related to a specific role\"\nV12_4: \"\"seraphine_max_text_bibliogra\" | Usage: \"Text box likely related to bibliography\"\nV12_5: \"\"seraphine_max_text_q\" | Usage: \"Text box likely related to a specific question\"\nV13_1: \"\"seraphine_max_text_introduction\": 0.8,\" | Usage: \"Text box likely related to introduction with a value\"\nV13_2: \"\"seraphine_max_text_methodology\": 0.8,\" | Usage: \"Text box likely related to methodology with a value\"\nV13_3: \"\"seraphine_max_text_discuss\" | Usage: \"Text box likely related to discussion\"\nV14_1: \"\"seraphine_max_text_index\"\" | Usage: \"Text box likely related to index\"\nV15_1: \"\"seraphine_max_text_index\": 0.8,\" | Usage: \"Text box likely related to index with a value\"\nV15_2: \"\"seraphine_max_text_figure\": 0.8,\" | Usage: \"Text box likely related to figure with a value\"\nV16_1: \"Blank Rectangle\" | Usage: \"Represents a placeholder or empty area\"\nV16_2: \"> 4 files +218 -8\" | Usage: \"Displays the number of files and some information\"\nV17_1: \"UTF-8\" | Usage: \"Button to change text encoding to UTF-8\"\nV17_2: \"Rectangle Icon\" | Usage: \"Unclear, possibly related to display settings\"\nV18_1: \"Arrow Upload\" | Usage: \"Icon for file upload\"\nV18_2: \"New Chat\" | Usage: \"Button to start a new chat\"\n",
+      "analysis_success": true
+    }
+  ]
+}

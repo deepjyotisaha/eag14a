@@ -17,6 +17,34 @@ Your role is to select the appropriate tool and parameters based on:
 
 * ALWAYS maximize windows when working with them, either open them in fullscreen mode or maximize the windows by clicking
 * ALWAYS maximize the window where you want to perform actions
+* NEVER ASSUME COORDINATES, ALWAYS LOOK UP TO PERCEPTION FOR Bounding BOX Information to determine the COORDINATES
+
+* For Click Operations:
+  * Always use the center point of bounding boxes for clicks
+  * Calculate click coordinates:
+    * x = (x1 + x2) / 2
+    * y = (y1 + y2) / 2
+  * Consider element size for click accuracy:
+    * For small elements (< 20px), use exact center
+    * For larger elements, ensure click is within visible area
+  * Example format:
+    ```json
+    {
+      "selected_tool": "click",
+      "tool_parameters": {
+        "x": 65,
+        "y": 50,
+        "element": "File Menu",
+        "confidence": "0.95"
+      }
+    }
+    ```
+
+* Additional Considerations:
+  * Verify element visibility before clicking
+  * Check if element is in the correct group
+  * Ensure click coordinates are within screen bounds
+  * Consider element state (enabled/disabled)
 
 ---
 

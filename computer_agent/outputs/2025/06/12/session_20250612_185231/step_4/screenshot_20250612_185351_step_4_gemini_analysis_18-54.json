@@ -1,0 +1,267 @@
+{
+  "filename_base": "screenshot_20250612_185351_step_4",
+  "analysis_timestamp": "2025-06-12T18:54:00.453220",
+  "analysis_duration_seconds": 7.013398,
+  "total_images_analyzed": 1,
+  "total_input_images": 1,
+  "analysis_mode": "direct",
+  "successful_analyses": 1,
+  "total_icons_found": 41,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_56_bboxes.png",
+      "image_name": "combined_groups_0_56_bboxes.png",
+      "icons_found": 41,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_3",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "Document icon",
+          "usage": "Creates a new document",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "hello worldhelloworld",
+          "usage": "Text box displaying sample text",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "hello worldhelloworld",
+          "usage": "Text box displaying sample text",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "Ln 1, Col 22 21 characters",
+          "usage": "Displays the current line and column number and character count",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Umbrella Icon with Notification",
+          "usage": "Opens a security or protection settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Dot Icon",
+          "usage": "Represents a status indicator or a setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_2",
+          "name": "Plus Icon",
+          "usage": "Adds or creates a new element",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Windows Logo",
+          "usage": "Opens the Windows start menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_2",
+          "name": "Magnifying Glass",
+          "usage": "Opens the search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_3",
+          "name": "Square Icon",
+          "usage": "Opens the Task View",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_4",
+          "name": "Office Logo",
+          "usage": "Opens the Office application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_5",
+          "name": "People Icon",
+          "usage": "Opens the People app/contacts",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_6",
+          "name": "Calendar Icon",
+          "usage": "Opens the Calendar app",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_7",
+          "name": "Teams Icon",
+          "usage": "Opens Microsoft Teams",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_8",
+          "name": "M365 Icon",
+          "usage": "Opens Microsoft 365 application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_9",
+          "name": "Mail Icon",
+          "usage": "Opens the Mail application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_10",
+          "name": "Notification Icon",
+          "usage": "Opens the notification center",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_11",
+          "name": "Word Icon",
+          "usage": "Opens the Word application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_12",
+          "name": "Word Icon",
+          "usage": "Opens the Word application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_13",
+          "name": "Excel Icon",
+          "usage": "Opens the Excel application",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "100%",
+          "usage": "Displays current zoom level",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Up Arrow",
+          "usage": "Increases a value or setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_2",
+          "name": "Cloud Icon",
+          "usage": "Accesses cloud storage settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_3",
+          "name": "Cloud Icon",
+          "usage": "Accesses cloud storage settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_4",
+          "name": "Grid Icon",
+          "usage": "Opens more apps",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_5",
+          "name": "ENG IN",
+          "usage": "Shows the current language input setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_6",
+          "name": "Wifi and Battery Icon",
+          "usage": "Shows the Wi-Fi and Battery Status",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_7",
+          "name": "6:53 PM 6/12/2025",
+          "usage": "Displays the current time and date",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "Wifi Icon",
+          "usage": "Displays Wifi Connection status",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "Speaker Icon",
+          "usage": "Adjusts the volume",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "Minus Sign",
+          "usage": "Minimizes a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_2",
+          "name": "Square Icon",
+          "usage": "Maximizes a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_3",
+          "name": "X Icon",
+          "usage": "Closes a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "Down Arrow",
+          "usage": "Shows hidden icons in the system tray",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_2",
+          "name": "Person Icon",
+          "usage": "Opens User Settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_3",
+          "name": "Gear Icon",
+          "usage": "Opens system settings",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "UTF-8",
+          "usage": "Shows the text encoding",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "Windows (CRLF)",
+          "usage": "Shows line ending format",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "```\nH0_1: \"File\" | Usage: \"Opens the file menu\"\nH0_2: \"Edit\" | Usage: \"Opens the edit menu\"\nH0_3: \"View\" | Usage: \"Opens the view menu\"\nH1_1: \"Document icon\" | Usage: \"Creates a new document\"\nH1_2: \"hello worldhelloworld\" | Usage: \"Text box displaying sample text\"\nH2_1: \"hello worldhelloworld\" | Usage: \"Text box displaying sample text\"\nH3_1: \"Ln 1, Col 22 21 characters\" | Usage: \"Displays the current line and column number and character count\"\nH4_1: \"Umbrella Icon with Notification\" | Usage: \"Opens a security or protection settings\"\nH5_1: \"Dot Icon\" | Usage: \"Represents a status indicator or a setting\"\nH5_2: \"Plus Icon\" | Usage: \"Adds or creates a new element\"\nH6_1: \"Windows Logo\" | Usage: \"Opens the Windows start menu\"\nH6_2: \"Magnifying Glass\" | Usage: \"Opens the search function\"\nH6_3: \"Square Icon\" | Usage: \"Opens the Task View\"\nH6_4: \"Office Logo\" | Usage: \"Opens the Office application\"\nH6_5: \"People Icon\" | Usage: \"Opens the People app/contacts\"\nH6_6: \"Calendar Icon\" | Usage: \"Opens the Calendar app\"\nH6_7: \"Teams Icon\" | Usage: \"Opens Microsoft Teams\"\nH6_8: \"M365 Icon\" | Usage: \"Opens Microsoft 365 application\"\nH6_9: \"Mail Icon\" | Usage: \"Opens the Mail application\"\nH6_10: \"Notification Icon\" | Usage: \"Opens the notification center\"\nH6_11: \"Word Icon\" | Usage: \"Opens the Word application\"\nH6_12: \"Word Icon\" | Usage: \"Opens the Word application\"\nH6_13: \"Excel Icon\" | Usage: \"Opens the Excel application\"\nH7_1: \"100%\" | Usage: \"Displays current zoom level\"\nH8_1: \"Up Arrow\" | Usage: \"Increases a value or setting\"\nH8_2: \"Cloud Icon\" | Usage: \"Accesses cloud storage settings\"\nH8_3: \"Cloud Icon\" | Usage: \"Accesses cloud storage settings\"\nH8_4: \"Grid Icon\" | Usage: \"Opens more apps\"\nH8_5: \"ENG IN\" | Usage: \"Shows the current language input setting\"\nH8_6: \"Wifi and Battery Icon\" | Usage: \"Shows the Wi-Fi and Battery Status\"\nH8_7: \"6:53 PM 6/12/2025\" | Usage: \"Displays the current time and date\"\nH9_1: \"Wifi Icon\" | Usage: \"Displays Wifi Connection status\"\nH9_2: \"Speaker Icon\" | Usage: \"Adjusts the volume\"\nH10_1: \"Minus Sign\" | Usage: \"Minimizes a window\"\nH10_2: \"Square Icon\" | Usage: \"Maximizes a window\"\nH10_3: \"X Icon\" | Usage: \"Closes a window\"\nH11_1: \"Down Arrow\" | Usage: \"Shows hidden icons in the system tray\"\nH11_2: \"Person Icon\" | Usage: \"Opens User Settings\"\nH11_3: \"Gear Icon\" | Usage: \"Opens system settings\"\nV0_1: \"UTF-8\" | Usage: \"Shows the text encoding\"\nV1_1: \"Windows (CRLF)\" | Usage: \"Shows line ending format\"\n```",
+      "analysis_success": true
+    }
+  ]
+}
