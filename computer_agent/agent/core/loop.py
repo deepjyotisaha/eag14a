@@ -6,6 +6,7 @@ from typing import Dict, Any, Optional
 from datetime import datetime
 import logging
 from pathlib import Path
+import pprint
 
 from .context import ComputerAgentContext, StepType, Step
 from pipeline.screenshot import take_screenshot
@@ -18,6 +19,22 @@ from agent.core.summary import Summary
 
 # Set up logging
 logger = setup_logging(__name__)
+
+
+
+def print_structure(d, prefix=''):
+    for key, value in d.items():
+        if isinstance(value, dict):
+            logger.info(f"{prefix}{key}: (dict)")
+            print_structure(value, prefix + '  ')
+        elif isinstance(value, list):
+            logger.info(f"{prefix}{key}: (list with {len(value)} items)")
+            if value and isinstance(value[0], dict):
+                logger.info(f"{prefix}  First item keys: {list(value[0].keys())}")
+        else:
+            logger.info(f"{prefix}{key}: ({type(value).__name__})")
+
+
 
 
 #Open notepad, type "Hello World, I am Computer use agent!" and save the file in desktop with name "hello". Use screen-id 1.
@@ -83,17 +100,30 @@ class ComputerAgentLoop:
                 #log_json_block("Pipeline Result", pipeline_result)
                 log_step("🔍 Image processing pipeline completed")
 
-                logger.info(f"Pipeline result: {pipeline_result}")
-                seraphine_gemini_groups = pipeline_result.get('seraphine_gemini_groups')
-                logger.info(f"Seraphine Gemini Groups: {seraphine_gemini_groups}")
+                # Call this function on pipeline_result
+                logger.info("Printing pipeline result structure")
+                #print_pipeline_structure(pipeline_result)
 
-                # If you want to ensure you're only using seraphine_gemini_groups and not seraphine_groups
-                #if 'seraphine_gemini_groups' in pipeline_result:
-                #    # Use seraphine_gemini_groups
-                #    groups = pipeline_result['seraphine_gemini_groups']
-                #else:
-                #    # Handle the case where Gemini analysis wasn't successful
-                #    logger.info("Gemini analysis was not performed or was unsuccessful")
+                # Print the keys of the pipeline result
+                #logger.info(f"Pipeline result: {pipeline_result}")
+                logger.info(f"Pipeline result keys: {list(pipeline_result.keys())}")
+
+                
+                '''for key, value in pipeline_result.items():
+                    if isinstance(value, dict):
+                        logger.info(f"📁 {key}:")
+                        if key == 'seraphine_gemini_groups':
+                            logger.info(f"Seraphine Gemini Groups: {value}")
+                        if key == 'seraphine_groups':
+                            logger.info(f"Seraphine Groups: {value}")
+                '''
+
+                seraphine_analysis = self.extract_seraphine_data(pipeline_result, 'seraphine_analysis')
+                #seraphine_gemini_groups = self.extract_seraphine_data(pipeline_result, 'seraphine_gemini_groups')
+                logger.info("Logging Seraphine Data")
+                log_seraphine_data(seraphine_analysis, logger)
+                #log_seraphine_data(seraphine_gemini_groups, logger)
+
                 
                 #pipeline_result = {"pipeline_output": "No Screenshot"}
                 
@@ -114,7 +144,7 @@ class ComputerAgentLoop:
                 logger.info(f"🧠 Running perception analysis for step {step_count + 1}")
                 perception = await self.perception.analyze(
                     ctx, 
-                    seraphine_gemini_groups,
+                    seraphine_analysis,
                     snapshot_type=snapshot_type
                 )
                 logger.info(f"🧠 Perception analysis completed for step {step_count + 1}")
@@ -300,3 +330,47 @@ class ComputerAgentLoop:
         ctx.mark_step_completed(error_decision_step.id, error_decision)
         
         return error_decision
+
+    def extract_seraphine_data(self, d, str_key):
+        
+        result = {}
+
+        result[str_key] = None
+
+        logger.info(f"Extracting Seraphine Data for {str_key}")
+        
+        def search_nested_dict(d):
+            for key, value in d.items():
+                # If we find our target keys, store them
+                if key == str_key:
+                    result[str_key] = value
+                
+                # If the value is a dictionary, search it recursively
+                if isinstance(value, dict):
+                    search_nested_dict(value)
+                # If the value is a list of dictionaries, search each dictionary
+                elif isinstance(value, list) and value and isinstance(value[0], dict):
+                    for item in value:
+                        search_nested_dict(item)
+        
+        search_nested_dict(d)
+        return result
+
+def print_pipeline_structure(d, indent=0):
+    indent_str = "  " * indent
+    for key, value in d.items():
+        if isinstance(value, dict):
+            logger.info(f"{indent_str}📁 {key}:")
+            print_pipeline_structure(value, indent + 1)
+        elif isinstance(value, list):
+            logger.info(f"{indent_str}📋 {key}: [{len(value)} items]")
+            if value and isinstance(value[0], dict):
+                logger.info(f"{indent_str}  └─ First item keys: {', '.join(value[0].keys())}")
+        else:
+            logger.info(f"{indent_str}📄 {key}: {type(value).__name__}")
+
+def log_seraphine_data(seraphine_data, logger):
+    pp = pprint.PrettyPrinter(indent=2, width=120, compact=False)
+    for key, value in seraphine_data.items():
+        logger.info(f"\n=== {key} ===\n{pp.pformat(value)}\n{'=' * (8 + len(key))}")
+
