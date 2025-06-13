@@ -18,6 +18,8 @@ Your role is to select the appropriate tool and parameters based on:
 * ALWAYS maximize windows when working with them, either open them in fullscreen mode or maximize the windows by clicking
 * ALWAYS maximize the window where you want to perform actions
 * NEVER ASSUME COORDINATES, ALWAYS LOOK UP TO PERCEPTION FOR Bounding BOX Information to determine the COORDINATES
+* IF YOU DONT HAVE CONFIRMED INFORMATION ON COORDINATES, ASK PERCEPTION FOR THE SAME
+* ALWAYS prefer mouse clicks for clicking on buttons, icons or menu items, avoid keyboard shortcuts. Use keyboard only for text inputs
 
 * For Click Operations:
   * Always use the center point of bounding boxes for clicks

@@ -1,44 +1,201 @@
-2025-06-12 18:51:47,076 - INFO - mcp_server_windows:__init__:47 - Initializing MCPServer
-2025-06-12 18:52:31,523 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
-2025-06-12 18:52:58,364 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:52:58 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:52:59,593 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': True}
-2025-06-12 18:52:59,593 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': True}
-2025-06-12 18:52:59,593 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': True}
-2025-06-12 18:52:59,694 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
-2025-06-12 18:52:59,694 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:52:59 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:53:22,498 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:53:22 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:53:23,943 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
-2025-06-12 18:53:23,943 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
-2025-06-12 18:53:23,943 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
-2025-06-12 18:53:27,889 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "✅ Successfully launched 'notepad' on Screen 1 in fullscreen mode"}
-2025-06-12 18:53:27,890 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:53:23 +0530] "POST /command HTTP/1.1" 200 261 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:53:49,614 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:53:49 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:53:50,925 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'helloworld'}
-2025-06-12 18:53:50,925 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'helloworld'}
-2025-06-12 18:53:50,925 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'helloworld'}
-2025-06-12 18:53:51,144 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "Sent text: 'helloworld' (10 characters)"}
-2025-06-12 18:53:51,145 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:53:50 +0530] "POST /command HTTP/1.1" 200 230 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:54:04,044 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:54:04 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:54:06,206 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.95'}
-2025-06-12 18:54:06,206 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.95'}
-2025-06-12 18:54:06,206 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.95'}
-2025-06-12 18:54:06,427 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (30, 15) on Monitor 1'}
-2025-06-12 18:54:06,429 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:54:06 +0530] "POST /command HTTP/1.1" 200 226 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:54:20,048 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:54:20 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:54:21,734 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 50, 'y': 70, 'element': 'Save As', 'confidence': '0.9'}
-2025-06-12 18:54:21,734 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 50, 'y': 70, 'element': 'Save As', 'confidence': '0.9'}
-2025-06-12 18:54:21,735 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 50, 'y': 70, 'element': 'Save As', 'confidence': '0.9'}
-2025-06-12 18:54:21,943 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (50, 70) on Monitor 1'}
-2025-06-12 18:54:21,952 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:54:21 +0530] "POST /command HTTP/1.1" 200 226 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:54:36,165 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:54:36 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:54:37,678 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'hello.txt'}
-2025-06-12 18:54:37,678 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'hello.txt'}
-2025-06-12 18:54:37,678 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'hello.txt'}
-2025-06-12 18:54:37,873 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "Sent text: 'hello.txt' (9 characters)"}
-2025-06-12 18:54:37,873 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:54:37 +0530] "POST /command HTTP/1.1" 200 228 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:54:51,981 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:54:51 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
-2025-06-12 18:54:54,020 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 700, 'y': 600, 'element': 'Save Button', 'confidence': '0.8'}
-2025-06-12 18:54:54,020 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 700, 'y': 600, 'element': 'Save Button', 'confidence': '0.8'}
-2025-06-12 18:54:54,020 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 700, 'y': 600, 'element': 'Save Button', 'confidence': '0.8'}
-2025-06-12 18:54:54,226 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (700, 600) on Monitor 1'}
-2025-06-12 18:54:54,227 - INFO - web_log:log:214 - ::1 [12/Jun/2025:18:54:54 +0530] "POST /command HTTP/1.1" 200 228 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:44:56,664 - INFO - mcp_server_windows:__init__:47 - Initializing MCPServer
+2025-06-13 14:46:01,785 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-13 14:46:25,848 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:46:25 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:46:27,176 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': True}
+2025-06-13 14:46:27,177 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': True}
+2025-06-13 14:46:27,177 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': True}
+2025-06-13 14:46:27,278 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-13 14:46:27,278 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:46:27 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:46:47,045 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:46:47 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:46:48,448 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 14:46:48,448 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 14:46:48,448 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 14:46:52,340 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "✅ Successfully launched 'notepad' on Screen 1 in fullscreen mode"}
+2025-06-13 14:46:52,341 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:46:48 +0530] "POST /command HTTP/1.1" 200 261 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:47:15,255 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:47:15 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:47:16,453 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 14:47:16,453 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 14:47:16,454 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 14:47:17,200 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "Sent text: 'Hello World, I am Computer use agent!' (37 characters)"}
+2025-06-13 14:47:17,202 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:47:16 +0530] "POST /command HTTP/1.1" 200 257 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:47:31,258 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:47:31 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:47:33,063 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 22, 'y': 49, 'element': 'File Menu', 'confidence': '0.95'}
+2025-06-13 14:47:33,063 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 22, 'y': 49, 'element': 'File Menu', 'confidence': '0.95'}
+2025-06-13 14:47:33,063 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 22, 'y': 49, 'element': 'File Menu', 'confidence': '0.95'}
+2025-06-13 14:47:33,286 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (22, 49) on Monitor 1'}
+2025-06-13 14:47:33,287 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:47:33 +0530] "POST /command HTTP/1.1" 200 226 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:47:46,378 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:47:46 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:47:47,921 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 22, 'y': 100, 'element': 'Save As', 'confidence': '0.80'}
+2025-06-13 14:47:47,922 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 22, 'y': 100, 'element': 'Save As', 'confidence': '0.80'}
+2025-06-13 14:47:47,922 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 22, 'y': 100, 'element': 'Save As', 'confidence': '0.80'}
+2025-06-13 14:47:48,137 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (22, 100) on Monitor 1'}
+2025-06-13 14:47:48,137 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:47:47 +0530] "POST /command HTTP/1.1" 200 227 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:48:02,719 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:48:02 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:48:04,012 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'hello'}
+2025-06-13 14:48:04,012 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'hello'}
+2025-06-13 14:48:04,012 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'hello'}
+2025-06-13 14:48:04,122 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "Sent text: 'hello' (5 characters)"}
+2025-06-13 14:48:04,123 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:48:04 +0530] "POST /command HTTP/1.1" 200 224 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:48:19,379 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:48:19 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:48:21,169 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 70, 'y': 160, 'element': 'Desktop', 'confidence': '0.85'}
+2025-06-13 14:48:21,170 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 70, 'y': 160, 'element': 'Desktop', 'confidence': '0.85'}
+2025-06-13 14:48:21,170 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 70, 'y': 160, 'element': 'Desktop', 'confidence': '0.85'}
+2025-06-13 14:48:21,387 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (70, 160) on Monitor 1'}
+2025-06-13 14:48:21,387 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:48:21 +0530] "POST /command HTTP/1.1" 200 227 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:48:37,703 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:48:37 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 14:48:39,380 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 1666, 'y': 1019, 'element': 'Save Button', 'confidence': '0.90'}
+2025-06-13 14:48:39,380 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 1666, 'y': 1019, 'element': 'Save Button', 'confidence': '0.90'}
+2025-06-13 14:48:39,381 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 1666, 'y': 1019, 'element': 'Save Button', 'confidence': '0.90'}
+2025-06-13 14:48:39,587 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (1666, 1019) on Monitor 1'}
+2025-06-13 14:48:39,588 - INFO - web_log:log:214 - ::1 [13/Jun/2025:14:48:39 +0530] "POST /command HTTP/1.1" 200 230 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:17:42,648 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-13 15:18:04,047 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:18:04 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:18:05,359 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:18:05,359 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:18:05,359 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:18:09,245 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "✅ Successfully launched 'notepad' on Screen 1 in fullscreen mode"}
+2025-06-13 15:18:09,246 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:18:05 +0530] "POST /command HTTP/1.1" 200 261 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:18:28,340 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:18:28 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:18:29,543 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:18:29,544 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:18:29,544 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:18:30,291 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "Sent text: 'Hello World, I am Computer use agent!' (37 characters)"}
+2025-06-13 15:18:30,292 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:18:29 +0530] "POST /command HTTP/1.1" 200 257 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:18:42,163 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:18:42 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:18:43,334 - INFO - mcp_server_windows:handle_command:120 - Executing command: send with params: {'keys': '^s'}
+2025-06-13 15:18:43,334 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: send {'keys': '^s'}
+2025-06-13 15:18:43,334 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: send {'keys': '^s'}
+2025-06-13 15:18:43,435 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': "Unknown key: ^S. Use 'keys' command to see all available keys."}
+2025-06-13 15:18:43,436 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:18:43 +0530] "POST /command HTTP/1.1" 200 254 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:18:56,347 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:18:56 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:18:57,903 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.9'}
+2025-06-13 15:18:57,904 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.9'}
+2025-06-13 15:18:57,904 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.9'}
+2025-06-13 15:18:58,121 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (30, 15) on Monitor 1'}
+2025-06-13 15:18:58,122 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:18:57 +0530] "POST /command HTTP/1.1" 200 226 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:19:10,561 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:19:10 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:19:12,287 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 50, 'y': 100, 'element': 'Save As', 'confidence': '0.75'}
+2025-06-13 15:19:12,287 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 50, 'y': 100, 'element': 'Save As', 'confidence': '0.75'}
+2025-06-13 15:19:12,287 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 50, 'y': 100, 'element': 'Save As', 'confidence': '0.75'}
+2025-06-13 15:19:12,503 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (50, 100) on Monitor 1'}
+2025-06-13 15:19:12,504 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:19:12 +0530] "POST /command HTTP/1.1" 200 227 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:19:27,433 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:19:27 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:19:29,050 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'hello'}
+2025-06-13 15:19:29,050 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'hello'}
+2025-06-13 15:19:29,050 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'hello'}
+2025-06-13 15:19:29,159 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "Sent text: 'hello' (5 characters)"}
+2025-06-13 15:19:29,159 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:19:29 +0530] "POST /command HTTP/1.1" 200 224 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:21:33,391 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-13 15:21:51,669 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:21:51 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:21:53,006 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:21:53,006 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:21:53,006 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:21:56,864 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "✅ Successfully launched 'notepad' on Screen 1 in fullscreen mode"}
+2025-06-13 15:21:56,865 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:21:53 +0530] "POST /command HTTP/1.1" 200 261 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:22:14,812 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:22:14 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:22:15,965 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:22:15,965 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:22:15,965 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:22:16,724 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "Sent text: 'Hello World, I am Computer use agent!' (37 characters)"}
+2025-06-13 15:22:16,724 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:22:15 +0530] "POST /command HTTP/1.1" 200 257 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:22:30,996 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:22:30 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:22:32,666 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.95', 'button': 'left'}
+2025-06-13 15:22:32,666 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.95', 'button': 'left'}
+2025-06-13 15:22:32,666 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.95', 'button': 'left'}
+2025-06-13 15:22:32,887 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (30, 15) on Monitor 1'}
+2025-06-13 15:22:32,888 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:22:32 +0530] "POST /command HTTP/1.1" 200 226 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:22:46,142 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:22:46 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:22:47,983 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 50, 'y': 100, 'element': 'Save As', 'confidence': '0.95', 'button': 'left'}
+2025-06-13 15:22:47,983 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 50, 'y': 100, 'element': 'Save As', 'confidence': '0.95', 'button': 'left'}
+2025-06-13 15:22:47,983 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 50, 'y': 100, 'element': 'Save As', 'confidence': '0.95', 'button': 'left'}
+2025-06-13 15:22:48,205 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (50, 100) on Monitor 1'}
+2025-06-13 15:22:48,206 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:22:47 +0530] "POST /command HTTP/1.1" 200 227 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:23:03,344 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:23:03 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:23:04,698 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'hello'}
+2025-06-13 15:23:04,698 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'hello'}
+2025-06-13 15:23:04,698 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'hello'}
+2025-06-13 15:23:04,808 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "Sent text: 'hello' (5 characters)"}
+2025-06-13 15:23:04,809 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:23:04 +0530] "POST /command HTTP/1.1" 200 224 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:29:02,329 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-13 15:31:46,350 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-13 15:32:05,101 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:32:05 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:32:07,637 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:32:07,637 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:32:07,637 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:32:11,567 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "✅ Successfully launched 'notepad' on Screen 1 in fullscreen mode"}
+2025-06-13 15:32:11,569 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:32:07 +0530] "POST /command HTTP/1.1" 200 261 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:32:30,162 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:32:30 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:32:31,421 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:32:31,422 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:32:31,422 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:32:32,181 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "Sent text: 'Hello World, I am Computer use agent!' (37 characters)"}
+2025-06-13 15:32:32,181 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:32:31 +0530] "POST /command HTTP/1.1" 200 257 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:32:45,249 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:32:45 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:32:46,428 - INFO - mcp_server_windows:handle_command:120 - Executing command: send with params: {'keys': '^s'}
+2025-06-13 15:32:46,429 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: send {'keys': '^s'}
+2025-06-13 15:32:46,429 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: send {'keys': '^s'}
+2025-06-13 15:32:46,529 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': "Unknown key: ^S. Use 'keys' command to see all available keys."}
+2025-06-13 15:32:46,529 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:32:46 +0530] "POST /command HTTP/1.1" 200 254 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:32:59,295 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:32:59 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:33:00,726 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.95'}
+2025-06-13 15:33:00,726 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.95'}
+2025-06-13 15:33:00,727 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 30, 'y': 15, 'element': 'File Menu', 'confidence': '0.95'}
+2025-06-13 15:33:00,938 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (30, 15) on Monitor 1'}
+2025-06-13 15:33:00,942 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:33:00 +0530] "POST /command HTTP/1.1" 200 226 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:33:15,092 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:33:15 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:33:16,673 - INFO - mcp_server_windows:handle_command:120 - Executing command: click with params: {'x': 30, 'y': 60, 'element': 'Save As', 'confidence': '0.95'}
+2025-06-13 15:33:16,673 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: click {'x': 30, 'y': 60, 'element': 'Save As', 'confidence': '0.95'}
+2025-06-13 15:33:16,673 - INFO - mcp_server_windows:_execute_mouse_command:313 - Executing _execute_mouse_command: click {'x': 30, 'y': 60, 'element': 'Save As', 'confidence': '0.95'}
+2025-06-13 15:33:16,877 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': 'Left click at (30, 60) on Monitor 1'}
+2025-06-13 15:33:16,879 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:33:16 +0530] "POST /command HTTP/1.1" 200 226 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:35:18,528 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-13 15:35:36,681 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:35:36 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:35:38,047 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-13 15:35:38,047 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-13 15:35:38,047 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-13 15:35:38,147 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-13 15:35:38,149 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:35:38 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:35:53,173 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:35:53 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:35:54,450 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': False}
+2025-06-13 15:35:54,450 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': False}
+2025-06-13 15:35:54,450 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': False}
+2025-06-13 15:35:57,704 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "✅ Successfully launched 'notepad' on Screen 1"}
+2025-06-13 15:35:57,704 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:35:54 +0530] "POST /command HTTP/1.1" 200 241 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:36:15,145 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:36:15 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:36:16,392 - INFO - mcp_server_windows:handle_command:120 - Executing command: type with params: {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:36:16,392 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: type {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:36:16,392 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: type {'text': 'Hello World, I am Computer use agent!'}
+2025-06-13 15:36:17,131 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "Sent text: 'Hello World, I am Computer use agent!' (37 characters)"}
+2025-06-13 15:36:17,132 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:36:16 +0530] "POST /command HTTP/1.1" 200 257 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:36:35,311 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:36:35 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:36:36,533 - INFO - mcp_server_windows:handle_command:120 - Executing command: send with params: {'keys': '^s'}
+2025-06-13 15:36:36,533 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: send {'keys': '^s'}
+2025-06-13 15:36:36,533 - INFO - mcp_server_windows:_execute_keyboard_command:338 - Executing _execute_keyboard_command: send {'keys': '^s'}
+2025-06-13 15:36:36,634 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': "Unknown key: ^S. Use 'keys' command to see all available keys."}
+2025-06-13 15:36:36,635 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:36:36 +0530] "POST /command HTTP/1.1" 200 254 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:37:24,694 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-13 15:37:45,514 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:37:45 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:37:46,827 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:37:46,827 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:37:46,827 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': True}
+2025-06-13 15:37:50,052 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': "Application launched but failed to move to screen 1: Failed to move: (1400, 'GetWindowRect', 'Invalid window handle.')"}
+2025-06-13 15:37:50,052 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:37:46 +0530] "POST /command HTTP/1.1" 200 311 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:40:16,352 - INFO - mcp_server_windows:handle_sse:68 - SSE client connected
+2025-06-13 15:40:34,621 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:40:34 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:40:36,285 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-13 15:40:36,285 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-13 15:40:36,286 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 0, 'fullscreen': False}
+2025-06-13 15:40:36,386 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': False, 'message': 'Invalid screen ID 0. Available screens: 1-1'}
+2025-06-13 15:40:36,389 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:40:36 +0530] "POST /command HTTP/1.1" 200 235 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:40:51,211 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:40:51 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:40:52,598 - INFO - mcp_server_windows:handle_command:120 - Executing command: launch with params: {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': False}
+2025-06-13 15:40:52,598 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': False}
+2025-06-13 15:40:52,598 - INFO - mcp_server_windows:_execute_system_command:350 - Executing _execute_system_command: launch {'app_name': 'notepad', 'screen_id': 1, 'fullscreen': False}
+2025-06-13 15:40:56,325 - INFO - mcp_server_windows:handle_command:128 - Command result: {'success': True, 'message': "✅ Successfully launched 'notepad' on Screen 1"}
+2025-06-13 15:40:56,326 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:40:52 +0530] "POST /command HTTP/1.1" 200 241 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:41:20,629 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:41:20 +0530] "GET /tools HTTP/1.1" 200 2966 "-" "Python/3.11 aiohttp/3.12.7"
+2025-06-13 15:41:21,792 - INFO - mcp_server_windows:handle_command:120 - Executing command: maximize with params: {'window_id': 'Notepad'}
+2025-06-13 15:41:21,792 - INFO - mcp_server_windows:_execute_command:201 - Executing _execute_command: maximize {'window_id': 'Notepad'}
+2025-06-13 15:41:21,792 - INFO - mcp_server_windows:_execute_window_command:219 - Executing _execute_window_command: maximize {'window_id': 'Notepad'}
+2025-06-13 15:41:21,795 - INFO - mcp_server_windows:handle_command:128 - Command result: {'error': "Window ID 'Notepad' not found (full or short ID)"}
+2025-06-13 15:41:21,796 - INFO - web_log:log:214 - ::1 [13/Jun/2025:15:41:21 +0530] "POST /command HTTP/1.1" 200 220 "-" "Python/3.11 aiohttp/3.12.7"

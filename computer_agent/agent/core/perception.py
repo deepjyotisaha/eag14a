@@ -48,8 +48,7 @@ class Perception:
                 "screen_snapshot": pipeline_result,
                 "completed_steps": [step.to_dict() for step in ctx.steps.values() if step.status == "completed"],
                 "failed_steps": [step.to_dict() for step in ctx.steps.values() if step.status == "failed"],
-                "open_windows": ctx.open_windows,
-                "computer_state": ctx.computer_state
+                "screen_analysis": ctx.screen_analysis
             }
             
             # Get prompt template
@@ -57,7 +56,7 @@ class Perception:
             full_prompt = f"{prompt_template.strip()}\n\n```json\n{json.dumps(perception_input, indent=2)}\n```"
             
             # Log the prompt
-            #logger_prompt(logger, "📝 Perception prompt:", full_prompt)
+            logger_prompt(logger, "📝 Perception prompt:", full_prompt)
             
             
             # Get LLM response
@@ -78,8 +77,7 @@ class Perception:
                 'confidence',
                 'route',
                 'open_windows',
-                'computer_state',
-                'important_coordinates'
+                'screen_analysis'
             ])
             
             # Log perception results

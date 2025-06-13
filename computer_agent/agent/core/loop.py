@@ -20,6 +20,8 @@ from agent.core.summary import Summary
 logger = setup_logging(__name__)
 
 
+#Open notepad, type "Hello World, I am Computer use agent!" and save the file in desktop with name "hello". Use screen-id 1.
+
 class ComputerAgentLoop:
     def __init__(self, multi_mcp, model_manager):
         """
@@ -80,6 +82,18 @@ class ComputerAgentLoop:
                 ctx.pipeline_output = pipeline_result
                 #log_json_block("Pipeline Result", pipeline_result)
                 log_step("🔍 Image processing pipeline completed")
+
+                logger.info(f"Pipeline result: {pipeline_result}")
+                seraphine_gemini_groups = pipeline_result.get('seraphine_gemini_groups')
+                logger.info(f"Seraphine Gemini Groups: {seraphine_gemini_groups}")
+
+                # If you want to ensure you're only using seraphine_gemini_groups and not seraphine_groups
+                #if 'seraphine_gemini_groups' in pipeline_result:
+                #    # Use seraphine_gemini_groups
+                #    groups = pipeline_result['seraphine_gemini_groups']
+                #else:
+                #    # Handle the case where Gemini analysis wasn't successful
+                #    logger.info("Gemini analysis was not performed or was unsuccessful")
                 
                 #pipeline_result = {"pipeline_output": "No Screenshot"}
                 
@@ -100,10 +114,11 @@ class ComputerAgentLoop:
                 logger.info(f"🧠 Running perception analysis for step {step_count + 1}")
                 perception = await self.perception.analyze(
                     ctx, 
-                    pipeline_result,
+                    seraphine_gemini_groups,
                     snapshot_type=snapshot_type
                 )
                 logger.info(f"🧠 Perception analysis completed for step {step_count + 1}")
+                ctx.update_screen_analysis(perception.get("screen_analysis"))
                 ctx.mark_step_completed(perception_step.id, perception)
                 log_json_block(f"📌 Perception output for step {step_count + 1}", perception, char_limit=2000)
                 
