@@ -110,17 +110,16 @@ The agent leverages the MCP (Multi-Computer Protocol) server which provides:
    - Text extraction and understanding
    - Spatial relationship analysis
    - Element grouping and categorization
-
-Reference to Pipeline with Gemini Analysis: 
+   
+   > 📚 **Learn More**: [Pipeline with Gemini Analysis](https://github.com/deepjyotisaha/eag14a/blob/master/computer_agent/README_Seraphine.md)
 
 2. **Tool Execution**
    - Mouse and keyboard control
    - Window management
    - Application launching
    - File operations
-
-Reference to Windows Tool Execution MCP server: https://github.com/deepjyotisaha/eag14a/blob/master/computer_agent/src/windowManager/README.md
-
+   
+   > 📚 **Learn More**: [Windows Tool Execution MCP Server](https://github.com/deepjyotisaha/eag14a/blob/master/computer_agent/src/windowManager/README.md)
 
 ## 📁 Output Structure
 
