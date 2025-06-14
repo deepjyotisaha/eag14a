@@ -1,169 +1,220 @@
-# 🚀 Seraphine AI Pipeline V1.2
+# 🤖 Computer Use Agent
 
-## Detection → Merging → Seraphine Grouping → Gemini Analysis → Export
+A sophisticated AI agent designed to interact with computer interfaces through natural language commands. The agent combines computer vision, natural language processing, and decision-making capabilities to perform tasks on behalf of users.
 
-A comprehensive AI-powered pipeline for intelligent UI element detection, grouping, and analysis. Combines YOLO object detection, OCR text recognition, smart bbox merging, geometric grouping (Seraphine), and LLM-powered icon analysis (Gemini).
+## 🏗️ Architecture
 
----
+### Core Orchestration
 
-## 🌟 Features
+#### 1. Agent Loop (`agent/core/loop.py`)
+- Main execution loop that orchestrates the entire workflow
+- Manages the step-by-step execution of tasks
+- Handles retries and error recovery
+- Implements limits for steps, retries, and re-analysis attempts
+- Coordinates the interaction between all components
 
-### 🎯 **Dual Operation Modes**
-- **Debug Mode**: Full verbose output with visualizations, JSONs, and detailed logs
-- **Deploy MCP Mode**: Silent operation with minimal output, perfect for API integration
+#### 2. Context (`agent/core/context.py`)
+- Maintains the state of the current session
+- Tracks completed and failed steps
+- Manages screen analysis and tool execution history
+- Provides step management functionality
+- Ensures continuity between steps
 
-### 🔧 **Advanced Detection Pipeline**
-- **Parallel Processing**: YOLO + OCR run simultaneously for maximum speed
-- **Intelligent Merging**: 3-stage bbox merging with overlap resolution
-- **Smart Filtering**: Automatically removes YOLO boxes containing >2 OCR elements
+### Step Execution Flow
 
-### 🧠 **Seraphine Intelligent Grouping**
-- **Geometric Analysis**: Groups UI elements by spatial relationships
-- **Layout Understanding**: Identifies horizontal, vertical, and long-box patterns
-- **Overlap Resolution**: Handles complex UI layouts with overlapping elements
+Each step in the agent's execution follows this sequence:
 
-### 🤖 **Gemini LLM Integration**
-- **Icon Recognition**: AI-powered identification of UI elements
-- **Batch Processing**: Optimized concurrent API calls
-- **Rich Descriptions**: Detailed analysis of each detected element
-
-### 📊 **Complete Traceability**
-- **ID Tracking**: Y001 → M001 → H1_1 → Gemini analysis
-- **Perfect Mapping**: Every element tracked through entire pipeline
-- **Comprehensive Output**: JSON + visualizations + performance metrics
-
----
-
-## 🛠️ Installation
-
-### Prerequisites
-```bash
-# Python 3.8+
-python --version
-
-# UV package manager (recommended)
-curl -LsSf https://astral.sh/uv/install.sh | sh
+```mermaid
+graph TD
+    A[Agent Loop] --> B[Step Start]
+    B --> C[Screenshot]
+    C --> D[Pipeline]
+    D --> E[Perception]
+    E --> F{Decision}
+    F -->|Summarize| G[Session End]
+    F -->|Continue| H[Tool Execution]
+    H --> B
 ```
 
-### Setup
-```bash
-# Clone repository
-git clone <repository-url>
-cd enhanced-ai-pipeline
+#### 1. Screenshot (`pipeline/screenshot.py`)
+- Captures current screen state
+- Manages screenshot storage and organization
+- Handles multi-monitor support
+- Provides timestamped image files
+- Ensures consistent image capture for analysis
 
-# Install dependencies
-uv sync
+#### 2. Pipeline (`pipeline/pipeline.py`)
+- Orchestrates the image processing workflow
+- Integrates YOLO object detection
+- Manages OCR text recognition
+- Handles intelligent bbox merging
+- Coordinates Seraphine geometric grouping
+- Processes Gemini analysis results
+- Generates structured screen analysis
 
-# Download models (place in models/ directory)
-# - models/model_dynamic.onnx (YOLO)
-# - models/ch_PP-OCRv3_det_infer.onnx (OCR)
+#### 3. Perception (`agent/core/perception.py`)
+- Analyzes screen state using the MCP server's Gemini analysis
+- Identifies UI elements and their relationships
+- Determines the current state of the task
+- Routes between decision-making, re-analysis, or summarization
+- Provides context-aware analysis
 
-# Setup Gemini API key
-export GOOGLE_API_KEY="your-gemini-api-key"
+#### 4. Decision (`agent/core/decision.py`)
+- Determines the next action based on perception analysis
+- Selects appropriate tools for the task
+- Generates tool parameters
+- Handles error cases and recovery strategies
+- Plans next steps
+
+#### 5. Tool Execution
+- Executes selected tools through MCP server
+- Handles mouse and keyboard control
+- Manages window operations
+- Performs file operations
+- Reports execution results
+
+### Component Integration
+
+The components work together in a tightly integrated workflow:
+
+1. **Initialization**
+   - Agent Loop creates a new session
+   - Context is initialized with user query
+   - Step counter and limits are set
+
+2. **Step Execution**
+   - Screenshot captures current state
+   - Pipeline processes the image
+   - Perception analyzes the results
+   - Decision determines next action
+   - Tool executes the action
+   - Context updates with results
+
+3. **Flow Control**
+   - Perception can request re-analysis
+   - Decision can trigger tool execution
+   - Tool execution can lead to next step
+   - Context maintains state throughout
+
+4. **Completion**
+   - Session summary is generated
+   - Results are logged
+   - Outputs are organized
+
+### MCP Server Integration
+
+The agent leverages the MCP (Multi-Computer Protocol) server which provides:
+
+1. **Gemini Analysis**
+   - Advanced UI element detection and recognition
+   - Text extraction and understanding
+   - Spatial relationship analysis
+   - Element grouping and categorization
+
+2. **Tool Execution**
+   - Mouse and keyboard control
+   - Window management
+   - Application launching
+   - File operations
+
+## 📁 Output Structure
+
+The agent generates detailed outputs for each session:
+
+```
+outputs/
+└── YYYY/
+    └── MM/
+        └── DD/
+            └── session_YYYYMMDD_HHMMSS/
+                ├── step_1/
+                │   ├── screenshot_*.jpg
+                │   └── pipeline_output.json
+                ├── step_2/
+                │   ├── screenshot_*.jpg
+                │   └── pipeline_output.json
+                └── session_summary.json
 ```
 
-### Directory Structure
-```
-enhanced-ai-pipeline/
-├── images/                    # Input images
-│   └── word.png              # Example image
-├── models/                    # AI models
-│   ├── model_dynamic.onnx     # YOLO detection model
-│   └── ch_PP-OCRv3_det_infer.onnx # OCR detection model
-├── outputs/                   # Generated outputs (auto-managed)
-├── utils/                     # Core pipeline modules
-│   ├── config.json           # Configuration file
-│   ├── prompt.txt            # Gemini analysis prompt
-│   ├── yolo_detector.py      # YOLO detection
-│   ├── ocr_detector.py       # OCR detection
-│   ├── bbox_merger.py        # Intelligent merging
-│   ├── seraphine_processor.py # Geometric grouping
-│   ├── gemini_integration.py # LLM analysis
-│   ├── beautiful_visualizer.py # Visualization creation
-│   └── parallel_processor.py # Concurrent processing
-├── main.py                   # Main pipeline entry point
-└── README.md                 # This file
-```
+### Session Summary
+- Complete task execution history
+- Success/failure status
+- Tool usage details
+- Error information if any
 
-Detection + Merge:     2.5-3.0s
-Seraphine Grouping:    0.03-0.08s  
-Image Generation:      0.2-0.3s
-Gemini Analysis:       10-15s
-Visualizations:        0.3-0.5s
-Total Pipeline:        13-19s
+## 🔄 Execution Flow
 
----
+1. **Task Initialization**
+   - User provides natural language task
+   - Agent creates new session context
+   - Initializes step counter and limits
 
-## 🐛 Troubleshooting
+2. **Perception-Analysis Cycle**
+   - Takes screenshot of current state
+   - Runs MCP pipeline for analysis
+   - Processes Gemini analysis results
+   - Updates context with findings
 
-### Common Issues
+3. **Decision Making**
+   - Analyzes current state
+   - Selects appropriate tool
+   - Generates tool parameters
+   - Plans next steps
 
-**Silent Failure in Deploy Mode:**
-```bash
-# Check if image exists
-ls images/word.png
+4. **Tool Execution**
+   - Executes selected tool
+   - Handles errors and retries
+   - Updates context with results
 
-# Verify models are present
-ls models/
+5. **Completion/Summarization**
+   - Generates session summary
+   - Reports success/failure
+   - Provides detailed execution history
 
-# Check Gemini API key
-echo $GOOGLE_API_KEY
+## ⚙️ Configuration
+
+### Agent Settings
+```python
+max_steps = 10      # Maximum steps per session
+max_retries = 3     # Maximum retries per step
+max_analysis = 1    # Maximum re-analysis attempts per step
 ```
 
-**ONNX Model Errors:**
-```bash
-# Ensure correct model versions
-# YOLO: model_dynamic.onnx (YOLOv8 format)
-# OCR: ch_PP-OCRv3_det_infer.onnx (PaddleOCR format)
+### MCP Server Settings
+- Screen ID configuration
+- Tool execution parameters
+- Pipeline analysis settings
+
+## 🛠️ Usage
+
+```python
+# Initialize agent
+agent = ComputerAgentLoop(multi_mcp, model_manager)
+
+# Run task
+result = await agent.run("Open notepad, type 'Hello World' and save it as 'hello.txt'")
 ```
 
-**Memory Issues:**
-```bash
-# Reduce OCR max_side_len in config
-"ocr_max_side_len": 960
+## 📝 Notes
 
-# Reduce Gemini concurrent requests
-"gemini_max_concurrent": 2
-```
+- The agent uses a combination of computer vision and LLM analysis to understand the screen state
+- Each step is carefully logged and can be reviewed in the session summary
+- Error handling and recovery strategies are built into the execution flow
+- The agent maintains context awareness throughout the task execution
 
-### Debug Mode Testing
-```bash
-# Set debug mode
-# Edit utils/config.json: "mode": "debug"
+## 🔒 Security
 
-# Run pipeline
-uv run main.py
-
-# Check outputs
-ls outputs/
-```
-
-### Deploy Mode Testing
-```bash
-# Set deploy mode  
-# Edit utils/config.json: "mode": "deploy_mcp"
-
-# Run pipeline
-uv run main.py
-
-# Should only output: "Pipeline completed in X.Xs, found Y icons."
-```
-
----
+- All tool executions are logged and monitored
+- Sensitive information is not stored in logs
+- Tool execution is sandboxed and controlled
 
 ## 🤝 Contributing
 
-1. **Fork** the repository
-2. **Create** your feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
----
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
