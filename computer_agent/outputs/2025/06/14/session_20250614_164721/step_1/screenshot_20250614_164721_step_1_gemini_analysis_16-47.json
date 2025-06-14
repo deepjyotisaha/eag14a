@@ -1,0 +1,1581 @@
+{
+  "filename_base": "screenshot_20250614_164721_step_1",
+  "analysis_timestamp": "2025-06-14T16:47:45.911611",
+  "analysis_duration_seconds": 14.848907,
+  "total_images_analyzed": 5,
+  "total_input_images": 5,
+  "analysis_mode": "direct",
+  "successful_analyses": 5,
+  "total_icons_found": 254,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_77_bboxes.png",
+      "image_name": "combined_groups_0_77_bboxes.png",
+      "icons_found": 66,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "Down Arrow",
+          "usage": "Dropdown menu toggle",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "EAGV1",
+          "usage": "Application version number or codename",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "X",
+          "usage": "Close button",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "0Δ0",
+          "usage": "Alert or warning notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_3",
+          "name": "Wifi Icon 0",
+          "usage": "Connection Status",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "File Icon",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_4",
+          "name": "Selection",
+          "usage": "Opens the selection menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_5",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_6",
+          "name": "Go",
+          "usage": "Opens the go menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_7",
+          "name": "Run",
+          "usage": "Opens the run menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_8",
+          "name": "Terminal",
+          "usage": "Opens the terminal menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_9",
+          "name": "Help",
+          "usage": "Opens the help menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "Lock Icon",
+          "usage": "Toggle lock/unlock",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_2",
+          "name": "Magnifying Glass",
+          "usage": "Search",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_3",
+          "name": "Nodes Icon",
+          "usage": "Open node editor",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_4",
+          "name": "Down Arrow Icon",
+          "usage": "Dropdown options",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "J Icon",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Circle Icon",
+          "usage": "Toggle object origin",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_2",
+          "name": "PS",
+          "usage": "Photoshop application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "8 Icon",
+          "usage": "Number of active tasks",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "Windows Logo",
+          "usage": "Windows menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_2",
+          "name": "Magnifying Glass",
+          "usage": "Search",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_3",
+          "name": "Rectangle",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_4",
+          "name": "Folder Icon",
+          "usage": "Open file explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_5",
+          "name": "Globe Icon",
+          "usage": "Internet Browser",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_6",
+          "name": "Chart Icon",
+          "usage": "Analytics dashboard",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_7",
+          "name": "Teams Icon",
+          "usage": "Microsoft Teams icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_8",
+          "name": "M365 Icon",
+          "usage": "Microsoft 365",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_9",
+          "name": "Files Icon",
+          "usage": "Open File Explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_10",
+          "name": "99+ Icon",
+          "usage": "Alert notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_11",
+          "name": "Adobe Icon",
+          "usage": "Adobe application",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_12",
+          "name": "W Icon",
+          "usage": "Microsoft Word document",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_13",
+          "name": "X Icon",
+          "usage": "Microsoft Excel file",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Warning Icon",
+          "usage": "Warning Alert",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_2",
+          "name": "0",
+          "usage": "Zero value",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "Circle Icon",
+          "usage": "Object properties",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "PS Icon",
+          "usage": "Photoshop icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "uv computer_agent",
+          "usage": "Script name or module",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_2",
+          "name": "common.log M",
+          "usage": "Log file name",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_3",
+          "name": "loop.py M",
+          "usage": "Python script name",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_4",
+          "name": "Python Icon",
+          "usage": "Python script file",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_5",
+          "name": "context.py",
+          "usage": "Python script file",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "Monitor",
+          "usage": "Displays the monitor status",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Problems",
+          "usage": "Displays a list of problems",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_2",
+          "name": "Output Debug Console",
+          "usage": "Shows output messages",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_3",
+          "name": "Ports",
+          "usage": "Displays a list of ports",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_4",
+          "name": "Terminal",
+          "usage": "Opens terminal window",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "wManager\\mcp_server_windows.py",
+          "usage": "File path to the running script",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Total monitors detected: 1",
+          "usage": "Number of detected monitors",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Total monitors detected: 1",
+          "usage": "Number of detected monitors",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "MCP Server running at http://localhost:8080",
+          "usage": "Server address information",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "Rectangle",
+          "usage": "Represents the active window",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": "Type",
+          "usage": "Instruction to the user to type something",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_2",
+          "name": "your",
+          "usage": "Indication to user to input something",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_3",
+          "name": "command",
+          "usage": "Indication to enter a command",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_1",
+          "name": "Diamond Icon",
+          "usage": "Bullet point or list indicator",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_2",
+          "name": "Computer Agent Assistant",
+          "usage": "Name of the assistant application",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_3",
+          "name": "Diamond Icon",
+          "usage": "Bullet point or list indicator",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_1",
+          "name": "File Icon",
+          "usage": "Unknown function",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_2",
+          "name": "You:",
+          "usage": "Prompt to user",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_1",
+          "name": "WINDOW_COMMANDS:",
+          "usage": "Heading for list of available commands",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_1",
+          "name": "=== Available MCP Tools ===",
+          "usage": "Label for a list of available tools",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_1",
+          "name": "-",
+          "usage": "Subtract or minimize",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_1",
+          "name": "-",
+          "usage": "Subtract or minimize",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "```\nH0_1: \"Down Arrow\" | Usage: \"Dropdown menu toggle\"\nH0_2: \"EAGV1\" | Usage: \"Application version number or codename\"\nH1_1: \"X\" | Usage: \"Close button\"\nH1_2: \"0Δ0\" | Usage: \"Alert or warning notification\"\nH1_3: \"Wifi Icon 0\" | Usage: \"Connection Status\"\nH2_1: \"File Icon\" | Usage: \"Opens the file menu\"\nH2_2: \"File\" | Usage: \"Opens the file menu\"\nH2_3: \"Edit\" | Usage: \"Opens the edit menu\"\nH2_4: \"Selection\" | Usage: \"Opens the selection menu\"\nH2_5: \"View\" | Usage: \"Opens the view menu\"\nH2_6: \"Go\" | Usage: \"Opens the go menu\"\nH2_7: \"Run\" | Usage: \"Opens the run menu\"\nH2_8: \"Terminal\" | Usage: \"Opens the terminal menu\"\nH2_9: \"Help\" | Usage: \"Opens the help menu\"\nH3_1: \"Lock Icon\" | Usage: \"Toggle lock/unlock\"\nH3_2: \"Magnifying Glass\" | Usage: \"Search\"\nH3_3: \"Nodes Icon\" | Usage: \"Open node editor\"\nH3_4: \"Down Arrow Icon\" | Usage: \"Dropdown options\"\nH4_1: \"J Icon\" | Usage: \"Unknown function\"\nH5_1: \"Circle Icon\" | Usage: \"Toggle object origin\"\nH5_2: \"PS\" | Usage: \"Photoshop application icon\"\nH6_1: \"8 Icon\" | Usage: \"Number of active tasks\"\nH7_1: \"Windows Logo\" | Usage: \"Windows menu\"\nH7_2: \"Magnifying Glass\" | Usage: \"Search\"\nH7_3: \"Rectangle\" | Usage: \"Unknown function\"\nH7_4: \"Folder Icon\" | Usage: \"Open file explorer\"\nH7_5: \"Globe Icon\" | Usage: \"Internet Browser\"\nH7_6: \"Chart Icon\" | Usage: \"Analytics dashboard\"\nH7_7: \"Teams Icon\" | Usage: \"Microsoft Teams icon\"\nH7_8: \"M365 Icon\" | Usage: \"Microsoft 365\"\nH7_9: \"Files Icon\" | Usage: \"Open File Explorer\"\nH7_10: \"99+ Icon\" | Usage: \"Alert notification\"\nH7_11: \"Adobe Icon\" | Usage: \"Adobe application\"\nH7_12: \"W Icon\" | Usage: \"Microsoft Word document\"\nH7_13: \"X Icon\" | Usage: \"Microsoft Excel file\"\nH8_1: \"Warning Icon\" | Usage: \"Warning Alert\"\nH8_2: \"0\" | Usage: \"Zero value\"\nH9_1: \"Circle Icon\" | Usage: \"Object properties\"\nH9_2: \"PS Icon\" | Usage: \"Photoshop icon\"\nH10_1: \"uv computer_agent\" | Usage: \"Script name or module\"\nH10_2: \"common.log M\" | Usage: \"Log file name\"\nH10_3: \"loop.py M\" | Usage: \"Python script name\"\nH10_4: \"Python Icon\" | Usage: \"Python script file\"\nH10_5: \"context.py\" | Usage: \"Python script file\"\nH11_1: \"Monitor\" | Usage: \"Displays the monitor status\"\nH12_1: \"Problems\" | Usage: \"Displays a list of problems\"\nH12_2: \"Output Debug Console\" | Usage: \"Shows output messages\"\nH12_3: \"Ports\" | Usage: \"Displays a list of ports\"\nH12_4: \"Terminal\" | Usage: \"Opens terminal window\"\nH13_1: \"wManager\\mcp_server_windows.py\" | Usage: \"File path to the running script\"\nH14_1: \"Total monitors detected: 1\" | Usage: \"Number of detected monitors\"\nH15_1: \"Total monitors detected: 1\" | Usage: \"Number of detected monitors\"\nH16_1: \"MCP Server running at http://localhost:8080\" | Usage: \"Server address information\"\nH17_1: \"Rectangle\" | Usage: \"Represents the active window\"\nH18_1: \"Type\" | Usage: \"Instruction to the user to type something\"\nH18_2: \"your\" | Usage: \"Indication to user to input something\"\nH18_3: \"command\" | Usage: \"Indication to enter a command\"\nH19_1: \"Diamond Icon\" | Usage: \"Bullet point or list indicator\"\nH19_2: \"Computer Agent Assistant\" | Usage: \"Name of the assistant application\"\nH19_3: \"Diamond Icon\" | Usage: \"Bullet point or list indicator\"\nH20_1: \"File Icon\" | Usage: \"Unknown function\"\nH20_2: \"You:\" | Usage: \"Prompt to user\"\nH21_1: \"WINDOW_COMMANDS:\" | Usage: \"Heading for list of available commands\"\nH22_1: \"=== Available MCP Tools ===\" | Usage: \"Label for a list of available tools\"\nH23_1: \"-\" | Usage: \"Subtract or minimize\"\nH24_1: \"-\" | Usage: \"Subtract or minimize\"\n```",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_1_53_bboxes.png",
+      "image_name": "combined_groups_1_53_bboxes.png",
+      "icons_found": 53,
+      "icons": [
+        {
+          "id": "H25_1",
+          "name": "resize: Resize window",
+          "usage": "Resizes the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_1",
+          "name": "-",
+          "usage": "Unclear, possibly a separator or placeholder",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_1",
+          "name": "tree: Show UI hierarchy tree",
+          "usage": "Displays the UI hierarchy in a tree structure",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_1",
+          "name": "minimize: Minimize window",
+          "usage": "Minimizes the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H29_1",
+          "name": "maximize: Maximize window",
+          "usage": "Maximizes the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H30_1",
+          "name": "close: Close window",
+          "usage": "Closes the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H31_1",
+          "name": "move: Move window",
+          "usage": "Moves the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_1",
+          "name": "monitor: Move to monitor",
+          "usage": "Moves the window to another monitor",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_1",
+          "name": "introspect: Deep window introspection",
+          "usage": "Performs deep window introspection",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_1",
+          "name": "get_windows: Get all windows",
+          "usage": "Retrieves all windows",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_1",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Specifies a parameter for window ID as a string",
+          "group_type": "H"
+        },
+        {
+          "id": "H36_1",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Specifies a parameter for window ID as a string",
+          "group_type": "H"
+        },
+        {
+          "id": "H37_1",
+          "name": "'screen':",
+          "usage": "Specifies screen parameter",
+          "group_type": "H"
+        },
+        {
+          "id": "H38_1",
+          "name": "minimize:",
+          "usage": "Action to minimize the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_1",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Specifies a parameter for window ID as a string",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_1",
+          "name": "'monitor': 'number'}",
+          "usage": "Specifies a parameter for monitor ID as a number",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_1",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Specifies a parameter for window ID as a string",
+          "group_type": "H"
+        },
+        {
+          "id": "H42_1",
+          "name": "get_windows:",
+          "usage": "Action to retrieve all windows",
+          "group_type": "H"
+        },
+        {
+          "id": "H42_2",
+          "name": "Get",
+          "usage": "Likely a button to execute the get_windows action",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_1",
+          "name": "resize:",
+          "usage": "Action to resize",
+          "group_type": "H"
+        },
+        {
+          "id": "H44_1",
+          "name": "tree:",
+          "usage": "Action related to the UI tree",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_1",
+          "name": "'exit",
+          "usage": "Command to exit",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_2",
+          "name": "or",
+          "usage": "Logical OR operator",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_1",
+          "name": "monitors",
+          "usage": "Refers to available monitors",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_2",
+          "name": "detected:",
+          "usage": "Indicates monitors are detected",
+          "group_type": "H"
+        },
+        {
+          "id": "H47_1",
+          "name": "1:",
+          "usage": "Likely a count, number of detected monitors",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_1",
+          "name": "notepad,",
+          "usage": "String indicating application name or type",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_2",
+          "name": "type",
+          "usage": "String specifying the application type",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_3",
+          "name": "'\"Hello'",
+          "usage": "First part of text string",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_4",
+          "name": "'World\",'",
+          "usage": "Second part of a text string",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_5",
+          "name": "open",
+          "usage": "Action to open something",
+          "group_type": "H"
+        },
+        {
+          "id": "H49_1",
+          "name": "hierarchy",
+          "usage": "Related to UI hierarchy",
+          "group_type": "H"
+        },
+        {
+          "id": "H49_2",
+          "name": "tree",
+          "usage": "Tree structure of the UI",
+          "group_type": "H"
+        },
+        {
+          "id": "H50_1",
+          "name": "and it'",
+          "usage": "Unclear context, possible completion of the phrase",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_1",
+          "name": "Tools",
+          "usage": "Category of tools",
+          "group_type": "H"
+        },
+        {
+          "id": "H52_1",
+          "name": "window",
+          "usage": "Specifies a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_1",
+          "name": "at",
+          "usage": "Indicates a location",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_2",
+          "name": "(0,",
+          "usage": "First coordinate component",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_3",
+          "name": "0)",
+          "usage": "Second coordinate component",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_4",
+          "name": "-",
+          "usage": "Hyphen symbol",
+          "group_type": "H"
+        },
+        {
+          "id": "H54_1",
+          "name": "at",
+          "usage": "Indicates a location",
+          "group_type": "H"
+        },
+        {
+          "id": "H54_2",
+          "name": "(0,",
+          "usage": "First coordinate component",
+          "group_type": "H"
+        },
+        {
+          "id": "H54_3",
+          "name": "0",
+          "usage": "Second coordinate component",
+          "group_type": "H"
+        },
+        {
+          "id": "H55_1",
+          "name": "windows",
+          "usage": "Plural for window",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_1",
+          "name": "leave.",
+          "usage": "Command to leave or exit",
+          "group_type": "H"
+        },
+        {
+          "id": "H57_1",
+          "name": "position",
+          "usage": "String specifying the position",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_1",
+          "name": "'x':",
+          "usage": "Specifies x coordinate",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_2",
+          "name": "'number',",
+          "usage": "Number value",
+          "group_type": "H"
+        },
+        {
+          "id": "H59_1",
+          "name": "'number',",
+          "usage": "Number value",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_1",
+          "name": "(0,",
+          "usage": "First coordinate component",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_2",
+          "name": "0)",
+          "usage": "Second coordinate component",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_1",
+          "name": "(0,",
+          "usage": "First coordinate component",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_2",
+          "name": "",
+          "usage": "Unclear coordinate component",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H25_1: \"resize: Resize window\" | Usage: \"Resizes the window\"\nH26_1: \"-\" | Usage: \"Unclear, possibly a separator or placeholder\"\nH27_1: \"tree: Show UI hierarchy tree\" | Usage: \"Displays the UI hierarchy in a tree structure\"\nH28_1: \"minimize: Minimize window\" | Usage: \"Minimizes the window\"\nH29_1: \"maximize: Maximize window\" | Usage: \"Maximizes the window\"\nH30_1: \"close: Close window\" | Usage: \"Closes the window\"\nH31_1: \"move: Move window\" | Usage: \"Moves the window\"\nH32_1: \"monitor: Move to monitor\" | Usage: \"Moves the window to another monitor\"\nH33_1: \"introspect: Deep window introspection\" | Usage: \"Performs deep window introspection\"\nH34_1: \"get_windows: Get all windows\" | Usage: \"Retrieves all windows\"\nH35_1: \"Params: {'window_id': 'string'}\" | Usage: \"Specifies a parameter for window ID as a string\"\nH36_1: \"Params: {'window_id': 'string'}\" | Usage: \"Specifies a parameter for window ID as a string\"\nH37_1: \"'screen':\" | Usage: \"Specifies screen parameter\"\nH38_1: \"minimize:\" | Usage: \"Action to minimize the window\"\nH39_1: \"Params: {'window_id': 'string'}\" | Usage: \"Specifies a parameter for window ID as a string\"\nH40_1: \"'monitor': 'number'}\" | Usage: \"Specifies a parameter for monitor ID as a number\"\nH41_1: \"Params: {'window_id': 'string'}\" | Usage: \"Specifies a parameter for window ID as a string\"\nH42_1: \"get_windows:\" | Usage: \"Action to retrieve all windows\"\nH42_2: \"Get\" | Usage: \"Likely a button to execute the get_windows action\"\nH43_1: \"resize:\" | Usage: \"Action to resize\"\nH44_1: \"tree:\" | Usage: \"Action related to the UI tree\"\nH45_1: \"'exit\" | Usage: \"Command to exit\"\nH45_2: \"or\" | Usage: \"Logical OR operator\"\nH46_1: \"monitors\" | Usage: \"Refers to available monitors\"\nH46_2: \"detected:\" | Usage: \"Indicates monitors are detected\"\nH47_1: \"1:\" | Usage: \"Likely a count, number of detected monitors\"\nH48_1: \"notepad,\" | Usage: \"String indicating application name or type\"\nH48_2: \"type\" | Usage: \"String specifying the application type\"\nH48_3: '\"Hello' | Usage: \"First part of text string\"\nH48_4: 'World\",' | Usage: \"Second part of a text string\"\nH48_5: \"open\" | Usage: \"Action to open something\"\nH49_1: \"hierarchy\" | Usage: \"Related to UI hierarchy\"\nH49_2: \"tree\" | Usage: \"Tree structure of the UI\"\nH50_1: \"and it'\" | Usage: \"Unclear context, possible completion of the phrase\"\nH51_1: \"Tools\" | Usage: \"Category of tools\"\nH52_1: \"window\" | Usage: \"Specifies a window\"\nH53_1: \"at\" | Usage: \"Indicates a location\"\nH53_2: \"(0,\" | Usage: \"First coordinate component\"\nH53_3: \"0)\" | Usage: \"Second coordinate component\"\nH53_4: \"-\" | Usage: \"Hyphen symbol\"\nH54_1: \"at\" | Usage: \"Indicates a location\"\nH54_2: \"(0,\" | Usage: \"First coordinate component\"\nH54_3: \"0\" | Usage: \"Second coordinate component\"\nH55_1: \"windows\" | Usage: \"Plural for window\"\nH56_1: \"leave.\" | Usage: \"Command to leave or exit\"\nH57_1: \"position\" | Usage: \"String specifying the position\"\nH58_1: \"'x':\" | Usage: \"Specifies x coordinate\"\nH58_2: \"'number',\" | Usage: \"Number value\"\nH59_1: \"'number',\" | Usage: \"Number value\"\nH60_1: \"(0,\" | Usage: \"First coordinate component\"\nH60_2: \"0)\" | Usage: \"Second coordinate component\"\nH61_1: \"(0,\" | Usage: \"First coordinate component\"\nH61_2: \"\" | Usage: \"Unclear coordinate component\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_2_67_bboxes.png",
+      "image_name": "combined_groups_2_67_bboxes.png",
+      "icons_found": 67,
+      "icons": [
+        {
+          "id": "H62_1",
+          "name": "new",
+          "usage": "Creates a new document or file",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_2",
+          "name": "tab",
+          "usage": "Opens a new tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_3",
+          "name": "and",
+          "usage": "Indicates a condition or relation",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_1",
+          "name": "'}",
+          "usage": "Represents a code block or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_1",
+          "name": "Ctrl+K to generate a command",
+          "usage": "Text box for keyboard shortcut to generate command",
+          "group_type": "H"
+        },
+        {
+          "id": "H65_1",
+          "name": "'number',",
+          "usage": "Text for a numeric type",
+          "group_type": "H"
+        },
+        {
+          "id": "H65_2",
+          "name": "'y':",
+          "usage": "Text for variable y",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_1",
+          "name": "True",
+          "usage": "Boolean value True",
+          "group_type": "H"
+        },
+        {
+          "id": "H67_1",
+          "name": "I",
+          "usage": "String literal",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_1",
+          "name": "Ctrl+K to generate a command",
+          "usage": "Text box for keyboard shortcut to generate a command",
+          "group_type": "H"
+        },
+        {
+          "id": "H69_1",
+          "name": "'}",
+          "usage": "Represents a code block or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H70_1",
+          "name": "'}",
+          "usage": "Represents a code block or object",
+          "group_type": "H"
+        },
+        {
+          "id": "H71_1",
+          "name": "exit.",
+          "usage": "Quits or terminates the application",
+          "group_type": "H"
+        },
+        {
+          "id": "H71_2",
+          "name": "Use",
+          "usage": "Indicates to use a feature or option",
+          "group_type": "H"
+        },
+        {
+          "id": "H72_1",
+          "name": "decision_prompt.txt",
+          "usage": "Filename or path to a decision prompt file",
+          "group_type": "H"
+        },
+        {
+          "id": "H73_1",
+          "name": "_agent>",
+          "usage": "Related to agent",
+          "group_type": "H"
+        },
+        {
+          "id": "H73_2",
+          "name": "uv",
+          "usage": "Represents UV mapping or texture coordinates",
+          "group_type": "H"
+        },
+        {
+          "id": "H73_3",
+          "name": "run",
+          "usage": "Executes or starts a process",
+          "group_type": "H"
+        },
+        {
+          "id": "H74_1",
+          "name": "1,",
+          "usage": "Represents number one",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_1",
+          "name": "Python Icon",
+          "usage": "Runs a python script",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_2",
+          "name": "perception.py",
+          "usage": "Filename or path to a perception script file",
+          "group_type": "H"
+        },
+        {
+          "id": "H76_1",
+          "name": "Llama Icon",
+          "usage": "Represents an AI related process or feature",
+          "group_type": "H"
+        },
+        {
+          "id": "H76_2",
+          "name": "Three Dots",
+          "usage": "Shows more options",
+          "group_type": "H"
+        },
+        {
+          "id": "H77_1",
+          "name": "+",
+          "usage": "Adds an item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H77_2",
+          "name": "X",
+          "usage": "Closes a window or cancels an action",
+          "group_type": "H"
+        },
+        {
+          "id": "H78_1",
+          "name": "Plus Icon",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H78_2",
+          "name": "Window Icon",
+          "usage": "Toggle displaying windows",
+          "group_type": "H"
+        },
+        {
+          "id": "H78_3",
+          "name": "Three Dots",
+          "usage": "Shows more options",
+          "group_type": "H"
+        },
+        {
+          "id": "H79_1",
+          "name": "Three Dots",
+          "usage": "Shows more options",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_1",
+          "name": "Up Arrow",
+          "usage": "Moves selection up",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_2",
+          "name": "Cloud Icon",
+          "usage": "Access to cloud services",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_3",
+          "name": "Cloud Icon",
+          "usage": "Access to cloud services",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_4",
+          "name": "Grid Icon",
+          "usage": "Displays a grid layout",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_5",
+          "name": "ENG IN",
+          "usage": "Text icon for language selector",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_6",
+          "name": "Speaker Icon",
+          "usage": "Toggle audio mute and unmute",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_7",
+          "name": "4:47 PM 6/14/2025",
+          "usage": "Timestamp of something that happened",
+          "group_type": "H"
+        },
+        {
+          "id": "H81_1",
+          "name": "Down Arrow",
+          "usage": "Dropdown menu or expanding options",
+          "group_type": "H"
+        },
+        {
+          "id": "H82_1",
+          "name": "The changes I've made:",
+          "usage": "Text box for describing modifications",
+          "group_type": "H"
+        },
+        {
+          "id": "H83_1",
+          "name": "on the specific requirement.",
+          "usage": "Text box for requirements",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_1",
+          "name": "Plan, search, build anything",
+          "usage": "Text box suggesting planning capabilities",
+          "group_type": "H"
+        },
+        {
+          "id": "H85_1",
+          "name": "3. Modified the re-analyzescreen route",
+          "usage": "Text box for a route that was modified",
+          "group_type": "H"
+        },
+        {
+          "id": "H86_1",
+          "name": "2. After one re-analysis attempt, the agent will",
+          "usage": "Text box describing state after re-analysis",
+          "group_type": "H"
+        },
+        {
+          "id": "H87_1",
+          "name": "3. This prevents potential infinite loops of re-",
+          "usage": "Text box describing a mechanism to prevent infinite loops",
+          "group_type": "H"
+        },
+        {
+          "id": "H88_1",
+          "name": "1. Each step can only re-analyze the screen",
+          "usage": "Text box describing re-analysis screen",
+          "group_type": "H"
+        },
+        {
+          "id": "H89_1",
+          "name": "@ Add Context",
+          "usage": "Text box for adding context",
+          "group_type": "H"
+        },
+        {
+          "id": "H90_1",
+          "name": "∞ Agent Ctrl+I ^ Auto",
+          "usage": "Text box for agents",
+          "group_type": "H"
+        },
+        {
+          "id": "H91_1",
+          "name": "//",
+          "usage": "Text indicating a comment",
+          "group_type": "H"
+        },
+        {
+          "id": "H91_2",
+          "name": "…",
+          "usage": "Represents omitted or more options",
+          "group_type": "H"
+        },
+        {
+          "id": "H91_3",
+          "name": "existing code",
+          "usage": "Text for existing code",
+          "group_type": "H"
+        },
+        {
+          "id": "H91_4",
+          "name": "…",
+          "usage": "Represents omitted or more options",
+          "group_type": "H"
+        },
+        {
+          "id": "H92_1",
+          "name": "initialized to 1 in the",
+          "usage": "Text for value that was initialized",
+          "group_type": "H"
+        },
+        {
+          "id": "H93_1",
+          "name": "loop.py",
+          "usage": "Filename or path for a looping script",
+          "group_type": "H"
+        },
+        {
+          "id": "H94_1",
+          "name": "per step",
+          "usage": "Text indicating a step",
+          "group_type": "H"
+        },
+        {
+          "id": "H95_1",
+          "name": "once",
+          "usage": "Indicates one time event",
+          "group_type": "H"
+        },
+        {
+          "id": "H96_1",
+          "name": "handling to:",
+          "usage": "Text indicating handling events",
+          "group_type": "H"
+        },
+        {
+          "id": "H97_1",
+          "name": "be forced to make a decision",
+          "usage": "Text box describing the decision making process",
+          "group_type": "H"
+        },
+        {
+          "id": "H98_1",
+          "name": "analysis",
+          "usage": "Text indicating data analysis",
+          "group_type": "H"
+        },
+        {
+          "id": "H99_1",
+          "name": "Dot",
+          "usage": "Represents a marker",
+          "group_type": "H"
+        },
+        {
+          "id": "H100_1",
+          "name": "Phone Icon",
+          "usage": "Relates to phone call",
+          "group_type": "H"
+        },
+        {
+          "id": "H100_2",
+          "name": "Phone Icon",
+          "usage": "Relates to phone call",
+          "group_type": "H"
+        },
+        {
+          "id": "H100_3",
+          "name": "Phone Icon",
+          "usage": "Relates to phone call",
+          "group_type": "H"
+        },
+        {
+          "id": "H100_4",
+          "name": "Settings Gear",
+          "usage": "Configuration options",
+          "group_type": "H"
+        },
+        {
+          "id": "H100_5",
+          "name": "Minus Icon",
+          "usage": "Removes an item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H100_6",
+          "name": "Square Icon",
+          "usage": "Represent square shape",
+          "group_type": "H"
+        },
+        {
+          "id": "H100_7",
+          "name": "X Icon",
+          "usage": "Closes a window or cancels an action",
+          "group_type": "H"
+        },
+        {
+          "id": "H101_1",
+          "name": "Auto",
+          "usage": "Toggles automatic mode",
+          "group_type": "H"
+        },
+        {
+          "id": "H102_1",
+          "name": "code",
+          "usage": "Text for executable code",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H62_1: \"new\" | Usage: \"Creates a new document or file\"\nH62_2: \"tab\" | Usage: \"Opens a new tab\"\nH62_3: \"and\" | Usage: \"Indicates a condition or relation\"\nH63_1: \"'}\" | Usage: \"Represents a code block or object\"\nH64_1: \"Ctrl+K to generate a command\" | Usage: \"Text box for keyboard shortcut to generate command\"\nH65_1: \"'number',\" | Usage: \"Text for a numeric type\"\nH65_2: \"'y':\" | Usage: \"Text for variable y\"\nH66_1: \"True\" | Usage: \"Boolean value True\"\nH67_1: \"\"I\"\" | Usage: \"String literal\"\nH68_1: \"Ctrl+K to generate a command\" | Usage: \"Text box for keyboard shortcut to generate a command\"\nH69_1: \"'}\" | Usage: \"Represents a code block or object\"\nH70_1: \"'}\" | Usage: \"Represents a code block or object\"\nH71_1: \"exit.\" | Usage: \"Quits or terminates the application\"\nH71_2: \"Use\" | Usage: \"Indicates to use a feature or option\"\nH72_1: \"decision_prompt.txt\" | Usage: \"Filename or path to a decision prompt file\"\nH73_1: \"_agent>\" | Usage: \"Related to agent\"\nH73_2: \"uv\" | Usage: \"Represents UV mapping or texture coordinates\"\nH73_3: \"run\" | Usage: \"Executes or starts a process\"\nH74_1: \"1,\" | Usage: \"Represents number one\"\nH75_1: \"Python Icon\" | Usage: \"Runs a python script\"\nH75_2: \"perception.py\" | Usage: \"Filename or path to a perception script file\"\nH76_1: \"Llama Icon\" | Usage: \"Represents an AI related process or feature\"\nH76_2: \"Three Dots\" | Usage: \"Shows more options\"\nH77_1: \"+\" | Usage: \"Adds an item or element\"\nH77_2: \"X\" | Usage: \"Closes a window or cancels an action\"\nH78_1: \"Plus Icon\" | Usage: \"Adds a new item or element\"\nH78_2: \"Window Icon\" | Usage: \"Toggle displaying windows\"\nH78_3: \"Three Dots\" | Usage: \"Shows more options\"\nH79_1: \"Three Dots\" | Usage: \"Shows more options\"\nH80_1: \"Up Arrow\" | Usage: \"Moves selection up\"\nH80_2: \"Cloud Icon\" | Usage: \"Access to cloud services\"\nH80_3: \"Cloud Icon\" | Usage: \"Access to cloud services\"\nH80_4: \"Grid Icon\" | Usage: \"Displays a grid layout\"\nH80_5: \"ENG IN\" | Usage: \"Text icon for language selector\"\nH80_6: \"Speaker Icon\" | Usage: \"Toggle audio mute and unmute\"\nH80_7: \"4:47 PM 6/14/2025\" | Usage: \"Timestamp of something that happened\"\nH81_1: \"Down Arrow\" | Usage: \"Dropdown menu or expanding options\"\nH82_1: \"The changes I've made:\" | Usage: \"Text box for describing modifications\"\nH83_1: \"on the specific requirement.\" | Usage: \"Text box for requirements\"\nH84_1: \"Plan, search, build anything\" | Usage: \"Text box suggesting planning capabilities\"\nH85_1: \"3. Modified the re-analyzescreen route\" | Usage: \"Text box for a route that was modified\"\nH86_1: \"2. After one re-analysis attempt, the agent will\" | Usage: \"Text box describing state after re-analysis\"\nH87_1: \"3. This prevents potential infinite loops of re-\" | Usage: \"Text box describing a mechanism to prevent infinite loops\"\nH88_1: \"1. Each step can only re-analyze the screen\" | Usage: \"Text box describing re-analysis screen\"\nH89_1: \"@ Add Context\" | Usage: \"Text box for adding context\"\nH90_1: \"∞ Agent Ctrl+I ^ Auto\" | Usage: \"Text box for agents\"\nH91_1: \"//\" | Usage: \"Text indicating a comment\"\nH91_2: \"…\" | Usage: \"Represents omitted or more options\"\nH91_3: \"existing code\" | Usage: \"Text for existing code\"\nH91_4: \"…\" | Usage: \"Represents omitted or more options\"\nH92_1: \"initialized to 1 in the\" | Usage: \"Text for value that was initialized\"\nH93_1: \"loop.py\" | Usage: \"Filename or path for a looping script\"\nH94_1: \"per step\" | Usage: \"Text indicating a step\"\nH95_1: \"once\" | Usage: \"Indicates one time event\"\nH96_1: \"handling to:\" | Usage: \"Text indicating handling events\"\nH97_1: \"be forced to make a decision\" | Usage: \"Text box describing the decision making process\"\nH98_1: \"analysis\" | Usage: \"Text indicating data analysis\"\nH99_1: \"Dot\" | Usage: \"Represents a marker\"\nH100_1: \"Phone Icon\" | Usage: \"Relates to phone call\"\nH100_2: \"Phone Icon\" | Usage: \"Relates to phone call\"\nH100_3: \"Phone Icon\" | Usage: \"Relates to phone call\"\nH100_4: \"Settings Gear\" | Usage: \"Configuration options\"\nH100_5: \"Minus Icon\" | Usage: \"Removes an item or element\"\nH100_6: \"Square Icon\" | Usage: \"Represent square shape\"\nH100_7: \"X Icon\" | Usage: \"Closes a window or cancels an action\"\nH101_1: \"Auto\" | Usage: \"Toggles automatic mode\"\nH102_1: \"code\" | Usage: \"Text for executable code\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_3_35_bboxes.png",
+      "image_name": "combined_groups_3_35_bboxes.png",
+      "icons_found": 35,
+      "icons": [
+        {
+          "id": "H103_1",
+          "name": "Apply to loop.py",
+          "usage": "Runs a Python script or function repeatedly",
+          "group_type": "H"
+        },
+        {
+          "id": "H103_2",
+          "name": "Down Arrow in Box",
+          "usage": "Downloads or minimizes something",
+          "group_type": "H"
+        },
+        {
+          "id": "H104_1",
+          "name": "Speaker Off Icon",
+          "usage": "Mutes audio output",
+          "group_type": "H"
+        },
+        {
+          "id": "H104_2",
+          "name": "Battery Icon",
+          "usage": "Shows battery level or charging status",
+          "group_type": "H"
+        },
+        {
+          "id": "H105_1",
+          "name": "logger.info(Pel",
+          "usage": "Logs information related to 'Pel' in the application",
+          "group_type": "H"
+        },
+        {
+          "id": "H106_1",
+          "name": "log_step(f'",
+          "usage": "Logs the current step or function being executed",
+          "group_type": "H"
+        },
+        {
+          "id": "H106_2",
+          "name": "Refresh Icon",
+          "usage": "Reloads or refreshes the current view",
+          "group_type": "H"
+        },
+        {
+          "id": "H106_3",
+          "name": "R",
+          "usage": "Represents a function, a module, or a plugin starting with 'R'",
+          "group_type": "H"
+        },
+        {
+          "id": "H107_1",
+          "name": "continue",
+          "usage": "Resumes or proceeds with the current operation",
+          "group_type": "H"
+        },
+        {
+          "id": "H108_1",
+          "name": "Thumbs Up Icon",
+          "usage": "Indicates approval or confirmation",
+          "group_type": "H"
+        },
+        {
+          "id": "H108_2",
+          "name": "Thumbs Down Icon",
+          "usage": "Indicates disapproval or rejection",
+          "group_type": "H"
+        },
+        {
+          "id": "H108_3",
+          "name": "Document Icon",
+          "usage": "Opens or creates a new document",
+          "group_type": "H"
+        },
+        {
+          "id": "H108_4",
+          "name": "Three Dots Icon",
+          "usage": "Opens a menu with more options",
+          "group_type": "H"
+        },
+        {
+          "id": "H109_1",
+          "name": "Cursor Tab",
+          "usage": "Switches the focus to the cursor tab or input field",
+          "group_type": "H"
+        },
+        {
+          "id": "H109_2",
+          "name": "Bell Icon",
+          "usage": "Displays notifications or alerts",
+          "group_type": "H"
+        },
+        {
+          "id": "H110_1",
+          "name": "Plus Icon",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H110_2",
+          "name": "Clock Icon",
+          "usage": "Shows recent history or a timestamp",
+          "group_type": "H"
+        },
+        {
+          "id": "H110_3",
+          "name": "Three Dots Icon",
+          "usage": "Opens a menu with more options",
+          "group_type": "H"
+        },
+        {
+          "id": "H111_1",
+          "name": "File Icon",
+          "usage": "Represents a file or document",
+          "group_type": "H"
+        },
+        {
+          "id": "H111_2",
+          "name": "Up Arrow Icon",
+          "usage": "Uploads a file or data",
+          "group_type": "H"
+        },
+        {
+          "id": "HL0_1",
+          "name": "Params: {'window_id': 'string', 'x': 'number', 'y': 'number'}",
+          "usage": "Parameters related to window ID and X/Y coordinates",
+          "group_type": "H"
+        },
+        {
+          "id": "HL1_1",
+          "name": "You: Open notepad, type 'Hello World', open a new tab and type",
+          "usage": "Example user action or instruction",
+          "group_type": "H"
+        },
+        {
+          "id": "HL2_1",
+          "name": " ",
+          "usage": "Placeholder image or graphical element",
+          "group_type": "H"
+        },
+        {
+          "id": "HL3_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1",
+          "usage": "File system path or location",
+          "group_type": "H"
+        },
+        {
+          "id": "HL4_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1",
+          "usage": "File system path or location",
+          "group_type": "H"
+        },
+        {
+          "id": "HL5_1",
+          "name": "Monitor detected: \\\\\\\\.\\\\DISPLAY1 - 1664x1109 at (0, 0) Primary: True",
+          "usage": "Information about the detected monitor",
+          "group_type": "H"
+        },
+        {
+          "id": "HL6_1",
+          "name": " ",
+          "usage": "Placeholder image or graphical element",
+          "group_type": "H"
+        },
+        {
+          "id": "HL7_1",
+          "name": "Monitor 1: 1664x1109 at (0, 0) - \\\\\\\\.\\\\DISPLAY1 (Primary)",
+          "usage": "Information about the detected monitor",
+          "group_type": "H"
+        },
+        {
+          "id": "HL8_1",
+          "name": "Monitor detected: \\\\\\\\.\\\\DISPLAY1 - 1664x1109 at (0, 0) Primary: True",
+          "usage": "Information about the detected monitor",
+          "group_type": "H"
+        },
+        {
+          "id": "HL9_1",
+          "name": "Monitor 1: 1664x1109 at (0, 0) - \\\\\\\\.\\\\DISPLAY1 (Primary)",
+          "usage": "Information about the detected monitor",
+          "group_type": "H"
+        },
+        {
+          "id": "HL10_1",
+          "name": "Params: {'window_id': 'string', 'width': 'number', 'height': 'number'}",
+          "usage": "Parameters related to window ID, width, and height",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "uv - eagv1 - Cursor",
+          "usage": "Indicates the current debugging setup name and focused element",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_2",
+          "name": "≡ perception_prompt.txt M",
+          "usage": "Text editor showing title of a text file being edited and some details",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_3",
+          "name": "intelligence",
+          "usage": "Shows 'intelligence' as a keyword, variable, or part of a string",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": " ",
+          "usage": "Image or graphical element related to selected function",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "H103_1: \"Apply to loop.py\" | Usage: \"Runs a Python script or function repeatedly\"\nH103_2: \"Down Arrow in Box\" | Usage: \"Downloads or minimizes something\"\nH104_1: \"Speaker Off Icon\" | Usage: \"Mutes audio output\"\nH104_2: \"Battery Icon\" | Usage: \"Shows battery level or charging status\"\nH105_1: \"logger.info(Pel\" | Usage: \"Logs information related to 'Pel' in the application\"\nH106_1: \"log_step(f'\" | Usage: \"Logs the current step or function being executed\"\nH106_2: \"Refresh Icon\" | Usage: \"Reloads or refreshes the current view\"\nH106_3: \"R\" | Usage: \"Represents a function, a module, or a plugin starting with 'R'\"\nH107_1: \"continue\" | Usage: \"Resumes or proceeds with the current operation\"\nH108_1: \"Thumbs Up Icon\" | Usage: \"Indicates approval or confirmation\"\nH108_2: \"Thumbs Down Icon\" | Usage: \"Indicates disapproval or rejection\"\nH108_3: \"Document Icon\" | Usage: \"Opens or creates a new document\"\nH108_4: \"Three Dots Icon\" | Usage: \"Opens a menu with more options\"\nH109_1: \"Cursor Tab\" | Usage: \"Switches the focus to the cursor tab or input field\"\nH109_2: \"Bell Icon\" | Usage: \"Displays notifications or alerts\"\nH110_1: \"Plus Icon\" | Usage: \"Adds a new item or element\"\nH110_2: \"Clock Icon\" | Usage: \"Shows recent history or a timestamp\"\nH110_3: \"Three Dots Icon\" | Usage: \"Opens a menu with more options\"\nH111_1: \"File Icon\" | Usage: \"Represents a file or document\"\nH111_2: \"Up Arrow Icon\" | Usage: \"Uploads a file or data\"\nHL0_1: \"Params: {'window_id': 'string', 'x': 'number', 'y': 'number'}\" | Usage: \"Parameters related to window ID and X/Y coordinates\"\nHL1_1: \"You: Open notepad, type 'Hello World', open a new tab and type\" | Usage: \"Example user action or instruction\"\nHL2_1: \" \" | Usage: \"Placeholder image or graphical element\"\nHL3_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\" | Usage: \"File system path or location\"\nHL4_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\" | Usage: \"File system path or location\"\nHL5_1: \"Monitor detected: \\\\\\\\.\\\\DISPLAY1 - 1664x1109 at (0, 0) Primary: True\" | Usage: \"Information about the detected monitor\"\nHL6_1: \" \" | Usage: \"Placeholder image or graphical element\"\nHL7_1: \"Monitor 1: 1664x1109 at (0, 0) - \\\\\\\\.\\\\DISPLAY1 (Primary)\" | Usage: \"Information about the detected monitor\"\nHL8_1: \"Monitor detected: \\\\\\\\.\\\\DISPLAY1 - 1664x1109 at (0, 0) Primary: True\" | Usage: \"Information about the detected monitor\"\nHL9_1: \"Monitor 1: 1664x1109 at (0, 0) - \\\\\\\\.\\\\DISPLAY1 (Primary)\" | Usage: \"Information about the detected monitor\"\nHL10_1: \"Params: {'window_id': 'string', 'width': 'number', 'height': 'number'}\" | Usage: \"Parameters related to window ID, width, and height\"\nV0_1: \"uv - eagv1 - Cursor\" | Usage: \"Indicates the current debugging setup name and focused element\"\nV0_2: \"≡ perception_prompt.txt M\" | Usage: \"Text editor showing title of a text file being edited and some details\"\nV0_3: \"intelligence\" | Usage: \"Shows 'intelligence' as a keyword, variable, or part of a string\"\nV1_1: \" \" | Usage: \"Image or graphical element related to selected function\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_4_79_bboxes.png",
+      "image_name": "combined_groups_4_79_bboxes.png",
+      "icons_found": 33,
+      "icons": [
+        {
+          "id": "V2_1",
+          "name": "eag14a",
+          "usage": "Selection option in a dropdown menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_2",
+          "name": "computer_agent",
+          "usage": "Selection option in a dropdown menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_3",
+          "name": "agent",
+          "usage": "Selection option in a dropdown menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_4",
+          "name": "core",
+          "usage": "Selection option in a dropdown menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_1",
+          "name": "Computer",
+          "usage": "Label of a button or action item",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_1",
+          "name": "Assistant",
+          "usage": "Label of a button or action item",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_2",
+          "name": "press",
+          "usage": "Label of a button or action item",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_1",
+          "name": "Type your command and press Enter.",
+          "usage": "Instructions for user input into the command prompt",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_2",
+          "name": "Type 'exit' or 'quit' to leave.",
+          "usage": "Instructions for user to terminate the application",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_1",
+          "name": "1. Added a max_analysis class variable",
+          "usage": "Log message related to adding a variable",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_2",
+          "name": "initialized to 1 in the __init__ method",
+          "usage": "Log message related to initializing a variable in a method",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_3",
+          "name": "2. Added a re_analysis_co",
+          "usage": "Log message related to adding re-analysis count",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_1",
+          "name": "== Available",
+          "usage": "Status message indicating availability",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_1",
+          "name": "Increment the re_analysis_count",
+          "usage": "Log message related to increasing re-analysis count",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_2",
+          "name": "Check if max attempts reached",
+          "usage": "Log message related to checking max attempts",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_1",
+          "name": "If max attempts reached, force the route",
+          "usage": "Conditional statement message",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_2",
+          "name": "to 'decision' instead of continuing",
+          "usage": "Continuation condition or route",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_3",
+          "name": "If not at max attempts, contin",
+          "usage": "Conditional statement message",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_1",
+          "name": "{'number'}",
+          "usage": "Parameter definition as a number",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_2",
+          "name": "'screen': 'number', 'x': 'number', 'y': 'number'}",
+          "usage": "Screen parameter definition with x and y coordinates as numbers",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_1",
+          "name": "{'window_id'",
+          "usage": "Defines a window ID as a parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_2",
+          "name": "screen: Move to screen position",
+          "usage": "Command to move to a screen position",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_3",
+          "name": "Params: {'window_id': 'string',",
+          "usage": "Definition of a parameter named 'window_id' as a string",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_1",
+          "name": "analysis as before",
+          "usage": "Message related to a previous analysis result",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_2",
+          "name": "This change will ensure that:",
+          "usage": "Statement indicating the purpose of a change",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_1",
+          "name": "}",
+          "usage": "Curly bracket likely used for formatting",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_2",
+          "name": "'}",
+          "usage": "Curly bracket in code likely used for formatting",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_1",
+          "name": "4. The agent will still be able to make progress",
+          "usage": "Status message related to agent progress",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_2",
+          "name": "even if the screen analysis is not perfect",
+          "usage": "Continuation message condition for imperfect screen analysis",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_1",
+          "name": "Up Arrow",
+          "usage": "Scroll up",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_2",
+          "name": "uv computer...",
+          "usage": "Application process",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_3",
+          "name": "powershell...",
+          "usage": "Application process",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_4",
+          "name": "powershell",
+          "usage": "Application process",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "V2_1: \"eag14a\" | Usage: \"Selection option in a dropdown menu\"\nV2_2: \"computer_agent\" | Usage: \"Selection option in a dropdown menu\"\nV2_3: \"agent\" | Usage: \"Selection option in a dropdown menu\"\nV2_4: \"core\" | Usage: \"Selection option in a dropdown menu\"\nV3_1: \"Computer\" | Usage: \"Label of a button or action item\"\nV4_1: \"Assistant\" | Usage: \"Label of a button or action item\"\nV4_2: \"press\" | Usage: \"Label of a button or action item\"\nV5_1: \"Type your command and press Enter.\" | Usage: \"Instructions for user input into the command prompt\"\nV5_2: \"Type 'exit' or 'quit' to leave.\" | Usage: \"Instructions for user to terminate the application\"\nV6_1: \"1. Added a max_analysis class variable\" | Usage: \"Log message related to adding a variable\"\nV6_2: \"initialized to 1 in the __init__ method\" | Usage: \"Log message related to initializing a variable in a method\"\nV6_3: \"2. Added a re_analysis_co\" | Usage: \"Log message related to adding re-analysis count\"\nV7_1: \"== Available\" | Usage: \"Status message indicating availability\"\nV8_1: \"Increment the re_analysis_count\" | Usage: \"Log message related to increasing re-analysis count\"\nV8_2: \"Check if max attempts reached\" | Usage: \"Log message related to checking max attempts\"\nV9_1: \"If max attempts reached, force the route\" | Usage: \"Conditional statement message\"\nV9_2: \"to 'decision' instead of continuing\" | Usage: \"Continuation condition or route\"\nV9_3: \"If not at max attempts, contin\" | Usage: \"Conditional statement message\"\nV10_1: \"{'number'}\" | Usage: \"Parameter definition as a number\"\nV10_2: \"'screen': 'number', 'x': 'number', 'y': 'number'}\" | Usage: \"Screen parameter definition with x and y coordinates as numbers\"\nV11_1: \"{'window_id'\" | Usage: \"Defines a window ID as a parameter\"\nV11_2: \"screen: Move to screen position\" | Usage: \"Command to move to a screen position\"\nV11_3: \"Params: {'window_id': 'string',\" | Usage: \"Definition of a parameter named 'window_id' as a string\"\nV12_1: \"analysis as before\" | Usage: \"Message related to a previous analysis result\"\nV12_2: \"This change will ensure that:\" | Usage: \"Statement indicating the purpose of a change\"\nV13_1: \"}\" | Usage: \"Curly bracket likely used for formatting\"\nV13_2: \"'}\" | Usage: \"Curly bracket in code likely used for formatting\"\nV14_1: \"4. The agent will still be able to make progress\" | Usage: \"Status message related to agent progress\"\nV14_2: \"even if the screen analysis is not perfect\" | Usage: \"Continuation message condition for imperfect screen analysis\"\nV15_1: \"Up Arrow\" | Usage: \"Scroll up\"\nV15_2: \"uv computer...\" | Usage: \"Application process\"\nV15_3: \"powershell...\" | Usage: \"Application process\"\nV15_4: \"powershell\" | Usage: \"Application process\"\n",
+      "analysis_success": true
+    }
+  ]
+}

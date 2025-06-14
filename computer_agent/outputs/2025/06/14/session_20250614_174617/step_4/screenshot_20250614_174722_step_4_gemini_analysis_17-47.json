@@ -1,0 +1,339 @@
+{
+  "filename_base": "screenshot_20250614_174722_step_4",
+  "analysis_timestamp": "2025-06-14T17:47:33.063921",
+  "analysis_duration_seconds": 8.04654,
+  "total_images_analyzed": 1,
+  "total_input_images": 1,
+  "analysis_mode": "direct",
+  "successful_analyses": 1,
+  "total_icons_found": 53,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_72_bboxes.png",
+      "image_name": "combined_groups_0_72_bboxes.png",
+      "icons_found": 53,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_3",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "100%",
+          "usage": "Shows the current zoom level",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "Caret Up",
+          "usage": "Scrolls or moves upwards",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_2",
+          "name": "Cloud Icon",
+          "usage": "Accesses cloud storage or settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_3",
+          "name": "Cloud Icon with Arrow",
+          "usage": "Cloud storage settings or syncing",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_4",
+          "name": "List Icon",
+          "usage": "Opens a list or menu of items",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_5",
+          "name": "ENG IN",
+          "usage": "Changes the input language",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_6",
+          "name": "Wifi Icon",
+          "usage": "Shows the wifi connection",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Windows (CRLF)",
+          "usage": "Shows the line ending format (Windows)",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "Speaker Icon with X and Battery Icon",
+          "usage": "Audio settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_2",
+          "name": "5:47 PM 6/14/2025",
+          "usage": "Displays the current time and date",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "UTF-8",
+          "usage": "Shows the character encoding",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Minus Sign",
+          "usage": "Minimize the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_2",
+          "name": "Square Icon",
+          "usage": "Maximize or restore down the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_3",
+          "name": "X Icon",
+          "usage": "Closes the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "Dropdown Icon",
+          "usage": "Opens a dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_2",
+          "name": "Person Icon with Gear",
+          "usage": "Opens the user account settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_3",
+          "name": "Gear Icon",
+          "usage": "Opens the settings menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "Battery Icon",
+          "usage": "Battery life or power settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "Multiple Windows Icon",
+          "usage": "Window arrangement",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "ello orld, am omputer se agent!ellc •",
+          "usage": "Unclear text field in the user interface.",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_3",
+          "name": "Plus Sign",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "ello",
+          "usage": "Unclear text field in the user interface.",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "orld,",
+          "usage": "Unclear text field in the user interface.",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "am",
+          "usage": "Unclear text field in the user interface.",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_4",
+          "name": "omputer",
+          "usage": "Unclear text field in the user interface.",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_5",
+          "name": "se",
+          "usage": "Unclear text field in the user interface.",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_6",
+          "name": "agentlello d,",
+          "usage": "Unclear text field in the user interface.",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_7",
+          "name": "am",
+          "usage": "Unclear text field in the user interface.",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "ello orld, am omputer se agentlello d, am omputer se gent!",
+          "usage": "Unclear text field in the user interface.",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Notification Icon",
+          "usage": "Shows the number of new notifications",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Ln 1, Col 60",
+          "usage": "Cursor position",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_2",
+          "name": "59 characters",
+          "usage": "Amount of characters",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Windows Icon",
+          "usage": "Opens the Windows start menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Opens the search menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_3",
+          "name": "Folder Icon",
+          "usage": "Opens File Explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_4",
+          "name": "File Explorer Icon",
+          "usage": "Opens File Explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_5",
+          "name": "Clipchamp Icon",
+          "usage": "Opens Clipchamp video editor",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_6",
+          "name": "Folder Icon",
+          "usage": "Opens a file folder",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_7",
+          "name": "Teams Icon",
+          "usage": "Opens Microsoft Teams",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_8",
+          "name": "Clipchamp Icon",
+          "usage": "Opens the Clipchamp app",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_9",
+          "name": "Folder Icon",
+          "usage": "Opens a file folder",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_10",
+          "name": "Mail Icon",
+          "usage": "Opens the Mail app",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_11",
+          "name": "Office Icon",
+          "usage": "Opens the Office app",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_12",
+          "name": "Word Icon",
+          "usage": "Opens Microsoft Word",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_13",
+          "name": "Excel Icon",
+          "usage": "Opens Microsoft Excel",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "gent!",
+          "usage": "Unclear text field in the user interface.",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Pause Icon",
+          "usage": "Pauses current video or recording",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "app.clipchamp.com is sharing your screen.",
+          "usage": "Indicates a screen sharing session is active",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "Stop sharing",
+          "usage": "Stops screen sharing",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_3",
+          "name": "Hide",
+          "usage": "Hides the screen sharing notification",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H0_1: \"File\" | Usage: \"Opens the file menu\"\nH0_2: \"Edit\" | Usage: \"Opens the edit menu\"\nH0_3: \"View\" | Usage: \"Opens the view menu\"\nH10_1: \"100%\" | Usage: \"Shows the current zoom level\"\nH11_1: \"Caret Up\" | Usage: \"Scrolls or moves upwards\"\nH11_2: \"Cloud Icon\" | Usage: \"Accesses cloud storage or settings\"\nH11_3: \"Cloud Icon with Arrow\" | Usage: \"Cloud storage settings or syncing\"\nH11_4: \"List Icon\" | Usage: \"Opens a list or menu of items\"\nH11_5: \"ENG IN\" | Usage: \"Changes the input language\"\nH11_6: \"Wifi Icon\" | Usage: \"Shows the wifi connection\"\nH12_1: \"Windows (CRLF)\" | Usage: \"Shows the line ending format (Windows)\"\nH13_1: \"Speaker Icon with X and Battery Icon\" | Usage: \"Audio settings\"\nH13_2: \"5:47 PM 6/14/2025\" | Usage: \"Displays the current time and date\"\nH14_1: \"UTF-8\" | Usage: \"Shows the character encoding\"\nH15_1: \"Minus Sign\" | Usage: \"Minimize the window\"\nH15_2: \"Square Icon\" | Usage: \"Maximize or restore down the window\"\nH15_3: \"X Icon\" | Usage: \"Closes the window\"\nH16_1: \"Dropdown Icon\" | Usage: \"Opens a dropdown menu\"\nH16_2: \"Person Icon with Gear\" | Usage: \"Opens the user account settings\"\nH16_3: \"Gear Icon\" | Usage: \"Opens the settings menu\"\nH17_1: \"Battery Icon\" | Usage: \"Battery life or power settings\"\nH1_1: \"Multiple Windows Icon\" | Usage: \"Window arrangement\"\nH1_2: \"ello orld, am omputer se agent!ellc •\" | Usage: \"Unclear text field in the user interface.\"\nH1_3: \"Plus Sign\" | Usage: \"Adds a new item or element\"\nH2_1: \"ello\" | Usage: \"Unclear text field in the user interface.\"\nH2_2: \"orld,\" | Usage: \"Unclear text field in the user interface.\"\nH2_3: \"am\" | Usage: \"Unclear text field in the user interface.\"\nH2_4: \"omputer\" | Usage: \"Unclear text field in the user interface.\"\nH2_5: \"se\" | Usage: \"Unclear text field in the user interface.\"\nH2_6: \"agentlello d,\" | Usage: \"Unclear text field in the user interface.\"\nH2_7: \"am\" | Usage: \"Unclear text field in the user interface.\"\nH3_1: \"ello orld, am omputer se agentlello d, am omputer se gent!\" | Usage: \"Unclear text field in the user interface.\"\nH4_1: \"Notification Icon\" | Usage: \"Shows the number of new notifications\"\nH5_1: \"Ln 1, Col 60\" | Usage: \"Cursor position\"\nH5_2: \"59 characters\" | Usage: \"Amount of characters\"\nH6_1: \"Windows Icon\" | Usage: \"Opens the Windows start menu\"\nH6_2: \"Magnifying Glass Icon\" | Usage: \"Opens the search menu\"\nH6_3: \"Folder Icon\" | Usage: \"Opens File Explorer\"\nH6_4: \"File Explorer Icon\" | Usage: \"Opens File Explorer\"\nH6_5: \"Clipchamp Icon\" | Usage: \"Opens Clipchamp video editor\"\nH6_6: \"Folder Icon\" | Usage: \"Opens a file folder\"\nH6_7: \"Teams Icon\" | Usage: \"Opens Microsoft Teams\"\nH6_8: \"Clipchamp Icon\" | Usage: \"Opens the Clipchamp app\"\nH6_9: \"Folder Icon\" | Usage: \"Opens a file folder\"\nH6_10: \"Mail Icon\" | Usage: \"Opens the Mail app\"\nH6_11: \"Office Icon\" | Usage: \"Opens the Office app\"\nH6_12: \"Word Icon\" | Usage: \"Opens Microsoft Word\"\nH6_13: \"Excel Icon\" | Usage: \"Opens Microsoft Excel\"\nH7_1: \"gent!\" | Usage: \"Unclear text field in the user interface.\"\nH8_1: \"Pause Icon\" | Usage: \"Pauses current video or recording\"\nH9_1: \"app.clipchamp.com is sharing your screen.\" | Usage: \"Indicates a screen sharing session is active\"\nH9_2: \"Stop sharing\" | Usage: \"Stops screen sharing\"\nH9_3: \"Hide\" | Usage: \"Hides the screen sharing notification\"\n",
+      "analysis_success": true
+    }
+  ]
+}

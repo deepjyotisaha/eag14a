@@ -1,0 +1,327 @@
+{
+  "filename_base": "screenshot_20250614_174322_step_4",
+  "analysis_timestamp": "2025-06-14T17:43:32.716727",
+  "analysis_duration_seconds": 8.324483,
+  "total_images_analyzed": 1,
+  "total_input_images": 1,
+  "analysis_mode": "direct",
+  "successful_analyses": 1,
+  "total_icons_found": 51,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_78_bboxes.png",
+      "image_name": "combined_groups_0_78_bboxes.png",
+      "icons_found": 51,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "File Icon",
+          "usage": "Represents a file or document",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "Dot Icon",
+          "usage": "Likely a menu indicator or setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_3",
+          "name": "Plus Icon",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "8 Icon",
+          "usage": "Unclear, possibly related to application updates or settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "Exit",
+          "usage": "Closes the application",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Ln 1, Col 33",
+          "usage": "Text box indicating line and column position in a text editor",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_2",
+          "name": "32 characters",
+          "usage": "Text box displaying character count",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Windows Icon",
+          "usage": "Opens the Windows start menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Opens the search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_3",
+          "name": "Document Icon",
+          "usage": "Opens a file explorer window",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_4",
+          "name": "Folder Icon",
+          "usage": "Opens a folder or directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_5",
+          "name": "Landscape Icon",
+          "usage": "Likely opens a photos or image viewer",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_6",
+          "name": "People Icon",
+          "usage": "Opens a contacts or people application",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_7",
+          "name": "Calendar Icon",
+          "usage": "Opens the calendar application",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_8",
+          "name": "Microsoft Edge Icon",
+          "usage": "Opens the Microsoft Edge browser",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_9",
+          "name": "File Explorer Icon",
+          "usage": "Opens file explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_10",
+          "name": "Microsoft Store Icon",
+          "usage": "Opens the Microsoft Store",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_11",
+          "name": "Adobe Photoshop Icon",
+          "usage": "Opens Adobe Photoshop",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_12",
+          "name": "Microsoft Word Icon",
+          "usage": "Opens Microsoft Word",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_13",
+          "name": "Microsoft Excel Icon",
+          "usage": "Opens Microsoft Excel",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Ctrl+N",
+          "usage": "Indicates the keyboard shortcut for a new file",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "Right Arrow Icon",
+          "usage": "Navigates forward or to the next item",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Pause Icon",
+          "usage": "Pauses media playback or other operation",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "app.clipchamp.com is sharing your screen.",
+          "usage": "Text indicating a screen sharing session is active",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "Stop sharing",
+          "usage": "Button to stop the screen sharing session",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_3",
+          "name": "Hide",
+          "usage": "Button to hide the screen sharing notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "100%",
+          "usage": "Displays the zoom level of the view",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "Up Arrow Icon",
+          "usage": "Navigates up or to the previous item",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_2",
+          "name": "Cloud Icon",
+          "usage": "Opens cloud storage or settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_3",
+          "name": "Globe Icon",
+          "usage": "Likely related to network settings or internet connection",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_4",
+          "name": "Document Icon",
+          "usage": "Related to document settings or options",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_5",
+          "name": "ENG IN",
+          "usage": "Shows the currently selected language input method",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_6",
+          "name": "WiFi Icon",
+          "usage": "Shows or controls Wi-Fi connections",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_7",
+          "name": "5:43 PM 6/14/2025",
+          "usage": "Displays the current date and time",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Windows (CRLF)",
+          "usage": "Indicates the line ending format for text files",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "WiFi Icon",
+          "usage": "Shows or controls Wi-Fi connections",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Minus Icon",
+          "usage": "Represents minimizing a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_2",
+          "name": "Square Icon",
+          "usage": "Represents maximizing or restoring a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_3",
+          "name": "X Icon",
+          "usage": "Represents closing a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Down Arrow Icon",
+          "usage": "Opens a dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_2",
+          "name": "User Icon",
+          "usage": "Opens user profile or account settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_3",
+          "name": "Gear Icon",
+          "usage": "Opens settings or options",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "Battery Icon",
+          "usage": "Displays the battery level or power settings",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "ello orld, am omputer use agent!",
+          "usage": "Text box likely containing a user's input or a placeholder",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_2",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_3",
+          "name": "New tab",
+          "usage": "Opens a new tab",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_4",
+          "name": "New window",
+          "usage": "Opens a new window",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_5",
+          "name": "Open",
+          "usage": "Opens a file",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "UTF-8",
+          "usage": "Indicates the character encoding used for text",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "H0_1: \"File Icon\" | Usage: \"Represents a file or document\"\nH0_2: \"Dot Icon\" | Usage: \"Likely a menu indicator or setting\"\nH0_3: \"Plus Icon\" | Usage: \"Adds a new item or element\"\nH1_1: \"File\" | Usage: \"Opens the file menu\"\nH1_2: \"Edit\" | Usage: \"Opens the edit menu\"\nH2_1: \"8 Icon\" | Usage: \"Unclear, possibly related to application updates or settings\"\nH3_1: \"Exit\" | Usage: \"Closes the application\"\nH4_1: \"Ln 1, Col 33\" | Usage: \"Text box indicating line and column position in a text editor\"\nH4_2: \"32 characters\" | Usage: \"Text box displaying character count\"\nH5_1: \"Windows Icon\" | Usage: \"Opens the Windows start menu\"\nH5_2: \"Magnifying Glass Icon\" | Usage: \"Opens the search function\"\nH5_3: \"Document Icon\" | Usage: \"Opens a file explorer window\"\nH5_4: \"Folder Icon\" | Usage: \"Opens a folder or directory\"\nH5_5: \"Landscape Icon\" | Usage: \"Likely opens a photos or image viewer\"\nH5_6: \"People Icon\" | Usage: \"Opens a contacts or people application\"\nH5_7: \"Calendar Icon\" | Usage: \"Opens the calendar application\"\nH5_8: \"Microsoft Edge Icon\" | Usage: \"Opens the Microsoft Edge browser\"\nH5_9: \"File Explorer Icon\" | Usage: \"Opens file explorer\"\nH5_10: \"Microsoft Store Icon\" | Usage: \"Opens the Microsoft Store\"\nH5_11: \"Adobe Photoshop Icon\" | Usage: \"Opens Adobe Photoshop\"\nH5_12: \"Microsoft Word Icon\" | Usage: \"Opens Microsoft Word\"\nH5_13: \"Microsoft Excel Icon\" | Usage: \"Opens Microsoft Excel\"\nH6_1: \"Ctrl+N\" | Usage: \"Indicates the keyboard shortcut for a new file\"\nH7_1: \"Right Arrow Icon\" | Usage: \"Navigates forward or to the next item\"\nH8_1: \"Pause Icon\" | Usage: \"Pauses media playback or other operation\"\nH9_1: \"app.clipchamp.com is sharing your screen.\" | Usage: \"Text indicating a screen sharing session is active\"\nH9_2: \"Stop sharing\" | Usage: \"Button to stop the screen sharing session\"\nH9_3: \"Hide\" | Usage: \"Button to hide the screen sharing notification\"\nH10_1: \"100%\" | Usage: \"Displays the zoom level of the view\"\nH11_1: \"Up Arrow Icon\" | Usage: \"Navigates up or to the previous item\"\nH11_2: \"Cloud Icon\" | Usage: \"Opens cloud storage or settings\"\nH11_3: \"Globe Icon\" | Usage: \"Likely related to network settings or internet connection\"\nH11_4: \"Document Icon\" | Usage: \"Related to document settings or options\"\nH11_5: \"ENG IN\" | Usage: \"Shows the currently selected language input method\"\nH11_6: \"WiFi Icon\" | Usage: \"Shows or controls Wi-Fi connections\"\nH11_7: \"5:43 PM 6/14/2025\" | Usage: \"Displays the current date and time\"\nH12_1: \"Windows (CRLF)\" | Usage: \"Indicates the line ending format for text files\"\nH13_1: \"WiFi Icon\" | Usage: \"Shows or controls Wi-Fi connections\"\nH14_1: \"Minus Icon\" | Usage: \"Represents minimizing a window\"\nH14_2: \"Square Icon\" | Usage: \"Represents maximizing or restoring a window\"\nH14_3: \"X Icon\" | Usage: \"Represents closing a window\"\nH15_1: \"Down Arrow Icon\" | Usage: \"Opens a dropdown menu\"\nH15_2: \"User Icon\" | Usage: \"Opens user profile or account settings\"\nH15_3: \"Gear Icon\" | Usage: \"Opens settings or options\"\nH16_1: \"Battery Icon\" | Usage: \"Displays the battery level or power settings\"\nV0_1: \"ello orld, am omputer use agent!\" | Usage: \"Text box likely containing a user's input or a placeholder\"\nV0_2: \"View\" | Usage: \"Opens the view menu\"\nV0_3: \"New tab\" | Usage: \"Opens a new tab\"\nV0_4: \"New window\" | Usage: \"Opens a new window\"\nV0_5: \"Open\" | Usage: \"Opens a file\"\nV1_1: \"UTF-8\" | Usage: \"Indicates the character encoding used for text\"\n",
+      "analysis_success": true
+    }
+  ]
+}

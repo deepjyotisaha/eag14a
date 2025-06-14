@@ -1,0 +1,351 @@
+{
+  "filename_base": "screenshot_20250614_164901_step_4",
+  "analysis_timestamp": "2025-06-14T16:49:23.230907",
+  "analysis_duration_seconds": 8.607492,
+  "total_images_analyzed": 1,
+  "total_input_images": 1,
+  "analysis_mode": "direct",
+  "successful_analyses": 1,
+  "total_icons_found": 55,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_58_bboxes.png",
+      "image_name": "combined_groups_0_58_bboxes.png",
+      "icons_found": 55,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_3",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "Document Icon",
+          "usage": "Likely creates a new document",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "ello",
+          "usage": "Likely a search bar or text field",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "ello",
+          "usage": "Likely a text field",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "Bug Icon",
+          "usage": "Likely a debugging or error reporting tool",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Ln 1, Col 6",
+          "usage": "Displays the current line and column number",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Windows Logo",
+          "usage": "Opens the Windows start menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Opens the search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_3",
+          "name": "Monitor with document",
+          "usage": "Likely shows the active application",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_4",
+          "name": "Folder Icon",
+          "usage": "Likely opens the file explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_5",
+          "name": "Two People Icon",
+          "usage": "Likely opens the People application",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_6",
+          "name": "Chat bubbles",
+          "usage": "Likely opens the messages application",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_7",
+          "name": "Microsoft Teams Icon",
+          "usage": "Opens Microsoft Teams",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_8",
+          "name": "Microsoft 365 Icon",
+          "usage": "Opens Microsoft 365 app",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_9",
+          "name": "Image Icon",
+          "usage": "Opens the Photos App",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_10",
+          "name": "Mail Icon 99+",
+          "usage": "Opens the mail app with a notification count",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_11",
+          "name": "Clip Icon",
+          "usage": "Opens clipchamp to edit videos",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_12",
+          "name": "Word Icon",
+          "usage": "Opens Word Application",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_13",
+          "name": "X Icon",
+          "usage": "Likely closes current pop up window",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Circle Icon",
+          "usage": "Likely shows an active notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "Plus Icon",
+          "usage": "Likely adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Slack Icon",
+          "usage": "Opens Slack Application",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "Gear Icon",
+          "usage": "Opens settings window",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "PowerPoint Icon",
+          "usage": "Opens PowerPoint Application",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_3",
+          "name": "Terminal Icon",
+          "usage": "Opens the Command Prompt",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "Visual Studio Icon",
+          "usage": "Opens Visual Studio Code Application",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_2",
+          "name": "File Explorer icon",
+          "usage": "Opens file explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "GitHub Icon",
+          "usage": "Opens GitHub Application",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Red Icon",
+          "usage": "Opens the AMD Adrenalin Software",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "Note Icon",
+          "usage": "Opens Notepad Application",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_2",
+          "name": "Three Dots Icon",
+          "usage": "Opens options Menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "100%",
+          "usage": "Shows the window zoom percentage",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Up Arrow Icon",
+          "usage": "Likely minimizes something",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "Windows (CRLF)",
+          "usage": "Shows line endings being used",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_2",
+          "name": "UTF-8",
+          "usage": "Shows the character encoding being used",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "Cloud Icon",
+          "usage": "Likely connects to online service",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": "Cloud Arrow Icon",
+          "usage": "Likely downloads file",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_1",
+          "name": "Keyboard Icon",
+          "usage": "Likely opens the keyboard configuration settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_2",
+          "name": "ENG IN",
+          "usage": "Shows the current keyboard language",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_3",
+          "name": "Speaker Icon",
+          "usage": "Shows the speaker output",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_1",
+          "name": "ENG",
+          "usage": "Shows the current Language",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_1",
+          "name": "Minus Icon",
+          "usage": "Minimizes the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_2",
+          "name": "Square Icon",
+          "usage": "Maximizes/Restores the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_3",
+          "name": "X Icon",
+          "usage": "Closes the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_1",
+          "name": "Speaker Icon",
+          "usage": "Mutes the speaker",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_2",
+          "name": "Battery Icon",
+          "usage": "Shows the battery level",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_1",
+          "name": "Windows Icon",
+          "usage": "Opens the Windows start menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_2",
+          "name": "Down Arrow Icon",
+          "usage": "Likely shows current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_3",
+          "name": "User Icon",
+          "usage": "Opens the account settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_4",
+          "name": "Settings Icon",
+          "usage": "Opens the settings menu",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "5 characters",
+          "usage": "Likely the amount of characters",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "4:49 PM",
+          "usage": "Displays the current time",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_2",
+          "name": "6/14/2025",
+          "usage": "Displays the current date",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "```\nH0_1: \"File\" | Usage: \"Opens the file menu\"\nH0_2: \"Edit\" | Usage: \"Opens the edit menu\"\nH0_3: \"View\" | Usage: \"Opens the view menu\"\nH1_1: \"Document Icon\" | Usage: \"Likely creates a new document\"\nH1_2: \"ello\" | Usage: \"Likely a search bar or text field\"\nH2_1: \"ello\" | Usage: \"Likely a text field\"\nH3_1: \"Bug Icon\" | Usage: \"Likely a debugging or error reporting tool\"\nH4_1: \"Ln 1, Col 6\" | Usage: \"Displays the current line and column number\"\nH5_1: \"Windows Logo\" | Usage: \"Opens the Windows start menu\"\nH5_2: \"Magnifying Glass Icon\" | Usage: \"Opens the search function\"\nH5_3: \"Monitor with document\" | Usage: \"Likely shows the active application\"\nH5_4: \"Folder Icon\" | Usage: \"Likely opens the file explorer\"\nH5_5: \"Two People Icon\" | Usage: \"Likely opens the People application\"\nH5_6: \"Chat bubbles\" | Usage: \"Likely opens the messages application\"\nH5_7: \"Microsoft Teams Icon\" | Usage: \"Opens Microsoft Teams\"\nH5_8: \"Microsoft 365 Icon\" | Usage: \"Opens Microsoft 365 app\"\nH5_9: \"Image Icon\" | Usage: \"Opens the Photos App\"\nH5_10: \"Mail Icon 99+\" | Usage: \"Opens the mail app with a notification count\"\nH5_11: \"Clip Icon\" | Usage: \"Opens clipchamp to edit videos\"\nH5_12: \"Word Icon\" | Usage: \"Opens Word Application\"\nH5_13: \"X Icon\" | Usage: \"Likely closes current pop up window\"\nH6_1: \"Circle Icon\" | Usage: \"Likely shows an active notification\"\nH7_1: \"Plus Icon\" | Usage: \"Likely adds a new item or element\"\nH8_1: \"Slack Icon\" | Usage: \"Opens Slack Application\"\nH9_1: \"Gear Icon\" | Usage: \"Opens settings window\"\nH9_2: \"PowerPoint Icon\" | Usage: \"Opens PowerPoint Application\"\nH9_3: \"Terminal Icon\" | Usage: \"Opens the Command Prompt\"\nH10_1: \"Visual Studio Icon\" | Usage: \"Opens Visual Studio Code Application\"\nH10_2: \"File Explorer icon\" | Usage: \"Opens file explorer\"\nH11_1: \"GitHub Icon\" | Usage: \"Opens GitHub Application\"\nH12_1: \"Red Icon\" | Usage: \"Opens the AMD Adrenalin Software\"\nH13_1: \"Note Icon\" | Usage: \"Opens Notepad Application\"\nH13_2: \"Three Dots Icon\" | Usage: \"Opens options Menu\"\nH14_1: \"100%\" | Usage: \"Shows the window zoom percentage\"\nH15_1: \"Up Arrow Icon\" | Usage: \"Likely minimizes something\"\nH16_1: \"Windows (CRLF)\" | Usage: \"Shows line endings being used\"\nH16_2: \"UTF-8\" | Usage: \"Shows the character encoding being used\"\nH17_1: \"Cloud Icon\" | Usage: \"Likely connects to online service\"\nH18_1: \"Cloud Arrow Icon\" | Usage: \"Likely downloads file\"\nH19_1: \"Keyboard Icon\" | Usage: \"Likely opens the keyboard configuration settings\"\nH19_2: \"ENG IN\" | Usage: \"Shows the current keyboard language\"\nH19_3: \"Speaker Icon\" | Usage: \"Shows the speaker output\"\nH20_1: \"ENG\" | Usage: \"Shows the current Language\"\nH21_1: \"Minus Icon\" | Usage: \"Minimizes the window\"\nH21_2: \"Square Icon\" | Usage: \"Maximizes/Restores the window\"\nH21_3: \"X Icon\" | Usage: \"Closes the window\"\nH22_1: \"Speaker Icon\" | Usage: \"Mutes the speaker\"\nH22_2: \"Battery Icon\" | Usage: \"Shows the battery level\"\nH23_1: \"Windows Icon\" | Usage: \"Opens the Windows start menu\"\nH23_2: \"Down Arrow Icon\" | Usage: \"Likely shows current window\"\nH23_3: \"User Icon\" | Usage: \"Opens the account settings\"\nH23_4: \"Settings Icon\" | Usage: \"Opens the settings menu\"\nV0_1: \"5 characters\" | Usage: \"Likely the amount of characters\"\nV1_1: \"4:49 PM\" | Usage: \"Displays the current time\"\nV1_2: \"6/14/2025\" | Usage: \"Displays the current date\"\n```",
+      "analysis_success": true
+    }
+  ]
+}

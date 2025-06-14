@@ -1,0 +1,327 @@
+{
+  "filename_base": "screenshot_20250614_174305_step_3",
+  "analysis_timestamp": "2025-06-14T17:43:15.410132",
+  "analysis_duration_seconds": 8.088797,
+  "total_images_analyzed": 1,
+  "total_input_images": 1,
+  "analysis_mode": "direct",
+  "successful_analyses": 1,
+  "total_icons_found": 51,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_70_bboxes.png",
+      "image_name": "combined_groups_0_70_bboxes.png",
+      "icons_found": 51,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_3",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "Document Icon",
+          "usage": "Represents a document or file",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "ello orld, am omputer use agent!",
+          "usage": "Text box likely containing user-generated text",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_3",
+          "name": "Dot Icon",
+          "usage": "Indicates a selected or active state",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_4",
+          "name": "Plus Icon",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "ello",
+          "usage": "Short text likely part of a label",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "orld,",
+          "usage": "Short text likely part of a label",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "am",
+          "usage": "Short text likely part of a label",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_4",
+          "name": "omputer",
+          "usage": "Short text likely part of a label",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "ello orld, am omputer use agent!",
+          "usage": "Text box likely containing user-generated text",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Profile Icon with Number 8",
+          "usage": "Represents a user profile or account with associated number",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Ln 1, Col 33",
+          "usage": "Indicates current line and column number",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_2",
+          "name": "32 characters",
+          "usage": "Shows the number of characters",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Windows Icon",
+          "usage": "Opens the Windows start menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Opens the search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_3",
+          "name": "Letter L Icon",
+          "usage": "Represents the LinkedIn Application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_4",
+          "name": "Microsoft Office Icon",
+          "usage": "Opens the Microsoft Office application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_5",
+          "name": "Photo Icon",
+          "usage": "Opens the Photos application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_6",
+          "name": "Edge Icon",
+          "usage": "Opens the Microsoft Edge browser",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_7",
+          "name": "Teams Icon",
+          "usage": "Opens the Microsoft Teams application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_8",
+          "name": "M365 Icon",
+          "usage": "Opens the Microsoft 365 application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_9",
+          "name": "Folder Icon",
+          "usage": "Opens the file explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_10",
+          "name": "Profile Icon with 99+",
+          "usage": "Represents a user profile or account with a notification badge",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_11",
+          "name": "Paint Icon",
+          "usage": "Opens the Paint application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_12",
+          "name": "Word Icon",
+          "usage": "Opens the Microsoft Word application",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_13",
+          "name": "Excel Icon",
+          "usage": "Opens the Microsoft Excel application",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "agent!",
+          "usage": "Short text likely part of a label",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Pause Icon",
+          "usage": "Pauses current action",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "app.clipchamp.com is sharing your screen.",
+          "usage": "Text indicating a screen sharing status from Clipchamp",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "Stop sharing",
+          "usage": "Button to stop screen sharing",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_3",
+          "name": "Hide",
+          "usage": "Button to hide window",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "100%",
+          "usage": "Indicates zoom level as 100 percent",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "Up Arrow Icon",
+          "usage": "Move upwards in menu/list",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_2",
+          "name": "Cloud Icon",
+          "usage": "Represents a cloud storage service",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_3",
+          "name": "Cloud with Arrow Icon",
+          "usage": "Represents a cloud download service",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_4",
+          "name": "Calendar Icon",
+          "usage": "Opens the calendar application",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_5",
+          "name": "ENG IN",
+          "usage": "Indicates the current language",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_6",
+          "name": "Wifi Icon",
+          "usage": "Represents the Wifi settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_7",
+          "name": "Speaker Icon with Slash",
+          "usage": "Mutes or unmutes the audio output",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Windows (CRLF)",
+          "usage": "Indicates the operating system",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "Speaker Icon with Slash and Screen Icon",
+          "usage": "Mutes and unmutes the microphone",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_2",
+          "name": "5:43 PM 6/14/2025",
+          "usage": "Shows the current date and time",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Minus Icon",
+          "usage": "Minimize the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_2",
+          "name": "Rectangle Icon",
+          "usage": "Maximize the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_3",
+          "name": "X Icon",
+          "usage": "Closes the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Colorful Window Icon",
+          "usage": "Customise color settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_2",
+          "name": "User Icon",
+          "usage": "Opens user account settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_3",
+          "name": "Gear Icon",
+          "usage": "Opens settings menu",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "UTF-8",
+          "usage": "Indicates the character encoding format",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "```\nH0_1: \"File\" | Usage: \"Opens the file menu\"\nH0_2: \"Edit\" | Usage: \"Opens the edit menu\"\nH0_3: \"View\" | Usage: \"Opens the view menu\"\nH1_1: \"Document Icon\" | Usage: \"Represents a document or file\"\nH1_2: \"ello orld, am omputer use agent!\" | Usage: \"Text box likely containing user-generated text\"\nH1_3: \"Dot Icon\" | Usage: \"Indicates a selected or active state\"\nH1_4: \"Plus Icon\" | Usage: \"Adds a new item or element\"\nH2_1: \"ello\" | Usage: \"Short text likely part of a label\"\nH2_2: \"orld,\" | Usage: \"Short text likely part of a label\"\nH2_3: \"am\" | Usage: \"Short text likely part of a label\"\nH2_4: \"omputer\" | Usage: \"Short text likely part of a label\"\nH3_1: \"ello orld, am omputer use agent!\" | Usage: \"Text box likely containing user-generated text\"\nH4_1: \"Profile Icon with Number 8\" | Usage: \"Represents a user profile or account with associated number\"\nH5_1: \"Ln 1, Col 33\" | Usage: \"Indicates current line and column number\"\nH5_2: \"32 characters\" | Usage: \"Shows the number of characters\"\nH6_1: \"Windows Icon\" | Usage: \"Opens the Windows start menu\"\nH6_2: \"Magnifying Glass Icon\" | Usage: \"Opens the search function\"\nH6_3: \"Letter L Icon\" | Usage: \"Represents the LinkedIn Application\"\nH6_4: \"Microsoft Office Icon\" | Usage: \"Opens the Microsoft Office application\"\nH6_5: \"Photo Icon\" | Usage: \"Opens the Photos application\"\nH6_6: \"Edge Icon\" | Usage: \"Opens the Microsoft Edge browser\"\nH6_7: \"Teams Icon\" | Usage: \"Opens the Microsoft Teams application\"\nH6_8: \"M365 Icon\" | Usage: \"Opens the Microsoft 365 application\"\nH6_9: \"Folder Icon\" | Usage: \"Opens the file explorer\"\nH6_10: \"Profile Icon with 99+\" | Usage: \"Represents a user profile or account with a notification badge\"\nH6_11: \"Paint Icon\" | Usage: \"Opens the Paint application\"\nH6_12: \"Word Icon\" | Usage: \"Opens the Microsoft Word application\"\nH6_13: \"Excel Icon\" | Usage: \"Opens the Microsoft Excel application\"\nH7_1: \"agent!\" | Usage: \"Short text likely part of a label\"\nH8_1: \"Pause Icon\" | Usage: \"Pauses current action\"\nH9_1: \"app.clipchamp.com is sharing your screen.\" | Usage: \"Text indicating a screen sharing status from Clipchamp\"\nH9_2: \"Stop sharing\" | Usage: \"Button to stop screen sharing\"\nH9_3: \"Hide\" | Usage: \"Button to hide window\"\nH10_1: \"100%\" | Usage: \"Indicates zoom level as 100 percent\"\nH11_1: \"Up Arrow Icon\" | Usage: \"Move upwards in menu/list\"\nH11_2: \"Cloud Icon\" | Usage: \"Represents a cloud storage service\"\nH11_3: \"Cloud with Arrow Icon\" | Usage: \"Represents a cloud download service\"\nH11_4: \"Calendar Icon\" | Usage: \"Opens the calendar application\"\nH11_5: \"ENG IN\" | Usage: \"Indicates the current language\"\nH11_6: \"Wifi Icon\" | Usage: \"Represents the Wifi settings\"\nH11_7: \"Speaker Icon with Slash\" | Usage: \"Mutes or unmutes the audio output\"\nH12_1: \"Windows (CRLF)\" | Usage: \"Indicates the operating system\"\nH13_1: \"Speaker Icon with Slash and Screen Icon\" | Usage: \"Mutes and unmutes the microphone\"\nH13_2: \"5:43 PM 6/14/2025\" | Usage: \"Shows the current date and time\"\nH14_1: \"Minus Icon\" | Usage: \"Minimize the current window\"\nH14_2: \"Rectangle Icon\" | Usage: \"Maximize the current window\"\nH14_3: \"X Icon\" | Usage: \"Closes the current window\"\nH15_1: \"Colorful Window Icon\" | Usage: \"Customise color settings\"\nH15_2: \"User Icon\" | Usage: \"Opens user account settings\"\nH15_3: \"Gear Icon\" | Usage: \"Opens settings menu\"\nV0_1: \"UTF-8\" | Usage: \"Indicates the character encoding format\"\n```",
+      "analysis_success": true
+    }
+  ]
+}

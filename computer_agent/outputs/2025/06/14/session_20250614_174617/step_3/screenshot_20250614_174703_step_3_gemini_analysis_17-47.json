@@ -1,0 +1,321 @@
+{
+  "filename_base": "screenshot_20250614_174703_step_3",
+  "analysis_timestamp": "2025-06-14T17:47:13.597917",
+  "analysis_duration_seconds": 7.490922,
+  "total_images_analyzed": 1,
+  "total_input_images": 1,
+  "analysis_mode": "direct",
+  "successful_analyses": 1,
+  "total_icons_found": 50,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_69_bboxes.png",
+      "image_name": "combined_groups_0_69_bboxes.png",
+      "icons_found": 50,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_3",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "Document Icon",
+          "usage": "Creates a new document",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "ello orld, am omputer se agent!",
+          "usage": "Text from a file, document, or note",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_3",
+          "name": "Bullet Point Icon",
+          "usage": "Inserts a bullet point or list",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_4",
+          "name": "Plus Icon",
+          "usage": "Adds or creates something new",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "ello",
+          "usage": "Text likely from a file or document",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "orld,",
+          "usage": "Text likely from a file or document",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "am",
+          "usage": "Text likely from a file or document",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "ello orld, am omputer se agent!",
+          "usage": "Text likely from a file or document",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Notification Icon",
+          "usage": "Indicates the presence of a notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Ln 1, Col 32",
+          "usage": "Shows cursor location coordinates",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_2",
+          "name": "31 characters",
+          "usage": "Character counter for text",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Windows Logo",
+          "usage": "Opens the Windows Start menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_2",
+          "name": "Magnifying Glass Icon",
+          "usage": "Opens the search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_3",
+          "name": "Monitor Icon",
+          "usage": "Opens the display settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_4",
+          "name": "Cloud Icon",
+          "usage": "Opens the Microsoft OneDrive settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_5",
+          "name": "Settings Icon",
+          "usage": "Opens settings app",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_6",
+          "name": "Camera Icon",
+          "usage": "Opens the camera app",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_7",
+          "name": "Teams Icon",
+          "usage": "Opens the Microsoft Teams app",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_8",
+          "name": "HDR Icon",
+          "usage": "Opens the HDR settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_9",
+          "name": "Folder Icon",
+          "usage": "Opens the file explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_10",
+          "name": "Notification Icon",
+          "usage": "Opens the notification center",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_11",
+          "name": "P Icon",
+          "usage": "Opens the Microsoft Photos app",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_12",
+          "name": "W Icon",
+          "usage": "Opens the Microsoft Word app",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_13",
+          "name": "X Icon",
+          "usage": "Opens the Microsoft Excel app",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "agent!",
+          "usage": "Text likely from a file or document",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Pause Icon",
+          "usage": "Pauses sharing",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "app.clipchamp.com is sharing your screen.",
+          "usage": "Sharing notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "Stop sharing",
+          "usage": "Stops screen sharing",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_3",
+          "name": "Hide",
+          "usage": "Hides screen sharing controls",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "100%",
+          "usage": "Indicates zoom percentage",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "Up Arrow",
+          "usage": "Expands the system tray",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_2",
+          "name": "Cloud Icon",
+          "usage": "Cloud sync status or access",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_3",
+          "name": "Cloud Icon",
+          "usage": "Cloud sync status or access",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_4",
+          "name": "Document Icon",
+          "usage": "Access to document settings or options",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_5",
+          "name": "ENG IN",
+          "usage": "Language input settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_6",
+          "name": "Speaker Icon with Waves",
+          "usage": "Audio output settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_7",
+          "name": "5:47 PM 6/14/2025",
+          "usage": "Current date and time",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Windows (CRLF)",
+          "usage": "Windows input settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "Wifi Icon",
+          "usage": "Wifi network connection status",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_2",
+          "name": "Speaker Icon",
+          "usage": "Audio output settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Minus Sign",
+          "usage": "Minimizes a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_2",
+          "name": "Square Icon",
+          "usage": "Toggles window state",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_3",
+          "name": "X Icon",
+          "usage": "Closes a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Down Arrow",
+          "usage": "Opens quick settings menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_2",
+          "name": "Person Icon",
+          "usage": "Access to account settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_3",
+          "name": "Gear Icon",
+          "usage": "System settings",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "UTF-8",
+          "usage": "Character encoding settings",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "H0_1: \"File\" | Usage: \"Opens the file menu\"\nH0_2: \"Edit\" | Usage: \"Opens the edit menu\"\nH0_3: \"View\" | Usage: \"Opens the view menu\"\nH1_1: \"Document Icon\" | Usage: \"Creates a new document\"\nH1_2: \"ello orld, am omputer se agent!\" | Usage: \"Text from a file, document, or note\"\nH1_3: \"Bullet Point Icon\" | Usage: \"Inserts a bullet point or list\"\nH1_4: \"Plus Icon\" | Usage: \"Adds or creates something new\"\nH2_1: \"ello\" | Usage: \"Text likely from a file or document\"\nH2_2: \"orld,\" | Usage: \"Text likely from a file or document\"\nH2_3: \"am\" | Usage: \"Text likely from a file or document\"\nH3_1: \"ello orld, am omputer se agent!\" | Usage: \"Text likely from a file or document\"\nH4_1: \"Notification Icon\" | Usage: \"Indicates the presence of a notification\"\nH5_1: \"Ln 1, Col 32\" | Usage: \"Shows cursor location coordinates\"\nH5_2: \"31 characters\" | Usage: \"Character counter for text\"\nH6_1: \"Windows Logo\" | Usage: \"Opens the Windows Start menu\"\nH6_2: \"Magnifying Glass Icon\" | Usage: \"Opens the search function\"\nH6_3: \"Monitor Icon\" | Usage: \"Opens the display settings\"\nH6_4: \"Cloud Icon\" | Usage: \"Opens the Microsoft OneDrive settings\"\nH6_5: \"Settings Icon\" | Usage: \"Opens settings app\"\nH6_6: \"Camera Icon\" | Usage: \"Opens the camera app\"\nH6_7: \"Teams Icon\" | Usage: \"Opens the Microsoft Teams app\"\nH6_8: \"HDR Icon\" | Usage: \"Opens the HDR settings\"\nH6_9: \"Folder Icon\" | Usage: \"Opens the file explorer\"\nH6_10: \"Notification Icon\" | Usage: \"Opens the notification center\"\nH6_11: \"P Icon\" | Usage: \"Opens the Microsoft Photos app\"\nH6_12: \"W Icon\" | Usage: \"Opens the Microsoft Word app\"\nH6_13: \"X Icon\" | Usage: \"Opens the Microsoft Excel app\"\nH7_1: \"agent!\" | Usage: \"Text likely from a file or document\"\nH8_1: \"Pause Icon\" | Usage: \"Pauses sharing\"\nH9_1: \"app.clipchamp.com is sharing your screen.\" | Usage: \"Sharing notification\"\nH9_2: \"Stop sharing\" | Usage: \"Stops screen sharing\"\nH9_3: \"Hide\" | Usage: \"Hides screen sharing controls\"\nH10_1: \"100%\" | Usage: \"Indicates zoom percentage\"\nH11_1: \"Up Arrow\" | Usage: \"Expands the system tray\"\nH11_2: \"Cloud Icon\" | Usage: \"Cloud sync status or access\"\nH11_3: \"Cloud Icon\" | Usage: \"Cloud sync status or access\"\nH11_4: \"Document Icon\" | Usage: \"Access to document settings or options\"\nH11_5: \"ENG IN\" | Usage: \"Language input settings\"\nH11_6: \"Speaker Icon with Waves\" | Usage: \"Audio output settings\"\nH11_7: \"5:47 PM 6/14/2025\" | Usage: \"Current date and time\"\nH12_1: \"Windows (CRLF)\" | Usage: \"Windows input settings\"\nH13_1: \"Wifi Icon\" | Usage: \"Wifi network connection status\"\nH13_2: \"Speaker Icon\" | Usage: \"Audio output settings\"\nH14_1: \"Minus Sign\" | Usage: \"Minimizes a window\"\nH14_2: \"Square Icon\" | Usage: \"Toggles window state\"\nH14_3: \"X Icon\" | Usage: \"Closes a window\"\nH15_1: \"Down Arrow\" | Usage: \"Opens quick settings menu\"\nH15_2: \"Person Icon\" | Usage: \"Access to account settings\"\nH15_3: \"Gear Icon\" | Usage: \"System settings\"\nV0_1: \"UTF-8\" | Usage: \"Character encoding settings\"\n",
+      "analysis_success": true
+    }
+  ]
+}

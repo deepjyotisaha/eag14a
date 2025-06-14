@@ -37,7 +37,8 @@ def print_structure(d, prefix=''):
 
 
 
-#Open notepad, type "Hello World, I am Computer use agent!" and save the file in desktop with name "hello". Use screen-id 1.
+#Open notepad, type "Hello World, I am Computer use agent!" and save the file in desktop with name "hello". Use screen-id 1, always. The Save As option is usually the sixth option from the top in the File Menu.
+#Open notepad, type "Hello World", open a new tab and type "I am Computer use agent! and then exit. Use screenid 1, always.
 
 class ComputerAgentLoop:
     def __init__(self, multi_mcp, model_manager):
@@ -55,6 +56,7 @@ class ComputerAgentLoop:
         self.summary = Summary(model_manager)
         self.max_steps = 10  # Maximum number of steps per session
         self.max_retries = 3  # Maximum retries per step
+        self.max_re_analysis = 1  # Maximum number of cycles per session
         
     async def run(self, query: str) -> Dict[str, Any]:
         """
@@ -75,6 +77,7 @@ class ComputerAgentLoop:
         try:
             logger.info(f"Starting computer agent session {session_id}")
             step_count = 0
+            re_analysis_count = 0
             
             while step_count < self.max_steps:
                 log_step(f"🔄 Starting new cycle with step count {step_count + 1}")
@@ -118,11 +121,11 @@ class ComputerAgentLoop:
                             logger.info(f"Seraphine Groups: {value}")
                 '''
 
-                seraphine_analysis = self.extract_seraphine_data(pipeline_result, 'seraphine_analysis')
-                #seraphine_gemini_groups = self.extract_seraphine_data(pipeline_result, 'seraphine_gemini_groups')
-                logger.info("Logging Seraphine Data")
-                log_seraphine_data(seraphine_analysis, logger)
-                #log_seraphine_data(seraphine_gemini_groups, logger)
+                #seraphine_analysis = self.extract_seraphine_data(pipeline_result, 'seraphine_analysis')
+                seraphine_gemini_groups = self.extract_seraphine_data(pipeline_result, 'seraphine_gemini_groups')
+                logger.info("Logging Seraphine Data for Gemini Groups")
+                #log_seraphine_data(seraphine_analysis, logger)
+                log_seraphine_data(seraphine_gemini_groups, logger)
 
                 
                 #pipeline_result = {"pipeline_output": "No Screenshot"}
@@ -144,7 +147,7 @@ class ComputerAgentLoop:
                 logger.info(f"🧠 Running perception analysis for step {step_count + 1}")
                 perception = await self.perception.analyze(
                     ctx, 
-                    seraphine_analysis,
+                    seraphine_gemini_groups,
                     snapshot_type=snapshot_type
                 )
                 logger.info(f"🧠 Perception analysis completed for step {step_count + 1}")
@@ -158,6 +161,7 @@ class ComputerAgentLoop:
                     log_step(f"🔄 Summarization task complete for step {step_count + 1}")
                     #ctx.print_cycle_steps(step_count + 1)
                     return await self.summary.summarize(query, ctx, perception)
+                    
                 
                 # Step 3: Decision
                 decision_step = ctx.add_step(
@@ -199,6 +203,9 @@ class ComputerAgentLoop:
                 logger.info(f"🛠️ Tool execution completed for step {step_count + 1}")
                 logger.info(f"🛠️ Execution result for step {step_count + 1}: {execution_result}")
                 log_json_block(f"📌 Execution result for step {step_count + 1}", execution_result)
+
+                #sleep for 10 seconds
+                await asyncio.sleep(1)
                 
                 # Record complete cycle
                 ctx.record_cycle(perception, decision, execution_result)

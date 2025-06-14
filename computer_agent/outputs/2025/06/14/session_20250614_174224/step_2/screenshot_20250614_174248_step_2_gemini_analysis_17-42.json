@@ -1,0 +1,291 @@
+{
+  "filename_base": "screenshot_20250614_174248_step_2",
+  "analysis_timestamp": "2025-06-14T17:42:58.076877",
+  "analysis_duration_seconds": 6.916572,
+  "total_images_analyzed": 1,
+  "total_input_images": 1,
+  "analysis_mode": "direct",
+  "successful_analyses": 1,
+  "total_icons_found": 45,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_64_bboxes.png",
+      "image_name": "combined_groups_0_64_bboxes.png",
+      "icons_found": 45,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_3",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "Document Icon",
+          "usage": "Likely creates a new document",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "Untitled",
+          "usage": "Text field showing the document title",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "Ln 1, Col 1",
+          "usage": "Shows cursor line and column position",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "0 characters",
+          "usage": "Shows the number of characters in the document",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "Windows Logo",
+          "usage": "Likely opens a Windows menu or start screen",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_2",
+          "name": "Magnifying Glass",
+          "usage": "Opens a search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_3",
+          "name": "Monitor with file",
+          "usage": "Opens display settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_4",
+          "name": "Folder with Magnifying Glass",
+          "usage": "Opens the file explorer",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_5",
+          "name": "People with a globe",
+          "usage": "Opens the connection section",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_6",
+          "name": "Two People",
+          "usage": "Open the shared items section",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_7",
+          "name": "Teams Logo",
+          "usage": "Opens Teams software",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_8",
+          "name": "Microsoft 365 Logo",
+          "usage": "Opens Microsoft 365 software",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_9",
+          "name": "Folder with yellow band",
+          "usage": "Opens folder option",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_10",
+          "name": "99+",
+          "usage": "Opens the notification section",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_11",
+          "name": "Purple Document",
+          "usage": "Opens the settings section",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_12",
+          "name": "Word Logo",
+          "usage": "Opens Microsoft word software",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_13",
+          "name": "Excel Logo",
+          "usage": "Opens Microsoft Excel software",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "X",
+          "usage": "Close window",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_2",
+          "name": "+",
+          "usage": "Maximize window",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Pause Button",
+          "usage": "Pauses the process",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "app.clipchamp.com is sharing your screen.",
+          "usage": "Indicates a screen sharing notification and source",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_2",
+          "name": "Stop sharing",
+          "usage": "Button to stop screen sharing",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_3",
+          "name": "Hide",
+          "usage": "Button to hide the screen sharing notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "100%",
+          "usage": "Zoom percentage of the screen",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Up Arrow",
+          "usage": "Scrolls up",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_2",
+          "name": "Cloud Icon",
+          "usage": "Opens cloud data or cloud settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_3",
+          "name": "Two Clouds",
+          "usage": "Opens shared cloud data",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_4",
+          "name": "File icon",
+          "usage": "opens file info",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_5",
+          "name": "ENG IN",
+          "usage": "Indicates the current input language is English",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_6",
+          "name": "Speaker Icon with Arrow",
+          "usage": "Opens audio input selection",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_7",
+          "name": "5:42 PM 6/14/2025",
+          "usage": "Displays current date and time",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "Windows (CRLF)",
+          "usage": "Indicates the Windows line ending format",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "Wifi Icon",
+          "usage": "Indicates a WiFi connection",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_2",
+          "name": "Speaker Icon",
+          "usage": "Open the audio input selection",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "UTF-8",
+          "usage": "Indicates the character encoding is UTF-8",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Minus Sign",
+          "usage": "Minimize window",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_2",
+          "name": "Square",
+          "usage": "Changes the windows display size",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_3",
+          "name": "X",
+          "usage": "Close Window",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "Down Arrow",
+          "usage": "Opens a drop down menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_2",
+          "name": "Person Icon",
+          "usage": "Opens user settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_3",
+          "name": "Gear Icon",
+          "usage": "Opens settings menu",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "Envelope with number 8",
+          "usage": "Indicates a notification with 8 unread messages",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "H0_1: \"File\" | Usage: \"Opens the file menu\"\nH0_2: \"Edit\" | Usage: \"Opens the edit menu\"\nH0_3: \"View\" | Usage: \"Opens the view menu\"\nH1_1: \"Document Icon\" | Usage: \"Likely creates a new document\"\nH1_2: \"Untitled\" | Usage: \"Text field showing the document title\"\nH2_1: \"Ln 1, Col 1\" | Usage: \"Shows cursor line and column position\"\nH2_2: \"0 characters\" | Usage: \"Shows the number of characters in the document\"\nH3_1: \"Windows Logo\" | Usage: \"Likely opens a Windows menu or start screen\"\nH3_2: \"Magnifying Glass\" | Usage: \"Opens a search function\"\nH3_3: \"Monitor with file\" | Usage: \"Opens display settings\"\nH3_4: \"Folder with Magnifying Glass\" | Usage: \"Opens the file explorer\"\nH3_5: \"People with a globe\" | Usage: \"Opens the connection section\"\nH3_6: \"Two People\" | Usage: \"Open the shared items section\"\nH3_7: \"Teams Logo\" | Usage: \"Opens Teams software\"\nH3_8: \"Microsoft 365 Logo\" | Usage: \"Opens Microsoft 365 software\"\nH3_9: \"Folder with yellow band\" | Usage: \"Opens folder option\"\nH3_10: \"99+\" | Usage: \"Opens the notification section\"\nH3_11: \"Purple Document\" | Usage: \"Opens the settings section\"\nH3_12: \"Word Logo\" | Usage: \"Opens Microsoft word software\"\nH3_13: \"Excel Logo\" | Usage: \"Opens Microsoft Excel software\"\nH4_1: \"X\" | Usage: \"Close window\"\nH4_2: \"+\" | Usage: \"Maximize window\"\nH5_1: \"Pause Button\" | Usage: \"Pauses the process\"\nH6_1: \"app.clipchamp.com is sharing your screen.\" | Usage: \"Indicates a screen sharing notification and source\"\nH6_2: \"Stop sharing\" | Usage: \"Button to stop screen sharing\"\nH6_3: \"Hide\" | Usage: \"Button to hide the screen sharing notification\"\nH7_1: \"100%\" | Usage: \"Zoom percentage of the screen\"\nH8_1: \"Up Arrow\" | Usage: \"Scrolls up\"\nH8_2: \"Cloud Icon\" | Usage: \"Opens cloud data or cloud settings\"\nH8_3: \"Two Clouds\" | Usage: \"Opens shared cloud data\"\nH8_4: \"File icon\" | Usage: \"opens file info\"\nH8_5: \"ENG IN\" | Usage: \"Indicates the current input language is English\"\nH8_6: \"Speaker Icon with Arrow\" | Usage: \"Opens audio input selection\"\nH8_7: \"5:42 PM 6/14/2025\" | Usage: \"Displays current date and time\"\nH9_1: \"Windows (CRLF)\" | Usage: \"Indicates the Windows line ending format\"\nH10_1: \"Wifi Icon\" | Usage: \"Indicates a WiFi connection\"\nH10_2: \"Speaker Icon\" | Usage: \"Open the audio input selection\"\nH11_1: \"UTF-8\" | Usage: \"Indicates the character encoding is UTF-8\"\nH12_1: \"Minus Sign\" | Usage: \"Minimize window\"\nH12_2: \"Square\" | Usage: \"Changes the windows display size\"\nH12_3: \"X\" | Usage: \"Close Window\"\nH13_1: \"Down Arrow\" | Usage: \"Opens a drop down menu\"\nH13_2: \"Person Icon\" | Usage: \"Opens user settings\"\nH13_3: \"Gear Icon\" | Usage: \"Opens settings menu\"\nV0_1: \"Envelope with number 8\" | Usage: \"Indicates a notification with 8 unread messages\"\n",
+      "analysis_success": true
+    }
+  ]
+}

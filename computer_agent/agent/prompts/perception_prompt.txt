@@ -123,6 +123,9 @@ You will be given a complete textual snapshot of the screen in JSON format conta
   * Each element's bounding box coordinates, type, description, accompanying text and source information
   * Logical groupings of UI elements (horizontal groups (like H0_XX) or vertical groups (like V0_XXX))
 
+** NEVER assume that the UI operation was succesfull if the UI elements are not visible.
+** IF you are NOT able to validate the UI changes from screen analysis, suggest failure and recommend to try again or alternate approaches along with potential reason for failure if you can confirm.
+** Always consider any inputs or additional information that user has given in the query
 
 ---
 

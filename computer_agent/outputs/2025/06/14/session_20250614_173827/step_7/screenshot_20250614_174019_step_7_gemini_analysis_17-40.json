@@ -1,0 +1,381 @@
+{
+  "filename_base": "screenshot_20250614_174019_step_7",
+  "analysis_timestamp": "2025-06-14T17:40:32.596065",
+  "analysis_duration_seconds": 10.906656,
+  "total_images_analyzed": 1,
+  "total_input_images": 1,
+  "analysis_mode": "direct",
+  "successful_analyses": 1,
+  "total_icons_found": 60,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_82_bboxes.png",
+      "image_name": "combined_groups_0_82_bboxes.png",
+      "icons_found": 60,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "Window Icon",
+          "usage": "Likely represents the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "Close tab",
+          "usage": "Closes the current tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "Ctrl+W",
+          "usage": "Keyboard shortcut to close the current tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "Close window",
+          "usage": "Closes the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_2",
+          "name": "Ctrl+Shift+W",
+          "usage": "Keyboard shortcut to close the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Exit",
+          "usage": "Closes the application",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Notification Icon",
+          "usage": "Indicates pending notifications",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Ln 1, Col 21",
+          "usage": "Shows cursor location in the text editor",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_2",
+          "name": "20 characters",
+          "usage": "Shows the number of characters",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "Window Icon",
+          "usage": "Represents an application window",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_2",
+          "name": "Magnifying Glass",
+          "usage": "Opens the search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_3",
+          "name": "Window Icon",
+          "usage": "Represents an application window",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_4",
+          "name": "Window Icon",
+          "usage": "Represents an application window",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_5",
+          "name": "Window Icon",
+          "usage": "Represents an application window",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_6",
+          "name": "Window Icon",
+          "usage": "Represents an application window",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_7",
+          "name": "Window Icon",
+          "usage": "Represents an application window",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_8",
+          "name": "Memo Icon",
+          "usage": "Represents a note or memo",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_9",
+          "name": "Window Icon",
+          "usage": "Represents an application window",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_10",
+          "name": "99+",
+          "usage": "Indicates 99+ number of something",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_11",
+          "name": "Window Icon",
+          "usage": "Represents an application window",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_12",
+          "name": "Window Icon",
+          "usage": "Represents an application window",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_13",
+          "name": "Window Icon",
+          "usage": "Represents an application window",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Dot",
+          "usage": "Indicates a setting or mode",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_2",
+          "name": "am omputer use gent!",
+          "usage": "Likely a misspelled string from a text editor",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "Dot",
+          "usage": "Likely represents adding an element",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "+",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "Pause Icon",
+          "usage": "Pauses the current action",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "app.clipchamp.com is sharing your screen.",
+          "usage": "Indicates screen sharing status",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_2",
+          "name": "Stop sharing",
+          "usage": "Stops the screen sharing function",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_3",
+          "name": "Hide",
+          "usage": "Hides the screen sharing notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "100%",
+          "usage": "Sets the zoom level to 100%",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "Up Arrow",
+          "usage": "Navigates up in a menu or directory",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_2",
+          "name": "Cloud Icon",
+          "usage": "Relates to cloud storage or services",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_3",
+          "name": "Email Icon",
+          "usage": "Represents email or messaging",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_4",
+          "name": "Document Icon",
+          "usage": "Opens or creates a document",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_5",
+          "name": "ENG IN",
+          "usage": "Selects input language (English)",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_6",
+          "name": "Speaker Icon",
+          "usage": "Adjusts the volume or audio settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_7",
+          "name": "5:40 PM 6/14/2025",
+          "usage": "Displays current time and date",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Windows (CRLF)",
+          "usage": "Specifies the line ending format for text files",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Wifi Icon",
+          "usage": "Shows current Wi-Fi connection",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "Minus Sign",
+          "usage": "Minimizes the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_2",
+          "name": "Square Icon",
+          "usage": "Restores or maximizes the window",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_3",
+          "name": "X",
+          "usage": "Closes the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "Dropdown Arrow",
+          "usage": "Opens a dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_2",
+          "name": "Settings Icon",
+          "usage": "Opens system or application settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_3",
+          "name": "Gear Icon",
+          "usage": "Opens application settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": "Document with Arrow",
+          "usage": "Inserts a new document from a template or file",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "ello rld",
+          "usage": "Shows the text hello world",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_2",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_3",
+          "name": "New tab",
+          "usage": "Opens a new tab",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_4",
+          "name": "New window",
+          "usage": "Opens a new window",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "Ctrl+N",
+          "usage": "Keyboard shortcut to open a new window",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_2",
+          "name": "Ctrl+Shift+N",
+          "usage": "Keyboard shortcut to open an incognito/private window",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_1",
+          "name": "Open",
+          "usage": "Opens a file or document",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_2",
+          "name": "Recent",
+          "usage": "Opens a list of recent files or documents",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_3",
+          "name": "Save",
+          "usage": "Saves the current file or document",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_4",
+          "name": "Save as",
+          "usage": "Saves the current file or document with a new name",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_1",
+          "name": "UTF-8",
+          "usage": "Sets the text encoding to UTF-8",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "H0_1: \"Window Icon\" | Usage: \"Likely represents the current window\"\nH1_1: \"File\" | Usage: \"Opens the file menu\"\nH1_2: \"View\" | Usage: \"Opens the view menu\"\nH2_1: \"Close tab\" | Usage: \"Closes the current tab\"\nH2_2: \"Ctrl+W\" | Usage: \"Keyboard shortcut to close the current tab\"\nH3_1: \"Close window\" | Usage: \"Closes the current window\"\nH3_2: \"Ctrl+Shift+W\" | Usage: \"Keyboard shortcut to close the current window\"\nH4_1: \"Exit\" | Usage: \"Closes the application\"\nH5_1: \"Notification Icon\" | Usage: \"Indicates pending notifications\"\nH6_1: \"Ln 1, Col 21\" | Usage: \"Shows cursor location in the text editor\"\nH6_2: \"20 characters\" | Usage: \"Shows the number of characters\"\nH7_1: \"Window Icon\" | Usage: \"Represents an application window\"\nH7_2: \"Magnifying Glass\" | Usage: \"Opens the search function\"\nH7_3: \"Window Icon\" | Usage: \"Represents an application window\"\nH7_4: \"Window Icon\" | Usage: \"Represents an application window\"\nH7_5: \"Window Icon\" | Usage: \"Represents an application window\"\nH7_6: \"Window Icon\" | Usage: \"Represents an application window\"\nH7_7: \"Window Icon\" | Usage: \"Represents an application window\"\nH7_8: \"Memo Icon\" | Usage: \"Represents a note or memo\"\nH7_9: \"Window Icon\" | Usage: \"Represents an application window\"\nH7_10: \"99+\" | Usage: \"Indicates 99+ number of something\"\nH7_11: \"Window Icon\" | Usage: \"Represents an application window\"\nH7_12: \"Window Icon\" | Usage: \"Represents an application window\"\nH7_13: \"Window Icon\" | Usage: \"Represents an application window\"\nH8_1: \"Dot\" | Usage: \"Indicates a setting or mode\"\nH8_2: \"am omputer use gent!\" | Usage: \"Likely a misspelled string from a text editor\"\nH9_1: \"Dot\" | Usage: \"Likely represents adding an element\"\nH9_2: \"+\" | Usage: \"Adds a new item or element\"\nH10_1: \"Pause Icon\" | Usage: \"Pauses the current action\"\nH11_1: \"app.clipchamp.com is sharing your screen.\" | Usage: \"Indicates screen sharing status\"\nH11_2: \"Stop sharing\" | Usage: \"Stops the screen sharing function\"\nH11_3: \"Hide\" | Usage: \"Hides the screen sharing notification\"\nH12_1: \"100%\" | Usage: \"Sets the zoom level to 100%\"\nH13_1: \"Up Arrow\" | Usage: \"Navigates up in a menu or directory\"\nH13_2: \"Cloud Icon\" | Usage: \"Relates to cloud storage or services\"\nH13_3: \"Email Icon\" | Usage: \"Represents email or messaging\"\nH13_4: \"Document Icon\" | Usage: \"Opens or creates a document\"\nH13_5: \"ENG IN\" | Usage: \"Selects input language (English)\"\nH13_6: \"Speaker Icon\" | Usage: \"Adjusts the volume or audio settings\"\nH13_7: \"5:40 PM 6/14/2025\" | Usage: \"Displays current time and date\"\nH14_1: \"Windows (CRLF)\" | Usage: \"Specifies the line ending format for text files\"\nH15_1: \"Wifi Icon\" | Usage: \"Shows current Wi-Fi connection\"\nH16_1: \"Minus Sign\" | Usage: \"Minimizes the current window\"\nH16_2: \"Square Icon\" | Usage: \"Restores or maximizes the window\"\nH16_3: \"X\" | Usage: \"Closes the current window\"\nH17_1: \"Dropdown Arrow\" | Usage: \"Opens a dropdown menu\"\nH17_2: \"Settings Icon\" | Usage: \"Opens system or application settings\"\nH17_3: \"Gear Icon\" | Usage: \"Opens application settings\"\nH18_1: \"Document with Arrow\" | Usage: \"Inserts a new document from a template or file\"\nV0_1: \"ello rld\" | Usage: \"Shows the text hello world\"\nV0_2: \"Edit\" | Usage: \"Opens the edit menu\"\nV0_3: \"New tab\" | Usage: \"Opens a new tab\"\nV0_4: \"New window\" | Usage: \"Opens a new window\"\nV1_1: \"Ctrl+N\" | Usage: \"Keyboard shortcut to open a new window\"\nV1_2: \"Ctrl+Shift+N\" | Usage: \"Keyboard shortcut to open an incognito/private window\"\nV2_1: \"Open\" | Usage: \"Opens a file or document\"\nV2_2: \"Recent\" | Usage: \"Opens a list of recent files or documents\"\nV2_3: \"Save\" | Usage: \"Saves the current file or document\"\nV2_4: \"Save as\" | Usage: \"Saves the current file or document with a new name\"\nV3_1: \"UTF-8\" | Usage: \"Sets the text encoding to UTF-8\"\n",
+      "analysis_success": true
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "filename_base": "screenshot_20250614_173547_step_6",
+  "analysis_timestamp": "2025-06-14T17:35:56.472418",
+  "analysis_duration_seconds": 6.985323,
+  "total_images_analyzed": 1,
+  "total_input_images": 1,
+  "analysis_mode": "direct",
+  "successful_analyses": 1,
+  "total_icons_found": 46,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_64_bboxes.png",
+      "image_name": "combined_groups_0_64_bboxes.png",
+      "icons_found": 46,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "Icon",
+          "usage": "Application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H0_2",
+          "name": "ello orld",
+          "usage": "Text label, likely a file name",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_3",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "am omputer",
+          "usage": "Text label, possibly part of a phrase",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "use",
+          "usage": "Text label, possibly part of a phrase",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "agent!",
+          "usage": "Text label, possibly part of a phrase",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "am omputer use agent!",
+          "usage": "Text label, possibly a description",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Ln 1, Col 22",
+          "usage": "Cursor position in a text editor",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_2",
+          "name": "21 characters",
+          "usage": "Character count in a text field",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Windows Icon",
+          "usage": "Microsoft Windows application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_2",
+          "name": "Magnifying Glass",
+          "usage": "Search function",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_3",
+          "name": "Square Icon",
+          "usage": "Unclear function",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_4",
+          "name": "Office Icon",
+          "usage": "Microsoft Office application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_5",
+          "name": "Application Icon",
+          "usage": "Unclear function",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_6",
+          "name": "Application Icon",
+          "usage": "Unclear function",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_7",
+          "name": "Teams Icon",
+          "usage": "Microsoft Teams application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_8",
+          "name": "M365 Icon",
+          "usage": "Microsoft 365 application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_9",
+          "name": "Application Icon",
+          "usage": "Unclear function",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_10",
+          "name": "Application Icon",
+          "usage": "Unclear function, likely with a notification badge",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_11",
+          "name": "PowerPoint Icon",
+          "usage": "Microsoft PowerPoint application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_12",
+          "name": "Word Icon",
+          "usage": "Microsoft Word application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_13",
+          "name": "Excel Icon",
+          "usage": "Microsoft Excel application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Dot Icon",
+          "usage": "Unclear function, potentially a toggle",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_2",
+          "name": "am omputer use agent!",
+          "usage": "Text box, likely a description",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "Dot Icon",
+          "usage": "Unclear function, potentially a toggle",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_2",
+          "name": "Plus Sign",
+          "usage": "Zoom in or increase value",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "100%",
+          "usage": "Zoom level percentage display",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "Up Arrow",
+          "usage": "Move selection up",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "Cloud Icon",
+          "usage": "Cloud storage or synchronization",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_3",
+          "name": "Cloud Icon",
+          "usage": "Cloud storage or synchronization",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_4",
+          "name": "Document Icon",
+          "usage": "Opens a document",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_5",
+          "name": "ENG IN",
+          "usage": "Language input selection",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_6",
+          "name": "Wifi and Monitor Icon",
+          "usage": "Display screen mirroring or casting settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_7",
+          "name": "5:35 PM 6/14/2025",
+          "usage": "Timestamp showing date and time",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "Windows (CRLF)",
+          "usage": "Text box, likely showing encoding or formatting settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "Wifi Icon",
+          "usage": "Wireless network connection status",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_2",
+          "name": "Speaker Icon",
+          "usage": "Volume control",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "UTF-8",
+          "usage": "Character encoding selection",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "Minus Sign",
+          "usage": "Minimize or decrease value",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_2",
+          "name": "Trash Can",
+          "usage": "Delete or remove item",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_3",
+          "name": "X Icon",
+          "usage": "Close or cancel action",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Application Icon with Down Arrow",
+          "usage": "Dropdown menu or options",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_2",
+          "name": "Person Icon",
+          "usage": "User profile or account settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_3",
+          "name": "Gear Icon",
+          "usage": "Settings or preferences",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H0_1: \"Icon\" | Usage: \"Application icon\"\nH0_2: \"ello orld\" | Usage: \"Text label, likely a file name\"\nH1_1: \"File\" | Usage: \"Opens the file menu\"\nH1_2: \"Edit\" | Usage: \"Opens the edit menu\"\nH1_3: \"View\" | Usage: \"Opens the view menu\"\nH2_1: \"am omputer\" | Usage: \"Text label, possibly part of a phrase\"\nH2_2: \"use\" | Usage: \"Text label, possibly part of a phrase\"\nH2_3: \"agent!\" | Usage: \"Text label, possibly part of a phrase\"\nH3_1: \"am omputer use agent!\" | Usage: \"Text label, possibly a description\"\nH4_1: \"Ln 1, Col 22\" | Usage: \"Cursor position in a text editor\"\nH4_2: \"21 characters\" | Usage: \"Character count in a text field\"\nH5_1: \"Windows Icon\" | Usage: \"Microsoft Windows application icon\"\nH5_2: \"Magnifying Glass\" | Usage: \"Search function\"\nH5_3: \"Square Icon\" | Usage: \"Unclear function\"\nH5_4: \"Office Icon\" | Usage: \"Microsoft Office application icon\"\nH5_5: \"Application Icon\" | Usage: \"Unclear function\"\nH5_6: \"Application Icon\" | Usage: \"Unclear function\"\nH5_7: \"Teams Icon\" | Usage: \"Microsoft Teams application icon\"\nH5_8: \"M365 Icon\" | Usage: \"Microsoft 365 application icon\"\nH5_9: \"Application Icon\" | Usage: \"Unclear function\"\nH5_10: \"Application Icon\" | Usage: \"Unclear function, likely with a notification badge\"\nH5_11: \"PowerPoint Icon\" | Usage: \"Microsoft PowerPoint application icon\"\nH5_12: \"Word Icon\" | Usage: \"Microsoft Word application icon\"\nH5_13: \"Excel Icon\" | Usage: \"Microsoft Excel application icon\"\nH6_1: \"Dot Icon\" | Usage: \"Unclear function, potentially a toggle\"\nH6_2: \"am omputer use agent!\" | Usage: \"Text box, likely a description\"\nH7_1: \"Dot Icon\" | Usage: \"Unclear function, potentially a toggle\"\nH7_2: \"Plus Sign\" | Usage: \"Zoom in or increase value\"\nH8_1: \"100%\" | Usage: \"Zoom level percentage display\"\nH9_1: \"Up Arrow\" | Usage: \"Move selection up\"\nH9_2: \"Cloud Icon\" | Usage: \"Cloud storage or synchronization\"\nH9_3: \"Cloud Icon\" | Usage: \"Cloud storage or synchronization\"\nH9_4: \"Document Icon\" | Usage: \"Opens a document\"\nH9_5: \"ENG IN\" | Usage: \"Language input selection\"\nH9_6: \"Wifi and Monitor Icon\" | Usage: \"Display screen mirroring or casting settings\"\nH9_7: \"5:35 PM 6/14/2025\" | Usage: \"Timestamp showing date and time\"\nH10_1: \"Windows (CRLF)\" | Usage: \"Text box, likely showing encoding or formatting settings\"\nH11_1: \"Wifi Icon\" | Usage: \"Wireless network connection status\"\nH11_2: \"Speaker Icon\" | Usage: \"Volume control\"\nH12_1: \"UTF-8\" | Usage: \"Character encoding selection\"\nH13_1: \"Minus Sign\" | Usage: \"Minimize or decrease value\"\nH13_2: \"Trash Can\" | Usage: \"Delete or remove item\"\nH13_3: \"X Icon\" | Usage: \"Close or cancel action\"\nH14_1: \"Application Icon with Down Arrow\" | Usage: \"Dropdown menu or options\"\nH14_2: \"Person Icon\" | Usage: \"User profile or account settings\"\nH14_3: \"Gear Icon\" | Usage: \"Settings or preferences\"\n",
+      "analysis_success": true
+    }
+  ]
+}

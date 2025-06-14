@@ -1,0 +1,351 @@
+{
+  "filename_base": "screenshot_20250614_173623_step_8",
+  "analysis_timestamp": "2025-06-14T17:36:34.379405",
+  "analysis_duration_seconds": 8.28178,
+  "total_images_analyzed": 1,
+  "total_input_images": 1,
+  "analysis_mode": "direct",
+  "successful_analyses": 1,
+  "total_icons_found": 55,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_76_bboxes.png",
+      "image_name": "combined_groups_0_76_bboxes.png",
+      "icons_found": 55,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "Icon",
+          "usage": "Represents the application icon",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_2",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "Ctrl+N",
+          "usage": "Shortcut for creating a new document",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "Ctrl+Shift+N",
+          "usage": "Shortcut for creating a new window",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Close tab",
+          "usage": "Closes the current tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_2",
+          "name": "Ctrl+W",
+          "usage": "Shortcut to close the current tab",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "Close window Ctrl+Shift+W",
+          "usage": "Closes the current window",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Exit",
+          "usage": "Exits the application",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "Ln 1, Col 22",
+          "usage": "Displays current cursor location in line and column numbers",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_2",
+          "name": "21 characters",
+          "usage": "Shows the character count of something, possibly selection",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_2",
+          "name": "Q",
+          "usage": "Opens search functionality",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_3",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_4",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_5",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_6",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_7",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_8",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_9",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_10",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_11",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_12",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_13",
+          "name": "Icon",
+          "usage": "Represents an application specific action",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "Dot",
+          "usage": "Represents the currently selected setting or option",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_2",
+          "name": "am omputer use agent!",
+          "usage": "Indicates that a user agent is being employed",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "Dot",
+          "usage": "Toggles some setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_2",
+          "name": "+",
+          "usage": "Zoom In",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "100%",
+          "usage": "Displays current zoom level",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "Arrow",
+          "usage": "Dropdown menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_2",
+          "name": "Cloud Icon",
+          "usage": "Sync with cloud",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_3",
+          "name": "Document Icon",
+          "usage": "Represents a document",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_4",
+          "name": "List Icon",
+          "usage": "Opens a list or menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_5",
+          "name": "ENG IN",
+          "usage": "Shows or changes the language setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_6",
+          "name": "Wifi Icon",
+          "usage": "Connects to Wifi",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "Windows (CRLF)",
+          "usage": "Specifies line ending format",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Sound Icon",
+          "usage": "Audio settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_2",
+          "name": "5:36 PM 6/14/2025",
+          "usage": "Displays current date and time",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "Minus",
+          "usage": "Reduces a value",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_2",
+          "name": "Save Icon",
+          "usage": "Indicates the currently selected action",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_3",
+          "name": "X",
+          "usage": "Closes or deletes something",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "Dropdown Menu",
+          "usage": "Reveals drop down to select options",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_2",
+          "name": "Gear Icon",
+          "usage": "Opens settings menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_3",
+          "name": "Gears Icon",
+          "usage": "Opens advanced settings or preferences",
+          "group_type": "H"
+        },
+        {
+          "id": "V0_1",
+          "name": "ello orld",
+          "usage": "Text or caption in the user interface",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_2",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_3",
+          "name": "New tab",
+          "usage": "Opens a new tab",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_4",
+          "name": "New window",
+          "usage": "Opens a new window",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "Open",
+          "usage": "Opens a file",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_2",
+          "name": "Recent",
+          "usage": "Accesses recent files",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_3",
+          "name": "Save",
+          "usage": "Saves the current file",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_4",
+          "name": "Save as",
+          "usage": "Saves the current file with a new name",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_1",
+          "name": "UTF-8",
+          "usage": "Specifies text encoding format",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_2",
+          "name": "Refresh Icon",
+          "usage": "Refreshes something",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_1",
+          "name": "8",
+          "usage": "Some application setting",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "H0_1: \"Icon\" | Usage: \"Represents the application icon\"\nH1_1: \"File\" | Usage: \"Opens the file menu\"\nH1_2: \"View\" | Usage: \"Opens the view menu\"\nH2_1: \"Ctrl+N\" | Usage: \"Shortcut for creating a new document\"\nH3_1: \"Ctrl+Shift+N\" | Usage: \"Shortcut for creating a new window\"\nH4_1: \"Close tab\" | Usage: \"Closes the current tab\"\nH4_2: \"Ctrl+W\" | Usage: \"Shortcut to close the current tab\"\nH5_1: \"Close window Ctrl+Shift+W\" | Usage: \"Closes the current window\"\nH6_1: \"Exit\" | Usage: \"Exits the application\"\nH7_1: \"Ln 1, Col 22\" | Usage: \"Displays current cursor location in line and column numbers\"\nH7_2: \"21 characters\" | Usage: \"Shows the character count of something, possibly selection\"\nH8_1: \"Icon\" | Usage: \"Represents an application specific action\"\nH8_2: \"Q\" | Usage: \"Opens search functionality\"\nH8_3: \"Icon\" | Usage: \"Represents an application specific action\"\nH8_4: \"Icon\" | Usage: \"Represents an application specific action\"\nH8_5: \"Icon\" | Usage: \"Represents an application specific action\"\nH8_6: \"Icon\" | Usage: \"Represents an application specific action\"\nH8_7: \"Icon\" | Usage: \"Represents an application specific action\"\nH8_8: \"Icon\" | Usage: \"Represents an application specific action\"\nH8_9: \"Icon\" | Usage: \"Represents an application specific action\"\nH8_10: \"Icon\" | Usage: \"Represents an application specific action\"\nH8_11: \"Icon\" | Usage: \"Represents an application specific action\"\nH8_12: \"Icon\" | Usage: \"Represents an application specific action\"\nH8_13: \"Icon\" | Usage: \"Represents an application specific action\"\nH9_1: \"Dot\" | Usage: \"Represents the currently selected setting or option\"\nH9_2: \"am omputer use agent!\" | Usage: \"Indicates that a user agent is being employed\"\nH10_1: \"Dot\" | Usage: \"Toggles some setting\"\nH10_2: \"+\" | Usage: \"Zoom In\"\nH11_1: \"100%\" | Usage: \"Displays current zoom level\"\nH12_1: \"Arrow\" | Usage: \"Dropdown menu\"\nH12_2: \"Cloud Icon\" | Usage: \"Sync with cloud\"\nH12_3: \"Document Icon\" | Usage: \"Represents a document\"\nH12_4: \"List Icon\" | Usage: \"Opens a list or menu\"\nH12_5: \"ENG IN\" | Usage: \"Shows or changes the language setting\"\nH12_6: \"Wifi Icon\" | Usage: \"Connects to Wifi\"\nH13_1: \"Windows (CRLF)\" | Usage: \"Specifies line ending format\"\nH14_1: \"Sound Icon\" | Usage: \"Audio settings\"\nH14_2: \"5:36 PM 6/14/2025\" | Usage: \"Displays current date and time\"\nH15_1: \"Minus\" | Usage: \"Reduces a value\"\nH15_2: \"Save Icon\" | Usage: \"Indicates the currently selected action\"\nH15_3: \"X\" | Usage: \"Closes or deletes something\"\nH16_1: \"Dropdown Menu\" | Usage: \"Reveals drop down to select options\"\nH16_2: \"Gear Icon\" | Usage: \"Opens settings menu\"\nH16_3: \"Gears Icon\" | Usage: \"Opens advanced settings or preferences\"\nV0_1: \"ello orld\" | Usage: \"Text or caption in the user interface\"\nV0_2: \"Edit\" | Usage: \"Opens the edit menu\"\nV0_3: \"New tab\" | Usage: \"Opens a new tab\"\nV0_4: \"New window\" | Usage: \"Opens a new window\"\nV1_1: \"Open\" | Usage: \"Opens a file\"\nV1_2: \"Recent\" | Usage: \"Accesses recent files\"\nV1_3: \"Save\" | Usage: \"Saves the current file\"\nV1_4: \"Save as\" | Usage: \"Saves the current file with a new name\"\nV2_1: \"UTF-8\" | Usage: \"Specifies text encoding format\"\nV2_2: \"Refresh Icon\" | Usage: \"Refreshes something\"\nV3_1: \"8\" | Usage: \"Some application setting\"\n",
+      "analysis_success": true
+    }
+  ]
+}

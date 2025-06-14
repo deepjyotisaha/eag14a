@@ -1,0 +1,4064 @@
+{
+  "pipeline_version": "v1.2_enhanced_with_gemini",
+  "timestamp": "2025-06-14T17:39:35.586566",
+  "image_info": {
+    "filename": "screenshot_20250614_173924_step_4.jpg",
+    "path": "outputs\\2025\\06\\14\\session_20250614_173827\\step_4\\screenshot_20250614_173924_step_4.jpg"
+  },
+  "detection_summary": {
+    "yolo_count": 68,
+    "ocr_count": 71,
+    "merged_count": 77,
+    "total_input": 139,
+    "merge_efficiency": "62 removed"
+  },
+  "seraphine_summary": {
+    "total_groups": 18,
+    "horizontal_groups": 16,
+    "vertical_groups": 2,
+    "long_box_groups": 0,
+    "grouping_efficiency": 0.23376623376623376
+  },
+  "gemini_summary": {
+    "enabled": true,
+    "total_icons_analyzed": 50,
+    "successful_analyses": 1,
+    "analysis_time": 8.975145
+  },
+  "timing_breakdown": {
+    "total_detection_time": 1.3805339336395264,
+    "parallel_detection_time": 1.2439546585083008,
+    "merge_time": 0.12082338333129883,
+    "seraphine_time": 0.04064607620239258,
+    "gemini_time": 8.975145
+  },
+  "detections": {
+    "yolo_detections": [
+      {
+        "bbox": [
+          10,
+          100,
+          227,
+          134
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y001"
+      },
+      {
+        "bbox": [
+          11,
+          232,
+          228,
+          265
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y002"
+      },
+      {
+        "bbox": [
+          1787,
+          31,
+          1843,
+          64
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y003"
+      },
+      {
+        "bbox": [
+          9,
+          67,
+          227,
+          101
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y004"
+      },
+      {
+        "bbox": [
+          10,
+          134,
+          227,
+          167
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y005"
+      },
+      {
+        "bbox": [
+          10,
+          165,
+          225,
+          201
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y006"
+      },
+      {
+        "bbox": [
+          1353,
+          1037,
+          1392,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y007"
+      },
+      {
+        "bbox": [
+          12,
+          200,
+          226,
+          232
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y008"
+      },
+      {
+        "bbox": [
+          1439,
+          1035,
+          1482,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y009"
+      },
+      {
+        "bbox": [
+          8,
+          265,
+          227,
+          298
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y010"
+      },
+      {
+        "bbox": [
+          1486,
+          1036,
+          1522,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y011"
+      },
+      {
+        "bbox": [
+          1882,
+          31,
+          1915,
+          64
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y012"
+      },
+      {
+        "bbox": [
+          563,
+          1037,
+          598,
+          1077
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y013"
+      },
+      {
+        "bbox": [
+          7,
+          369,
+          229,
+          402
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y014"
+      },
+      {
+        "bbox": [
+          300,
+          1042,
+          332,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y015"
+      },
+      {
+        "bbox": [
+          1309,
+          1037,
+          1346,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y016"
+      },
+      {
+        "bbox": [
+          7,
+          300,
+          230,
+          334
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y017"
+      },
+      {
+        "bbox": [
+          1265,
+          1037,
+          1304,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y018"
+      },
+      {
+        "bbox": [
+          343,
+          1041,
+          379,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y019"
+      },
+      {
+        "bbox": [
+          1784,
+          0,
+          1824,
+          31
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y020"
+      },
+      {
+        "bbox": [
+          7,
+          334,
+          230,
+          367
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y021"
+      },
+      {
+        "bbox": [
+          4,
+          0,
+          38,
+          31
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y022"
+      },
+      {
+        "bbox": [
+          474,
+          1037,
+          511,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y023"
+      },
+      {
+        "bbox": [
+          386,
+          1039,
+          424,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y024"
+      },
+      {
+        "bbox": [
+          521,
+          1037,
+          562,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y025"
+      },
+      {
+        "bbox": [
+          165,
+          1034,
+          203,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y026"
+      },
+      {
+        "bbox": [
+          430,
+          1039,
+          466,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y027"
+      },
+      {
+        "bbox": [
+          1652,
+          1045,
+          1677,
+          1068
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y028"
+      },
+      {
+        "bbox": [
+          652,
+          1041,
+          687,
+          1076
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y029"
+      },
+      {
+        "bbox": [
+          1399,
+          1037,
+          1433,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y030"
+      },
+      {
+        "bbox": [
+          42,
+          0,
+          282,
+          31
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y031"
+      },
+      {
+        "bbox": [
+          695,
+          1042,
+          731,
+          1073
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y032"
+      },
+      {
+        "bbox": [
+          1010,
+          951,
+          1118,
+          989
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y033"
+      },
+      {
+        "bbox": [
+          1876,
+          0,
+          1915,
+          29
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y034"
+      },
+      {
+        "bbox": [
+          1829,
+          0,
+          1869,
+          30
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y035"
+      },
+      {
+        "bbox": [
+          1180,
+          1042,
+          1211,
+          1072
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y036"
+      },
+      {
+        "bbox": [
+          255,
+          1042,
+          289,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y037"
+      },
+      {
+        "bbox": [
+          1046,
+          1039,
+          1081,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y038"
+      },
+      {
+        "bbox": [
+          1684,
+          1044,
+          1709,
+          1069
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y039"
+      },
+      {
+        "bbox": [
+          605,
+          1039,
+          641,
+          1077
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y040"
+      },
+      {
+        "bbox": [
+          1850,
+          31,
+          1879,
+          64
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y041"
+      },
+      {
+        "bbox": [
+          1136,
+          1040,
+          1169,
+          1074
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y042"
+      },
+      {
+        "bbox": [
+          1120,
+          953,
+          1161,
+          988
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y043"
+      },
+      {
+        "bbox": [
+          782,
+          1042,
+          817,
+          1075
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y044"
+      },
+      {
+        "bbox": [
+          9,
+          403,
+          226,
+          435
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y045"
+      },
+      {
+        "bbox": [
+          914,
+          1039,
+          950,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y046"
+      },
+      {
+        "bbox": [
+          211,
+          1039,
+          243,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y047"
+      },
+      {
+        "bbox": [
+          826,
+          1041,
+          862,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y048"
+      },
+      {
+        "bbox": [
+          1090,
+          1038,
+          1125,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y049"
+      },
+      {
+        "bbox": [
+          1718,
+          1039,
+          1751,
+          1074
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y050"
+      },
+      {
+        "bbox": [
+          1222,
+          1038,
+          1257,
+          1077
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y051"
+      },
+      {
+        "bbox": [
+          251,
+          4,
+          276,
+          29
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y052"
+      },
+      {
+        "bbox": [
+          958,
+          1039,
+          992,
+          1077
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y053"
+      },
+      {
+        "bbox": [
+          871,
+          1041,
+          906,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y054"
+      },
+      {
+        "bbox": [
+          1002,
+          1038,
+          1040,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y055"
+      },
+      {
+        "bbox": [
+          740,
+          1042,
+          773,
+          1074
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y056"
+      },
+      {
+        "bbox": [
+          289,
+          0,
+          326,
+          32
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y057"
+      },
+      {
+        "bbox": [
+          1785,
+          1044,
+          1807,
+          1066
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y058"
+      },
+      {
+        "bbox": [
+          1808,
+          1043,
+          1832,
+          1067
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y059"
+      },
+      {
+        "bbox": [
+          120,
+          1033,
+          160,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y060"
+      },
+      {
+        "bbox": [
+          1760,
+          1043,
+          1783,
+          1071
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y061"
+      },
+      {
+        "bbox": [
+          1586,
+          1043,
+          1614,
+          1069
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y062"
+      },
+      {
+        "bbox": [
+          1620,
+          1044,
+          1646,
+          1066
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y063"
+      },
+      {
+        "bbox": [
+          756,
+          955,
+          778,
+          984
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y064"
+      },
+      {
+        "bbox": [
+          10,
+          435,
+          231,
+          467
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y065"
+      },
+      {
+        "bbox": [
+          2,
+          36,
+          43,
+          60
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y066"
+      },
+      {
+        "bbox": [
+          1838,
+          1033,
+          1912,
+          1075
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y067"
+      },
+      {
+        "bbox": [
+          12,
+          1034,
+          52,
+          1072
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "y_id": "Y068"
+      }
+    ],
+    "ocr_detections": [
+      {
+        "bbox": [
+          1840,
+          1051,
+          1908,
+          1077
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O001"
+      },
+      {
+        "bbox": [
+          1358,
+          1047,
+          1386,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O002"
+      },
+      {
+        "bbox": [
+          1276,
+          1047,
+          1299,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O003"
+      },
+      {
+        "bbox": [
+          962,
+          1047,
+          990,
+          1068
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O004"
+      },
+      {
+        "bbox": [
+          653,
+          1047,
+          674,
+          1068
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O005"
+      },
+      {
+        "bbox": [
+          214,
+          1047,
+          240,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O006"
+      },
+      {
+        "bbox": [
+          1591,
+          1045,
+          1613,
+          1066
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O007"
+      },
+      {
+        "bbox": [
+          568,
+          1045,
+          596,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O008"
+      },
+      {
+        "bbox": [
+          302,
+          1045,
+          332,
+          1072
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O009"
+      },
+      {
+        "bbox": [
+          1682,
+          1044,
+          1713,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O010"
+      },
+      {
+        "bbox": [
+          1646,
+          1044,
+          1682,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O011"
+      },
+      {
+        "bbox": [
+          1619,
+          1044,
+          1652,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O012"
+      },
+      {
+        "bbox": [
+          1006,
+          1044,
+          1035,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O013"
+      },
+      {
+        "bbox": [
+          784,
+          1044,
+          816,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O014"
+      },
+      {
+        "bbox": [
+          610,
+          1044,
+          639,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O015"
+      },
+      {
+        "bbox": [
+          256,
+          1044,
+          290,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O016"
+      },
+      {
+        "bbox": [
+          1759,
+          1042,
+          1836,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O017"
+      },
+      {
+        "bbox": [
+          1313,
+          1041,
+          1346,
+          1073
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O018"
+      },
+      {
+        "bbox": [
+          1138,
+          1042,
+          1170,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O019"
+      },
+      {
+        "bbox": [
+          1094,
+          1041,
+          1124,
+          1073
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O020"
+      },
+      {
+        "bbox": [
+          1052,
+          1042,
+          1080,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O021"
+      },
+      {
+        "bbox": [
+          874,
+          1042,
+          905,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O022"
+      },
+      {
+        "bbox": [
+          830,
+          1042,
+          861,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O023"
+      },
+      {
+        "bbox": [
+          742,
+          1042,
+          776,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O024"
+      },
+      {
+        "bbox": [
+          388,
+          1042,
+          422,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O025"
+      },
+      {
+        "bbox": [
+          344,
+          1041,
+          378,
+          1073
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O026"
+      },
+      {
+        "bbox": [
+          1181,
+          1040,
+          1212,
+          1073
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O027"
+      },
+      {
+        "bbox": [
+          698,
+          1041,
+          728,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O028"
+      },
+      {
+        "bbox": [
+          170,
+          1040,
+          201,
+          1072
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O029"
+      },
+      {
+        "bbox": [
+          124,
+          1040,
+          158,
+          1075
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O030"
+      },
+      {
+        "bbox": [
+          17,
+          1041,
+          48,
+          1068
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O031"
+      },
+      {
+        "bbox": [
+          1718,
+          1035,
+          1754,
+          1080
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O032"
+      },
+      {
+        "bbox": [
+          1852,
+          1036,
+          1907,
+          1060
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O033"
+      },
+      {
+        "bbox": [
+          1616,
+          1007,
+          1716,
+          1032
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O034"
+      },
+      {
+        "bbox": [
+          95,
+          1007,
+          174,
+          1032
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O035"
+      },
+      {
+        "bbox": [
+          14,
+          1007,
+          83,
+          1032
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O036"
+      },
+      {
+        "bbox": [
+          1781,
+          1005,
+          1830,
+          1032
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O037"
+      },
+      {
+        "bbox": [
+          1546,
+          1005,
+          1589,
+          1032
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O038"
+      },
+      {
+        "bbox": [
+          1123,
+          959,
+          1160,
+          983
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O039"
+      },
+      {
+        "bbox": [
+          1027,
+          958,
+          1107,
+          985
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O040"
+      },
+      {
+        "bbox": [
+          769,
+          958,
+          1007,
+          983
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O041"
+      },
+      {
+        "bbox": [
+          11,
+          438,
+          48,
+          466
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O042"
+      },
+      {
+        "bbox": [
+          142,
+          409,
+          224,
+          434
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O043"
+      },
+      {
+        "bbox": [
+          13,
+          407,
+          110,
+          433
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O044"
+      },
+      {
+        "bbox": [
+          172,
+          375,
+          224,
+          400
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O045"
+      },
+      {
+        "bbox": [
+          13,
+          373,
+          83,
+          400
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O046"
+      },
+      {
+        "bbox": [
+          176,
+          340,
+          225,
+          365
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O047"
+      },
+      {
+        "bbox": [
+          10,
+          337,
+          54,
+          365
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O048"
+      },
+      {
+        "bbox": [
+          13,
+          304,
+          92,
+          331
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O049"
+      },
+      {
+        "bbox": [
+          154,
+          271,
+          224,
+          296
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O050"
+      },
+      {
+        "bbox": [
+          13,
+          269,
+          71,
+          294
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O051"
+      },
+      {
+        "bbox": [
+          145,
+          238,
+          224,
+          262
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O052"
+      },
+      {
+        "bbox": [
+          11,
+          237,
+          69,
+          262
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O053"
+      },
+      {
+        "bbox": [
+          178,
+          205,
+          225,
+          230
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O054"
+      },
+      {
+        "bbox": [
+          11,
+          203,
+          54,
+          230
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O055"
+      },
+      {
+        "bbox": [
+          202,
+          172,
+          221,
+          192
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O056"
+      },
+      {
+        "bbox": [
+          11,
+          169,
+          66,
+          196
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O057"
+      },
+      {
+        "bbox": [
+          175,
+          139,
+          224,
+          166
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O058"
+      },
+      {
+        "bbox": [
+          11,
+          137,
+          59,
+          164
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O059"
+      },
+      {
+        "bbox": [
+          142,
+          106,
+          224,
+          132
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O060"
+      },
+      {
+        "bbox": [
+          11,
+          105,
+          104,
+          130
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O061"
+      },
+      {
+        "bbox": [
+          175,
+          73,
+          224,
+          100
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O062"
+      },
+      {
+        "bbox": [
+          11,
+          71,
+          77,
+          98
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O063"
+      },
+      {
+        "bbox": [
+          1855,
+          39,
+          1874,
+          57
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O064"
+      },
+      {
+        "bbox": [
+          106,
+          36,
+          150,
+          63
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O065"
+      },
+      {
+        "bbox": [
+          55,
+          36,
+          93,
+          63
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O066"
+      },
+      {
+        "bbox": [
+          5,
+          36,
+          39,
+          63
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O067"
+      },
+      {
+        "bbox": [
+          1888,
+          34,
+          1913,
+          61
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O068"
+      },
+      {
+        "bbox": [
+          1883,
+          4,
+          1907,
+          26
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O069"
+      },
+      {
+        "bbox": [
+          1840,
+          4,
+          1860,
+          24
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O070"
+      },
+      {
+        "bbox": [
+          49,
+          4,
+          101,
+          31
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "o_id": "O071"
+      }
+    ],
+    "merged_detections": [
+      {
+        "bbox": [
+          10,
+          100,
+          227,
+          134
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 0,
+        "y_id": "Y001",
+        "merged_id": 0,
+        "m_id": "M001"
+      },
+      {
+        "bbox": [
+          11,
+          232,
+          228,
+          265
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 1,
+        "y_id": "Y002",
+        "merged_id": 1,
+        "m_id": "M002"
+      },
+      {
+        "bbox": [
+          1787,
+          31,
+          1843,
+          64
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 2,
+        "y_id": "Y003",
+        "merged_id": 2,
+        "m_id": "M003"
+      },
+      {
+        "bbox": [
+          9,
+          67,
+          227,
+          101
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 3,
+        "y_id": "Y004",
+        "merged_id": 3,
+        "m_id": "M004"
+      },
+      {
+        "bbox": [
+          10,
+          134,
+          227,
+          167
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 4,
+        "y_id": "Y005",
+        "merged_id": 4,
+        "m_id": "M005"
+      },
+      {
+        "bbox": [
+          10,
+          165,
+          225,
+          201
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 5,
+        "y_id": "Y006",
+        "merged_id": 5,
+        "m_id": "M006"
+      },
+      {
+        "bbox": [
+          1353,
+          1037,
+          1392,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 6,
+        "y_id": "Y007",
+        "merged_id": 6,
+        "m_id": "M007"
+      },
+      {
+        "bbox": [
+          12,
+          200,
+          226,
+          232
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 7,
+        "y_id": "Y008",
+        "merged_id": 7,
+        "m_id": "M008"
+      },
+      {
+        "bbox": [
+          1439,
+          1035,
+          1482,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 8,
+        "y_id": "Y009",
+        "merged_id": 8,
+        "m_id": "M009"
+      },
+      {
+        "bbox": [
+          8,
+          265,
+          227,
+          298
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 9,
+        "y_id": "Y010",
+        "merged_id": 9,
+        "m_id": "M010"
+      },
+      {
+        "bbox": [
+          1486,
+          1036,
+          1522,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 10,
+        "y_id": "Y011",
+        "merged_id": 10,
+        "m_id": "M011"
+      },
+      {
+        "bbox": [
+          1882,
+          31,
+          1915,
+          64
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 11,
+        "y_id": "Y012",
+        "merged_id": 11,
+        "m_id": "M012"
+      },
+      {
+        "bbox": [
+          563,
+          1037,
+          598,
+          1077
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 12,
+        "y_id": "Y013",
+        "merged_id": 12,
+        "m_id": "M013"
+      },
+      {
+        "bbox": [
+          7,
+          369,
+          229,
+          402
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 13,
+        "y_id": "Y014",
+        "merged_id": 13,
+        "m_id": "M014"
+      },
+      {
+        "bbox": [
+          300,
+          1042,
+          332,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 14,
+        "y_id": "Y015",
+        "merged_id": 14,
+        "m_id": "M015"
+      },
+      {
+        "bbox": [
+          1309,
+          1037,
+          1346,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 15,
+        "y_id": "Y016",
+        "merged_id": 15,
+        "m_id": "M016"
+      },
+      {
+        "bbox": [
+          7,
+          300,
+          230,
+          334
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 16,
+        "y_id": "Y017",
+        "merged_id": 16,
+        "m_id": "M017"
+      },
+      {
+        "bbox": [
+          1265,
+          1037,
+          1304,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 17,
+        "y_id": "Y018",
+        "merged_id": 17,
+        "m_id": "M018"
+      },
+      {
+        "bbox": [
+          343,
+          1041,
+          379,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 18,
+        "y_id": "Y019",
+        "merged_id": 18,
+        "m_id": "M019"
+      },
+      {
+        "bbox": [
+          1784,
+          0,
+          1824,
+          31
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 19,
+        "y_id": "Y020",
+        "merged_id": 19,
+        "m_id": "M020"
+      },
+      {
+        "bbox": [
+          7,
+          334,
+          230,
+          367
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 20,
+        "y_id": "Y021",
+        "merged_id": 20,
+        "m_id": "M021"
+      },
+      {
+        "bbox": [
+          4,
+          0,
+          38,
+          31
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 21,
+        "y_id": "Y022",
+        "merged_id": 21,
+        "m_id": "M022"
+      },
+      {
+        "bbox": [
+          474,
+          1037,
+          511,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 22,
+        "y_id": "Y023",
+        "merged_id": 22,
+        "m_id": "M023"
+      },
+      {
+        "bbox": [
+          386,
+          1039,
+          424,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 23,
+        "y_id": "Y024",
+        "merged_id": 23,
+        "m_id": "M024"
+      },
+      {
+        "bbox": [
+          521,
+          1037,
+          562,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 24,
+        "y_id": "Y025",
+        "merged_id": 24,
+        "m_id": "M025"
+      },
+      {
+        "bbox": [
+          165,
+          1034,
+          203,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 25,
+        "y_id": "Y026",
+        "merged_id": 25,
+        "m_id": "M026"
+      },
+      {
+        "bbox": [
+          430,
+          1039,
+          466,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 26,
+        "y_id": "Y027",
+        "merged_id": 26,
+        "m_id": "M027"
+      },
+      {
+        "bbox": [
+          1646,
+          1044,
+          1682,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 10,
+        "o_id": "O011",
+        "merged_id": 27,
+        "m_id": "M028"
+      },
+      {
+        "bbox": [
+          652,
+          1041,
+          687,
+          1076
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 28,
+        "y_id": "Y029",
+        "merged_id": 28,
+        "m_id": "M029"
+      },
+      {
+        "bbox": [
+          1399,
+          1037,
+          1433,
+          1080
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 29,
+        "y_id": "Y030",
+        "merged_id": 29,
+        "m_id": "M030"
+      },
+      {
+        "bbox": [
+          695,
+          1042,
+          731,
+          1073
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 31,
+        "y_id": "Y032",
+        "merged_id": 30,
+        "m_id": "M031"
+      },
+      {
+        "bbox": [
+          1010,
+          951,
+          1118,
+          989
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 32,
+        "y_id": "Y033",
+        "merged_id": 31,
+        "m_id": "M032"
+      },
+      {
+        "bbox": [
+          1876,
+          0,
+          1915,
+          29
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 33,
+        "y_id": "Y034",
+        "merged_id": 32,
+        "m_id": "M033"
+      },
+      {
+        "bbox": [
+          1829,
+          0,
+          1869,
+          30
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 34,
+        "y_id": "Y035",
+        "merged_id": 33,
+        "m_id": "M034"
+      },
+      {
+        "bbox": [
+          1181,
+          1040,
+          1212,
+          1073
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 26,
+        "o_id": "O027",
+        "merged_id": 34,
+        "m_id": "M035"
+      },
+      {
+        "bbox": [
+          255,
+          1042,
+          289,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 36,
+        "y_id": "Y037",
+        "merged_id": 35,
+        "m_id": "M036"
+      },
+      {
+        "bbox": [
+          1046,
+          1039,
+          1081,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 37,
+        "y_id": "Y038",
+        "merged_id": 36,
+        "m_id": "M037"
+      },
+      {
+        "bbox": [
+          1682,
+          1044,
+          1713,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 9,
+        "o_id": "O010",
+        "merged_id": 37,
+        "m_id": "M038"
+      },
+      {
+        "bbox": [
+          605,
+          1039,
+          641,
+          1077
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 39,
+        "y_id": "Y040",
+        "merged_id": 38,
+        "m_id": "M039"
+      },
+      {
+        "bbox": [
+          1850,
+          31,
+          1879,
+          64
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 40,
+        "y_id": "Y041",
+        "merged_id": 39,
+        "m_id": "M040"
+      },
+      {
+        "bbox": [
+          1138,
+          1042,
+          1170,
+          1071
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 18,
+        "o_id": "O019",
+        "merged_id": 40,
+        "m_id": "M041"
+      },
+      {
+        "bbox": [
+          1120,
+          953,
+          1161,
+          988
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 42,
+        "y_id": "Y043",
+        "merged_id": 41,
+        "m_id": "M042"
+      },
+      {
+        "bbox": [
+          782,
+          1042,
+          817,
+          1075
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 43,
+        "y_id": "Y044",
+        "merged_id": 42,
+        "m_id": "M043"
+      },
+      {
+        "bbox": [
+          9,
+          403,
+          226,
+          435
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 44,
+        "y_id": "Y045",
+        "merged_id": 43,
+        "m_id": "M044"
+      },
+      {
+        "bbox": [
+          914,
+          1039,
+          950,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 45,
+        "y_id": "Y046",
+        "merged_id": 44,
+        "m_id": "M045"
+      },
+      {
+        "bbox": [
+          211,
+          1039,
+          243,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 46,
+        "y_id": "Y047",
+        "merged_id": 45,
+        "m_id": "M046"
+      },
+      {
+        "bbox": [
+          826,
+          1041,
+          862,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 47,
+        "y_id": "Y048",
+        "merged_id": 46,
+        "m_id": "M047"
+      },
+      {
+        "bbox": [
+          1090,
+          1038,
+          1125,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 48,
+        "y_id": "Y049",
+        "merged_id": 47,
+        "m_id": "M048"
+      },
+      {
+        "bbox": [
+          1718,
+          1035,
+          1754,
+          1080
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 31,
+        "o_id": "O032",
+        "merged_id": 48,
+        "m_id": "M049"
+      },
+      {
+        "bbox": [
+          1222,
+          1038,
+          1257,
+          1077
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 50,
+        "y_id": "Y051",
+        "merged_id": 49,
+        "m_id": "M050"
+      },
+      {
+        "bbox": [
+          251,
+          4,
+          276,
+          29
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 51,
+        "y_id": "Y052",
+        "merged_id": 50,
+        "m_id": "M051"
+      },
+      {
+        "bbox": [
+          958,
+          1039,
+          992,
+          1077
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 52,
+        "y_id": "Y053",
+        "merged_id": 51,
+        "m_id": "M052"
+      },
+      {
+        "bbox": [
+          871,
+          1041,
+          906,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 53,
+        "y_id": "Y054",
+        "merged_id": 52,
+        "m_id": "M053"
+      },
+      {
+        "bbox": [
+          1002,
+          1038,
+          1040,
+          1078
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 54,
+        "y_id": "Y055",
+        "merged_id": 53,
+        "m_id": "M054"
+      },
+      {
+        "bbox": [
+          740,
+          1042,
+          773,
+          1074
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 55,
+        "y_id": "Y056",
+        "merged_id": 54,
+        "m_id": "M055"
+      },
+      {
+        "bbox": [
+          289,
+          0,
+          326,
+          32
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 56,
+        "y_id": "Y057",
+        "merged_id": 55,
+        "m_id": "M056"
+      },
+      {
+        "bbox": [
+          1759,
+          1042,
+          1836,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 16,
+        "o_id": "O017",
+        "merged_id": 56,
+        "m_id": "M057"
+      },
+      {
+        "bbox": [
+          1808,
+          1043,
+          1832,
+          1067
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 58,
+        "y_id": "Y059",
+        "merged_id": 57,
+        "m_id": "M058"
+      },
+      {
+        "bbox": [
+          120,
+          1033,
+          160,
+          1079
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 59,
+        "y_id": "Y060",
+        "merged_id": 58,
+        "m_id": "M059"
+      },
+      {
+        "bbox": [
+          1760,
+          1043,
+          1783,
+          1071
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 60,
+        "y_id": "Y061",
+        "merged_id": 59,
+        "m_id": "M060"
+      },
+      {
+        "bbox": [
+          1586,
+          1043,
+          1614,
+          1069
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 61,
+        "y_id": "Y062",
+        "merged_id": 60,
+        "m_id": "M061"
+      },
+      {
+        "bbox": [
+          1619,
+          1044,
+          1652,
+          1069
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 11,
+        "o_id": "O012",
+        "merged_id": 61,
+        "m_id": "M062"
+      },
+      {
+        "bbox": [
+          756,
+          955,
+          778,
+          984
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 63,
+        "y_id": "Y064",
+        "merged_id": 62,
+        "m_id": "M063"
+      },
+      {
+        "bbox": [
+          10,
+          435,
+          231,
+          467
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 64,
+        "y_id": "Y065",
+        "merged_id": 63,
+        "m_id": "M064"
+      },
+      {
+        "bbox": [
+          5,
+          36,
+          39,
+          63
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 66,
+        "o_id": "O067",
+        "merged_id": 64,
+        "m_id": "M065"
+      },
+      {
+        "bbox": [
+          1838,
+          1033,
+          1912,
+          1075
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 66,
+        "y_id": "Y067",
+        "merged_id": 65,
+        "m_id": "M066"
+      },
+      {
+        "bbox": [
+          12,
+          1034,
+          52,
+          1072
+        ],
+        "type": "icon",
+        "source": "yolo",
+        "confidence": 1.0,
+        "id": 67,
+        "y_id": "Y068",
+        "merged_id": 66,
+        "m_id": "M067"
+      },
+      {
+        "bbox": [
+          1616,
+          1007,
+          1716,
+          1032
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 33,
+        "o_id": "O034",
+        "merged_id": 67,
+        "m_id": "M068"
+      },
+      {
+        "bbox": [
+          95,
+          1007,
+          174,
+          1032
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 34,
+        "o_id": "O035",
+        "merged_id": 68,
+        "m_id": "M069"
+      },
+      {
+        "bbox": [
+          14,
+          1007,
+          83,
+          1032
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 35,
+        "o_id": "O036",
+        "merged_id": 69,
+        "m_id": "M070"
+      },
+      {
+        "bbox": [
+          1781,
+          1005,
+          1830,
+          1032
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 36,
+        "o_id": "O037",
+        "merged_id": 70,
+        "m_id": "M071"
+      },
+      {
+        "bbox": [
+          1546,
+          1005,
+          1589,
+          1032
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 37,
+        "o_id": "O038",
+        "merged_id": 71,
+        "m_id": "M072"
+      },
+      {
+        "bbox": [
+          769,
+          958,
+          1007,
+          983
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 40,
+        "o_id": "O041",
+        "merged_id": 72,
+        "m_id": "M073"
+      },
+      {
+        "bbox": [
+          202,
+          172,
+          221,
+          192
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 55,
+        "o_id": "O056",
+        "merged_id": 73,
+        "m_id": "M074"
+      },
+      {
+        "bbox": [
+          106,
+          36,
+          150,
+          63
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 64,
+        "o_id": "O065",
+        "merged_id": 74,
+        "m_id": "M075"
+      },
+      {
+        "bbox": [
+          55,
+          36,
+          93,
+          63
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 65,
+        "o_id": "O066",
+        "merged_id": 75,
+        "m_id": "M076"
+      },
+      {
+        "bbox": [
+          49,
+          4,
+          101,
+          31
+        ],
+        "type": "text",
+        "source": "ocr_det",
+        "confidence": 1.0,
+        "id": 70,
+        "o_id": "O071",
+        "merged_id": 76,
+        "m_id": "M077"
+      }
+    ]
+  },
+  "seraphine_gemini_groups": {
+    "H0": {
+      "H0_1": {
+        "bbox": [
+          4,
+          0,
+          38,
+          31
+        ],
+        "g_icon_name": "File Folder",
+        "g_brief": "Represents a file folder or directory",
+        "m_id": "M022",
+        "y_id": "Y022",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H0_2": {
+        "bbox": [
+          49,
+          4,
+          101,
+          31
+        ],
+        "g_icon_name": "ello rld",
+        "g_brief": "Text content of a file",
+        "m_id": "M077",
+        "y_id": null,
+        "o_id": "O071",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H1": {
+      "H1_1": {
+        "bbox": [
+          5,
+          36,
+          39,
+          63
+        ],
+        "g_icon_name": "File",
+        "g_brief": "Opens the File menu",
+        "m_id": "M065",
+        "y_id": null,
+        "o_id": "O067",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H1_2": {
+        "bbox": [
+          55,
+          36,
+          93,
+          63
+        ],
+        "g_icon_name": "Edit",
+        "g_brief": "Opens the Edit menu",
+        "m_id": "M076",
+        "y_id": null,
+        "o_id": "O066",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H2": {
+      "H2_1": {
+        "bbox": [
+          12,
+          1034,
+          52,
+          1072
+        ],
+        "g_icon_name": "Notification Icon with 8",
+        "g_brief": "Displays a notification or alert",
+        "m_id": "M067",
+        "y_id": "Y068",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H3": {
+      "H3_1": {
+        "bbox": [
+          14,
+          1007,
+          83,
+          1032
+        ],
+        "g_icon_name": "Ln 1, Col 9",
+        "g_brief": "Shows current line and column number",
+        "m_id": "M070",
+        "y_id": null,
+        "o_id": "O036",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H3_2": {
+        "bbox": [
+          95,
+          1007,
+          174,
+          1032
+        ],
+        "g_icon_name": "8 characters",
+        "g_brief": "Displays the number of characters",
+        "m_id": "M069",
+        "y_id": null,
+        "o_id": "O035",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H4": {
+      "H4_1": {
+        "bbox": [
+          120,
+          1033,
+          160,
+          1079
+        ],
+        "g_icon_name": "Windows Icon",
+        "g_brief": "Opens the Windows Start Menu",
+        "m_id": "M059",
+        "y_id": "Y060",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_2": {
+        "bbox": [
+          165,
+          1034,
+          203,
+          1080
+        ],
+        "g_icon_name": "Magnifying Glass",
+        "g_brief": "Opens the search functionality",
+        "m_id": "M026",
+        "y_id": "Y026",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_3": {
+        "bbox": [
+          211,
+          1039,
+          243,
+          1078
+        ],
+        "g_icon_name": "File Explorer Icon",
+        "g_brief": "Opens file explorer",
+        "m_id": "M046",
+        "y_id": "Y047",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_4": {
+        "bbox": [
+          255,
+          1042,
+          289,
+          1079
+        ],
+        "g_icon_name": "Computer icon",
+        "g_brief": "Shows available drives and computer settings",
+        "m_id": "M036",
+        "y_id": "Y037",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_5": {
+        "bbox": [
+          300,
+          1042,
+          332,
+          1079
+        ],
+        "g_icon_name": "Application icon",
+        "g_brief": "Opens application",
+        "m_id": "M015",
+        "y_id": "Y015",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_6": {
+        "bbox": [
+          343,
+          1041,
+          379,
+          1079
+        ],
+        "g_icon_name": "Application icon",
+        "g_brief": "Opens application",
+        "m_id": "M019",
+        "y_id": "Y019",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_7": {
+        "bbox": [
+          386,
+          1039,
+          424,
+          1079
+        ],
+        "g_icon_name": "Microsoft Teams Icon",
+        "g_brief": "Opens Microsoft Teams application",
+        "m_id": "M024",
+        "y_id": "Y024",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_8": {
+        "bbox": [
+          430,
+          1039,
+          466,
+          1078
+        ],
+        "g_icon_name": "Application icon",
+        "g_brief": "Opens application",
+        "m_id": "M027",
+        "y_id": "Y027",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_9": {
+        "bbox": [
+          474,
+          1037,
+          511,
+          1078
+        ],
+        "g_icon_name": "Application Icon",
+        "g_brief": "Opens application",
+        "m_id": "M023",
+        "y_id": "Y023",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_10": {
+        "bbox": [
+          521,
+          1037,
+          562,
+          1078
+        ],
+        "g_icon_name": "Notification Icon with 99+",
+        "g_brief": "Displays number of notifications",
+        "m_id": "M025",
+        "y_id": "Y025",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_11": {
+        "bbox": [
+          563,
+          1037,
+          598,
+          1077
+        ],
+        "g_icon_name": "Application Icon",
+        "g_brief": "Opens application",
+        "m_id": "M013",
+        "y_id": "Y013",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_12": {
+        "bbox": [
+          605,
+          1039,
+          641,
+          1077
+        ],
+        "g_icon_name": "Microsoft Word Icon",
+        "g_brief": "Opens Microsoft Word application",
+        "m_id": "M039",
+        "y_id": "Y040",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_13": {
+        "bbox": [
+          652,
+          1041,
+          687,
+          1076
+        ],
+        "g_icon_name": "Application Icon",
+        "g_brief": "Closes application",
+        "m_id": "M029",
+        "y_id": "Y029",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_14": {
+        "bbox": [
+          695,
+          1042,
+          731,
+          1073
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M031",
+        "y_id": "Y032",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_15": {
+        "bbox": [
+          740,
+          1042,
+          773,
+          1074
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M055",
+        "y_id": "Y056",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_16": {
+        "bbox": [
+          782,
+          1042,
+          817,
+          1075
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M043",
+        "y_id": "Y044",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_17": {
+        "bbox": [
+          826,
+          1041,
+          862,
+          1078
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M047",
+        "y_id": "Y048",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_18": {
+        "bbox": [
+          871,
+          1041,
+          906,
+          1078
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M053",
+        "y_id": "Y054",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_19": {
+        "bbox": [
+          914,
+          1039,
+          950,
+          1078
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M045",
+        "y_id": "Y046",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_20": {
+        "bbox": [
+          958,
+          1039,
+          992,
+          1077
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M052",
+        "y_id": "Y053",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_21": {
+        "bbox": [
+          1002,
+          1038,
+          1040,
+          1078
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M054",
+        "y_id": "Y055",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_22": {
+        "bbox": [
+          1046,
+          1039,
+          1081,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M037",
+        "y_id": "Y038",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_23": {
+        "bbox": [
+          1090,
+          1038,
+          1125,
+          1078
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M048",
+        "y_id": "Y049",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_24": {
+        "bbox": [
+          1138,
+          1042,
+          1170,
+          1071
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M041",
+        "y_id": null,
+        "o_id": "O019",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H4_25": {
+        "bbox": [
+          1181,
+          1040,
+          1212,
+          1073
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M035",
+        "y_id": null,
+        "o_id": "O027",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H4_26": {
+        "bbox": [
+          1222,
+          1038,
+          1257,
+          1077
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M050",
+        "y_id": "Y051",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_27": {
+        "bbox": [
+          1265,
+          1037,
+          1304,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M018",
+        "y_id": "Y018",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_28": {
+        "bbox": [
+          1309,
+          1037,
+          1346,
+          1080
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M016",
+        "y_id": "Y016",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_29": {
+        "bbox": [
+          1353,
+          1037,
+          1392,
+          1080
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M007",
+        "y_id": "Y007",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_30": {
+        "bbox": [
+          1399,
+          1037,
+          1433,
+          1080
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M030",
+        "y_id": "Y030",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_31": {
+        "bbox": [
+          1439,
+          1035,
+          1482,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M009",
+        "y_id": "Y009",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H4_32": {
+        "bbox": [
+          1486,
+          1036,
+          1522,
+          1079
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M011",
+        "y_id": "Y011",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H5": {
+      "H5_1": {
+        "bbox": [
+          202,
+          172,
+          221,
+          192
+        ],
+        "g_icon_name": "Greater Than Icon",
+        "g_brief": "Moves to the next selection",
+        "m_id": "M074",
+        "y_id": null,
+        "o_id": "O056",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H6": {
+      "H6_1": {
+        "bbox": [
+          251,
+          4,
+          276,
+          29
+        ],
+        "g_icon_name": "Dot Icon",
+        "g_brief": "Represents current state",
+        "m_id": "M051",
+        "y_id": "Y052",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H6_2": {
+        "bbox": [
+          289,
+          0,
+          326,
+          32
+        ],
+        "g_icon_name": "Plus Icon",
+        "g_brief": "Adds a new feature",
+        "m_id": "M056",
+        "y_id": "Y057",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H7": {
+      "H7_1": {
+        "bbox": [
+          756,
+          955,
+          778,
+          984
+        ],
+        "g_icon_name": "Pause Icon",
+        "g_brief": "Pauses the current action",
+        "m_id": "M063",
+        "y_id": "Y064",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H8": {
+      "H8_1": {
+        "bbox": [
+          769,
+          958,
+          1007,
+          983
+        ],
+        "g_icon_name": "app.clipchamp.com is sharing your screen.",
+        "g_brief": "Indicates that the application Clipchamp is sharing the screen",
+        "m_id": "M073",
+        "y_id": null,
+        "o_id": "O041",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H8_2": {
+        "bbox": [
+          1010,
+          951,
+          1118,
+          989
+        ],
+        "g_icon_name": "Stop sharing",
+        "g_brief": "Button to stop screen sharing",
+        "m_id": "M032",
+        "y_id": "Y033",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H8_3": {
+        "bbox": [
+          1120,
+          953,
+          1161,
+          988
+        ],
+        "g_icon_name": "Hide",
+        "g_brief": "Hides the screen sharing notification",
+        "m_id": "M042",
+        "y_id": "Y043",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H9": {
+      "H9_1": {
+        "bbox": [
+          1546,
+          1005,
+          1589,
+          1032
+        ],
+        "g_icon_name": "100%",
+        "g_brief": "Indicates the zoom level is 100%",
+        "m_id": "M072",
+        "y_id": null,
+        "o_id": "O038",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H10": {
+      "H10_1": {
+        "bbox": [
+          1586,
+          1043,
+          1614,
+          1069
+        ],
+        "g_icon_name": "Up Arrow",
+        "g_brief": "Scrolls or navigates up",
+        "m_id": "M061",
+        "y_id": "Y062",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H10_2": {
+        "bbox": [
+          1619,
+          1044,
+          1652,
+          1069
+        ],
+        "g_icon_name": "Cloud Icon",
+        "g_brief": "Cloud Storage Access",
+        "m_id": "M062",
+        "y_id": null,
+        "o_id": "O012",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H10_3": {
+        "bbox": [
+          1646,
+          1044,
+          1682,
+          1071
+        ],
+        "g_icon_name": "Refresh Icon",
+        "g_brief": "Refreshes or updates information",
+        "m_id": "M028",
+        "y_id": null,
+        "o_id": "O011",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H10_4": {
+        "bbox": [
+          1682,
+          1044,
+          1713,
+          1069
+        ],
+        "g_icon_name": "List Icon",
+        "g_brief": "Displays a list of items",
+        "m_id": "M038",
+        "y_id": null,
+        "o_id": "O010",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H10_5": {
+        "bbox": [
+          1718,
+          1035,
+          1754,
+          1080
+        ],
+        "g_icon_name": "ENG IN",
+        "g_brief": "Indicates the language is English/Input Method",
+        "m_id": "M049",
+        "y_id": null,
+        "o_id": "O032",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H10_6": {
+        "bbox": [
+          1759,
+          1042,
+          1836,
+          1069
+        ],
+        "g_icon_name": "Wifi and audio icon",
+        "g_brief": "Volume and connection settings",
+        "m_id": "M057",
+        "y_id": null,
+        "o_id": "O017",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "H10_7": {
+        "bbox": [
+          1838,
+          1033,
+          1912,
+          1075
+        ],
+        "g_icon_name": "5:39 PM 6/14/2025",
+        "g_brief": "Displays the current time and date",
+        "m_id": "M066",
+        "y_id": "Y067",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H11": {
+      "H11_1": {
+        "bbox": [
+          1760,
+          1043,
+          1783,
+          1071
+        ],
+        "g_icon_name": "Wifi Icon",
+        "g_brief": "Shows the wireless network connection status",
+        "m_id": "M060",
+        "y_id": "Y061",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H12": {
+      "H12_1": {
+        "bbox": [
+          1781,
+          1005,
+          1830,
+          1032
+        ],
+        "g_icon_name": "UTF-8",
+        "g_brief": "Shows the text encoding type",
+        "m_id": "M071",
+        "y_id": null,
+        "o_id": "O037",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    },
+    "H13": {
+      "H13_1": {
+        "bbox": [
+          1784,
+          0,
+          1824,
+          31
+        ],
+        "g_icon_name": "Minus Sign",
+        "g_brief": "Minimizes the current window",
+        "m_id": "M020",
+        "y_id": "Y020",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H13_2": {
+        "bbox": [
+          1829,
+          0,
+          1869,
+          30
+        ],
+        "g_icon_name": "Square Icon",
+        "g_brief": "Maximizes the current window",
+        "m_id": "M034",
+        "y_id": "Y035",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H13_3": {
+        "bbox": [
+          1876,
+          0,
+          1915,
+          29
+        ],
+        "g_icon_name": "X",
+        "g_brief": "Closes the current window",
+        "m_id": "M033",
+        "y_id": "Y034",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H14": {
+      "H14_1": {
+        "bbox": [
+          1787,
+          31,
+          1843,
+          64
+        ],
+        "g_icon_name": "Dropdown Arrow",
+        "g_brief": "Opens a dropdown menu",
+        "m_id": "M003",
+        "y_id": "Y003",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_2": {
+        "bbox": [
+          1850,
+          31,
+          1879,
+          64
+        ],
+        "g_icon_name": "Person Icon",
+        "g_brief": "Opens user account settings",
+        "m_id": "M040",
+        "y_id": "Y041",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "H14_3": {
+        "bbox": [
+          1882,
+          31,
+          1915,
+          64
+        ],
+        "g_icon_name": "Gear Icon",
+        "g_brief": "Opens settings or configuration options",
+        "m_id": "M012",
+        "y_id": "Y012",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "H15": {
+      "H15_1": {
+        "bbox": [
+          1808,
+          1043,
+          1832,
+          1067
+        ],
+        "g_icon_name": "Battery Icon",
+        "g_brief": "Shows battery status",
+        "m_id": "M058",
+        "y_id": "Y059",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "V0": {
+      "V0_1": {
+        "bbox": [
+          106,
+          36,
+          150,
+          63
+        ],
+        "g_icon_name": "View",
+        "g_brief": "Opens the view menu",
+        "m_id": "M075",
+        "y_id": null,
+        "o_id": "O065",
+        "type": "text",
+        "source": "ocr_det"
+      },
+      "V0_2": {
+        "bbox": [
+          9,
+          67,
+          227,
+          101
+        ],
+        "g_icon_name": "New tab",
+        "g_brief": "Opens a new tab",
+        "m_id": "M004",
+        "y_id": "Y004",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V0_3": {
+        "bbox": [
+          10,
+          100,
+          227,
+          134
+        ],
+        "g_icon_name": "New window",
+        "g_brief": "Opens a new window",
+        "m_id": "M001",
+        "y_id": "Y001",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V0_4": {
+        "bbox": [
+          10,
+          134,
+          227,
+          167
+        ],
+        "g_icon_name": "Open",
+        "g_brief": "Opens a file or document",
+        "m_id": "M005",
+        "y_id": "Y005",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V0_5": {
+        "bbox": [
+          10,
+          165,
+          225,
+          201
+        ],
+        "g_icon_name": "Recent",
+        "g_brief": "Opens recent files",
+        "m_id": "M006",
+        "y_id": "Y006",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V0_6": {
+        "bbox": [
+          12,
+          200,
+          226,
+          232
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M008",
+        "y_id": "Y008",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V0_7": {
+        "bbox": [
+          11,
+          232,
+          228,
+          265
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M002",
+        "y_id": "Y002",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V0_8": {
+        "bbox": [
+          8,
+          265,
+          227,
+          298
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M010",
+        "y_id": "Y010",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V0_9": {
+        "bbox": [
+          7,
+          300,
+          230,
+          334
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M017",
+        "y_id": "Y017",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V0_10": {
+        "bbox": [
+          7,
+          334,
+          230,
+          367
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M021",
+        "y_id": "Y021",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V0_11": {
+        "bbox": [
+          7,
+          369,
+          229,
+          402
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M014",
+        "y_id": "Y014",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V0_12": {
+        "bbox": [
+          9,
+          403,
+          226,
+          435
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M044",
+        "y_id": "Y045",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      },
+      "V0_13": {
+        "bbox": [
+          10,
+          435,
+          231,
+          467
+        ],
+        "g_icon_name": "unanalyzed",
+        "g_brief": "Not analyzed by Gemini",
+        "m_id": "M064",
+        "y_id": "Y065",
+        "o_id": null,
+        "type": "icon",
+        "source": "yolo"
+      }
+    },
+    "V1": {
+      "V1_1": {
+        "bbox": [
+          1616,
+          1007,
+          1716,
+          1032
+        ],
+        "g_icon_name": "Windows (CRLF)",
+        "g_brief": "Shows Windows line endings",
+        "m_id": "M068",
+        "y_id": null,
+        "o_id": "O034",
+        "type": "text",
+        "source": "ocr_det"
+      }
+    }
+  },
+  "gemini_analysis_metadata": {
+    "total_images_analyzed": 1,
+    "analysis_mode": "direct",
+    "timestamp": "2025-06-14T17:39:35.527744"
+  }
+}

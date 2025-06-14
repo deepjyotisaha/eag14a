@@ -1,0 +1,1449 @@
+{
+  "filename_base": "screenshot_20250614_174224_step_1",
+  "analysis_timestamp": "2025-06-14T17:42:39.198203",
+  "analysis_duration_seconds": 12.252582,
+  "total_images_analyzed": 5,
+  "total_input_images": 5,
+  "analysis_mode": "direct",
+  "successful_analyses": 5,
+  "total_icons_found": 232,
+  "images": [
+    {
+      "image_path": "direct:combined_groups_0_81_bboxes.png",
+      "image_name": "combined_groups_0_81_bboxes.png",
+      "icons_found": 62,
+      "icons": [
+        {
+          "id": "H0_1",
+          "name": "Dropdown Arrow",
+          "usage": "Expands a menu or selection",
+          "group_type": "H"
+        },
+        {
+          "id": "H1_1",
+          "name": "X",
+          "usage": "Close or dismiss a dialog or window",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_1",
+          "name": "3D Cube",
+          "usage": "Likely opens a 3D object or model",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_2",
+          "name": "File",
+          "usage": "Opens the file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_3",
+          "name": "Edit",
+          "usage": "Opens the edit menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_4",
+          "name": "Selection",
+          "usage": "Opens the selection menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_5",
+          "name": "View",
+          "usage": "Opens the view menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_6",
+          "name": "Go",
+          "usage": "Opens the go menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_7",
+          "name": "Run",
+          "usage": "Executes or runs a program or script",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_8",
+          "name": "Terminal",
+          "usage": "Opens a command line terminal",
+          "group_type": "H"
+        },
+        {
+          "id": "H2_9",
+          "name": "Help",
+          "usage": "Opens the help menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H3_1",
+          "name": "EAGV1",
+          "usage": "Potentially selects a profile or environment named EAGV1",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_1",
+          "name": "Download icon",
+          "usage": "Initiates a download action",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_2",
+          "name": "Magnifying Glass",
+          "usage": "Performs a search",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_3",
+          "name": "Linked O's",
+          "usage": "Connect or link to an external resource",
+          "group_type": "H"
+        },
+        {
+          "id": "H4_4",
+          "name": "Dropdown Arrow",
+          "usage": "Expands a menu or selection",
+          "group_type": "H"
+        },
+        {
+          "id": "H5_1",
+          "name": "src",
+          "usage": "Select source folder or file location",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_1",
+          "name": "Problems",
+          "usage": "Displays a list of problems or errors",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_2",
+          "name": "Output",
+          "usage": "Displays output or log information",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_3",
+          "name": "Debug Console",
+          "usage": "Opens the debug console for debugging",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_4",
+          "name": "Ports",
+          "usage": "Manages ports or connections",
+          "group_type": "H"
+        },
+        {
+          "id": "H6_5",
+          "name": "Terminal",
+          "usage": "Opens a command line terminal",
+          "group_type": "H"
+        },
+        {
+          "id": "H7_1",
+          "name": "Green Dot",
+          "usage": "Indicates a running or active state",
+          "group_type": "H"
+        },
+        {
+          "id": "H8_1",
+          "name": "no changes added to commit (use \\\"git add\\\" and/or \\\"git commit -a\\\")",
+          "usage": "Text box informing the user about uncommitted changes in git",
+          "group_type": "H"
+        },
+        {
+          "id": "H9_1",
+          "name": "> mcp",
+          "usage": "Expands or navigates to the MCP section/logs",
+          "group_type": "H"
+        },
+        {
+          "id": "H10_1",
+          "name": "> logs",
+          "usage": "Expands or navigates to log files",
+          "group_type": "H"
+        },
+        {
+          "id": "H11_1",
+          "name": "Untracked files:",
+          "usage": "Text label indicating section for untracked files",
+          "group_type": "H"
+        },
+        {
+          "id": "H12_1",
+          "name": "WINDOW_COMMANDS:",
+          "usage": "Text label indicating the following icons are window commands",
+          "group_type": "H"
+        },
+        {
+          "id": "H13_1",
+          "name": "execution.py",
+          "usage": "Represents or opens a Python execution file",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_1",
+          "name": "Circle with x 0 Δ 0",
+          "usage": "Indicates error or warning",
+          "group_type": "H"
+        },
+        {
+          "id": "H14_2",
+          "name": "Shield 0",
+          "usage": "Related to security or permission",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_1",
+          "name": "0",
+          "usage": "Numeric value or setting (possibly zoom level)",
+          "group_type": "H"
+        },
+        {
+          "id": "H15_2",
+          "name": "Triangle symbol Δ 0",
+          "usage": "Increment or change setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_1",
+          "name": "Windows Logo",
+          "usage": "Opens Windows menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_2",
+          "name": "Magnifying Glass",
+          "usage": "Performs a search",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_3",
+          "name": "Rectangle with line",
+          "usage": "Likely opens an outline or border",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_4",
+          "name": "Microsoft logo",
+          "usage": "Opens Microsoft related panel",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_5",
+          "name": "Globe with grid lines",
+          "usage": "Open browser window",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_6",
+          "name": "Document with lines",
+          "usage": "Open documentation",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_7",
+          "name": "Teams logo",
+          "usage": "Opens Teams application",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_8",
+          "name": "HSL logo",
+          "usage": "Opens HSL application",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_9",
+          "name": "Folder",
+          "usage": "Opens file explorer window",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_10",
+          "name": "99+",
+          "usage": "Related to notification count or status",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_11",
+          "name": "Parallelogram",
+          "usage": "Opens a data analysis tool",
+          "group_type": "H"
+        },
+        {
+          "id": "H16_12",
+          "name": "W Logo",
+          "usage": "Opens Word or related tool",
+          "group_type": "H"
+        },
+        {
+          "id": "H17_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial",
+          "usage": "Displays current file path",
+          "group_type": "H"
+        },
+        {
+          "id": "H18_1",
+          "name": "Circle",
+          "usage": "Indicates current active status",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_1",
+          "name": "uv computer_agent",
+          "usage": "Opens uv computer agent",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_2",
+          "name": "common.log M",
+          "usage": "Opens a log file named 'common.log'",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_3",
+          "name": "loop.py M",
+          "usage": "Opens a Python file named 'loop.py'",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_4",
+          "name": "context.py",
+          "usage": "Opens a Python file named 'context.py'",
+          "group_type": "H"
+        },
+        {
+          "id": "H19_5",
+          "name": "perception_prompt.txt M",
+          "usage": "Opens a text file named 'perception_prompt.txt'",
+          "group_type": "H"
+        },
+        {
+          "id": "H20_1",
+          "name": "MOUSE_COMMANDS:",
+          "usage": "Text label indicating the following is mouse command",
+          "group_type": "H"
+        },
+        {
+          "id": "H21_1",
+          "name": "On branch master",
+          "usage": "Text indicating current branch name",
+          "group_type": "H"
+        },
+        {
+          "id": "H22_1",
+          "name": "Changes not staged for commit:",
+          "usage": "Text box informing about unstaged commit",
+          "group_type": "H"
+        },
+        {
+          "id": "H23_1",
+          "name": "in",
+          "usage": "Symbol or button for commit action",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_1",
+          "name": "Square",
+          "usage": "Likely represents a selection area or bounding box",
+          "group_type": "H"
+        },
+        {
+          "id": "H24_2",
+          "name": "- click: Mouse click",
+          "usage": "Text box explaining how to click with the mouse",
+          "group_type": "H"
+        },
+        {
+          "id": "H25_1",
+          "name": "=== Available MCP Tools ===",
+          "usage": "Text box showing listing of available MCP tools",
+          "group_type": "H"
+        },
+        {
+          "id": "H26_1",
+          "name": "in the File Menu.",
+          "usage": "Text box indicating action is available in file menu",
+          "group_type": "H"
+        },
+        {
+          "id": "H27_1",
+          "name": "-",
+          "usage": "Symbol for minimise or collapse action",
+          "group_type": "H"
+        },
+        {
+          "id": "H28_1",
+          "name": "- print_windows_summary: Print summary of all windows",
+          "usage": "Text box explaining summary of Windows",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "```\nH0_1: \"Dropdown Arrow\" | Usage: \"Expands a menu or selection\"\nH1_1: \"X\" | Usage: \"Close or dismiss a dialog or window\"\nH2_1: \"3D Cube\" | Usage: \"Likely opens a 3D object or model\"\nH2_2: \"File\" | Usage: \"Opens the file menu\"\nH2_3: \"Edit\" | Usage: \"Opens the edit menu\"\nH2_4: \"Selection\" | Usage: \"Opens the selection menu\"\nH2_5: \"View\" | Usage: \"Opens the view menu\"\nH2_6: \"Go\" | Usage: \"Opens the go menu\"\nH2_7: \"Run\" | Usage: \"Executes or runs a program or script\"\nH2_8: \"Terminal\" | Usage: \"Opens a command line terminal\"\nH2_9: \"Help\" | Usage: \"Opens the help menu\"\nH3_1: \"EAGV1\" | Usage: \"Potentially selects a profile or environment named EAGV1\"\nH4_1: \"Download icon\" | Usage: \"Initiates a download action\"\nH4_2: \"Magnifying Glass\" | Usage: \"Performs a search\"\nH4_3: \"Linked O's\" | Usage: \"Connect or link to an external resource\"\nH4_4: \"Dropdown Arrow\" | Usage: \"Expands a menu or selection\"\nH5_1: \"src\" | Usage: \"Select source folder or file location\"\nH6_1: \"Problems\" | Usage: \"Displays a list of problems or errors\"\nH6_2: \"Output\" | Usage: \"Displays output or log information\"\nH6_3: \"Debug Console\" | Usage: \"Opens the debug console for debugging\"\nH6_4: \"Ports\" | Usage: \"Manages ports or connections\"\nH6_5: \"Terminal\" | Usage: \"Opens a command line terminal\"\nH7_1: \"Green Dot\" | Usage: \"Indicates a running or active state\"\nH8_1: \"no changes added to commit (use \\\"git add\\\" and/or \\\"git commit -a\\\")\" | Usage: \"Text box informing the user about uncommitted changes in git\"\nH9_1: \"> mcp\" | Usage: \"Expands or navigates to the MCP section/logs\"\nH10_1: \"> logs\" | Usage: \"Expands or navigates to log files\"\nH11_1: \"Untracked files:\" | Usage: \"Text label indicating section for untracked files\"\nH12_1: \"WINDOW_COMMANDS:\" | Usage: \"Text label indicating the following icons are window commands\"\nH13_1: \"execution.py\" | Usage: \"Represents or opens a Python execution file\"\nH14_1: \"Circle with x 0 Δ 0\" | Usage: \"Indicates error or warning\"\nH14_2: \"Shield 0\" | Usage: \"Related to security or permission\"\nH15_1: \"0\" | Usage: \"Numeric value or setting (possibly zoom level)\"\nH15_2: \"Triangle symbol Δ 0\" | Usage: \"Increment or change setting\"\nH16_1: \"Windows Logo\" | Usage: \"Opens Windows menu\"\nH16_2: \"Magnifying Glass\" | Usage: \"Performs a search\"\nH16_3: \"Rectangle with line\" | Usage: \"Likely opens an outline or border\"\nH16_4: \"Microsoft logo\" | Usage: \"Opens Microsoft related panel\"\nH16_5: \"Globe with grid lines\" | Usage: \"Open browser window\"\nH16_6: \"Document with lines\" | Usage: \"Open documentation\"\nH16_7: \"Teams logo\" | Usage: \"Opens Teams application\"\nH16_8: \"HSL logo\" | Usage: \"Opens HSL application\"\nH16_9: \"Folder\" | Usage: \"Opens file explorer window\"\nH16_10: \"99+\" | Usage: \"Related to notification count or status\"\nH16_11: \"Parallelogram\" | Usage: \"Opens a data analysis tool\"\nH16_12: \"W Logo\" | Usage: \"Opens Word or related tool\"\nH17_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial\" | Usage: \"Displays current file path\"\nH18_1: \"Circle\" | Usage: \"Indicates current active status\"\nH19_1: \"uv computer_agent\" | Usage: \"Opens uv computer agent\"\nH19_2: \"common.log M\" | Usage: \"Opens a log file named 'common.log'\"\nH19_3: \"loop.py M\" | Usage: \"Opens a Python file named 'loop.py'\"\nH19_4: \"context.py\" | Usage: \"Opens a Python file named 'context.py'\"\nH19_5: \"perception_prompt.txt M\" | Usage: \"Opens a text file named 'perception_prompt.txt'\"\nH20_1: \"MOUSE_COMMANDS:\" | Usage: \"Text label indicating the following is mouse command\"\nH21_1: \"On branch master\" | Usage: \"Text indicating current branch name\"\nH22_1: \"Changes not staged for commit:\" | Usage: \"Text box informing about unstaged commit\"\nH23_1: \"in\" | Usage: \"Symbol or button for commit action\"\nH24_1: \"Square\" | Usage: \"Likely represents a selection area or bounding box\"\nH24_2: \"- click: Mouse click\" | Usage: \"Text box explaining how to click with the mouse\"\nH25_1: \"=== Available MCP Tools ===\" | Usage: \"Text box showing listing of available MCP tools\"\nH26_1: \"in the File Menu.\" | Usage: \"Text box indicating action is available in file menu\"\nH27_1: \"-\" | Usage: \"Symbol for minimise or collapse action\"\nH28_1: \"- print_windows_summary: Print summary of all windows\" | Usage: \"Text box explaining summary of Windows\"\n```",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_1_46_bboxes.png",
+      "image_name": "combined_groups_1_46_bboxes.png",
+      "icons_found": 46,
+      "icons": [
+        {
+          "id": "H29_1",
+          "name": "(use \\\"git add <file>...\\\" to update what will be committed)",
+          "usage": "Command line instruction related to git version control, indicating how to stage files",
+          "group_type": "H"
+        },
+        {
+          "id": "H30_1",
+          "name": "(use \\\"git add <file>...\\\" to include in what will be committed)",
+          "usage": "Command line instruction related to git version control, similar to H29_1",
+          "group_type": "H"
+        },
+        {
+          "id": "H31_1",
+          "name": "- introspect: Deep window introspection",
+          "usage": "Text describing a function for deep window introspection",
+          "group_type": "H"
+        },
+        {
+          "id": "H32_1",
+          "name": "- monitor: Move to monitor",
+          "usage": "Setting related to moving to a specified monitor",
+          "group_type": "H"
+        },
+        {
+          "id": "H33_1",
+          "name": "'width': 'number', 'height': 'number'}",
+          "usage": "Key-value pair of parameters describing width and height, likely for a window or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H34_1",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Parameter dictionary with window ID as a string",
+          "group_type": "H"
+        },
+        {
+          "id": "H35_1",
+          "name": "'x': 'number', 'y': 'number'}",
+          "usage": "Key-value pair of parameters describing X and Y coordinates",
+          "group_type": "H"
+        },
+        {
+          "id": "H36_1",
+          "name": "Params: {'window_id': 'string', 'screen': 'number', 'x': 'number', 'y': 'number'}",
+          "usage": "Parameter dictionary with window ID, screen, X, and Y coordinates",
+          "group_type": "H"
+        },
+        {
+          "id": "H37_1",
+          "name": "'monitor': 'number'}",
+          "usage": "Key-value pair of parameters describing monitor as a number",
+          "group_type": "H"
+        },
+        {
+          "id": "H38_1",
+          "name": "modified:",
+          "usage": "Label indicating the file has been modified",
+          "group_type": "H"
+        },
+        {
+          "id": "H38_2",
+          "name": "computer_agent/agent/prompts/perception_prompt.txt",
+          "usage": "File path to a text file related to perception prompts",
+          "group_type": "H"
+        },
+        {
+          "id": "H39_1",
+          "name": "computer_agent/src/logs/mcp_server_windows.log",
+          "usage": "File path to a log file",
+          "group_type": "H"
+        },
+        {
+          "id": "H40_1",
+          "name": "computer_agent/outputs/",
+          "usage": "File path for output files",
+          "group_type": "H"
+        },
+        {
+          "id": "H41_1",
+          "name": "Mouse",
+          "usage": "Button to interact using a mouse",
+          "group_type": "H"
+        },
+        {
+          "id": "H42_1",
+          "name": "add",
+          "usage": "Button to add something",
+          "group_type": "H"
+        },
+        {
+          "id": "H43_1",
+          "name": "{",
+          "usage": "Curly brace, likely part of a code snippet",
+          "group_type": "H"
+        },
+        {
+          "id": "H44_1",
+          "name": "Refresh",
+          "usage": "Button to refresh the current view",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_1",
+          "name": "type",
+          "usage": "Button to change the type of something",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_2",
+          "name": "\\\"Hello",
+          "usage": "String indicating hello",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_3",
+          "name": "World,",
+          "usage": "String indicating world",
+          "group_type": "H"
+        },
+        {
+          "id": "H45_4",
+          "name": "I",
+          "usage": "String indicating I",
+          "group_type": "H"
+        },
+        {
+          "id": "H46_1",
+          "name": "list",
+          "usage": "Button to list something",
+          "group_type": "H"
+        },
+        {
+          "id": "H47_1",
+          "name": "of",
+          "usage": "String indicating of",
+          "group_type": "H"
+        },
+        {
+          "id": "H47_2",
+          "name": "all",
+          "usage": "String indicating all",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_1",
+          "name": "use",
+          "usage": "Button to use something",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_2",
+          "name": "agent!",
+          "usage": "Label referencing an agent",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_3",
+          "name": "and",
+          "usage": "Text: 'and'",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_4",
+          "name": "save",
+          "usage": "Button to save a file",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_5",
+          "name": "the",
+          "usage": "Text: 'the'",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_6",
+          "name": "file",
+          "usage": "Text: 'file'",
+          "group_type": "H"
+        },
+        {
+          "id": "H48_7",
+          "name": "in",
+          "usage": "Text: 'in'",
+          "group_type": "H"
+        },
+        {
+          "id": "H49_1",
+          "name": "'y':",
+          "usage": "String likely representing a coordinate",
+          "group_type": "H"
+        },
+        {
+          "id": "H50_1",
+          "name": "'}",
+          "usage": "Closing curly bracket.",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_1",
+          "name": "",
+          "usage": "| app.clipchamp.com is sharing your screen.\" |  \"Notification indicating that a screen is being shared via Clipchamp.",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_2",
+          "name": "Stop sharing",
+          "usage": "Button to stop the screen sharing",
+          "group_type": "H"
+        },
+        {
+          "id": "H51_3",
+          "name": "Hide",
+          "usage": "Button to hide something",
+          "group_type": "H"
+        },
+        {
+          "id": "H52_1",
+          "name": "I+K to",
+          "usage": "Button to something",
+          "group_type": "H"
+        },
+        {
+          "id": "H53_1",
+          "name": "}",
+          "usage": "Curly brace",
+          "group_type": "H"
+        },
+        {
+          "id": "H54_1",
+          "name": "Ctrl+K to gen",
+          "usage": "Label describing a keyboard shortcut to generate something",
+          "group_type": "H"
+        },
+        {
+          "id": "H55_1",
+          "name": "with",
+          "usage": "Text with",
+          "group_type": "H"
+        },
+        {
+          "id": "H55_2",
+          "name": "name",
+          "usage": "Text Name",
+          "group_type": "H"
+        },
+        {
+          "id": "H55_3",
+          "name": "\\\"hello\\\".",
+          "usage": "Text hello",
+          "group_type": "H"
+        },
+        {
+          "id": "H55_4",
+          "name": "Use",
+          "usage": "Button to use something",
+          "group_type": "H"
+        },
+        {
+          "id": "H56_1",
+          "name": "uv - eagv1 - Cursor",
+          "usage": "Settings related to cursor appearance",
+          "group_type": "H"
+        },
+        {
+          "id": "H57_1",
+          "name": "decision_prompt.txt",
+          "usage": "File name related to decision prompts",
+          "group_type": "H"
+        },
+        {
+          "id": "H58_1",
+          "name": "perception.py",
+          "usage": "File name related to perception, probably a Python script",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H29_1: \"(use \\\"git add <file>...\\\" to update what will be committed)\" | Usage: \"Command line instruction related to git version control, indicating how to stage files\"\nH30_1: \"(use \\\"git add <file>...\\\" to include in what will be committed)\" | Usage: \"Command line instruction related to git version control, similar to H29_1\"\nH31_1: \"- introspect: Deep window introspection\" | Usage: \"Text describing a function for deep window introspection\"\nH32_1: \"- monitor: Move to monitor\" | Usage: \"Setting related to moving to a specified monitor\"\nH33_1: \"'width': 'number', 'height': 'number'}\" | Usage: \"Key-value pair of parameters describing width and height, likely for a window or element\"\nH34_1: \"Params: {'window_id': 'string'}\" | Usage: \"Parameter dictionary with window ID as a string\"\nH35_1: \"'x': 'number', 'y': 'number'}\" | Usage: \"Key-value pair of parameters describing X and Y coordinates\"\nH36_1: \"Params: {'window_id': 'string', 'screen': 'number', 'x': 'number', 'y': 'number'}\" | Usage: \"Parameter dictionary with window ID, screen, X, and Y coordinates\"\nH37_1: \"'monitor': 'number'}\" | Usage: \"Key-value pair of parameters describing monitor as a number\"\nH38_1: \"modified:\" | Usage: \"Label indicating the file has been modified\"\nH38_2: \"computer_agent/agent/prompts/perception_prompt.txt\" | Usage: \"File path to a text file related to perception prompts\"\nH39_1: \"computer_agent/src/logs/mcp_server_windows.log\" | Usage: \"File path to a log file\"\nH40_1: \"computer_agent/outputs/\" | Usage: \"File path for output files\"\nH41_1: \"Mouse\" | Usage: \"Button to interact using a mouse\"\nH42_1: \"add\" | Usage: \"Button to add something\"\nH43_1: \"{\" | Usage: \"Curly brace, likely part of a code snippet\"\nH44_1: \"Refresh\" | Usage: \"Button to refresh the current view\"\nH45_1: \"type\" | Usage: \"Button to change the type of something\"\nH45_2: \"\\\"Hello\" | Usage: \"String indicating hello\"\nH45_3: \"World,\" | Usage: \"String indicating world\"\nH45_4: \"I\" | Usage: \"String indicating I\"\nH46_1: \"list\" | Usage: \"Button to list something\"\nH47_1: \"of\" | Usage: \"String indicating of\"\nH47_2: \"all\" | Usage: \"String indicating all\"\nH48_1: \"use\" | Usage: \"Button to use something\"\nH48_2: \"agent!\" | Usage: \"Label referencing an agent\"\nH48_3: \"and\" | Usage: \"Text: 'and'\"\nH48_4: \"save\" | Usage: \"Button to save a file\"\nH48_5: \"the\" | Usage: \"Text: 'the'\"\nH48_6: \"file\" | Usage: \"Text: 'file'\"\nH48_7: \"in\" | Usage: \"Text: 'in'\"\nH49_1: \"'y':\" | Usage: \"String likely representing a coordinate\"\nH50_1: \"'}\" | Usage: \"Closing curly bracket.\"\nH51_1: \"|| app.clipchamp.com is sharing your screen.\" | Usage: \"Notification indicating that a screen is being shared via Clipchamp.\"\nH51_2: \"Stop sharing\" | Usage: \"Button to stop the screen sharing\"\nH51_3: \"Hide\" | Usage: \"Button to hide something\"\nH52_1: \"I+K to\" | Usage: \"Button to something\"\nH53_1: \"}\" | Usage: \"Curly brace\"\nH54_1: \"Ctrl+K to gen\" | Usage: \"Label describing a keyboard shortcut to generate something\"\nH55_1: \"with\" | Usage: \"Text with\"\nH55_2: \"name\" | Usage: \"Text Name\"\nH55_3: \"\\\"hello\\\".\" | Usage: \"Text hello\"\nH55_4: \"Use\" | Usage: \"Button to use something\"\nH56_1: \"uv - eagv1 - Cursor\" | Usage: \"Settings related to cursor appearance\"\nH57_1: \"decision_prompt.txt\" | Usage: \"File name related to decision prompts\"\nH58_1: \"perception.py\" | Usage: \"File name related to perception, probably a Python script\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_2_63_bboxes.png",
+      "image_name": "combined_groups_2_63_bboxes.png",
+      "icons_found": 63,
+      "icons": [
+        {
+          "id": "H59_1",
+          "name": "The Save",
+          "usage": "Text indicating save function",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_1",
+          "name": "usually",
+          "usage": "Text, possibly a context label",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_2",
+          "name": "the",
+          "usage": "Text, possibly a context label",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_3",
+          "name": "sixth",
+          "usage": "Text, possibly a context label",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_4",
+          "name": "option",
+          "usage": "Text, possibly a context label",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_5",
+          "name": "from",
+          "usage": "Text, possibly a context label",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_6",
+          "name": "the",
+          "usage": "Text, possibly a context label",
+          "group_type": "H"
+        },
+        {
+          "id": "H60_7",
+          "name": "top",
+          "usage": "Text, possibly a context label",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_1",
+          "name": "Plus Icon",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_2",
+          "name": "More Options",
+          "usage": "Opens additional settings or options",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_3",
+          "name": "Up Arrow",
+          "usage": "Scrolls up or navigates up",
+          "group_type": "H"
+        },
+        {
+          "id": "H61_4",
+          "name": "X Icon",
+          "usage": "Closes a window or cancels an action",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_1",
+          "name": "Plus Icon",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H62_2",
+          "name": "Horizontal Lines Icon",
+          "usage": "Represents a menu or list",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_1",
+          "name": "More Options",
+          "usage": "Opens additional settings or options",
+          "group_type": "H"
+        },
+        {
+          "id": "H63_2",
+          "name": "Down Arrow",
+          "usage": "Scrolls down or navigates down",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_1",
+          "name": "Up Arrow",
+          "usage": "Scrolls up or navigates up",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_2",
+          "name": "Cloud Icon",
+          "usage": "Accesses cloud storage or settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_3",
+          "name": "Cloud Icon",
+          "usage": "Accesses cloud storage or settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_4",
+          "name": "Document Icon",
+          "usage": "Opens a document",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_5",
+          "name": "ENG IN",
+          "usage": "Language Setting",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_6",
+          "name": "Sound Settings",
+          "usage": "Adjusts audio input/output",
+          "group_type": "H"
+        },
+        {
+          "id": "H64_7",
+          "name": "5:42 PM 6/14/2025",
+          "usage": "Displays the current time and date",
+          "group_type": "H"
+        },
+        {
+          "id": "H65_1",
+          "name": "Window Icons",
+          "usage": "Shows active windows",
+          "group_type": "H"
+        },
+        {
+          "id": "H66_1",
+          "name": "Blank Square",
+          "usage": "Unclear, possibly a placeholder",
+          "group_type": "H"
+        },
+        {
+          "id": "H67_1",
+          "name": "on the specific requirement.",
+          "usage": "Text box describing a requirement",
+          "group_type": "H"
+        },
+        {
+          "id": "H68_1",
+          "name": "Plan, search, build anything",
+          "usage": "Text box used for searching or planning",
+          "group_type": "H"
+        },
+        {
+          "id": "H69_1",
+          "name": "The changes I've made:",
+          "usage": "Heading for a section listing modifications",
+          "group_type": "H"
+        },
+        {
+          "id": "H70_1",
+          "name": "3. Modified the re-analyzescreen route",
+          "usage": "Text describing a change made to a screen route",
+          "group_type": "H"
+        },
+        {
+          "id": "H71_1",
+          "name": "@ Add Context",
+          "usage": "Adds a context to a section",
+          "group_type": "H"
+        },
+        {
+          "id": "H72_1",
+          "name": "Apply to loop.py",
+          "usage": "Runs loop.py script",
+          "group_type": "H"
+        },
+        {
+          "id": "H73_1",
+          "name": "// ... existing code ...",
+          "usage": "Text box that may contain some existing code",
+          "group_type": "H"
+        },
+        {
+          "id": "H74_1",
+          "name": "Agent Ctrl+I",
+          "usage": "Keyboard shortcut or tool option",
+          "group_type": "H"
+        },
+        {
+          "id": "H74_2",
+          "name": "Auto",
+          "usage": "Sets a function to automatic mode",
+          "group_type": "H"
+        },
+        {
+          "id": "H75_1",
+          "name": "per step",
+          "usage": "Runs a process one step at a time",
+          "group_type": "H"
+        },
+        {
+          "id": "H76_1",
+          "name": "once",
+          "usage": "Executes a function a single time",
+          "group_type": "H"
+        },
+        {
+          "id": "H77_1",
+          "name": "handling to:",
+          "usage": "Text indicating a handling process",
+          "group_type": "H"
+        },
+        {
+          "id": "H78_1",
+          "name": "be forced to make a decision",
+          "usage": "Indicates a decision needs to be made",
+          "group_type": "H"
+        },
+        {
+          "id": "H79_1",
+          "name": "Window Icon",
+          "usage": "Represents an open window",
+          "group_type": "H"
+        },
+        {
+          "id": "H79_2",
+          "name": "Window and Settings Icon",
+          "usage": "Window Settings Button",
+          "group_type": "H"
+        },
+        {
+          "id": "H79_3",
+          "name": "Minus Icon",
+          "usage": "Minimizes a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H79_4",
+          "name": "Square Icon",
+          "usage": "Maximizes a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H79_5",
+          "name": "X Icon",
+          "usage": "Closes a window",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_1",
+          "name": "Window Icon",
+          "usage": "Represents an open window",
+          "group_type": "H"
+        },
+        {
+          "id": "H80_2",
+          "name": "Window Icon",
+          "usage": "Represents an open window",
+          "group_type": "H"
+        },
+        {
+          "id": "H81_1",
+          "name": "Apply to loop.py",
+          "usage": "Runs loop.py script",
+          "group_type": "H"
+        },
+        {
+          "id": "H81_2",
+          "name": "Monitor Icon",
+          "usage": "Shows or selects display monitor",
+          "group_type": "H"
+        },
+        {
+          "id": "H82_1",
+          "name": "Volume Icon",
+          "usage": "Adjusts audio output volume",
+          "group_type": "H"
+        },
+        {
+          "id": "H82_2",
+          "name": "Display Icon",
+          "usage": "Opens display settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H83_1",
+          "name": "continue",
+          "usage": "Resumes a process",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_1",
+          "name": "Thumbs Up Icon",
+          "usage": "Indicates approval or agreement",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_2",
+          "name": "Thumbs Down Icon",
+          "usage": "Indicates disapproval or disagreement",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_3",
+          "name": "Document Icon",
+          "usage": "Opens a document",
+          "group_type": "H"
+        },
+        {
+          "id": "H84_4",
+          "name": "More Options",
+          "usage": "Opens additional settings or options",
+          "group_type": "H"
+        },
+        {
+          "id": "H85_1",
+          "name": "Cursor Tab",
+          "usage": "Button for selecting cursor settings",
+          "group_type": "H"
+        },
+        {
+          "id": "H85_2",
+          "name": "Bell Icon",
+          "usage": "Represents a notification",
+          "group_type": "H"
+        },
+        {
+          "id": "H86_1",
+          "name": "Plus Icon",
+          "usage": "Adds a new item or element",
+          "group_type": "H"
+        },
+        {
+          "id": "H86_2",
+          "name": "Clock Icon",
+          "usage": "Accesses history or recent activity",
+          "group_type": "H"
+        },
+        {
+          "id": "H86_3",
+          "name": "More Options",
+          "usage": "Opens additional settings or options",
+          "group_type": "H"
+        },
+        {
+          "id": "H87_1",
+          "name": "Image Icon",
+          "usage": "Imports an image",
+          "group_type": "H"
+        },
+        {
+          "id": "H87_2",
+          "name": "Up Arrow",
+          "usage": "Upload or increase value",
+          "group_type": "H"
+        },
+        {
+          "id": "HL0_1",
+          "name": "PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a> git status",
+          "usage": "Command line path to a git repository and status command",
+          "group_type": "H"
+        },
+        {
+          "id": "HL1_1",
+          "name": "You: Open notepad, type \\\"Hello World, I am Computer use agent!\\\" and save the file in desktop with name \\\"hello\\\". Use screen-id 1, always. The Save As opti",
+          "usage": "Instructions to the user",
+          "group_type": "H"
+        }
+      ],
+      "raw_response": "H59_1: \"The Save\" | Usage: \"Text indicating save function\"\nH60_1: \"usually\" | Usage: \"Text, possibly a context label\"\nH60_2: \"the\" | Usage: \"Text, possibly a context label\"\nH60_3: \"sixth\" | Usage: \"Text, possibly a context label\"\nH60_4: \"option\" | Usage: \"Text, possibly a context label\"\nH60_5: \"from\" | Usage: \"Text, possibly a context label\"\nH60_6: \"the\" | Usage: \"Text, possibly a context label\"\nH60_7: \"top\" | Usage: \"Text, possibly a context label\"\nH61_1: \"Plus Icon\" | Usage: \"Adds a new item or element\"\nH61_2: \"More Options\" | Usage: \"Opens additional settings or options\"\nH61_3: \"Up Arrow\" | Usage: \"Scrolls up or navigates up\"\nH61_4: \"X Icon\" | Usage: \"Closes a window or cancels an action\"\nH62_1: \"Plus Icon\" | Usage: \"Adds a new item or element\"\nH62_2: \"Horizontal Lines Icon\" | Usage: \"Represents a menu or list\"\nH63_1: \"More Options\" | Usage: \"Opens additional settings or options\"\nH63_2: \"Down Arrow\" | Usage: \"Scrolls down or navigates down\"\nH64_1: \"Up Arrow\" | Usage: \"Scrolls up or navigates up\"\nH64_2: \"Cloud Icon\" | Usage: \"Accesses cloud storage or settings\"\nH64_3: \"Cloud Icon\" | Usage: \"Accesses cloud storage or settings\"\nH64_4: \"Document Icon\" | Usage: \"Opens a document\"\nH64_5: \"ENG IN\" | Usage: \"Language Setting\"\nH64_6: \"Sound Settings\" | Usage: \"Adjusts audio input/output\"\nH64_7: \"5:42 PM 6/14/2025\" | Usage: \"Displays the current time and date\"\nH65_1: \"Window Icons\" | Usage: \"Shows active windows\"\nH66_1: \"Blank Square\" | Usage: \"Unclear, possibly a placeholder\"\nH67_1: \"on the specific requirement.\" | Usage: \"Text box describing a requirement\"\nH68_1: \"Plan, search, build anything\" | Usage: \"Text box used for searching or planning\"\nH69_1: \"The changes I've made:\" | Usage: \"Heading for a section listing modifications\"\nH70_1: \"3. Modified the re-analyzescreen route\" | Usage: \"Text describing a change made to a screen route\"\nH71_1: \"@ Add Context\" | Usage: \"Adds a context to a section\"\nH72_1: \"Apply to loop.py\" | Usage: \"Runs loop.py script\"\nH73_1: \"// ... existing code ...\" | Usage: \"Text box that may contain some existing code\"\nH74_1: \"Agent Ctrl+I\" | Usage: \"Keyboard shortcut or tool option\"\nH74_2: \"Auto\" | Usage: \"Sets a function to automatic mode\"\nH75_1: \"per step\" | Usage: \"Runs a process one step at a time\"\nH76_1: \"once\" | Usage: \"Executes a function a single time\"\nH77_1: \"handling to:\" | Usage: \"Text indicating a handling process\"\nH78_1: \"be forced to make a decision\" | Usage: \"Indicates a decision needs to be made\"\nH79_1: \"Window Icon\" | Usage: \"Represents an open window\"\nH79_2: \"Window and Settings Icon\" | Usage: \"Window Settings Button\"\nH79_3: \"Minus Icon\" | Usage: \"Minimizes a window\"\nH79_4: \"Square Icon\" | Usage: \"Maximizes a window\"\nH79_5: \"X Icon\" | Usage: \"Closes a window\"\nH80_1: \"Window Icon\" | Usage: \"Represents an open window\"\nH80_2: \"Window Icon\" | Usage: \"Represents an open window\"\nH81_1: \"Apply to loop.py\" | Usage: \"Runs loop.py script\"\nH81_2: \"Monitor Icon\" | Usage: \"Shows or selects display monitor\"\nH82_1: \"Volume Icon\" | Usage: \"Adjusts audio output volume\"\nH82_2: \"Display Icon\" | Usage: \"Opens display settings\"\nH83_1: \"continue\" | Usage: \"Resumes a process\"\nH84_1: \"Thumbs Up Icon\" | Usage: \"Indicates approval or agreement\"\nH84_2: \"Thumbs Down Icon\" | Usage: \"Indicates disapproval or disagreement\"\nH84_3: \"Document Icon\" | Usage: \"Opens a document\"\nH84_4: \"More Options\" | Usage: \"Opens additional settings or options\"\nH85_1: \"Cursor Tab\" | Usage: \"Button for selecting cursor settings\"\nH85_2: \"Bell Icon\" | Usage: \"Represents a notification\"\nH86_1: \"Plus Icon\" | Usage: \"Adds a new item or element\"\nH86_2: \"Clock Icon\" | Usage: \"Accesses history or recent activity\"\nH86_3: \"More Options\" | Usage: \"Opens additional settings or options\"\nH87_1: \"Image Icon\" | Usage: \"Imports an image\"\nH87_2: \"Up Arrow\" | Usage: \"Upload or increase value\"\nHL0_1: \"PS C:\\\\Users\\\\dsaha\\\\OneDrive - Microsoft\\\\Documents\\\\Personal\\\\deep\\\\study\\\\artificial intelligence\\\\eagv1\\\\eag14a> git status\" | Usage: \"Command line path to a git repository and status command\"\nHL1_1: \"You: Open notepad, type \\\"Hello World, I am Computer use agent!\\\" and save the file in desktop with name \\\"hello\\\". Use screen-id 1, always. The Save As opti\" | Usage: \"Instructions to the user\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_3_72_bboxes.png",
+      "image_name": "combined_groups_3_72_bboxes.png",
+      "icons_found": 41,
+      "icons": [
+        {
+          "id": "V0_1",
+          "name": "eag14a",
+          "usage": "Shows the eag14a variable",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_2",
+          "name": "computer_agent",
+          "usage": "Shows the computer agent variable",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_3",
+          "name": "agent",
+          "usage": "Shows the agent variable",
+          "group_type": "V"
+        },
+        {
+          "id": "V0_4",
+          "name": "core",
+          "usage": "Shows the core variable",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_1",
+          "name": "context.py",
+          "usage": "Shows the context.py file",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_2",
+          "name": "decision.py",
+          "usage": "Shows the decision.py file",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_3",
+          "name": "execution.py",
+          "usage": "Shows the execution.py file",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_4",
+          "name": "loop.py",
+          "usage": "Shows the loop.py file",
+          "group_type": "V"
+        },
+        {
+          "id": "V1_5",
+          "name": "perception.py",
+          "usage": "Shows the perception.py file",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_1",
+          "name": "1. Added a max_analysis class variable",
+          "usage": "Describes the addition of a max_analysis class variable",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_2",
+          "name": "initialized to 1 in the __init__ method",
+          "usage": "Describes the initialization within the init method",
+          "group_type": "V"
+        },
+        {
+          "id": "V2_3",
+          "name": "2. Added a re_analysis_count variable",
+          "usage": "Describes the addition of a re-analysis_count variable",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_1",
+          "name": "maximize: Maximize window",
+          "usage": "Maximizes the current window",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_2",
+          "name": "minimize: Minimize window",
+          "usage": "Minimizes the current window",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_3",
+          "name": "close: Close window",
+          "usage": "Closes the current window",
+          "group_type": "V"
+        },
+        {
+          "id": "V3_4",
+          "name": "resize: Resize window",
+          "usage": "Resizes the current window",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_1",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Sets the window ID parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_2",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Sets the window ID parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V4_3",
+          "name": "Params: {'window_id': 'string'}",
+          "usage": "Sets the window ID parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V5_1",
+          "name": "Minus Icon",
+          "usage": "Indicates decrementing a value or removing an item",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_1",
+          "name": "Minus Icon",
+          "usage": "Indicates decrementing a value or removing an item",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_2",
+          "name": "Minus Icon",
+          "usage": "Indicates decrementing a value or removing an item",
+          "group_type": "V"
+        },
+        {
+          "id": "V6_3",
+          "name": "Minus Icon",
+          "usage": "Indicates decrementing a value or removing an item",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_1",
+          "name": "Increment the re_analysis_count",
+          "usage": "Increments the re-analysis count",
+          "group_type": "V"
+        },
+        {
+          "id": "V7_2",
+          "name": "Check if max attempts reached",
+          "usage": "Checks if maximum attempts have been reached",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_1",
+          "name": "'number'}",
+          "usage": "Shows the number variable",
+          "group_type": "V"
+        },
+        {
+          "id": "V8_2",
+          "name": "'x':",
+          "usage": "Shows the x variable",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_1",
+          "name": "If max attempts reached, force the route",
+          "usage": "Describes the action taken when maximum attempts are reached",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_2",
+          "name": "to 'decision' instead of continuing",
+          "usage": "Indicates moving to the decision path",
+          "group_type": "V"
+        },
+        {
+          "id": "V9_3",
+          "name": "If not at max attempts, continue with",
+          "usage": "Describes the action taken if the maximum attempts has not been reached",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_1",
+          "name": "Params: {'window_id': 'string'",
+          "usage": "Sets the window ID parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_2",
+          "name": "Params: {'window_id': 'string'",
+          "usage": "Sets the window ID parameter",
+          "group_type": "V"
+        },
+        {
+          "id": "V10_3",
+          "name": "tree: Show UI hierarchy tree",
+          "usage": "Displays the UI hierarchy tree",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_1",
+          "name": "analysis as before",
+          "usage": "Describes the state of analysis before the change",
+          "group_type": "V"
+        },
+        {
+          "id": "V11_2",
+          "name": "This change will ensure that:",
+          "usage": "Indicates the outcome of a specific change",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_1",
+          "name": "Minus Icon",
+          "usage": "Indicates decrementing a value or removing an item",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_2",
+          "name": "Minus Icon",
+          "usage": "Indicates decrementing a value or removing an item",
+          "group_type": "V"
+        },
+        {
+          "id": "V12_3",
+          "name": "Minus Icon",
+          "usage": "Indicates decrementing a value or removing an item",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_1",
+          "name": "1. Each step can only re-analyze the screen",
+          "usage": "Describes the screen re-analysis process",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_2",
+          "name": "2. After one re-analysis attempt, the agent will",
+          "usage": "Describes an agents actions after a re-analysis",
+          "group_type": "V"
+        },
+        {
+          "id": "V13_3",
+          "name": "3. This prevents potential infinite loops of re-analysis",
+          "usage": "Describes the mitigation of potential infinite loops",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "V0_1: \"eag14a\" | Usage: \"Shows the eag14a variable\"\nV0_2: \"computer_agent\" | Usage: \"Shows the computer agent variable\"\nV0_3: \"agent\" | Usage: \"Shows the agent variable\"\nV0_4: \"core\" | Usage: \"Shows the core variable\"\nV1_1: \"context.py\" | Usage: \"Shows the context.py file\"\nV1_2: \"decision.py\" | Usage: \"Shows the decision.py file\"\nV1_3: \"execution.py\" | Usage: \"Shows the execution.py file\"\nV1_4: \"loop.py\" | Usage: \"Shows the loop.py file\"\nV1_5: \"perception.py\" | Usage: \"Shows the perception.py file\"\nV2_1: \"1. Added a max_analysis class variable\" | Usage: \"Describes the addition of a max_analysis class variable\"\nV2_2: \"initialized to 1 in the __init__ method\" | Usage: \"Describes the initialization within the init method\"\nV2_3: \"2. Added a re_analysis_count variable\" | Usage: \"Describes the addition of a re-analysis_count variable\"\nV3_1: \"maximize: Maximize window\" | Usage: \"Maximizes the current window\"\nV3_2: \"minimize: Minimize window\" | Usage: \"Minimizes the current window\"\nV3_3: \"close: Close window\" | Usage: \"Closes the current window\"\nV3_4: \"resize: Resize window\" | Usage: \"Resizes the current window\"\nV4_1: \"Params: {'window_id': 'string'}\" | Usage: \"Sets the window ID parameter\"\nV4_2: \"Params: {'window_id': 'string'}\" | Usage: \"Sets the window ID parameter\"\nV4_3: \"Params: {'window_id': 'string'}\" | Usage: \"Sets the window ID parameter\"\nV5_1: \"Minus Icon\" | Usage: \"Indicates decrementing a value or removing an item\"\nV6_1: \"Minus Icon\" | Usage: \"Indicates decrementing a value or removing an item\"\nV6_2: \"Minus Icon\" | Usage: \"Indicates decrementing a value or removing an item\"\nV6_3: \"Minus Icon\" | Usage: \"Indicates decrementing a value or removing an item\"\nV7_1: \"Increment the re_analysis_count\" | Usage: \"Increments the re-analysis count\"\nV7_2: \"Check if max attempts reached\" | Usage: \"Checks if maximum attempts have been reached\"\nV8_1: \"'number'}\" | Usage: \"Shows the number variable\"\nV8_2: \"'x':\" | Usage: \"Shows the x variable\"\nV9_1: \"If max attempts reached, force the route\" | Usage: \"Describes the action taken when maximum attempts are reached\"\nV9_2: \"to 'decision' instead of continuing\" | Usage: \"Indicates moving to the decision path\"\nV9_3: \"If not at max attempts, continue with\" | Usage: \"Describes the action taken if the maximum attempts has not been reached\"\nV10_1: \"Params: {'window_id': 'string'\" | Usage: \"Sets the window ID parameter\"\nV10_2: \"Params: {'window_id': 'string'\" | Usage: \"Sets the window ID parameter\"\nV10_3: \"tree: Show UI hierarchy tree\" | Usage: \"Displays the UI hierarchy tree\"\nV11_1: \"analysis as before\" | Usage: \"Describes the state of analysis before the change\"\nV11_2: \"This change will ensure that:\" | Usage: \"Indicates the outcome of a specific change\"\nV12_1: \"Minus Icon\" | Usage: \"Indicates decrementing a value or removing an item\"\nV12_2: \"Minus Icon\" | Usage: \"Indicates decrementing a value or removing an item\"\nV12_3: \"Minus Icon\" | Usage: \"Indicates decrementing a value or removing an item\"\nV13_1: \"1. Each step can only re-analyze the screen\" | Usage: \"Describes the screen re-analysis process\"\nV13_2: \"2. After one re-analysis attempt, the agent will\" | Usage: \"Describes an agents actions after a re-analysis\"\nV13_3: \"3. This prevents potential infinite loops of re-analysis\" | Usage: \"Describes the mitigation of potential infinite loops\"\n",
+      "analysis_success": true
+    },
+    {
+      "image_path": "direct:combined_groups_4_25_bboxes.png",
+      "image_name": "combined_groups_4_25_bboxes.png",
+      "icons_found": 20,
+      "icons": [
+        {
+          "id": "V14_1",
+          "name": "Params: {'show_minimized': 'boolean'}",
+          "usage": "Displays parameters related to window minimization",
+          "group_type": "V"
+        },
+        {
+          "id": "V14_2",
+          "name": "refresh_windows: Refresh window list",
+          "usage": "Refreshes or updates the list of open windows",
+          "group_type": "V"
+        },
+        {
+          "id": "V15_1",
+          "name": "}",
+          "usage": "Closing bracket, likely part of code",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_1",
+          "name": "uv computer...",
+          "usage": "Opens or accesses UV computer settings",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_2",
+          "name": "powershell...",
+          "usage": "Opens or accesses powershell",
+          "group_type": "V"
+        },
+        {
+          "id": "V16_3",
+          "name": "powershell",
+          "usage": "Opens or accesses powershell",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_1",
+          "name": "add",
+          "usage": "Adds a new item or element",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_2",
+          "name": "modified:",
+          "usage": "Indicates a file has been modified",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_3",
+          "name": "modified:",
+          "usage": "Indicates a file has been modified",
+          "group_type": "V"
+        },
+        {
+          "id": "V17_4",
+          "name": "modified:",
+          "usage": "Indicates a file has been modified",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_1",
+          "name": "(use 'git restore <file>...' to discard changes in working directory)",
+          "usage": "Provides instructions to restore files in the working directory using git",
+          "group_type": "V"
+        },
+        {
+          "id": "V18_2",
+          "name": "computer_agent/agent/core/loop.py",
+          "usage": "Path to a python file",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_1",
+          "name": "> s13a.egg-info",
+          "usage": "Opens or navigates to s13a.egg-info folder",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_2",
+          "name": "windowManager",
+          "usage": "Opens or navigates to the windowManager",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_3",
+          "name": "> __pycache__",
+          "usage": "Opens or navigates to the __pycache__ folder",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_4",
+          "name": "> temp_media",
+          "usage": "Opens or navigates to the temp_media folder",
+          "group_type": "V"
+        },
+        {
+          "id": "V19_5",
+          "name": "legend.txt",
+          "usage": "Opens or displays the legend.txt file",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_1",
+          "name": "TIMELINE",
+          "usage": "Opens or displays the timeline",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_2",
+          "name": "Link Icon",
+          "usage": "Represents linking or connecting to something",
+          "group_type": "V"
+        },
+        {
+          "id": "V20_3",
+          "name": "Notification Icon",
+          "usage": "Shows or indicates a notification",
+          "group_type": "V"
+        }
+      ],
+      "raw_response": "V14_1: \"Params: {'show_minimized': 'boolean'}\" | Usage: \"Displays parameters related to window minimization\"\nV14_2: \"refresh_windows: Refresh window list\" | Usage: \"Refreshes or updates the list of open windows\"\nV15_1: \"}\" | Usage: \"Closing bracket, likely part of code\"\nV16_1: \"uv computer...\" | Usage: \"Opens or accesses UV computer settings\"\nV16_2: \"powershell...\" | Usage: \"Opens or accesses powershell\"\nV16_3: \"powershell\" | Usage: \"Opens or accesses powershell\"\nV17_1: \"add\" | Usage: \"Adds a new item or element\"\nV17_2: \"modified:\" | Usage: \"Indicates a file has been modified\"\nV17_3: \"modified:\" | Usage: \"Indicates a file has been modified\"\nV17_4: \"modified:\" | Usage: \"Indicates a file has been modified\"\nV18_1: \"(use 'git restore <file>...' to discard changes in working directory)\" | Usage: \"Provides instructions to restore files in the working directory using git\"\nV18_2: \"computer_agent/agent/core/loop.py\" | Usage: \"Path to a python file\"\nV19_1: \"> s13a.egg-info\" | Usage: \"Opens or navigates to s13a.egg-info folder\"\nV19_2: \"windowManager\" | Usage: \"Opens or navigates to the windowManager\"\nV19_3: \"> __pycache__\" | Usage: \"Opens or navigates to the __pycache__ folder\"\nV19_4: \"> temp_media\" | Usage: \"Opens or navigates to the temp_media folder\"\nV19_5: \"legend.txt\" | Usage: \"Opens or displays the legend.txt file\"\nV20_1: \"TIMELINE\" | Usage: \"Opens or displays the timeline\"\nV20_2: \"Link Icon\" | Usage: \"Represents linking or connecting to something\"\nV20_3: \"Notification Icon\" | Usage: \"Shows or indicates a notification\"",
+      "analysis_success": true
+    }
+  ]
+}
