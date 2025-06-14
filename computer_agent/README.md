@@ -2,6 +2,22 @@
 
 A sophisticated AI agent designed to interact with computer interfaces through natural language commands. The agent combines computer vision, natural language processing, and decision-making capabilities to perform tasks on behalf of users.
 
+## 🎥 Demo
+
+[![Computer Agent Demo](https://img.youtube.com/vi/aYlVvutoub4/0.jpg)](https://www.youtube.com/watch?v=aYlVvutoub4)
+
+*Sample Prompt:*
+```bash
+Open notepad, type "Hello World", open a new tab and type "I am Computer use agent!" and then exit
+```
+
+*The agent demonstrates its ability to:*
+- Launch applications (Notepad)
+- Type text in multiple tabs
+- Navigate application menus (File menu)
+- Create new tabs (via Menu clicks)
+- Exit applications (via Menu clicks)
+
 ## 🏗️ Architecture
 
 ### Core Orchestration
@@ -224,7 +240,22 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- 
+This is an educational project that builds upon and integrates several key components:
+
+1. **Seraphine Pipeline**
+   - Advanced UI element detection and analysis
+   - [Pipeline Documentation](https://github.com/deepjyotisaha/eag14a/blob/master/computer_agent/README_Seraphine.md)
+
+2. **MCP Server**
+   - Windows automation and control
+   - [MCP Server Documentation](https://github.com/deepjyotisaha/eag14a/blob/master/computer_agent/src/windowManager/README.md)
+
+This project is designed for educational purposes to demonstrate the integration of:
+- Computer vision and UI analysis
+- Natural language processing
+- Automated computer control
+- Decision-making systems
+- State management and context awareness
 
 ---
 
